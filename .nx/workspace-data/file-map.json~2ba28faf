@@ -1,0 +1,2860 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {
+    "@api/*": [
+      "apps/api/src/*"
+    ],
+    "@view/*": [
+      "apps/view/src/*"
+    ],
+    "@shared-models": [
+      "libs/shared-models/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/nest",
+      "version": "^20.0.0"
+    },
+    {
+      "name": "@nx/angular",
+      "version": "^20.0.0"
+    },
+    {
+      "name": "@nx/eslint",
+      "version": "^20.0.0"
+    },
+    {
+      "name": "@nx/jest",
+      "version": "^20.0.0"
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "nx.json",
+        "hash": "1016897659535064362"
+      },
+      {
+        "file": ".git/objects/6a/e110788d1cc19c92a9c934ddda9b6103d10d8c",
+        "hash": "16145325868658634829"
+      },
+      {
+        "file": ".git/objects/2e/17e91195c1e81cbf062d444a0932ec29762c2d",
+        "hash": "13922101875198180902"
+      },
+      {
+        "file": ".git/HEAD",
+        "hash": "11710400652189793685"
+      },
+      {
+        "file": "dist/temp_seed.js",
+        "hash": "5770721060661570257"
+      },
+      {
+        "file": ".git/objects/99/2d9d67a55967ab17b85cafeae373a12b43db6a",
+        "hash": "16310483459827944273"
+      },
+      {
+        "file": ".git/hooks/pre-rebase.sample",
+        "hash": "15784748353859782246"
+      },
+      {
+        "file": "dist/apps/view/chunk-NIWXLTFU.js",
+        "hash": "8182793122107867457"
+      },
+      {
+        "file": ".git/objects/16/9f8335b139f1b7eafc7c6a9e80cd90923cc73a",
+        "hash": "5176691729283837909"
+      },
+      {
+        "file": ".git/objects/8d/8e700eb6a45da1ca6b87f3fe9177863504e8c1",
+        "hash": "8459451868522631478"
+      },
+      {
+        "file": "scripts/update-catalogs.js",
+        "hash": "1931370633979416277"
+      },
+      {
+        "file": ".git/objects/04/96e7902946483d392eef6f0e1ea991d32802d2",
+        "hash": "2351465723224809524"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~42e778b0",
+        "hash": "10140679865029326608"
+      },
+      {
+        "file": ".git/config",
+        "hash": "12502701184254921869"
+      },
+      {
+        "file": ".git/objects/82/5cf97d0f2c1115205b77df69fd96f121931aef",
+        "hash": "8773839041062989584"
+      },
+      {
+        "file": ".git/objects/1b/bdee5bc02ec316ffa07f7339be3852f205d5f3",
+        "hash": "6442188717089550172"
+      },
+      {
+        "file": ".git/objects/98/d2e67bc5bbad175441ce8cbdc58ae2588a11d6",
+        "hash": "7378361462414491987"
+      },
+      {
+        "file": ".git/objects/1b/555b4f3913e9d6f1d278eb5279478871507040",
+        "hash": "18014073238246530569"
+      },
+      {
+        "file": ".git/objects/0e/65897209e54bd4be99f6a88f6c7f95a585aff2",
+        "hash": "8757562641525342919"
+      },
+      {
+        "file": ".git/objects/3d/c455349092c285ce5a8ea785181867b701c174",
+        "hash": "3155381350599013328"
+      },
+      {
+        "file": ".git/objects/fd/09fc0462c2d79e7524ead3102d93cd389075a1",
+        "hash": "8768906187412553581"
+      },
+      {
+        "file": ".git/objects/3b/769fbd71a027d7ac7da2a5db11fc4d5405df1c",
+        "hash": "5261382131369207403"
+      },
+      {
+        "file": ".git/objects/9b/7ed53102d6bfed6e57a1b3b152ce70ca6b33f1",
+        "hash": "4838645369277402805"
+      },
+      {
+        "file": ".git/objects/5d/1f78ee230f204e8fe5f682c4603e04041cb7c0",
+        "hash": "2436131176466496209"
+      },
+      {
+        "file": ".git/objects/30/4d57313311e09078466f376d320d7391b4ad19",
+        "hash": "4872542089084007049"
+      },
+      {
+        "file": ".git/objects/23/61e9401016d3e14e1130c4ebecc87c13941ccd",
+        "hash": "12744703866517008676"
+      },
+      {
+        "file": "scripts/generate-openapi.ts",
+        "hash": "15637558523592873734"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".git/objects/fa/3f9ce89ab69b27cec035cb913057501d5ef3d3",
+        "hash": "7735337186647332395"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~e32dd43d",
+        "hash": "13427943423392825788"
+      },
+      {
+        "file": "dist/apps/view/chunk-SWBZ2T66.js",
+        "hash": "16549072451578041756"
+      },
+      {
+        "file": ".git/objects/5a/382af8a86b67523356d2edda57a62a5ad40018",
+        "hash": "2190912604275288479"
+      },
+      {
+        "file": ".git/objects/22/c647cfef0c6957bcc88939ca5487c1349a01bd",
+        "hash": "10252898794182856449"
+      },
+      {
+        "file": ".git/objects/3e/33151da243bac291e56c477653f4703219c8c0",
+        "hash": "13990010540899577106"
+      },
+      {
+        "file": ".git/objects/1e/db3d6d704528abcee7961aac5a8dac66cc2761",
+        "hash": "4563882023985256591"
+      },
+      {
+        "file": ".git/objects/d0/f12b51ba714bfa3a333cb370313436e9972b58",
+        "hash": "15821395714197570566"
+      },
+      {
+        "file": ".git/objects/41/8d81a20ad32bb8a66702e81dd8da952af50092",
+        "hash": "10709609994156562832"
+      },
+      {
+        "file": ".git/objects/74/61476b0e3a6bf097833d1696593cd6d9d4e019",
+        "hash": "10732207543183776909"
+      },
+      {
+        "file": ".nx/workspace-data/parsed-lock-file.json",
+        "hash": "15463892485414343717"
+      },
+      {
+        "file": ".git/objects/6a/5a0532edba8509b58b735cf97928e266ea17d7",
+        "hash": "13451991121743222838"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5874641387174959880"
+      },
+      {
+        "file": ".git/objects/53/163e676ab9c4890c05e2e54ba9e7e4eeeec491",
+        "hash": "6004684052660295083"
+      },
+      {
+        "file": ".git/description",
+        "hash": "6589616779641096119"
+      },
+      {
+        "file": "dist/apps/view/chunk-RBOGWUZ7.js",
+        "hash": "7838144569415827303"
+      },
+      {
+        "file": ".git/objects/a2/55ba2745a2f16e83f4ca218f05a1d391ed5bbb",
+        "hash": "9029624120679319433"
+      },
+      {
+        "file": ".git/objects/ec/f275f5299a777998e46ceacf85d3864762115f",
+        "hash": "15287236788522140677"
+      },
+      {
+        "file": "dist/knexfile.js.map",
+        "hash": "13128236153598404730"
+      },
+      {
+        "file": ".git/objects/d7/253c19f4b52f374b5a1592235c3bd69eeab414",
+        "hash": "6901493877702750580"
+      },
+      {
+        "file": ".git/objects/ab/8d695cd693429c8a103917d5a1151ea1edbaee",
+        "hash": "9180988669736688295"
+      },
+      {
+        "file": ".git/objects/75/3a299a54c5910843e258774bf267116a1679ba",
+        "hash": "15954059371059690621"
+      },
+      {
+        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "dist/scripts/update-scoring.js",
+        "hash": "15204213314018872573"
+      },
+      {
+        "file": ".git/objects/5c/22db14ee2c9fa33613e2536e287c98983c8c20",
+        "hash": "18381696337838851737"
+      },
+      {
+        "file": ".git/objects/14/3fd24d041d13dcf1a53d3c5b93d9bd8caba6da",
+        "hash": "14739270691554701693"
+      },
+      {
+        "file": ".git/objects/94/605e5eb6d05f72bcca70668b9e8011ae3f463b",
+        "hash": "2599184929879291487"
+      },
+      {
+        "file": ".git/objects/b2/661c80d7741026abda0ada83a66672d0c822ca",
+        "hash": "10000345969101482321"
+      },
+      {
+        "file": ".git/objects/84/b0834fbeb76b038f301ffb362a603e6e50eb9e",
+        "hash": "9586851852361596666"
+      },
+      {
+        "file": ".git/objects/8e/1d75bd69eb7ab1679e5bf06756b97cde370bfa",
+        "hash": "14016826622822229247"
+      },
+      {
+        "file": ".git/objects/d1/340f414c65eda5adb3173e433b7c501d5bdb34",
+        "hash": "5977733576909912523"
+      },
+      {
+        "file": ".git/objects/5f/b8247bd2f68bb298c297eaca8be21f9779bb99",
+        "hash": "15848359606395175248"
+      },
+      {
+        "file": ".git/objects/0a/b65dd73af929cd20305846ced5a9a1915e6b5a",
+        "hash": "3973419730966357612"
+      },
+      {
+        "file": ".git/objects/f5/270eee9c138a618f1f04c85a8d14a4ae54abe4",
+        "hash": "881719974850760422"
+      },
+      {
+        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
+        "hash": "16239643811464559730"
+      },
+      {
+        "file": ".git/objects/cd/1582eb3f973160a63f0bb9d05b603a062446d5",
+        "hash": "13478838907440566561"
+      },
+      {
+        "file": "dist/knexfile.js",
+        "hash": "9934087390649418972"
+      },
+      {
+        "file": ".git/objects/5a/3e6dabf649f5cdb019c9b2e750da3d28430c6c",
+        "hash": "2842516896895431937"
+      },
+      {
+        "file": ".git/objects/08/d6ed5ff6df207b8cd1c89bb8a97e748dbc1c18",
+        "hash": "17130128191960874853"
+      },
+      {
+        "file": "dist/apps/view/media/primeicons-GEFHGEHP.ttf",
+        "hash": "2986676651534754828"
+      },
+      {
+        "file": ".git/objects/ef/27c7659afc984d0c97cfdcbf9d18c83ab494ad",
+        "hash": "11026591853344359945"
+      },
+      {
+        "file": ".angular/cache/18.2.21/view/angular-compiler.db",
+        "hash": "6583075233095223726"
+      },
+      {
+        "file": ".git/objects/3e/9645accedca8f2620b110ef1e4ca7743736345",
+        "hash": "1181913841766920588"
+      },
+      {
+        "file": ".git/objects/b6/8c3e239e4247e1d93eba45060e0569e83ca724",
+        "hash": "1378462714415419364"
+      },
+      {
+        "file": ".git/objects/ad/fc305f9036e9b228ee4826d9472b76f2e3112f",
+        "hash": "9272293465785832943"
+      },
+      {
+        "file": "dist/apps/view/main-KVLEDNWI.js",
+        "hash": "9626789716101929415"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json",
+        "hash": "8937517573607835172"
+      },
+      {
+        "file": ".git/objects/e9/18f9fe0a7b9df1fe7083c262999e50ea323e13",
+        "hash": "3442340506192195718"
+      },
+      {
+        "file": ".git/hooks/fsmonitor-watchman.sample",
+        "hash": "5519580754951798083"
+      },
+      {
+        "file": ".git/objects/15/9c53d3060ec2a3fa032627930c8d047529e8f6",
+        "hash": "1683105671996177105"
+      },
+      {
+        "file": ".git/objects/68/583be814400f56014dd613361c337bf72b5fe2",
+        "hash": "6478627643918308135"
+      },
+      {
+        "file": "docs/areas/00_INDICE_GENERAL.md",
+        "hash": "2249884987818301004"
+      },
+      {
+        "file": "scripts/update-scoring.ts",
+        "hash": "11643730343633893922"
+      },
+      {
+        "file": ".git/objects/10/48925030ae0eaa78d3607bc79a3b821e0b8984",
+        "hash": "9858215893066093127"
+      },
+      {
+        "file": ".nx/workspace-data/project-graph.json",
+        "hash": "17506470787720224883"
+      },
+      {
+        "file": "dist/scripts/update-scoring.js.map",
+        "hash": "5381062848403247743"
+      },
+      {
+        "file": ".git/objects/fd/e255ee32f315a68b356cf34b9c8cc8beb6feb1",
+        "hash": "10224764045298507823"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~467f6b3f",
+        "hash": "6158079844652625563"
+      },
+      {
+        "file": ".git/objects/8d/4d92785c94bba6226109c3b5f42f6f2d920ccb",
+        "hash": "14683416371250850814"
+      },
+      {
+        "file": "database/seeds/temp_seed.js",
+        "hash": "17445332012806153610"
+      },
+      {
+        "file": ".git/objects/18/66d2afcc4efadc1f624d42d60babda3ecd6a1a",
+        "hash": "14470057691244131182"
+      },
+      {
+        "file": "error.log",
+        "hash": "4947765515036627221"
+      },
+      {
+        "file": ".git/objects/06/51a1762e9d38a2a91bf76ff417342af1ef71d9",
+        "hash": "11011128322100327243"
+      },
+      {
+        "file": "dist/knexfile.d.ts",
+        "hash": "2594127800219625460"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~4ddd43bd",
+        "hash": "11377322738360575524"
+      },
+      {
+        "file": ".git/objects/8a/c35e1f040fcc6476cfad4bb2ecefbe1a756818",
+        "hash": "6489087722371285769"
+      },
+      {
+        "file": ".git/hooks/pre-merge-commit.sample",
+        "hash": "5691533144974613569"
+      },
+      {
+        "file": ".git/objects/1a/ada6f6e11557717a64ec737b5c18369473c713",
+        "hash": "6467976623003214641"
+      },
+      {
+        "file": ".git/objects/2e/ba78f616af0530c7637aa7f7176818ffc44b34",
+        "hash": "18246146204606766945"
+      },
+      {
+        "file": "dist/apps/view/index.html",
+        "hash": "10763280958858937647"
+      },
+      {
+        "file": "dist/temp_seed.d.ts",
+        "hash": "4595979742548113990"
+      },
+      {
+        "file": "database/seeds/seed-admins.js",
+        "hash": "10702906660215828680"
+      },
+      {
+        "file": ".nx/workspace-data/source-maps.json",
+        "hash": "12883169746935039095"
+      },
+      {
+        "file": ".git/objects/30/bba5a5cd8ee3db84b99943717e9c0c5a581e4f",
+        "hash": "9183062077514044246"
+      },
+      {
+        "file": ".git/objects/29/b19f9307552abf34a9cf6a7c62b694185c8b27",
+        "hash": "8663831926532770964"
+      },
+      {
+        "file": ".git/objects/f3/735d9f3fe154eb1f6292b2e20f00476c316aa3",
+        "hash": "4315246442223076852"
+      },
+      {
+        "file": ".git/objects/37/66fcb86c7e6245921c27e8ffffc8bd8553a9b6",
+        "hash": "11835844965305540036"
+      },
+      {
+        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".git/objects/ca/4a9f622e1094867da0c53832b106235220d920",
+        "hash": "3989041972648565500"
+      },
+      {
+        "file": "scripts/update-planograma.js",
+        "hash": "15051282322488494795"
+      },
+      {
+        "file": "README.md",
+        "hash": "13408464382999289361"
+      },
+      {
+        "file": ".git/hooks/update.sample",
+        "hash": "14696759095365231402"
+      },
+      {
+        "file": ".git/objects/30/544970a4efdcaa03ccea34ecafc689c12b6f23",
+        "hash": "13472026950603260834"
+      },
+      {
+        "file": ".angular/cache/18.2.21/view/.tsbuildinfo",
+        "hash": "13462608274757411485"
+      },
+      {
+        "file": ".git/objects/7b/c0f7e350e8a2b2feaa6d79c5f5b5748189b9d4",
+        "hash": "1925102222245531725"
+      },
+      {
+        "file": "dist/temp_seed.js.map",
+        "hash": "13959096372376547070"
+      },
+      {
+        "file": ".git/objects/04/2c2ec2c9d1637fa94e2936fe44be587b7fd59d",
+        "hash": "4161806218893068826"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "4168589888595261077"
+      },
+      {
+        "file": ".git/objects/13/4dff1fa636269fc414605732091cfc63cac1a2",
+        "hash": "17696086877380856006"
+      },
+      {
+        "file": ".git/objects/b4/2ce1ef2c652eb7d38228c4ec7124ed7be321c1",
+        "hash": "4398341949083660693"
+      },
+      {
+        "file": ".angular/cache/18.2.21/view/angular-compiler.db-lock",
+        "hash": "10923374959372786321"
+      },
+      {
+        "file": ".git/objects/e5/6d773460456a3de12b36d2e1bb5aab4d6b583f",
+        "hash": "6684514048722262939"
+      },
+      {
+        "file": ".git/objects/d4/29082da5480378e4d8381a69221f1743dd20a9",
+        "hash": "13578908019336105093"
+      },
+      {
+        "file": "scripts/update-scoring.js",
+        "hash": "8083835874807301109"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "3184525278808867528"
+      },
+      {
+        "file": ".git/info/exclude",
+        "hash": "2084763735014985388"
+      },
+      {
+        "file": ".git/objects/94/7e5eaa14636fa97f4007c3b9040b37e4308153",
+        "hash": "515728158899737097"
+      },
+      {
+        "file": ".git/objects/cb/0ff5c3b541f646105198ee23ac0fc3d805023e",
+        "hash": "12758801952183130769"
+      },
+      {
+        "file": ".git/objects/37/53dbdb3ec02fbdf4f9c00c8b2f74487346bf5c",
+        "hash": "11790820641572353903"
+      },
+      {
+        "file": ".git/hooks/prepare-commit-msg.sample",
+        "hash": "4009645067798984574"
+      },
+      {
+        "file": ".git/objects/fc/26539aa3a6144cc631ea18b9bed392da000588",
+        "hash": "3991661733803589527"
+      },
+      {
+        "file": ".git/objects/13/b8c60bd9cbb8645080b063598f483db45769b4",
+        "hash": "6495436315404495430"
+      },
+      {
+        "file": ".git/hooks/sendemail-validate.sample",
+        "hash": "7660090827690999586"
+      },
+      {
+        "file": ".git/index.lock",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".git/objects/45/cbd561afa64329f0e9ac72f78b716b3001ecb7",
+        "hash": "12209243071039900636"
+      },
+      {
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".git/objects/02/d82dd0d98b78ca24f0c9d941f17d64b51207f2",
+        "hash": "6399179749629708679"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "2717756305617498401"
+      },
+      {
+        "file": ".git/objects/15/b37b5101ec5a03be95cbc3a70a82e53b49a300",
+        "hash": "15975948527044068849"
+      },
+      {
+        "file": "dist/tsconfig.build.tsbuildinfo",
+        "hash": "16046288618526532432"
+      },
+      {
+        "file": ".git/objects/53/7d7892e38afff636c85301cb337fd348f5e28d",
+        "hash": "13651967998431554296"
+      },
+      {
+        "file": ".git/objects/91/6ef85ecbcc859f8cfd5886c51553be440a6ba3",
+        "hash": "5244389197922631392"
+      },
+      {
+        "file": ".git/objects/95/4124c0a06cb88298c7ca84cec33ea76d03bfb2",
+        "hash": "15882121537268353977"
+      },
+      {
+        "file": ".git/objects/5c/315650a8f10d92c5055e84f0d0038ae2343b20",
+        "hash": "12167381627989465091"
+      },
+      {
+        "file": ".git/objects/92/f8f5dbbe6d76aa3062a8c4a9481b8913f7f080",
+        "hash": "17218139071662250742"
+      },
+      {
+        "file": ".git/objects/3e/18fda846befc34f6334d7a1ae6ff74e546cb7f",
+        "hash": "17796429235250527284"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "14360572729620852370"
+      },
+      {
+        "file": ".git/objects/a2/4dfcbfb3fb5aea94e2059521b94a8961bdd81e",
+        "hash": "6300837561883992912"
+      },
+      {
+        "file": ".git/objects/be/a38ff70fd5735fec78ba77793223e625b0c78d",
+        "hash": "14898556693912043037"
+      },
+      {
+        "file": ".git/objects/cd/a6fb3758ca7c97ce6e4e481fa1605a2cfd7ef4",
+        "hash": "773306565583378818"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6622138551251122132"
+      },
+      {
+        "file": ".git/objects/78/ba0b4006c76dd30e0ea66b963ce148600cadb7",
+        "hash": "10753995970824923183"
+      },
+      {
+        "file": ".git/objects/9b/7d2fa45a184a89fd936bc1a4ddf5beb70e1555",
+        "hash": "16654013382306674271"
+      },
+      {
+        "file": ".git/objects/0d/0e6d23b8c38b7dc15090159870791bf5b6a763",
+        "hash": "4242858675581746679"
+      },
+      {
+        "file": ".git/objects/82/0bfd0983d2015205695bd5e10e237b93c1ebde",
+        "hash": "5497250583712046373"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "17520456152920331010"
+      },
+      {
+        "file": "dist/apps/view/media/primeicons-4GST5W3O.woff2",
+        "hash": "17650717316100210874"
+      },
+      {
+        "file": ".env",
+        "hash": "1088483985020121502"
+      },
+      {
+        "file": ".git/objects/1b/006d13c20d73211e9bfaac364209d60d79b7a4",
+        "hash": "8257850696386001061"
+      },
+      {
+        "file": "dist/apps/view/chunk-NQAOF77J.js",
+        "hash": "6032380335031493912"
+      },
+      {
+        "file": ".git/objects/b0/bbe761bbb044a34553ad885511126ba1cf37b9",
+        "hash": "10551350074867375957"
+      },
+      {
+        "file": ".git/objects/42/b90876f44864ec95c49f505385ee9fa0ab107d",
+        "hash": "14489476448356649662"
+      },
+      {
+        "file": ".git/objects/ed/ab0e4d3fac2c27745a30c93571a8fc83206f16",
+        "hash": "12213619785540209747"
+      },
+      {
+        "file": "package.json",
+        "hash": "10550826594135734120"
+      },
+      {
+        "file": ".git/objects/e2/fd39563df63549c0d4b6b5198f3be532eff97c",
+        "hash": "7976540409145109024"
+      },
+      {
+        "file": ".git/objects/0b/c0ffce76c2d9cb6df4a2e344d01334df5d3d2a",
+        "hash": "2017516171498818056"
+      },
+      {
+        "file": ".git/objects/26/fb21983d644ddef31969241296e5aaa5c0428c",
+        "hash": "17965805233262764974"
+      },
+      {
+        "file": ".git/objects/9e/e01707dc2d89950f3de5ce9ebe99cd83e5bd90",
+        "hash": "14883215341313160852"
+      },
+      {
+        "file": ".git/objects/e3/853eb7afd1557e7e88a5ab4670fa425f70f420",
+        "hash": "7579559119228558342"
+      },
+      {
+        "file": ".git/objects/95/8f9827cbaa0463ac4711a16ead1386f98e94cf",
+        "hash": "2015902621384208617"
+      },
+      {
+        "file": ".git/objects/a4/136af932182e8c69ff86f1461bf9c5dafef824",
+        "hash": "4967364784367668655"
+      },
+      {
+        "file": ".git/hooks/applypatch-msg.sample",
+        "hash": "3740124940738663445"
+      },
+      {
+        "file": ".git/objects/93/b9d45fbba8f4f693e2e78e49e94f4996203013",
+        "hash": "7740905764069820079"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": ".git/objects/f5/1e3e20ec1d00933252f531c7fee0655cbde1ac",
+        "hash": "15367934482051492864"
+      },
+      {
+        "file": ".git/objects/b3/71a6e9b5f12d02044f127e8bbeb27cceae27fb",
+        "hash": "10636217390205495917"
+      },
+      {
+        "file": ".git/objects/95/974585b677469c51ffe5179fe8d2943a6d8f8e",
+        "hash": "7238487884887085991"
+      },
+      {
+        "file": ".git/hooks/push-to-checkout.sample",
+        "hash": "5194610557431485830"
+      },
+      {
+        "file": ".git/hooks/pre-commit.sample",
+        "hash": "2931916916104981897"
+      },
+      {
+        "file": ".git/objects/9f/d3a506b116ac107fdeeaede88b76d661286848",
+        "hash": "11415348757584157877"
+      },
+      {
+        "file": ".git/objects/50/4dd51970f664698d8e7eee99b4d4e3c3abf7e0",
+        "hash": "7990523450817668763"
+      },
+      {
+        "file": "dist/apps/view/3rdpartylicenses.txt",
+        "hash": "14494228031964297759"
+      },
+      {
+        "file": "dist/apps/view/polyfills-FFHMD2TL.js",
+        "hash": "13576170651250845855"
+      },
+      {
+        "file": ".git/objects/10/28ec03384e0e9e9836bbd46bc7a6703408ea2b",
+        "hash": "10621115362777649187"
+      },
+      {
+        "file": "docs/areas/06_DEV_BASE_DATOS.md",
+        "hash": "2575362362570327860"
+      },
+      {
+        "file": "docs/areas/07_QA_PRUEBAS.md",
+        "hash": "7926385516445244262"
+      },
+      {
+        "file": ".git/objects/2b/72e7cd37212ad0f5aff32f7ec94be3e726bf59",
+        "hash": "134588561771741746"
+      },
+      {
+        "file": ".git/objects/81/a107983df9073d478bd6485ec54b4f93ecd93d",
+        "hash": "16646462604426657466"
+      },
+      {
+        "file": "dist/apps/view/media/primeicons-RSSEDYLY.eot",
+        "hash": "7087890182859274956"
+      },
+      {
+        "file": ".git/objects/d4/2c2d4fc240469e90dda963c7db6698d10960a1",
+        "hash": "11339708156080155776"
+      },
+      {
+        "file": "dist/apps/view/media/primeicons-P53SE5CV.woff",
+        "hash": "169501150675308310"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~0fdf0237",
+        "hash": "10388341855955737814"
+      },
+      {
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".git/objects/3b/fb90bde5f0472eb1a42bc87516c2181ac8033a",
+        "hash": "8535662330208381942"
+      },
+      {
+        "file": ".git/objects/53/1a1df80fa58a50245aaa1a332f74299f046311",
+        "hash": "17728474092231528329"
+      },
+      {
+        "file": ".git/objects/89/679d07da42aec641c15abb0d10b93477716552",
+        "hash": "4284055421139658465"
+      },
+      {
+        "file": ".git/objects/ec/c153add8967507e4e927599ecc853b1027cfa9",
+        "hash": "8078741076519185977"
+      },
+      {
+        "file": ".git/objects/4c/4cfd9be0de99cce31ea5f73fd6c902af9af54f",
+        "hash": "16976487390362663000"
+      },
+      {
+        "file": ".git/hooks/post-update.sample",
+        "hash": "16498975149454253769"
+      },
+      {
+        "file": ".git/objects/4e/6e99601d92a72422140c540a2d0befc26b0658",
+        "hash": "12877814175380340124"
+      },
+      {
+        "file": ".git/objects/62/c47a2a1bef82a55516f6a16474c75d07267498",
+        "hash": "7420494215065507704"
+      },
+      {
+        "file": ".git/hooks/pre-applypatch.sample",
+        "hash": "1595391782482835178"
+      },
+      {
+        "file": ".git/objects/ba/0e0ac707461aeea33978e378a27639d29a5096",
+        "hash": "4932976839355833170"
+      },
+      {
+        "file": ".git/objects/06/fa9b1adbecb60767fbc89ffe675cb11280c71f",
+        "hash": "4059778711939190057"
+      },
+      {
+        "file": ".git/objects/91/d6e427dbf9f21d22b7c7d62cf35ffb16c808d6",
+        "hash": "17144573005076184641"
+      },
+      {
+        "file": ".git/objects/77/7437e055d670515320d6b555c7ad2c06285b1c",
+        "hash": "1118695609269295675"
+      },
+      {
+        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
+        "hash": "11626903079403383756"
+      },
+      {
+        "file": "dist/apps/view/chunk-MSZTRJOK.js",
+        "hash": "9667694357893391964"
+      },
+      {
+        "file": ".git/objects/2a/4f3c606bd332bc6cdd247fd8ab1d78da845ba2",
+        "hash": "13836228885145487295"
+      },
+      {
+        "file": ".git/objects/ac/a4b65590d6e77d2f0b9df726b6c530ad4378f4",
+        "hash": "6218181141445765347"
+      },
+      {
+        "file": "database/knexfile.ts",
+        "hash": "11085844305516452100"
+      },
+      {
+        "file": ".git/objects/d8/224fc8ffcfdabd9dd864c00b4159d7d90178c2",
+        "hash": "18446641849564675859"
+      },
+      {
+        "file": ".git/objects/f2/0d80dfd4170262df25c4fe151eb3f569e83e95",
+        "hash": "2264628988828928246"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "15183139229033957310"
+      },
+      {
+        "file": ".git/objects/bb/14a1af1b536f121c88f4e083f1bba0a9e952c2",
+        "hash": "13042781933536256603"
+      },
+      {
+        "file": "dist/apps/api/main.js",
+        "hash": "6895596749870643631"
+      },
+      {
+        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": ".git/hooks/pre-receive.sample",
+        "hash": "8999430056057037490"
+      },
+      {
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "260442305400835531"
+      },
+      {
+        "file": "dist/apps/view/styles-3ZVXMONI.css",
+        "hash": "4508422639908953966"
+      },
+      {
+        "file": ".git/hooks/commit-msg.sample",
+        "hash": "11930680668000581900"
+      },
+      {
+        "file": "dist/apps/view/chunk-FK6H3RFT.js",
+        "hash": "6379867180493244642"
+      },
+      {
+        "file": "docs/areas/04_DEV_BACKEND.md",
+        "hash": "16766816314722906655"
+      },
+      {
+        "file": ".git/objects/78/e53ebc994d8f058a66f89b41ccb0526818b636",
+        "hash": "15200315888201731251"
+      },
+      {
+        "file": ".git/objects/97/1fe2f656abca542741e83cf8b1ca8dfa7bae35",
+        "hash": "852770848840061177"
+      },
+      {
+        "file": ".git/objects/02/a7fbcf3959cfc943f7633b569da35a7c53a91d",
+        "hash": "16045643673880553977"
+      },
+      {
+        "file": ".git/objects/07/ed405a04483594db701e315420fa785a3583d4",
+        "hash": "7673343409339455778"
+      },
+      {
+        "file": ".git/objects/ec/f5a4a021007410a8f40e405bb92f40a872f2a8",
+        "hash": "8857764538773410986"
+      },
+      {
+        "file": ".git/objects/19/80f3af7c632c67ee883b5a9dc64dbb5220afbc",
+        "hash": "14272687532407296622"
+      },
+      {
+        "file": ".git/objects/02/81c3ee171c6cf800fb88f533238cded24ecf66",
+        "hash": "3865570594037182773"
+      },
+      {
+        "file": ".git/objects/b6/9d43e23d3bed98b0c73923785e328ec8358dbf",
+        "hash": "2470566988702200568"
+      },
+      {
+        "file": "database/seeds/temp_seed.ts",
+        "hash": "15077193697519790021"
+      },
+      {
+        "file": ".nx/workspace-data/file-map.json~5c127652",
+        "hash": "12476212184022756663"
+      },
+      {
+        "file": ".git/objects/c0/3dd355c36e5fdc57ee908ccc45bbf3b7e0fb7a",
+        "hash": "6768815989936990781"
+      },
+      {
+        "file": ".git/objects/a6/703e76ab6568f02b641c34e88e1beb471d09ff",
+        "hash": "2879551404638595904"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".git/objects/d4/4e7d2d100a3943fc7fd33032f614ce1012c64d",
+        "hash": "4406412559814386829"
+      },
+      {
+        "file": "openapi-config.json",
+        "hash": "9198943547001210497"
+      },
+      {
+        "file": ".git/objects/96/760aa2d82dcf0782abe70c5f9b50f06f856aa0",
+        "hash": "14648294537164530786"
+      },
+      {
+        "file": ".git/objects/60/eda9568850a6d5f0d0cd6b2ef602bcda7cfece",
+        "hash": "15472226518448200970"
+      },
+      {
+        "file": "dist/apps/view/media/primeicons-DHQU4SEP.svg",
+        "hash": "2310881215014626795"
+      },
+      {
+        "file": ".git/objects/d1/2c689bf8e51c32e55594d4e30fbb6823573c83",
+        "hash": "7386883086032011140"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "1344354318868461598"
+      },
+      {
+        "file": ".git/objects/c9/4a121da387f7e3cd17599e9794e5766ac6428a",
+        "hash": "18199262353111484134"
+      },
+      {
+        "file": ".git/objects/7a/17c3845d469230e80526213eb2399dc5248c03",
+        "hash": "6787935480465953493"
+      },
+      {
+        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": ".git/objects/88/2ecc00979fe03ec135667a2ca769f749683817",
+        "hash": "2783853624718970167"
+      },
+      {
+        "file": ".git/hooks/pre-push.sample",
+        "hash": "3666369642558647280"
+      },
+      {
+        "file": ".git/objects/08/9a67c49cc8b205503219fced90e4e169268494",
+        "hash": "6005092378116700760"
+      },
+      {
+        "file": ".git/objects/e4/bc9e329f46f4dcefa527e187c0546ac615b1d6",
+        "hash": "352553597953804668"
+      },
+      {
+        "file": ".git/objects/ff/570edd89d3bde5a1e9797e1b72311938dd66a0",
+        "hash": "16361363926358419176"
+      },
+      {
+        "file": "dist/apps/view/chunk-EQDQRRRY.js",
+        "hash": "5449942503781698984"
+      },
+      {
+        "file": ".git/objects/b9/d8b6b0b4c3ecb4efe645d13660609226dece77",
+        "hash": "11629359945959372845"
+      },
+      {
+        "file": ".git/objects/3f/7dba9ec0519fe1a52385a7f51c2915b9ea4350",
+        "hash": "10183963649858132332"
+      },
+      {
+        "file": ".git/objects/e9/cdbfe732760cf0dd5d0875a0090ca3059341cd",
+        "hash": "13386189695184095861"
+      },
+      {
+        "file": ".git/objects/d5/460719f1095ed4e9e05a133e9f29a66d4d3208",
+        "hash": "16260532797169597337"
+      },
+      {
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "824310946532410529"
+      },
+      {
+        "file": ".git/objects/d5/4869f5dc347a3c1fa2f61e1743227fba35eb59",
+        "hash": "17222127597552312247"
+      },
+      {
+        "file": ".git/objects/5c/ec72f9a823d7be5a1a8cb8c307ab619bcf3a00",
+        "hash": "14077483754752936829"
+      },
+      {
+        "file": ".git/objects/68/06afbdc43b9d544d008f87b89adc21c716fe92",
+        "hash": "9003327440094021210"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "14145419060237914883"
+      },
+      {
+        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".git/objects/09/27b3c3027e2c59a262a257b3f06d1974c177f1",
+        "hash": "7092749932647421729"
+      },
+      {
+        "file": ".git/objects/00/e4ff55e1469069099211953becf51fdd56c1a1",
+        "hash": "5516079299245394147"
+      },
+      {
+        "file": ".git/objects/39/cc482213fcc20eec008dffb90e13dee3577e66",
+        "hash": "7209478962735592741"
+      },
+      {
+        "file": "build_view_err.log",
+        "hash": "653754912947712778"
+      },
+      {
+        "file": ".nx/workspace-data/lockfile.hash",
+        "hash": "14740922970398703236"
+      },
+      {
+        "file": "dist/scripts/update-scoring.d.ts",
+        "hash": "4595979742548113990"
+      },
+      {
+        "file": ".git/objects/48/3011c001503ac56ac6511c731b94b19dcbe9ff",
+        "hash": "5852268444493049004"
+      },
+      {
+        "file": ".git/objects/46/a816d6f2fa55c5d8c61dea49c377a7f91a5e29",
+        "hash": "9315421754373094116"
+      },
+      {
+        "file": ".git/objects/72/82f8eacd599a2cd9063c12b1abcab56c8cac1b",
+        "hash": "18384169275067097546"
+      },
+      {
+        "file": ".git/objects/f3/354373628960e7acdca06a64746a944c1d0177",
+        "hash": "13383925536569077946"
+      },
+      {
+        "file": ".git/objects/59/fa25ec0a0b31d58659f7dc56b7ee8c82aa92c3",
+        "hash": "14524464159809573090"
+      },
+      {
+        "file": ".git/objects/19/79d8ada53788bbb05411da336b42b462457e80",
+        "hash": "6871237230781406701"
+      },
+      {
+        "file": ".git/objects/f4/4a2ee323c5491e8cfa13b879fbed4076b665b0",
+        "hash": "10581698056139216354"
+      },
+      {
+        "file": ".git/objects/6f/6c76052d88bbab5a6177858e4e525ca9069234",
+        "hash": "16882648794907045979"
+      }
+    ],
+    "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "5543363273466878147"
+        },
+        {
+          "file": "apps/api/src/app.controller.spec.ts",
+          "hash": "3407876829745233448",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.controller.ts",
+          "hash": "1345450293891055440",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "17083935961947003516",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.service.ts",
+          "hash": "15275323873054081339",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "8150730346521150570",
+          "deps": [
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/platform-express",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
+          "hash": "11625570402663679261",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "7219963483417162605",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.module.ts",
+          "hash": "14543860062666771772",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
+          "hash": "3531801313276079682",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "5511035571390922697",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
+          "hash": "12285965185886068251",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.controller.ts",
+          "hash": "704253912595493391",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.module.ts",
+          "hash": "14636513638756158304",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.service.ts",
+          "hash": "11428835756257319998",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/dto/create-capture.dto.ts",
+          "hash": "1968607422923871683",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
+          "hash": "12328425635530753254",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
+          "hash": "11168362627790527620",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
+          "hash": "1759277545793632603",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
+          "hash": "11104100490279605524",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
+          "hash": "2435517969649510690",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
+          "hash": "3875270662069510029",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
+          "hash": "17219103140441686607",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
+          "hash": "639832397949852449",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:multer",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
+          "hash": "11883665635371988169",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
+          "hash": "13286836444984275658",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
+          "hash": "4648008946309626962",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.module.ts",
+          "hash": "4474593114751319046",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.service.ts",
+          "hash": "2065595759262816274",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.controller.ts",
+          "hash": "12839195195309271415",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.module.ts",
+          "hash": "18172013289668032781",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.service.ts",
+          "hash": "2501171891325881538",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
+          "hash": "3670075782788889288",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.module.ts",
+          "hash": "5614251161912604525",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.service.ts",
+          "hash": "8575331803671949570",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.controller.ts",
+          "hash": "16982604786805457833",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.module.ts",
+          "hash": "10993598746137472390",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.service.ts",
+          "hash": "6767396340971314167",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
+          "hash": "7598292212684789343",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
+          "hash": "2674333839454307607",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.controller.ts",
+          "hash": "260388592593612633",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.module.ts",
+          "hash": "3819146129126863352",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.service.ts",
+          "hash": "3310684650529605472",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.controller.ts",
+          "hash": "16915297949288704033",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.module.ts",
+          "hash": "16232314712685135809",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.service.ts",
+          "hash": "9468357205591683765",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/database.module.ts",
+          "hash": "16385212774011482875",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165441_20260330_init_auth_schema.ts",
+          "hash": "7050095566828684768",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165442_20260330_init_captures_schema.ts",
+          "hash": "16814897884568551576",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165443_20260330_init_daily_captures_schema.ts",
+          "hash": "4224703140354728329",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165444_20260330_init_planograma_schema.ts",
+          "hash": "12655925657723627037",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165445_20260330_init_catalogs_schema.ts",
+          "hash": "3705824575611612718",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165446_20260330_init_scoring_schema.ts",
+          "hash": "15557589561713943405",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165447_20260330_init_field_operations_schema.ts",
+          "hash": "10880422309838356638",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260331000000_v2_daily_captures_schema.ts",
+          "hash": "9254730681883278198",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260331000001_v3_add_scores_to_catalogs.ts",
+          "hash": "734243789567849633",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260331231959_add_gps_to_captures.ts",
+          "hash": "3008414719405481555",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260401000000_v4_rename_planograma_to_planograms.ts",
+          "hash": "11246702100039515943",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/01_admin_users.ts",
+          "hash": "9243145615717384890",
+          "deps": [
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/01_roles_iniciales.ts",
+          "hash": "17128806587041899469",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/03_planograma.ts",
+          "hash": "12938856754247963190",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/04_catalogs.ts",
+          "hash": "7176462977710200398",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/05_scoring_config.ts",
+          "hash": "10749932905716882123",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
+          "hash": "4749816109954716157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
+          "hash": "11745620449776234641",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
+          "hash": "16457504475293892431",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/roles.guard.ts",
+          "hash": "4606790643204974300",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/test/app.e2e-spec.ts",
+          "hash": "12700387818545954749",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/api/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "12142148789576907551"
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "589474541783518070"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "10619490397189790225",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "view": [
+        {
+          "file": "apps/view/.browserslistrc",
+          "hash": "2630294108468840002"
+        },
+        {
+          "file": "apps/view/.editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": "apps/view/.gitignore",
+          "hash": "10175894702052279752"
+        },
+        {
+          "file": "apps/view/.vscode/extensions.json",
+          "hash": "11934160580685414355"
+        },
+        {
+          "file": "apps/view/.vscode/launch.json",
+          "hash": "17406702432687230417"
+        },
+        {
+          "file": "apps/view/.vscode/tasks.json",
+          "hash": "10093397977228577162"
+        },
+        {
+          "file": "apps/view/README.md",
+          "hash": "9957948032996686319"
+        },
+        {
+          "file": "apps/view/angular.json",
+          "hash": "9965261679512769777"
+        },
+        {
+          "file": "apps/view/build.log",
+          "hash": "12185612502291710224"
+        },
+        {
+          "file": "apps/view/build_log.txt",
+          "hash": "2502771750791210382"
+        },
+        {
+          "file": "apps/view/build_output.txt",
+          "hash": "4299617804452706144"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/.tsbuildinfo",
+          "hash": "18247135157841483124"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/angular-compiler.db",
+          "hash": "10303930067454964772"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/angular-compiler.db-lock",
+          "hash": "17054763157386896514"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_common.js",
+          "hash": "14396182007883280326"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_common.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_common_http.js",
+          "hash": "16214832091470815354"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_common_http.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_core.js",
+          "hash": "5919867268432724146"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_core.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_forms.js",
+          "hash": "10857001431823528274"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_forms.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_platform-browser.js",
+          "hash": "710565896903695481"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_platform-browser.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_platform-browser_animations_async.js",
+          "hash": "5186983585262144059"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_platform-browser_animations_async.js.map",
+          "hash": "10850311695579118288"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_router.js",
+          "hash": "16662157309037042573"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@angular_router.js.map",
+          "hash": "1329585964665450476"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@primeng_themes_aura.js",
+          "hash": "18344269049156214566"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@primeng_themes_aura.js.map",
+          "hash": "14544289645962914643"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@spartan-ng_ui-core.js",
+          "hash": "71732715373831389"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/@spartan-ng_ui-core.js.map",
+          "hash": "2729606067658909663"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/_metadata.json",
+          "hash": "11446746017701284070"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/browser-TGI5ENYS.js",
+          "hash": "7110611581035647923"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/browser-TGI5ENYS.js.map",
+          "hash": "5622039175874489225"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-4DTG2XHF.js",
+          "hash": "13465878516342033078"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-4DTG2XHF.js.map",
+          "hash": "9666202303187429865"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-4S3KYZTJ.js",
+          "hash": "7388868184362258310"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-4S3KYZTJ.js.map",
+          "hash": "2648502907036039507"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-4S6Z5BSW.js",
+          "hash": "16030711989923596899"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-4S6Z5BSW.js.map",
+          "hash": "8966486601758626044"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-5NT6O4YD.js",
+          "hash": "14881960609229516703"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-5NT6O4YD.js.map",
+          "hash": "12531805853925395990"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-62L5LOQM.js",
+          "hash": "1811324877293047344"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-62L5LOQM.js.map",
+          "hash": "9470866133324064256"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-6E77CKQF.js",
+          "hash": "3857431500774503498"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-6E77CKQF.js.map",
+          "hash": "1216424754975634089"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-6KYG62FN.js",
+          "hash": "5832075930188564077"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-6KYG62FN.js.map",
+          "hash": "1186433434150277397"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-BBXTGPPP.js",
+          "hash": "8160272064851568983"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-BBXTGPPP.js.map",
+          "hash": "16183357392659438198"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-BPNJNXY6.js",
+          "hash": "2397406279931392149"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-BPNJNXY6.js.map",
+          "hash": "9463385608254982098"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-G3PT24AS.js",
+          "hash": "12980674851880282761"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-G3PT24AS.js.map",
+          "hash": "17411980969003735983"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-GIE4FEU5.js",
+          "hash": "10384702343456351779"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-GIE4FEU5.js.map",
+          "hash": "9208090067152934534"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-H7QGH3RH.js",
+          "hash": "7600885838854521716"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-H7QGH3RH.js.map",
+          "hash": "12923996166682741480"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-HUQRLZZ7.js",
+          "hash": "17168433391929801409"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-HUQRLZZ7.js.map",
+          "hash": "12863409139681104552"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-I7FENIMX.js",
+          "hash": "7737358248983715461"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-I7FENIMX.js.map",
+          "hash": "12729058217785809081"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-IO2QM5MS.js",
+          "hash": "5862232949313434551"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-IO2QM5MS.js.map",
+          "hash": "8069122690569296391"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-LUEIMEA4.js",
+          "hash": "6119570670692849038"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-LUEIMEA4.js.map",
+          "hash": "616799020346325333"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-O4GAR3UW.js",
+          "hash": "370321620529561972"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-O4GAR3UW.js.map",
+          "hash": "267689764949840074"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-OF6ZDBBK.js",
+          "hash": "11138815567631360569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-OF6ZDBBK.js.map",
+          "hash": "9838118572128423094"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-PEBH6BBU.js",
+          "hash": "13744035772100923522"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-PEBH6BBU.js.map",
+          "hash": "5134453755794423192"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-QJB5IFYQ.js",
+          "hash": "15361476918388288192"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-QJB5IFYQ.js.map",
+          "hash": "2793285977748862614"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-QVENGJHY.js",
+          "hash": "8544905211176551546"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-QVENGJHY.js.map",
+          "hash": "14084153089960849841"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-REMGT6RI.js",
+          "hash": "14144554669395854922"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-REMGT6RI.js.map",
+          "hash": "16937060455945040714"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-RNG2C7IZ.js",
+          "hash": "15246053973854417894"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-RNG2C7IZ.js.map",
+          "hash": "11837641406399709496"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-TLHDQNXC.js",
+          "hash": "1381192776205695242"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-TLHDQNXC.js.map",
+          "hash": "14984800899127040088"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-TXDUYLVM.js",
+          "hash": "14994350517935503642"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-TXDUYLVM.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-UTGGIUGO.js",
+          "hash": "6257754879760142799"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-UTGGIUGO.js.map",
+          "hash": "5916789843712764220"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-V3FTI7LL.js",
+          "hash": "4528964742645706590"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-V3FTI7LL.js.map",
+          "hash": "1994465338414187928"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-WPM5VTLQ.js",
+          "hash": "10000189167578774718"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-WPM5VTLQ.js.map",
+          "hash": "2189203602704055510"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-YH7I42SQ.js",
+          "hash": "2918138932911840744"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-YH7I42SQ.js.map",
+          "hash": "15431213030567756487"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-ZOPTFNUZ.js",
+          "hash": "15520344256362791411"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/chunk-ZOPTFNUZ.js.map",
+          "hash": "3688082096954072696"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/class-variance-authority.js",
+          "hash": "14413827875909657095"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/class-variance-authority.js.map",
+          "hash": "12046934306105295145"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/html2canvas.esm-VN2TC25E.js",
+          "hash": "1029070720644262986"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/html2canvas.esm-VN2TC25E.js.map",
+          "hash": "1368226066751920817"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/index.es-6ZAIIBEH.js",
+          "hash": "16495123534315270795"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/index.es-6ZAIIBEH.js.map",
+          "hash": "12455498592687891892"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/jspdf-autotable.js",
+          "hash": "14231675006738324806"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/jspdf-autotable.js.map",
+          "hash": "6542450355951369074"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/jspdf.js",
+          "hash": "3835778685718454902"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/jspdf.js.map",
+          "hash": "17015122617665826159"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/package.json",
+          "hash": "8630294688235076505"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_api.js",
+          "hash": "8319993631270413865"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_api.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_button.js",
+          "hash": "4695154707281883628"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_button.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_chart.js",
+          "hash": "4890348278845579408"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_chart.js.map",
+          "hash": "995345579163196797"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_checkbox.js",
+          "hash": "3180992723662530990"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_checkbox.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_config.js",
+          "hash": "11981442992751162296"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_config.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_confirmdialog.js",
+          "hash": "4199797410912001595"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_confirmdialog.js.map",
+          "hash": "4250088799401757666"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_datepicker.js",
+          "hash": "11007277511021486291"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_datepicker.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_dialog.js",
+          "hash": "16160433081603043271"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_dialog.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_dropdown.js",
+          "hash": "7202713603275049498"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_dropdown.js.map",
+          "hash": "13760971694429028782"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_iconfield.js",
+          "hash": "7838124456581679249"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_iconfield.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputicon.js",
+          "hash": "16865491123509765047"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputicon.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputnumber.js",
+          "hash": "4711852528260658981"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputnumber.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputswitch.js",
+          "hash": "15998675940816786309"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputswitch.js.map",
+          "hash": "6361042553599012102"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputtext.js",
+          "hash": "6953905017722830990"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_inputtext.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_multiselect.js",
+          "hash": "1331187137733294474"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_multiselect.js.map",
+          "hash": "289980381660297008"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_radiobutton.js",
+          "hash": "15681572209794738936"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_radiobutton.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_select.js",
+          "hash": "7627421096914659097"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_select.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_skeleton.js",
+          "hash": "11162800872750730974"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_skeleton.js.map",
+          "hash": "34716569083764940"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_table.js",
+          "hash": "3061320524284244762"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_table.js.map",
+          "hash": "7164267153307289765"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_tabs.js",
+          "hash": "5233676428901703179"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_tabs.js.map",
+          "hash": "3747760007687887571"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_tag.js",
+          "hash": "12062435085937955210"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_tag.js.map",
+          "hash": "5322498018579399506"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_toast.js",
+          "hash": "16178357306327884633"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/primeng_toast.js.map",
+          "hash": "1466425436635244525"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/purify.es-BDVAHXOW.js",
+          "hash": "6606207252883937266"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/purify.es-BDVAHXOW.js.map",
+          "hash": "4554403889828676847"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/rxjs.js",
+          "hash": "351239117943545543"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/rxjs.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/rxjs_operators.js",
+          "hash": "11239023982543524301"
+        },
+        {
+          "file": "apps/view/cache/18.2.21/frontend/vite/deps/rxjs_operators.js.map",
+          "hash": "9947606979680686569"
+        },
+        {
+          "file": "apps/view/components.json",
+          "hash": "18424137621673638939"
+        },
+        {
+          "file": "apps/view/package-lock.json",
+          "hash": "1550172307543698682"
+        },
+        {
+          "file": "apps/view/package.json",
+          "hash": "10957288301448590491",
+          "deps": [
+            "npm:@angular-devkit/build-angular",
+            "npm:@angular/cli",
+            "npm:@angular/compiler-cli",
+            "npm:@spartan-ng/cli",
+            "npm:@spartan-ng/ui-core",
+            "npm:@types/chart.js",
+            "npm:@types/jasmine",
+            "npm:@types/jspdf",
+            "npm:autoprefixer",
+            "npm:class-variance-authority",
+            "npm:clsx",
+            "npm:jasmine-core",
+            "npm:karma",
+            "npm:karma-chrome-launcher",
+            "npm:karma-coverage",
+            "npm:karma-jasmine",
+            "npm:karma-jasmine-html-reporter",
+            "npm:postcss",
+            "npm:tailwind-merge",
+            "npm:tailwindcss",
+            "npm:tailwindcss-animate",
+            "npm:typescript@5.5.4",
+            "npm:@angular/animations",
+            "npm:@angular/common",
+            "npm:@angular/compiler",
+            "npm:@angular/core",
+            "npm:@angular/forms",
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic",
+            "npm:@angular/router",
+            "npm:@ngrx/store",
+            "npm:@primeng/themes",
+            "npm:chart.js",
+            "npm:jspdf",
+            "npm:jspdf-autotable",
+            "npm:primeicons",
+            "npm:primeng",
+            "npm:rxjs",
+            "npm:tslib",
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/view/project.json",
+          "hash": "2062690801242048446"
+        },
+        {
+          "file": "apps/view/proxy.conf.json",
+          "hash": "11802829156933206977"
+        },
+        {
+          "file": "apps/view/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/view/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/app.component.html",
+          "hash": "17816966185630879015"
+        },
+        {
+          "file": "apps/view/src/app/app.component.ts",
+          "hash": "11170360839372807724",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.config.ts",
+          "hash": "11470318312418232057",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser",
+            "npm:primeng",
+            "npm:@primeng/themes"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.routes.ts",
+          "hash": "14371189945558934024",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/guards/auth.guard.ts",
+          "hash": "16376445042379084927",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
+          "hash": "6323608000694433865",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/auth.service.ts",
+          "hash": "9444964034739485858",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/theme.service.ts",
+          "hash": "17918807548861325750",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.html",
+          "hash": "8484599725052019419"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
+          "hash": "10037516205666368692",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
+          "hash": "11817903593019680610"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
+          "hash": "8812009857327544515",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
+          "hash": "12821361977159525383",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
+          "hash": "9275966961345939889"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
+          "hash": "6833368548178779443",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
+          "hash": "7839575164585449795",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
+          "hash": "3564656440453672105"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
+          "hash": "11127755563828206779",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
+          "hash": "14323166153516748928",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
+          "hash": "3379815785863972763"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
+          "hash": "1134236606576581973",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
+          "hash": "12151866863538492687",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
+          "hash": "1206285304244132026"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
+          "hash": "8622332422846810636",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
+          "hash": "7183175517537729497"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
+          "hash": "17856512911473317304",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
+          "hash": "10974225669780220897"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
+          "hash": "11969617631560699441",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
+          "hash": "3648000581917811957"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
+          "hash": "7606617345681033199"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
+          "hash": "9616006897267608001",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts.bak",
+          "hash": "5590347401406577758"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
+          "hash": "11992785837508939480"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
+          "hash": "7183824203603595109"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
+          "hash": "12205567994454766441",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
+          "hash": "11960006061436428526",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng",
+            "npm:@angular/forms",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
+          "hash": "11216539565742265716",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
+          "hash": "4569968995877737664"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
+          "hash": "17809888166109105976",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
+          "hash": "15945320948506956747"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
+          "hash": "9278206738553352118",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
+          "hash": "1264456644156591402"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
+          "hash": "16788995639239404383",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
+          "hash": "11764649405326567688",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
+          "hash": "16465656434635832708"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
+          "hash": "9733142557628569811",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
+          "hash": "2870879167137158934"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
+          "hash": "18013509339030006311",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
+          "hash": "12009941192515521363"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
+          "hash": "18232104826294623746",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
+          "hash": "7794636893651771366"
+        },
+        {
+          "file": "apps/view/src/environments/environment.ts",
+          "hash": "1440947278359033849"
+        },
+        {
+          "file": "apps/view/src/index.html",
+          "hash": "10978432236329079223"
+        },
+        {
+          "file": "apps/view/src/main.ts",
+          "hash": "4169901790405087765",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/view/src/polyfills.ts",
+          "hash": "17716552174347683189",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/view/src/styles.css",
+          "hash": "4510711465204440585"
+        },
+        {
+          "file": "apps/view/tailwind.config.js",
+          "hash": "8544296378183567170",
+          "deps": [
+            "npm:@spartan-ng/ui-core",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "apps/view/tsc_errors.txt",
+          "hash": "4374921262071842589"
+        },
+        {
+          "file": "apps/view/tsc_final.txt",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/tsc_output.txt",
+          "hash": "8453398497986134259"
+        },
+        {
+          "file": "apps/view/tsconfig.app.json",
+          "hash": "12120654287211779749"
+        },
+        {
+          "file": "apps/view/tsconfig.json",
+          "hash": "7256301443762118762"
+        },
+        {
+          "file": "apps/view/tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ],
+      "shared-models": [
+        {
+          "file": "libs/shared-models/project.json",
+          "hash": "18288701257881743090"
+        },
+        {
+          "file": "libs/shared-models/src/index.ts",
+          "hash": "1723302809865677145"
+        },
+        {
+          "file": "libs/shared-models/tsconfig.lib.json",
+          "hash": "12886467889922317340"
+        }
+      ]
+    }
+  }
+}

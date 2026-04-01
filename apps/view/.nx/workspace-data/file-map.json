@@ -1,0 +1,108 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.6.3",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "8037249353422744134"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10175894702052279752"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "9957948032996686319"
+      },
+      {
+        "file": "angular.json",
+        "hash": "4324059776675426323"
+      },
+      {
+        "file": "components.json",
+        "hash": "18424137621673638939"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13495908445905678211"
+      },
+      {
+        "file": "package.json",
+        "hash": "7755768448568076302"
+      },
+      {
+        "file": "public/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "11358065693346708359"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "8908278546121417694"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "11170360839372807724"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "6963152665883318881"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "809736233805555256"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "10978432236329079223"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "4169901790405087765"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "6808930204212720424"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "3704688455506618343"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "14560978611694835822"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "16227375016570950083"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "11023685540591620072"
+      }
+    ]
+  },
+  "externalNodesHash": "13449369112752500654"
+}
