@@ -33,1580 +33,191 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_checkbox.js",
-        "hash": "16267361069536040772"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-YH7I42SQ.js.map",
-        "hash": "15431213030567756487"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/html2canvas.esm-VN2TC25E.js",
-        "hash": "1029070720644262986"
-      },
-      {
-        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_common.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-TXDUYLVM.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/angular-compiler.db-lock",
-        "hash": "5841649939247993459"
-      },
-      {
-        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_platform-browser.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_iconfield.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_platform-browser.js",
-        "hash": "174247588298707953"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-FVZLPJJ3.js.map",
-        "hash": "616799020346325333"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_platform-browser_animations_async.js.map",
-        "hash": "10850311695579118288"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_select.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-WUUVWCMF.js",
-        "hash": "4013596295483146176"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_common.js",
-        "hash": "524280764722103929"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_table.js",
-        "hash": "18013277631271640176"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/jspdf.js",
-        "hash": "3247713902907335183"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_table.js.map",
-        "hash": "7164267153307289765"
-      },
-      {
-        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputicon.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/rxjs_operators.js",
-        "hash": "11239023982543524301"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/rxjs_operators.js",
-        "hash": "11239023982543524301"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-Y6I3YHEG.js",
-        "hash": "12345048378366583910"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_forms.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/rxjs_operators.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_chart.js.map",
-        "hash": "995345579163196797"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_inputswitch.js.map",
-        "hash": "6361042553599012102"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-ZOPTFNUZ.js.map",
-        "hash": "3688082096954072696"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_skeleton.js.map",
-        "hash": "34716569083764940"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/browser-TI3ZX4VH.js.map",
-        "hash": "5622039175874489225"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_api.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/html2canvas.esm-VN2TC25E.js",
-        "hash": "1029070720644262986"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/package.json",
-        "hash": "8630294688235076505"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-TTSH4TFH.js",
-        "hash": "15687730401737431232"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/browser-TI3ZX4VH.js",
-        "hash": "7045410302399800131"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-46CNHA3E.js.map",
-        "hash": "11837641406399709496"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-TXDUYLVM.js",
-        "hash": "14994350517935503642"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-5NT6O4YD.js.map",
-        "hash": "12531805853925395990"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-ZOPTFNUZ.js",
-        "hash": "15520344256362791411"
-      },
-      {
-        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-4FZ4RVNY.js",
-        "hash": "8572774284099134709"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-LN5USYT7.js.map",
-        "hash": "9470866133324064256"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-O7PD3RGE.js.map",
-        "hash": "10712743953879239618"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/rxjs.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/html2canvas.esm-VN2TC25E.js.map",
-        "hash": "1368226066751920817"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_datepicker.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-KFHPY46Z.js",
-        "hash": "10596623159642280325"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_toast.js",
-        "hash": "1865298339735998620"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/jspdf-autotable.js",
-        "hash": "14231675006738324806"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-PEBH6BBU.js.map",
-        "hash": "5134453755794423192"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-IPX7KJHM.js",
-        "hash": "13881206525517773964"
-      },
-      {
-        "file": "database/seeds/04_catalogs.js",
-        "hash": "11701538899321130552"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@spartan-ng_ui-core.js.map",
-        "hash": "2729606067658909663"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-ZZYDFYVJ.js.map",
-        "hash": "9463385608254982098"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_config.js",
-        "hash": "12818329324790855617"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-WPM5VTLQ.js",
-        "hash": "10000189167578774718"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_inputicon.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-WNZFCRTZ.js",
-        "hash": "1490284777173467526"
-      },
-      {
-        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/jspdf-autotable.js",
-        "hash": "14231675006738324806"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_multiselect.js",
-        "hash": "8201147380195000640"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_datepicker.js",
-        "hash": "11105221180027870905"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-QJB5IFYQ.js.map",
-        "hash": "2793285977748862614"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-46CNHA3E.js.map",
-        "hash": "11837641406399709496"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_compiler.js.map",
-        "hash": "17160920713925534908"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-IPX7KJHM.js.map",
-        "hash": "14084153089960849841"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-LN5USYT7.js",
-        "hash": "15406800644654847670"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_dialog.js",
-        "hash": "7219311026928405601"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputtext.js",
-        "hash": "16991334950698668288"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-QJB5IFYQ.js",
-        "hash": "15361476918388288192"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/rxjs_operators.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-LF7IXNWT.js.map",
-        "hash": "17386531920730989110"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_confirmdialog.js.map",
-        "hash": "4250088799401757666"
-      },
-      {
-        "file": "nx.json",
-        "hash": "1016897659535064362"
-      },
-      {
-        "file": "scripts/generate-openapi.ts",
-        "hash": "15637558523592873734"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_button.js",
-        "hash": "16198325613123427695"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "5874641387174959880"
-      },
-      {
-        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
-        "hash": "16239643811464559730"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_tabs.js.map",
-        "hash": "3747760007687887571"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-X2SKM2YN.js",
-        "hash": "2898047909535016351"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-H7QGH3RH.js",
-        "hash": "7600885838854521716"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-Y6I3YHEG.js.map",
-        "hash": "12729058217785809081"
-      },
-      {
-        "file": "database/seeds/03_planograma.js",
-        "hash": "13846940927296209112"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_confirmdialog.js",
-        "hash": "3863426615899029899"
-      },
-      {
-        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_skeleton.js",
-        "hash": "16923619993948279184"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-YH7I42SQ.js",
-        "hash": "2918138932911840744"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_compiler.js",
-        "hash": "7013526095297973481"
-      },
-      {
-        "file": "scripts/manual-seed.js",
-        "hash": "9545484076785858281"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/jspdf.js.map",
-        "hash": "10900686440832218874"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_button.js",
-        "hash": "16198325613123427695"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-4S3KYZTJ.js.map",
-        "hash": "2648502907036039507"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_radiobutton.js",
-        "hash": "13212187891014825636"
-      },
-      {
-        "file": "database/seeds/05_scoring_config.js",
-        "hash": "17895174892690034002"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-TLHDQNXC.js",
-        "hash": "1381192776205695242"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_common_http.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_dropdown.js",
-        "hash": "10269971403413076277"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-UTGGIUGO.js.map",
-        "hash": "5916789843712764220"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-LF7IXNWT.js",
-        "hash": "6851131179299457053"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-WUUVWCMF.js.map",
-        "hash": "14376444728403475253"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_datepicker.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-IPX7KJHM.js",
-        "hash": "13881206525517773964"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_button.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_core.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-REMGT6RI.js.map",
-        "hash": "16937060455945040714"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/jspdf.js",
-        "hash": "3247713902907335183"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_select.js",
-        "hash": "9075291974164078303"
-      },
-      {
-        "file": "openapi-config.json",
-        "hash": "9198943547001210497"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-Y6I3YHEG.js",
-        "hash": "12345048378366583910"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_toast.js.map",
-        "hash": "1466425436635244525"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputswitch.js.map",
-        "hash": "6361042553599012102"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-NLHBN7HE.js.map",
-        "hash": "16183357392659438198"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_tag.js.map",
-        "hash": "5322498018579399506"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-WUUVWCMF.js",
-        "hash": "4013596295483146176"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputnumber.js",
-        "hash": "13700397047874790998"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_config.js",
-        "hash": "12818329324790855617"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_multiselect.js",
-        "hash": "9027231110006868656"
-      },
-      {
-        "file": "docs/areas/08_DOCUMENTACION.md",
-        "hash": "3184525278808867528"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-WPM5VTLQ.js.map",
-        "hash": "2189203602704055510"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/index.es-KJSZ6V2G.js",
-        "hash": "7150764399913231890"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/class-variance-authority.js.map",
-        "hash": "12046934306105295145"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputicon.js",
-        "hash": "4097397909080896160"
-      },
-      {
-        "file": "docs/areas/03_DEV_UI_UX.md",
-        "hash": "260442305400835531"
-      },
-      {
-        "file": "database/knexfile.js",
-        "hash": "17796481070854482713"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-TTSH4TFH.js.map",
-        "hash": "9208090067152934534"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-WNZFCRTZ.js.map",
-        "hash": "8966486601758626044"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-X2SKM2YN.js.map",
-        "hash": "17411980969003735983"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_api.js",
-        "hash": "7114603668869034041"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_confirmdialog.js.map",
-        "hash": "4250088799401757666"
-      },
-      {
-        "file": "docs/areas/07_QA_PRUEBAS.md",
-        "hash": "7926385516445244262"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_button.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_iconfield.js",
-        "hash": "7327405312033833340"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-AIIQMDOK.js",
-        "hash": "15516399147534726532"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/class-variance-authority.js",
-        "hash": "14413827875909657095"
-      },
-      {
-        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-LF7IXNWT.js",
-        "hash": "6851131179299457053"
-      },
-      {
-        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
-        "hash": "11626903079403383756"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/@angular_common.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-WNZFCRTZ.js",
-        "hash": "1490284777173467526"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-FVZLPJJ3.js.map",
-        "hash": "616799020346325333"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-O7PD3RGE.js.map",
-        "hash": "10712743953879239618"
-      },
-      {
-        "file": "docs/areas/04_DEV_BACKEND.md",
-        "hash": "16766816314722906655"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-O7PD3RGE.js",
-        "hash": "10341039004512969814"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_forms.js",
-        "hash": "18297018243855993593"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-X2SKM2YN.js",
-        "hash": "2898047909535016351"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-5NT6O4YD.js",
-        "hash": "14881960609229516703"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/purify.es-BDVAHXOW.js",
-        "hash": "6606207252883937266"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-FVZLPJJ3.js",
-        "hash": "8261494307975226959"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/purify.es-BDVAHXOW.js.map",
-        "hash": "4554403889828676847"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_checkbox.js",
-        "hash": "16267361069536040772"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-O7PD3RGE.js",
-        "hash": "10341039004512969814"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_dialog.js",
-        "hash": "7219311026928405601"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_multiselect.js.map",
-        "hash": "289980381660297008"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/jspdf-autotable.js.map",
-        "hash": "6542450355951369074"
-      },
-      {
         "file": ".gitignore",
-        "hash": "3750039982029304277"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-46CNHA3E.js",
-        "hash": "14147306537431821543"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-42NSP7ML.js",
-        "hash": "6766704599110621926"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-UTGGIUGO.js",
-        "hash": "6257754879760142799"
-      },
-      {
-        "file": "docs/areas/05_DEV_FRONTEND.md",
-        "hash": "2717756305617498401"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-WUUVWCMF.js.map",
-        "hash": "14376444728403475253"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_checkbox.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_skeleton.js.map",
-        "hash": "34716569083764940"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_toast.js",
-        "hash": "1865298339735998620"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_skeleton.js",
-        "hash": "16923619993948279184"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_confirmdialog.js",
-        "hash": "3863426615899029899"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/html2canvas.esm-VN2TC25E.js.map",
-        "hash": "1368226066751920817"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/package.json",
-        "hash": "8630294688235076505"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-AIIQMDOK.js",
-        "hash": "15516399147534726532"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_platform-browser_animations_async.js",
-        "hash": "3811533652786128220"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputswitch.js",
-        "hash": "7744405841561828059"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_inputicon.js",
-        "hash": "4097397909080896160"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_api.js",
-        "hash": "7114603668869034041"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-NLHBN7HE.js",
-        "hash": "13363921357045432809"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-46CNHA3E.js",
-        "hash": "14147306537431821543"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/rxjs.js",
-        "hash": "351239117943545543"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-REMGT6RI.js",
-        "hash": "14144554669395854922"
-      },
-      {
-        "file": "docs/ARCHITECTURE.md",
-        "hash": "4168589888595261077"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/purify.es-BDVAHXOW.js.map",
-        "hash": "4554403889828676847"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-4S3KYZTJ.js",
-        "hash": "7388868184362258310"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_dialog.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-KFHPY46Z.js.map",
-        "hash": "267689764949840074"
-      },
-      {
-        "file": "docs/README.md",
-        "hash": "15183139229033957310"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/@primeng_themes_aura.js.map",
-        "hash": "14544289645962914643"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@primeng_themes_aura.js.map",
-        "hash": "14544289645962914643"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-4FZ4RVNY.js",
-        "hash": "8572774284099134709"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-JJQVJ7XA.js.map",
-        "hash": "8069122690569296391"
+        "hash": "6325661284313651769"
       },
       {
         "file": ".prettierrc",
         "hash": "14145419060237914883"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-4FZ4RVNY.js.map",
-        "hash": "9838118572128423094"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/angular-compiler.db",
-        "hash": "6583075233095223726"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-ZZYDFYVJ.js",
-        "hash": "11014643836099487954"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputnumber.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_core.js",
-        "hash": "7127230968126677363"
-      },
-      {
-        "file": "package.json",
-        "hash": "12234270360643660929"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_tag.js",
-        "hash": "5132484742214217891"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-ZZYDFYVJ.js",
-        "hash": "11014643836099487954"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_common_http.js",
-        "hash": "11952172132539112176"
-      },
-      {
-        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
-        "hash": "824310946532410529"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-IPX7KJHM.js.map",
-        "hash": "14084153089960849841"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-4FZ4RVNY.js.map",
-        "hash": "9838118572128423094"
-      },
-      {
-        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
-        "hash": "14360572729620852370"
-      },
-      {
         "file": "README.md",
         "hash": "13408464382999289361"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-TLHDQNXC.js.map",
-        "hash": "14984800899127040088"
-      },
-      {
-        "file": "scripts/update-catalogs.js",
-        "hash": "1931370633979416277"
-      },
-      {
-        "file": "docs/areas/06_DEV_BASE_DATOS.md",
-        "hash": "2575362362570327860"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/index.es-KJSZ6V2G.js",
-        "hash": "7150764399913231890"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-TXDUYLVM.js",
-        "hash": "14994350517935503642"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_chart.js",
-        "hash": "10095253852989106525"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-AIIQMDOK.js.map",
-        "hash": "1216424754975634089"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "16054604050121751754"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-Y6I3YHEG.js.map",
-        "hash": "12729058217785809081"
-      },
-      {
-        "file": "scripts/update-scoring.js",
-        "hash": "8083835874807301109"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_dialog.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_checkbox.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/@primeng_themes_aura.js",
-        "hash": "18344269049156214566"
-      },
-      {
-        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_inputtext.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_api.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-LF7IXNWT.js.map",
-        "hash": "17386531920730989110"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_tabs.js",
-        "hash": "10627290743810060479"
-      },
-      {
-        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
-        "hash": "1344354318868461598"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_radiobutton.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@spartan-ng_ui-core.js",
-        "hash": "3436220937986342496"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-ND66PYIU.js",
-        "hash": "9176942314264644059"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-YH7I42SQ.js",
-        "hash": "2918138932911840744"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_router.js.map",
-        "hash": "1329585964665450476"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-ND66PYIU.js.map",
-        "hash": "9666202303187429865"
-      },
-      {
-        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/seeds/01_roles_iniciales.js",
-        "hash": "7776537617093301020"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_toast.js.map",
-        "hash": "1466425436635244525"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/index.es-KJSZ6V2G.js.map",
-        "hash": "4662716406520262689"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-H7QGH3RH.js.map",
-        "hash": "12923996166682741480"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-JJQVJ7XA.js",
-        "hash": "4947346787444852584"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/.tsbuildinfo",
-        "hash": "6757066679766711351"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/index.es-KJSZ6V2G.js.map",
-        "hash": "4662716406520262689"
-      },
-      {
-        "file": "scripts/update-planograma.js",
-        "hash": "15051282322488494795"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-PEBH6BBU.js",
-        "hash": "13744035772100923522"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-ZZYDFYVJ.js.map",
-        "hash": "9463385608254982098"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-WNZFCRTZ.js.map",
-        "hash": "8966486601758626044"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_inputswitch.js",
-        "hash": "7744405841561828059"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-YH7I42SQ.js.map",
-        "hash": "15431213030567756487"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "17520456152920331010"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_dropdown.js.map",
-        "hash": "13760971694429028782"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/primeng_inputtext.js.map",
-        "hash": "9947606979680686569"
-      },
-      {
-        "file": "docs/areas/00_INDICE_GENERAL.md",
-        "hash": "2249884987818301004"
-      },
-      {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/jspdf.js.map",
-        "hash": "10900686440832218874"
+        "file": "database/knexfile.js",
+        "hash": "17796481070854482713"
       },
       {
         "file": "database/seeds/01_admin_users.js",
         "hash": "233703555966779374"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-42NSP7ML.js.map",
-        "hash": "12863409139681104552"
+        "file": "database/seeds/01_roles_iniciales.js",
+        "hash": "7776537617093301020"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/purify.es-BDVAHXOW.js",
-        "hash": "6606207252883937266"
+        "file": "database/seeds/03_planograma.js",
+        "hash": "13846940927296209112"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/primeng_config.js.map",
-        "hash": "9947606979680686569"
+        "file": "database/seeds/04_catalogs.js",
+        "hash": "11701538899321130552"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-X2SKM2YN.js.map",
-        "hash": "17411980969003735983"
+        "file": "database/seeds/05_scoring_config.js",
+        "hash": "17895174892690034002"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-FVZLPJJ3.js",
-        "hash": "8261494307975226959"
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "4168589888595261077"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/chunk-TTSH4TFH.js.map",
-        "hash": "9208090067152934534"
+        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
+        "hash": "16239643811464559730"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@angular_router.js",
-        "hash": "14603525169366992255"
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "824310946532410529"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_5c45db7f/@primeng_themes_aura.js",
-        "hash": "18344269049156214566"
+        "file": "docs/README.md",
+        "hash": "15183139229033957310"
       },
       {
-        "file": ".angular/cache/18.2.21/view/vite/deps_temp_d81ed57b/chunk-AIIQMDOK.js.map",
-        "hash": "1216424754975634089"
+        "file": "docs/areas/00_INDICE_GENERAL.md",
+        "hash": "2249884987818301004"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "14360572729620852370"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "1344354318868461598"
+      },
+      {
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "260442305400835531"
+      },
+      {
+        "file": "docs/areas/04_DEV_BACKEND.md",
+        "hash": "16766816314722906655"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "2717756305617498401"
+      },
+      {
+        "file": "docs/areas/06_DEV_BASE_DATOS.md",
+        "hash": "2575362362570327860"
+      },
+      {
+        "file": "docs/areas/07_QA_PRUEBAS.md",
+        "hash": "7926385516445244262"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "3184525278808867528"
+      },
+      {
+        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
+        "hash": "11626903079403383756"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "17520456152920331010"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1016897659535064362"
+      },
+      {
+        "file": "openapi-config.json",
+        "hash": "9198943547001210497"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "16054604050121751754"
+      },
+      {
+        "file": "package.json",
+        "hash": "12234270360643660929"
+      },
+      {
+        "file": "scripts/generate-openapi.ts",
+        "hash": "15637558523592873734"
+      },
+      {
+        "file": "scripts/manual-seed.js",
+        "hash": "9545484076785858281"
+      },
+      {
+        "file": "scripts/update-catalogs.js",
+        "hash": "1931370633979416277"
+      },
+      {
+        "file": "scripts/update-planograma.js",
+        "hash": "15051282322488494795"
+      },
+      {
+        "file": "scripts/update-scoring.js",
+        "hash": "8083835874807301109"
       },
       {
         "file": "scripts/update-scoring.ts",
         "hash": "11643730343633893922"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "5874641387174959880"
+      },
+      {
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
       }
     ],
     "projectFileMap": {
-      "api": [
-        {
-          "file": "apps/api/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "apps/api/project.json",
-          "hash": "5543363273466878147"
-        },
-        {
-          "file": "apps/api/src/app.controller.spec.ts",
-          "hash": "3407876829745233448",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.controller.ts",
-          "hash": "1345450293891055440",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.module.ts",
-          "hash": "17083935961947003516",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.service.ts",
-          "hash": "15275323873054081339",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/main.ts",
-          "hash": "15006852037196783283",
-          "deps": [
-            "npm:@nestjs/core",
-            "npm:@nestjs/swagger",
-            "npm:@nestjs/platform-express",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
-          "hash": "11625570402663679261",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.ts",
-          "hash": "7219963483417162605",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.module.ts",
-          "hash": "14543860062666771772",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
-          "hash": "3531801313276079682",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.ts",
-          "hash": "5511035571390922697",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
-          "hash": "12285965185886068251",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.controller.ts",
-          "hash": "704253912595493391",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.module.ts",
-          "hash": "14636513638756158304",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.service.ts",
-          "hash": "11428835756257319998",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/dto/create-capture.dto.ts",
-          "hash": "1968607422923871683",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
-          "hash": "12328425635530753254",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
-          "hash": "11168362627790527620",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
-          "hash": "1759277545793632603",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
-          "hash": "11104100490279605524",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
-          "hash": "2435517969649510690",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "3875270662069510029",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
-          "hash": "17219103140441686607",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
-          "hash": "639832397949852449",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:multer",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
-          "hash": "11883665635371988169",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
-          "hash": "13286836444984275658",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
-          "hash": "4648008946309626962",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.module.ts",
-          "hash": "4474593114751319046",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.service.ts",
-          "hash": "2065595759262816274",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.controller.ts",
-          "hash": "12839195195309271415",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.module.ts",
-          "hash": "18172013289668032781",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "3872057172198621570",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
-          "hash": "3670075782788889288",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.module.ts",
-          "hash": "5614251161912604525",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.service.ts",
-          "hash": "8575331803671949570",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.controller.ts",
-          "hash": "16982604786805457833",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.module.ts",
-          "hash": "10993598746137472390",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.service.ts",
-          "hash": "6767396340971314167",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
-          "hash": "7598292212684789343",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
-          "hash": "2674333839454307607",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.controller.ts",
-          "hash": "260388592593612633",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.module.ts",
-          "hash": "3819146129126863352",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.service.ts",
-          "hash": "3310684650529605472",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.controller.ts",
-          "hash": "16915297949288704033",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.module.ts",
-          "hash": "16232314712685135809",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.service.ts",
-          "hash": "9468357205591683765",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/database.module.ts",
-          "hash": "16385212774011482875",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165441_20260330_init_auth_schema.ts",
-          "hash": "7050095566828684768",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165442_20260330_init_captures_schema.ts",
-          "hash": "16814897884568551576",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165443_20260330_init_daily_captures_schema.ts",
-          "hash": "4224703140354728329",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165444_20260330_init_planograma_schema.ts",
-          "hash": "12655925657723627037",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165445_20260330_init_catalogs_schema.ts",
-          "hash": "3705824575611612718",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165446_20260330_init_scoring_schema.ts",
-          "hash": "15557589561713943405",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260330165447_20260330_init_field_operations_schema.ts",
-          "hash": "10880422309838356638",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260331000000_v2_daily_captures_schema.ts",
-          "hash": "9254730681883278198",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260331000001_v3_add_scores_to_catalogs.ts",
-          "hash": "734243789567849633",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260331231959_add_gps_to_captures.ts",
-          "hash": "3008414719405481555",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/migrations/20260401000000_v4_rename_planograma_to_planograms.ts",
-          "hash": "11246702100039515943",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/seeds/01_admin_users.ts",
-          "hash": "9243145615717384890",
-          "deps": [
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/seeds/01_roles_iniciales.ts",
-          "hash": "17128806587041899469",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/seeds/03_planograma.ts",
-          "hash": "4001818467081071622",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/seeds/04_catalogs.ts",
-          "hash": "5396350397213236919",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/seeds/05_scoring_config.ts",
-          "hash": "10749932905716882123",
-          "deps": [
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
-          "hash": "4749816109954716157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
-          "hash": "11745620449776234641",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
-          "hash": "16457504475293892431",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/roles.guard.ts",
-          "hash": "4606790643204974300",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/api/test/app.e2e-spec.ts",
-          "hash": "12700387818545954749",
-          "deps": [
-            "npm:@nestjs/testing",
-            "npm:@nestjs/common",
-            "npm:supertest"
-          ]
-        },
-        {
-          "file": "apps/api/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "apps/api/tsconfig.app.json",
-          "hash": "12142148789576907551"
-        },
-        {
-          "file": "apps/api/tsconfig.build.json",
-          "hash": "589474541783518070"
-        },
-        {
-          "file": "apps/api/webpack.config.js",
-          "hash": "10619490397189790225",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        }
-      ],
       "view": [
         {
           "file": "apps/view/.browserslistrc",
@@ -2761,6 +1372,543 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "5543363273466878147"
+        },
+        {
+          "file": "apps/api/src/app.controller.spec.ts",
+          "hash": "3407876829745233448",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.controller.ts",
+          "hash": "1345450293891055440",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "17083935961947003516",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.service.ts",
+          "hash": "15275323873054081339",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "15006852037196783283",
+          "deps": [
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/platform-express",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
+          "hash": "11625570402663679261",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "7219963483417162605",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.module.ts",
+          "hash": "14543860062666771772",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
+          "hash": "3531801313276079682",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "5511035571390922697",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
+          "hash": "12285965185886068251",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.controller.ts",
+          "hash": "704253912595493391",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.module.ts",
+          "hash": "14636513638756158304",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.service.ts",
+          "hash": "11428835756257319998",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/dto/create-capture.dto.ts",
+          "hash": "1968607422923871683",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
+          "hash": "12328425635530753254",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
+          "hash": "11168362627790527620",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
+          "hash": "1759277545793632603",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
+          "hash": "11104100490279605524",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
+          "hash": "2435517969649510690",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
+          "hash": "3875270662069510029",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
+          "hash": "17219103140441686607",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
+          "hash": "639832397949852449",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:multer",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
+          "hash": "11883665635371988169",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
+          "hash": "13286836444984275658",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
+          "hash": "4648008946309626962",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.module.ts",
+          "hash": "4474593114751319046",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.service.ts",
+          "hash": "2065595759262816274",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.controller.ts",
+          "hash": "12839195195309271415",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.module.ts",
+          "hash": "18172013289668032781",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.service.ts",
+          "hash": "3872057172198621570",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
+          "hash": "3670075782788889288",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.module.ts",
+          "hash": "5614251161912604525",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.service.ts",
+          "hash": "8575331803671949570",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.controller.ts",
+          "hash": "16982604786805457833",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.module.ts",
+          "hash": "10993598746137472390",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.service.ts",
+          "hash": "6767396340971314167",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
+          "hash": "7598292212684789343",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
+          "hash": "2674333839454307607",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.controller.ts",
+          "hash": "260388592593612633",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.module.ts",
+          "hash": "3819146129126863352",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.service.ts",
+          "hash": "3310684650529605472",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.controller.ts",
+          "hash": "16915297949288704033",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.module.ts",
+          "hash": "16232314712685135809",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.service.ts",
+          "hash": "9468357205591683765",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/database.module.ts",
+          "hash": "16385212774011482875",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165441_20260330_init_auth_schema.ts",
+          "hash": "7050095566828684768",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165442_20260330_init_captures_schema.ts",
+          "hash": "16814897884568551576",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165443_20260330_init_daily_captures_schema.ts",
+          "hash": "4224703140354728329",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165444_20260330_init_planograma_schema.ts",
+          "hash": "12655925657723627037",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165445_20260330_init_catalogs_schema.ts",
+          "hash": "3705824575611612718",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165446_20260330_init_scoring_schema.ts",
+          "hash": "15557589561713943405",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260330165447_20260330_init_field_operations_schema.ts",
+          "hash": "10880422309838356638",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260331000000_v2_daily_captures_schema.ts",
+          "hash": "9254730681883278198",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260331000001_v3_add_scores_to_catalogs.ts",
+          "hash": "734243789567849633",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260331231959_add_gps_to_captures.ts",
+          "hash": "3008414719405481555",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/migrations/20260401000000_v4_rename_planograma_to_planograms.ts",
+          "hash": "11246702100039515943",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/01_admin_users.ts",
+          "hash": "9243145615717384890",
+          "deps": [
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/01_roles_iniciales.ts",
+          "hash": "17128806587041899469",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/03_planograma.ts",
+          "hash": "4001818467081071622",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/04_catalogs.ts",
+          "hash": "5396350397213236919",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/seeds/05_scoring_config.ts",
+          "hash": "10749932905716882123",
+          "deps": [
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
+          "hash": "4749816109954716157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
+          "hash": "11745620449776234641",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
+          "hash": "16457504475293892431",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/roles.guard.ts",
+          "hash": "4606790643204974300",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/test/app.e2e-spec.ts",
+          "hash": "12700387818545954749",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/api/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "12142148789576907551"
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "589474541783518070"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "10619490397189790225",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
         }
       ],
       "shared-models": [
