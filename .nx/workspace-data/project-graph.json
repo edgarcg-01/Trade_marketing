@@ -105,7 +105,8 @@
               "index": "apps/view/src/index.html",
               "main": "apps/view/src/main.ts",
               "polyfills": [
-                "zone.js"
+                "zone.js",
+                "@angular/compiler"
               ],
               "tsConfig": "apps/view/tsconfig.app.json",
               "assets": [
@@ -6210,6 +6211,15 @@
         "version": "11.1.17",
         "packageName": "@nestjs/testing",
         "hash": "sha512-lNffw+z+2USewmw4W0tsK+Rq94A2N4PiHbcqoRUu5y8fnqxQeIWGHhjo5BFCqj7eivqJBhT7WdRydxVq4rAHzg=="
+      }
+    },
+    "npm:@ngrx/router-store": {
+      "type": "npm",
+      "name": "npm:@ngrx/router-store",
+      "data": {
+        "version": "18.1.1",
+        "packageName": "@ngrx/router-store",
+        "hash": "sha512-S1/09T8EJHso1keOZ2Q3hb1oAsdJ/FSEWkn24yWJXftbXOKJq1jnrYhNaVm5gPnxGzdQ1mqRtLuMKaDClyxP5A=="
       }
     },
     "npm:@ngrx/store": {
@@ -17825,6 +17835,11 @@
       },
       {
         "source": "view",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "view",
         "target": "npm:@angular/animations",
         "type": "static"
       },
@@ -17911,6 +17926,11 @@
       {
         "source": "view",
         "target": "npm:zone.js",
+        "type": "static"
+      },
+      {
+        "source": "view",
+        "target": "shared-models",
         "type": "static"
       }
     ],
@@ -26875,6 +26895,38 @@
       },
       {
         "source": "npm:@nestjs/testing",
+        "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@ngrx/router-store": [
+      {
+        "source": "npm:@ngrx/router-store",
+        "target": "npm:@angular/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ngrx/router-store",
+        "target": "npm:@angular/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ngrx/router-store",
+        "target": "npm:@angular/router",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ngrx/router-store",
+        "target": "npm:@ngrx/store",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ngrx/router-store",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ngrx/router-store",
         "target": "npm:tslib",
         "type": "static"
       }
@@ -45835,5 +45887,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775079106302
+  "computedAt": 1775086456431
 }

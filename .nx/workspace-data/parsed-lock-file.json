@@ -5931,6 +5931,15 @@
         "hash": "sha512-lNffw+z+2USewmw4W0tsK+Rq94A2N4PiHbcqoRUu5y8fnqxQeIWGHhjo5BFCqj7eivqJBhT7WdRydxVq4rAHzg=="
       }
     },
+    "npm:@ngrx/router-store": {
+      "type": "npm",
+      "name": "npm:@ngrx/router-store",
+      "data": {
+        "version": "18.1.1",
+        "packageName": "@ngrx/router-store",
+        "hash": "sha512-S1/09T8EJHso1keOZ2Q3hb1oAsdJ/FSEWkn24yWJXftbXOKJq1jnrYhNaVm5gPnxGzdQ1mqRtLuMKaDClyxP5A=="
+      }
+    },
     "npm:@ngrx/store": {
       "type": "npm",
       "name": "npm:@ngrx/store",
@@ -26587,6 +26596,36 @@
     },
     {
       "source": "npm:@nestjs/testing",
+      "target": "npm:tslib",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@angular/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@angular/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@angular/router",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:@ngrx/store",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
+      "target": "npm:rxjs",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ngrx/router-store",
       "target": "npm:tslib",
       "type": "static"
     },
