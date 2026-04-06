@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
+      - PORT=80
+      - API_PREFIX=api
+    restart: always
