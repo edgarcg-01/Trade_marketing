@@ -171,7 +171,19 @@
               "outputPath": "dist/apps/api",
               "main": "apps/api/src/main.ts",
               "tsConfig": "apps/api/tsconfig.app.json",
-              "webpackConfig": "apps/api/webpack.config.js"
+              "webpackConfig": "apps/api/webpack.config.js",
+              "assets": [
+                {
+                  "glob": "**/*",
+                  "input": "apps/api/src/shared/database/migrations",
+                  "output": "shared/database/migrations"
+                },
+                {
+                  "glob": "**/*",
+                  "input": "apps/api/src/shared/database/seeds",
+                  "output": "shared/database/seeds"
+                }
+              ]
             },
             "configurations": {
               "production": {
@@ -16809,6 +16821,11 @@
     "api": [
       {
         "source": "api",
+        "target": "npm:knex",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:@nestjs/testing",
         "type": "static"
       },
@@ -16845,11 +16862,6 @@
       {
         "source": "api",
         "target": "npm:@nestjs/jwt",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:knex",
         "type": "static"
       },
       {
@@ -42127,5 +42139,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775521214295
+  "computedAt": 1775580550988
 }

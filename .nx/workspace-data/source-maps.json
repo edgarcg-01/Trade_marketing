@@ -72,6 +72,10 @@
       "apps/api/project.json",
       "nx/core/project-json"
     ],
+    "targets.build.options.assets": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build.configurations.production": [
       "apps/api/project.json",
       "nx/core/project-json"
