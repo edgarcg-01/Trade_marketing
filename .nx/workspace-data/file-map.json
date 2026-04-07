@@ -16,80 +16,216 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
-        "hash": "3247774897966690539"
+        "file": "tsconfig.json",
+        "hash": "15026332495893867995"
       },
       {
-        "file": "load-compiler.mjs",
-        "hash": "3719838546652958107"
+        "file": "README.md",
+        "hash": "13123434361241207768"
       },
       {
-        "file": ".gitignore",
-        "hash": "9211151120200565156"
+        "file": ".npmrc",
+        "hash": "5464662300828424051"
       },
       {
-        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
-        "hash": "13476342199117602537"
+        "file": "database/seeds/00_roles.js",
+        "hash": "2604261080337001864"
       },
       {
-        "file": "docs/areas/00_INDICE_GENERAL.md",
-        "hash": "4398867781477227850"
-      },
-      {
-        "file": "database/seeds/04_catalogs.js",
-        "hash": "17145109325077000960"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13015276881017404206"
-      },
-      {
-        "file": "scripts/update-scoring.ts",
-        "hash": "10296846489845123375"
-      },
-      {
-        "file": "docs/areas/05_DEV_FRONTEND.md",
-        "hash": "14617887801361699715"
-      },
-      {
-        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "18740689506893449"
-      },
-      {
-        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "openapi-config.json",
-        "hash": "13681784447332123154"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10130065283588370018"
+        "file": ".nxignore",
+        "hash": "14392831012809638559"
       },
       {
         "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
         "hash": "9787160593362166455"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "15026332495893867995"
+        "file": ".prettierrc",
+        "hash": "14145419060237914883"
+      },
+      {
+        "file": "scripts/generate-openapi.ts",
+        "hash": "8027013054770168889"
+      },
+      {
+        "file": "docs/areas/04_DEV_BACKEND.md",
+        "hash": "9621004713984274572"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "544553347653358835"
+      },
+      {
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "8071594767942009516"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "openapi-config.json",
+        "hash": "13681784447332123154"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "6452228679350613213"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
       },
       {
         "file": "uploads/exh_S-081830_23u8mip_1775485110307.jpg",
         "hash": "6342132999074673245"
       },
       {
+        "file": "database/seeds/01_admin_users.js",
+        "hash": "9392223087258520843"
+      },
+      {
+        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/seeds/04_catalogs.js",
+        "hash": "17145109325077000960"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "18740689506893449"
+      },
+      {
+        "file": "start.sh",
+        "hash": "9683986085516090338"
+      },
+      {
+        "file": "load-compiler.mjs",
+        "hash": "3719838546652958107"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "12161224180873299086"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
+        "hash": "14060519850454525079"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10130065283588370018"
+      },
+      {
+        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/seeds/03_planograma.js",
+        "hash": "18237367509315643062"
+      },
+      {
+        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "scripts/update-scoring.ts",
+        "hash": "10296846489845123375"
+      },
+      {
+        "file": ".node-version",
+        "hash": "6716315397486441002"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "4084144540271209121"
+      },
+      {
+        "file": "docs/areas/07_QA_PRUEBAS.md",
+        "hash": "4683670748986581351"
+      },
+      {
+        "file": "nginx.conf",
+        "hash": "5271247559196541029"
+      },
+      {
+        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
         "file": "docs/areas/06_DEV_BASE_DATOS.md",
         "hash": "6124646719992690656"
       },
       {
-        "file": "docs/areas/04_DEV_BACKEND.md",
-        "hash": "9621004713984274572"
+        "file": "database/knexfile.js",
+        "hash": "12424355037638753765"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "14617887801361699715"
+      },
+      {
+        "file": "package.json",
+        "hash": "2749689056896342185"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9211151120200565156"
+      },
+      {
+        "file": "docs/areas/00_INDICE_GENERAL.md",
+        "hash": "4398867781477227850"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "16965008863621455296"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "15252649419008977943"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13027748500986298881"
+      },
+      {
+        "file": ".dockerignore",
+        "hash": "15898575166473191138"
+      },
+      {
+        "file": "graph.json",
+        "hash": "5095339485186841424"
+      },
+      {
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "3247774897966690539"
+      },
+      {
+        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
+        "hash": "8498027196165647248"
       },
       {
         "file": "docs/README.md",
@@ -100,144 +236,8 @@
         "hash": "6342132999074673245"
       },
       {
-        "file": "database/seeds/01_admin_users.js",
-        "hash": "9392223087258520843"
-      },
-      {
-        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "docs/areas/03_DEV_UI_UX.md",
-        "hash": "8071594767942009516"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "13027748500986298881"
-      },
-      {
-        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "Dockerfile",
-        "hash": "4084144540271209121"
-      },
-      {
-        "file": ".dockerignore",
-        "hash": "15898575166473191138"
-      },
-      {
-        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "5464662300828424051"
-      },
-      {
-        "file": "docs/areas/08_DOCUMENTACION.md",
-        "hash": "6452228679350613213"
-      },
-      {
-        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
-        "hash": "8498027196165647248"
-      },
-      {
-        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "graph.json",
-        "hash": "5095339485186841424"
-      },
-      {
-        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "database/seeds/00_roles.js",
-        "hash": "2604261080337001864"
-      },
-      {
-        "file": "docs/areas/07_QA_PRUEBAS.md",
-        "hash": "4683670748986581351"
-      },
-      {
-        "file": "docs/ARCHITECTURE.md",
-        "hash": "544553347653358835"
-      },
-      {
-        "file": "database/knexfile.js",
-        "hash": "12424355037638753765"
-      },
-      {
-        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
-        "hash": "14060519850454525079"
-      },
-      {
-        "file": ".node-version",
-        "hash": "6716315397486441002"
-      },
-      {
-        "file": "package.json",
-        "hash": "2749689056896342185"
-      },
-      {
-        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
-        "hash": "12161224180873299086"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "14145419060237914883"
-      },
-      {
-        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
-        "hash": "15252649419008977943"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "16965008863621455296"
-      },
-      {
-        "file": "scripts/generate-openapi.ts",
-        "hash": "8027013054770168889"
-      },
-      {
-        "file": "database/seeds/03_planograma.js",
-        "hash": "18237367509315643062"
-      },
-      {
-        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "nginx.conf",
-        "hash": "5271247559196541029"
-      },
-      {
-        "file": "README.md",
-        "hash": "13123434361241207768"
-      },
-      {
-        "file": "start.sh",
-        "hash": "9683986085516090338"
-      },
-      {
-        "file": ".nxignore",
-        "hash": "14392831012809638559"
+        "file": "tsconfig.base.json",
+        "hash": "13015276881017404206"
       }
     ],
     "projectFileMap": {
@@ -869,7 +869,7 @@
         },
         {
           "file": "apps/api/src/main.ts",
-          "hash": "9558122709596773227",
+          "hash": "9535061736033369622",
           "deps": [
             "npm:@nestjs/core",
             "npm:@nestjs/swagger",
@@ -1230,145 +1230,84 @@
           ]
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165441_20260330_init_auth_schema.ts",
-          "hash": "4851735185809844218",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165441_20260330_init_auth_schema.js",
+          "hash": "11258048054278754970"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165442_20260330_init_captures_schema.ts",
-          "hash": "11601134308854682466",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165442_20260330_init_captures_schema.js",
+          "hash": "804792513858306976"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165443_20260330_init_daily_captures_schema.ts",
-          "hash": "13042219275176412289",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
+          "hash": "157084602558112272"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165444_20260330_init_planograma_schema.ts",
-          "hash": "11186279356987259711",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165444_20260330_init_planograma_schema.js",
+          "hash": "910734349432654109"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165445_20260330_init_catalogs_schema.ts",
-          "hash": "6343293473708120491",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165445_20260330_init_catalogs_schema.js",
+          "hash": "2694918293729740358"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165446_20260330_init_scoring_schema.ts",
-          "hash": "10843347477270538189",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165446_20260330_init_scoring_schema.js",
+          "hash": "6479812992078546234"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260330165447_20260330_init_field_operations_schema.ts",
-          "hash": "2746747230965543401",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260330165447_20260330_init_field_operations_schema.js",
+          "hash": "16532866879954088831"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260331000000_v2_daily_captures_schema.ts",
-          "hash": "9229498067603128469",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260331000000_v2_daily_captures_schema.js",
+          "hash": "15696643244356592832"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260331000001_v3_add_scores_to_catalogs.ts",
-          "hash": "1721995256762118285",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
+          "hash": "14549549451554693058"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260331231959_add_gps_to_captures.ts",
-          "hash": "1116756570497133965",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260331231959_add_gps_to_captures.js",
+          "hash": "9562049285079356973"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260401000000_v4_rename_planograma_to_planograms.ts",
-          "hash": "2653456721342891526",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
+          "hash": "12883015568955079618"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260402130000_add_supervisor_id_to_users.ts",
-          "hash": "2560025672417909300",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260402130000_add_supervisor_id_to_users.js",
+          "hash": "12836836331476788886"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260402141501_add_parent_id_to_catalogs.ts",
-          "hash": "419899746244308908",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260402141501_add_parent_id_to_catalogs.js",
+          "hash": "7983871121639253812"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260402141502_create_daily_assignments.ts",
-          "hash": "17622518974202567268",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260402141502_create_daily_assignments.js",
+          "hash": "17749292727758767686"
         },
         {
-          "file": "apps/api/src/shared/database/migrations/20260402160000_update_assignments_to_weekly.ts",
-          "hash": "6328988838697100706",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/migrations/20260402160000_update_assignments_to_weekly.js",
+          "hash": "8453504317981269079"
         },
         {
-          "file": "apps/api/src/shared/database/seeds/01_admin_users.ts",
-          "hash": "14081311897563118133",
-          "deps": [
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
+          "file": "apps/api/src/shared/database/seeds/01_admin_users.js",
+          "hash": "11460575450181330455"
         },
         {
-          "file": "apps/api/src/shared/database/seeds/01_roles_iniciales.ts",
-          "hash": "5344404875021490166",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/seeds/01_roles_iniciales.js",
+          "hash": "7835718767198307730"
         },
         {
-          "file": "apps/api/src/shared/database/seeds/03_planograma.ts",
-          "hash": "17936763903125911371",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/seeds/03_planograma.js",
+          "hash": "13559183856726154699"
         },
         {
-          "file": "apps/api/src/shared/database/seeds/04_catalogs.ts",
-          "hash": "8088560895609405207",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/seeds/04_catalogs.js",
+          "hash": "7970360298926125958"
         },
         {
-          "file": "apps/api/src/shared/database/seeds/05_scoring_config.ts",
-          "hash": "13937409288352679303",
-          "deps": [
-            "npm:knex"
-          ]
+          "file": "apps/api/src/shared/database/seeds/05_scoring_config.js",
+          "hash": "11820786297938566291"
         },
         {
           "file": "apps/api/src/shared/decorators/permissions.decorator.ts",
@@ -1423,7 +1362,7 @@
         },
         {
           "file": "apps/api/tsconfig.app.json",
-          "hash": "12142148789576907551"
+          "hash": "5306407327469563320"
         },
         {
           "file": "apps/api/tsconfig.build.json",
