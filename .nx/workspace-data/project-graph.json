@@ -175,13 +175,13 @@
               "assets": [
                 {
                   "glob": "**/*",
-                  "input": "apps/api/src/shared/database/migrations",
-                  "output": "shared/database/migrations"
+                  "input": "database/migrations",
+                  "output": "database/migrations"
                 },
                 {
                   "glob": "**/*",
-                  "input": "apps/api/src/shared/database/seeds",
-                  "output": "shared/database/seeds"
+                  "input": "database/seeds",
+                  "output": "database/seeds"
                 }
               ]
             },
@@ -8822,6 +8822,15 @@
         "hash": "sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw=="
       }
     },
+    "npm:@types/validator": {
+      "type": "npm",
+      "name": "npm:@types/validator",
+      "data": {
+        "version": "13.15.10",
+        "packageName": "@types/validator",
+        "hash": "sha512-T8L6i7wCuyoK8A/ZeLYt1+q0ty3Zb9+qbSSvrIVitzT3YjZqkTZ40IbRsPanlB4h1QB3JVL1SYCdR6ngtFYcuA=="
+      }
+    },
     "npm:@types/wrap-ansi": {
       "type": "npm",
       "name": "npm:@types/wrap-ansi",
@@ -10035,6 +10044,24 @@
         "version": "1.0.4",
         "packageName": "chrome-trace-event",
         "hash": "sha512-rNjApaLzuwaOTjCiT8lSDdGN1APCiqkChLMJxJPWLunPAt5fy8xgU9/jNOchV84wfIxrA0lRQB7oCT8jrn/wrQ=="
+      }
+    },
+    "npm:class-transformer": {
+      "type": "npm",
+      "name": "npm:class-transformer",
+      "data": {
+        "version": "0.5.1",
+        "packageName": "class-transformer",
+        "hash": "sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw=="
+      }
+    },
+    "npm:class-validator": {
+      "type": "npm",
+      "name": "npm:class-validator",
+      "data": {
+        "version": "0.15.1",
+        "packageName": "class-validator",
+        "hash": "sha512-LqoS80HBBSCVhz/3KloUly0ovokxpdOLR++Al3J3+dHXWt9sTKlKd4eYtoxhxyUjoe5+UcIM+5k9MIxyBWnRTw=="
       }
     },
     "npm:class-variance-authority": {
@@ -13203,6 +13230,15 @@
         "version": "0.4.1",
         "packageName": "levn",
         "hash": "sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ=="
+      }
+    },
+    "npm:libphonenumber-js": {
+      "type": "npm",
+      "name": "npm:libphonenumber-js",
+      "data": {
+        "version": "1.12.41",
+        "packageName": "libphonenumber-js",
+        "hash": "sha512-lsmMmGXBxXIK/VMLEj0kL6MtUs1kBGj1nTCzi6zgQoG1DEwqwt2DQyHxcLykceIxAnfE3hya7NuIh6PpC6S3fA=="
       }
     },
     "npm:license-webpack-plugin": {
@@ -16481,6 +16517,15 @@
         "hash": "sha512-OljLrQ9SQdOUqTaQxqL5dEfZWrXExyyWsozYlAWFawPVNuD83igl7uJD2RTkNMbniIYgt8l81eCJGIdQF7avLQ=="
       }
     },
+    "npm:validator": {
+      "type": "npm",
+      "name": "npm:validator",
+      "data": {
+        "version": "13.15.35",
+        "packageName": "validator",
+        "hash": "sha512-TQ5pAGhd5whStmqWvYF4OjQROlmv9SMFVt37qoCBdqRffuuklWYQlCNnEs2ZaIBD1kZRNnikiZOS1eqgkar0iw=="
+      }
+    },
     "npm:vary": {
       "type": "npm",
       "name": "npm:vary",
@@ -16821,11 +16866,6 @@
     "api": [
       {
         "source": "api",
-        "target": "npm:knex",
-        "type": "static"
-      },
-      {
-        "source": "api",
         "target": "npm:@nestjs/testing",
         "type": "static"
       },
@@ -16857,6 +16897,11 @@
       {
         "source": "api",
         "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:knex",
         "type": "static"
       },
       {
@@ -24916,6 +24961,16 @@
     "npm:@nestjs/common": [
       {
         "source": "npm:@nestjs/common",
+        "target": "npm:class-transformer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/common",
+        "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/common",
         "target": "npm:reflect-metadata",
         "type": "static"
       },
@@ -25050,6 +25105,11 @@
       {
         "source": "npm:@nestjs/mapped-types",
         "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/mapped-types",
+        "target": "npm:class-transformer",
         "type": "static"
       },
       {
@@ -25234,6 +25294,16 @@
       {
         "source": "npm:@nestjs/swagger",
         "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:class-transformer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/swagger",
+        "target": "npm:class-validator",
         "type": "static"
       },
       {
@@ -32105,6 +32175,23 @@
       {
         "source": "npm:chokidar",
         "target": "npm:readdirp",
+        "type": "static"
+      }
+    ],
+    "npm:class-validator": [
+      {
+        "source": "npm:class-validator",
+        "target": "npm:@types/validator",
+        "type": "static"
+      },
+      {
+        "source": "npm:class-validator",
+        "target": "npm:libphonenumber-js",
+        "type": "static"
+      },
+      {
+        "source": "npm:class-validator",
+        "target": "npm:validator",
         "type": "static"
       }
     ],
@@ -42139,5 +42226,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775597196681
+  "computedAt": 1775690120064
 }
