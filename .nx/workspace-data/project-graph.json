@@ -175,12 +175,12 @@
               "assets": [
                 {
                   "glob": "**/*",
-                  "input": "src/shared/database/migrations",
+                  "input": "database/migrations",
                   "output": "database/migrations"
                 },
                 {
                   "glob": "**/*",
-                  "input": "src/shared/database/seeds",
+                  "input": "database/seeds",
                   "output": "database/seeds"
                 }
               ]
@@ -42226,5 +42226,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775692868538
+  "computedAt": 1775693115536
 }
