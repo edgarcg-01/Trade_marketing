@@ -62,7 +62,8 @@
               "tsConfig": "apps/view/tsconfig.app.json",
               "assets": [
                 "apps/view/src/favicon.ico",
-                "apps/view/src/assets"
+                "apps/view/src/assets",
+                "apps/view/src/manifest.json"
               ],
               "styles": [
                 "apps/view/src/styles.css"
@@ -42226,5 +42227,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775764820838
+  "computedAt": 1775770098009
 }
