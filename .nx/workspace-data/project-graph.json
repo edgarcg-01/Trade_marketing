@@ -16902,12 +16902,12 @@
       },
       {
         "source": "api",
-        "target": "npm:knex",
+        "target": "npm:@nestjs/jwt",
         "type": "static"
       },
       {
         "source": "api",
-        "target": "npm:@nestjs/jwt",
+        "target": "npm:knex",
         "type": "static"
       },
       {
@@ -42227,5 +42227,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775774156214
+  "computedAt": 1775774583354
 }
