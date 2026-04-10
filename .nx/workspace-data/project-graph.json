@@ -16955,6 +16955,11 @@
       },
       {
         "source": "api",
+        "target": "npm:dotenv",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:@nestjs/core",
         "type": "static"
       },
@@ -42360,5 +42365,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775853463233
+  "computedAt": 1775854857582
 }
