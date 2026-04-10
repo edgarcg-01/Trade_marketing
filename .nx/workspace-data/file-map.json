@@ -16,219 +16,283 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
-        "hash": "14060519850454525079"
-      },
-      {
-        "file": ".node-version",
-        "hash": "6716315397486441002"
-      },
-      {
-        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
-        "hash": "9562049285079356973"
-      },
-      {
-        "file": "docs/README.md",
-        "hash": "6326101323683365762"
-      },
-      {
-        "file": "docs/areas/00_INDICE_GENERAL.md",
-        "hash": "4398867781477227850"
-      },
-      {
-        "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
-        "hash": "7983871121639253812"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "16965008863621455296"
-      },
-      {
-        "file": "scripts/generate-openapi.ts",
-        "hash": "8027013054770168889"
-      },
-      {
-        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
-        "hash": "15696643244356592832"
-      },
-      {
-        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/seeds/03_products.js",
-        "hash": "6126954420561933937"
+        "file": ".gitignore",
+        "hash": "9211151120200565156"
       },
       {
         "file": "graph.json",
         "hash": "5095339485186841424"
       },
       {
+        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
+        "hash": "16532866879954088831"
+      },
+      {
+        "file": "verify-zones.js",
+        "hash": "17860296928320444066"
+      },
+      {
+        "file": "load-compiler.mjs",
+        "hash": "3719838546652958107"
+      },
+      {
         "file": ".nxignore",
         "hash": "14392831012809638559"
       },
       {
-        "file": "docs/ARCHITECTURE.md",
-        "hash": "544553347653358835"
-      },
-      {
-        "file": "docs/areas/06_DEV_BASE_DATOS.md",
-        "hash": "6124646719992690656"
-      },
-      {
-        "file": "database/seeds/00_roles.js",
-        "hash": "2851852427401783893"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "15026332495893867995"
-      },
-      {
-        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "18740689506893449"
-      },
-      {
-        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
-        "hash": "2694918293729740358"
-      },
-      {
-        "file": "scripts/update-scoring.ts",
-        "hash": "10296846489845123375"
-      },
-      {
-        "file": "uploads/exh_S-081830_23u8mip_1775485110307.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "docs/areas/08_DOCUMENTACION.md",
-        "hash": "6452228679350613213"
+        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
+        "hash": "14060519850454525079"
       },
       {
         "file": "database/seeds/04_catalogs.js",
-        "hash": "15598206603342079598"
-      },
-      {
-        "file": "database/seeds/02_brands.js",
-        "hash": "9433446845194446835"
-      },
-      {
-        "file": ".dockerignore",
-        "hash": "15898575166473191138"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "9211151120200565156"
-      },
-      {
-        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
-        "hash": "11258048054278754970"
-      },
-      {
-        "file": "database/knexfile.js",
-        "hash": "1985278672803473764"
-      },
-      {
-        "file": "database/seeds/000_cleanup.js",
-        "hash": "5519984374282741828"
-      },
-      {
-        "file": "README.md",
-        "hash": "13123434361241207768"
-      },
-      {
-        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "14145419060237914883"
-      },
-      {
-        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
-        "hash": "14549549451554693058"
-      },
-      {
-        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
-        "hash": "157084602558112272"
-      },
-      {
-        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
-        "hash": "8453504317981269079"
-      },
-      {
-        "file": "database/seeds/08_daily_captures.js",
-        "hash": "4642873312206391490"
-      },
-      {
-        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
-        "hash": "910734349432654109"
-      },
-      {
-        "file": "start.sh",
-        "hash": "14422542925529204631"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "4790406781219844755"
-      },
-      {
-        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "nginx.conf",
-        "hash": "16793798683316907092"
-      },
-      {
-        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
-        "hash": "12161224180873299086"
-      },
-      {
-        "file": "tsconfig.tsbuildinfo",
-        "hash": "9232749500673163915"
-      },
-      {
-        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "openapi-config.json",
-        "hash": "13681784447332123154"
+        "hash": "6934331112225423180"
       },
       {
         "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
         "hash": "804792513858306976"
       },
       {
-        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
-        "hash": "6479812992078546234"
+        "file": "fix-zones-relational.js",
+        "hash": "14872550107474188948"
+      },
+      {
+        "file": "reset-and-seed.js",
+        "hash": "6320710308011683146"
+      },
+      {
+        "file": "database/seeds/08_daily_captures.js",
+        "hash": "4642873312206391490"
+      },
+      {
+        "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
+        "hash": "7983871121639253812"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "5464662300828424051"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10130065283588370018"
       },
       {
         "file": "docs/areas/09_ROADMAP_EJECUCION.md",
         "hash": "8498027196165647248"
       },
       {
-        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
-        "hash": "3247774897966690539"
+        "file": "check-migrations.js",
+        "hash": "1394539983362169548"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "6326101323683365762"
+      },
+      {
+        "file": "database/seeds/02_brands.js",
+        "hash": "9433446845194446835"
+      },
+      {
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/knexfile.js",
+        "hash": "15738390706394806791"
+      },
+      {
+        "file": "database/fix_migration.js",
+        "hash": "18198621046581033228"
       },
       {
         "file": "database/seeds/07_daily_assignments.js",
         "hash": "8691665342021964492"
       },
       {
-        "file": "package.json",
-        "hash": "12348229968420385569"
+        "file": "setup_cloudinary_env.js",
+        "hash": "14245929185696207490"
       },
       {
-        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
+        "hash": "12836836331476788886"
+      },
+      {
+        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
+        "hash": "15696643244356592832"
+      },
+      {
+        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
+        "hash": "6479812992078546234"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/knexfile.ts",
+        "hash": "8410491829216268759"
+      },
+      {
+        "file": "start.sh",
+        "hash": "14422542925529204631"
+      },
+      {
+        "file": "database/migrations/20260402141502_create_daily_assignments.js",
+        "hash": "17749292727758767686"
+      },
+      {
+        "file": "database/migrations/20260409174829_refactor_zones.js",
+        "hash": "13685268720383276273"
+      },
+      {
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "9232749500673163915"
+      },
+      {
+        "file": "sync-migrations.js",
+        "hash": "1003491844162287775"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "15252649419008977943"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": ".env.cloudinary",
+        "hash": "14616568505166596341"
+      },
+      {
+        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
+        "hash": "9562049285079356973"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "14145419060237914883"
+      },
+      {
+        "file": "database/seeds/00a_zones.js",
+        "hash": "5615495829054811252"
+      },
+      {
+        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
+        "hash": "2694918293729740358"
+      },
+      {
+        "file": "nginx.conf",
+        "hash": "16793798683316907092"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "18740689506893449"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "10572735534669643169"
+      },
+      {
+        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "uploads/exh_S-081830_23u8mip_1775485110307.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "database/seeds/000_cleanup.js",
+        "hash": "5519984374282741828"
+      },
+      {
+        "file": "test-api.js",
+        "hash": "5884515805934164676"
+      },
+      {
+        "file": "database/add_cloudinary_column.sql",
+        "hash": "12533193470525212601"
+      },
+      {
+        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
+        "hash": "11258048054278754970"
+      },
+      {
+        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13015276881017404206"
+      },
+      {
+        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
+        "hash": "157084602558112272"
+      },
+      {
+        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
+        "hash": "6595132120958136049"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "15026332495893867995"
+      },
+      {
+        "file": "README.md",
+        "hash": "13123434361241207768"
+      },
+      {
+        "file": "database/seeds/03_products.js",
+        "hash": "6126954420561933937"
+      },
+      {
+        "file": "scripts/generate-openapi.ts",
+        "hash": "8027013054770168889"
+      },
+      {
+        "file": ".node-version",
+        "hash": "6716315397486441002"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "6452228679350613213"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "544553347653358835"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "16965008863621455296"
+      },
+      {
+        "file": "run-migrations.js",
+        "hash": "5548811174841475802"
+      },
+      {
+        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
+        "hash": "5921733075588760022"
+      },
+      {
+        "file": ".dockerignore",
+        "hash": "15898575166473191138"
+      },
+      {
+        "file": "database/seeds/00_roles.js",
+        "hash": "2851852427401783893"
+      },
+      {
+        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
         "hash": "13476342199117602537"
       },
       {
@@ -236,7 +300,59 @@
         "hash": "4683670748986581351"
       },
       {
-        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "file": "package-lock.json",
+        "hash": "17094682301783248068"
+      },
+      {
+        "file": "docs/areas/00_INDICE_GENERAL.md",
+        "hash": "4398867781477227850"
+      },
+      {
+        "file": "force-migrations.js",
+        "hash": "9799543804621325042"
+      },
+      {
+        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
+        "hash": "14549549451554693058"
+      },
+      {
+        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "build_error.txt",
+        "hash": "10162157729687506089"
+      },
+      {
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "8071594767942009516"
+      },
+      {
+        "file": "test-db.js",
+        "hash": "14430486564632836449"
+      },
+      {
+        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
+        "hash": "910734349432654109"
+      },
+      {
+        "file": "fix_log.txt",
+        "hash": "3293933121393521550"
+      },
+      {
+        "file": "docs/areas/04_DEV_BACKEND.md",
+        "hash": "9621004713984274572"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "14617887801361699715"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "12161224180873299086"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
         "hash": "13476342199117602537"
       },
       {
@@ -248,88 +364,44 @@
         "hash": "7090934775685069120"
       },
       {
-        "file": "database/migrations/20260402141502_create_daily_assignments.js",
-        "hash": "17749292727758767686"
-      },
-      {
-        "file": "docs/areas/04_DEV_BACKEND.md",
-        "hash": "9621004713984274572"
-      },
-      {
-        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
-        "hash": "15252649419008977943"
-      },
-      {
-        "file": "docs/areas/05_DEV_FRONTEND.md",
-        "hash": "14617887801361699715"
+        "file": "docs/areas/06_DEV_BASE_DATOS.md",
+        "hash": "6124646719992690656"
       },
       {
         "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
         "hash": "12883015568955079618"
       },
       {
-        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
-        "hash": "6342132999074673245"
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "3247774897966690539"
       },
       {
-        "file": "nx.json",
-        "hash": "10130065283588370018"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13015276881017404206"
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
       },
       {
         "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
         "hash": "9787160593362166455"
       },
       {
-        "file": "database/knexfile.ts",
-        "hash": "8410491829216268759"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "5464662300828424051"
-      },
-      {
-        "file": "Dockerfile",
-        "hash": "10572735534669643169"
-      },
-      {
-        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
-        "hash": "16532866879954088831"
-      },
-      {
-        "file": "docs/areas/03_DEV_UI_UX.md",
-        "hash": "8071594767942009516"
-      },
-      {
         "file": "database/seeds/01_users.js",
-        "hash": "7332211017921546669"
+        "hash": "18084758802632903621"
       },
       {
-        "file": "test-api.js",
-        "hash": "5884515805934164676"
+        "file": "package.json",
+        "hash": "10484198198353859337"
       },
       {
-        "file": "load-compiler.mjs",
-        "hash": "3719838546652958107"
+        "file": "openapi-config.json",
+        "hash": "13681784447332123154"
       },
       {
-        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
-        "hash": "12836836331476788886"
+        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
+        "hash": "8453504317981269079"
       },
       {
-        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
-        "hash": "13476342199117602537"
+        "file": "scripts/update-scoring.ts",
+        "hash": "10296846489845123375"
       }
     ],
     "projectFileMap": {
@@ -345,6 +417,523 @@
         {
           "file": "libs/shared-models/tsconfig.lib.json",
           "hash": "4136564811073858304"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "3930298014880981250"
+        },
+        {
+          "file": "apps/api/src/app.controller.spec.ts",
+          "hash": "3407876829745233448",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.controller.ts",
+          "hash": "1345450293891055440",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "2941573557632837092",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/serve-static",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.service.ts",
+          "hash": "15275323873054081339",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "10268917174681507344",
+          "deps": [
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/platform-express",
+            "npm:express",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
+          "hash": "11625570402663679261",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "7219963483417162605",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.module.ts",
+          "hash": "14554981873806878739",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
+          "hash": "3531801313276079682",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "17194233120830774522",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
+          "hash": "9762757161550624109",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.controller.ts",
+          "hash": "5396754216428934071",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.module.ts",
+          "hash": "3659140332795565800",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/captures.service.ts",
+          "hash": "16696168219439386774",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/captures/dto/create-capture.dto.ts",
+          "hash": "9937475221115887472",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
+          "hash": "15671911139566774323",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
+          "hash": "9450572580963071242",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
+          "hash": "6378219965586007949",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/cron.controller.ts",
+          "hash": "6526097771192125985",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/cron.module.ts",
+          "hash": "17010469599104318077",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/tasks.module.ts",
+          "hash": "5004129244447664387",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/tasks.service.ts",
+          "hash": "14330605308445959974",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/daily-assignments.controller.ts",
+          "hash": "15115197176885960780",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/daily-assignments.module.ts",
+          "hash": "6264688340089934216",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.ts",
+          "hash": "12895650857875965289",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
+          "hash": "13231295700887375962",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
+          "hash": "16478576769502226641",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
+          "hash": "6663386572540707866",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
+          "hash": "14616820644260191433",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
+          "hash": "17698800407606654400",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
+          "hash": "10785153625497611194",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:multer",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
+          "hash": "14187526268553946440",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
+          "hash": "9895713160890725658",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
+          "hash": "14338461416128964501",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.module.ts",
+          "hash": "9534432930116506509",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.service.ts",
+          "hash": "1983519222970944370",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.controller.ts",
+          "hash": "8326830835626948548",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.module.ts",
+          "hash": "3049465440323143851",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.service.ts",
+          "hash": "10586355609805297775",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
+          "hash": "14980244726726360352",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.module.ts",
+          "hash": "11414779262347627100",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.service.ts",
+          "hash": "12182827565067658452",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.controller.ts",
+          "hash": "14273985621704748906",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.module.ts",
+          "hash": "13775597314847953086",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.service.ts",
+          "hash": "4739708557746839995",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
+          "hash": "5332507449805737286",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
+          "hash": "7679460126645141347",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.controller.ts",
+          "hash": "14870350963053857464",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.module.ts",
+          "hash": "1338938314434509734",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.service.ts",
+          "hash": "9042818330962056170",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.controller.ts",
+          "hash": "6721957412650102935",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.module.ts",
+          "hash": "3736315639434826491",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.service.ts",
+          "hash": "3049417153727437360",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/cloudinary/cloudinary.module.ts",
+          "hash": "10010716925494373097",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/cloudinary/cloudinary.service.ts",
+          "hash": "8576927456743791297",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/constants/permissions.ts",
+          "hash": "9062645037882069909"
+        },
+        {
+          "file": "apps/api/src/shared/database/database.module.ts",
+          "hash": "2546263386604891421",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/permissions.decorator.ts",
+          "hash": "6942134849481315017",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
+          "hash": "17587574241689093482",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
+          "hash": "9213726738914889382",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
+          "hash": "1310519655699488833",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/roles.guard.ts",
+          "hash": "723072486320767808",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/test/app.e2e-spec.ts",
+          "hash": "12700387818545954749",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/api/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "11318115209773804374"
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "589474541783518070"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "5743842417364470590",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
         }
       ],
       "view": [
@@ -636,7 +1225,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
-          "hash": "15654951453980707554",
+          "hash": "18285499291032911820",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -724,7 +1313,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "5873173818143760512",
+          "hash": "14781774654037550445",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -924,472 +1513,6 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
-        }
-      ],
-      "api": [
-        {
-          "file": "apps/api/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "apps/api/project.json",
-          "hash": "3930298014880981250"
-        },
-        {
-          "file": "apps/api/src/app.controller.spec.ts",
-          "hash": "3407876829745233448",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.controller.ts",
-          "hash": "1345450293891055440",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.module.ts",
-          "hash": "16713710642002030053",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/serve-static"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.service.ts",
-          "hash": "15275323873054081339",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/main.ts",
-          "hash": "12521299778705189373",
-          "deps": [
-            "npm:@nestjs/core",
-            "npm:@nestjs/swagger",
-            "npm:@nestjs/platform-express",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
-          "hash": "11625570402663679261",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.ts",
-          "hash": "7219963483417162605",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.module.ts",
-          "hash": "14554981873806878739",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
-          "hash": "3531801313276079682",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.ts",
-          "hash": "9367394208851062279",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
-          "hash": "9762757161550624109",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.controller.ts",
-          "hash": "5396754216428934071",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.module.ts",
-          "hash": "3659140332795565800",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.service.ts",
-          "hash": "16696168219439386774",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/dto/create-capture.dto.ts",
-          "hash": "9937475221115887472",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
-          "hash": "15671911139566774323",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
-          "hash": "9450572580963071242",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
-          "hash": "15669361299189730448",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.controller.ts",
-          "hash": "15115197176885960780",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.module.ts",
-          "hash": "6264688340089934216",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.ts",
-          "hash": "10362109107877113613",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
-          "hash": "13231295700887375962",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
-          "hash": "16478576769502226641",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
-          "hash": "6488073398000060532",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "1809971057763262516",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
-          "hash": "17698800407606654400",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
-          "hash": "12052873169912032373",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:multer",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
-          "hash": "751652590194821949",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
-          "hash": "16185843950617635545",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
-          "hash": "14338461416128964501",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.module.ts",
-          "hash": "9534432930116506509",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.service.ts",
-          "hash": "1983519222970944370",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.controller.ts",
-          "hash": "8326830835626948548",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.module.ts",
-          "hash": "3049465440323143851",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "10586355609805297775",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
-          "hash": "14980244726726360352",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.module.ts",
-          "hash": "11414779262347627100",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.service.ts",
-          "hash": "12182827565067658452",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.controller.ts",
-          "hash": "14273985621704748906",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.module.ts",
-          "hash": "13775597314847953086",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.service.ts",
-          "hash": "5790457640241086917",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
-          "hash": "5332507449805737286",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
-          "hash": "7679460126645141347",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.controller.ts",
-          "hash": "14870350963053857464",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.module.ts",
-          "hash": "1338938314434509734",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.service.ts",
-          "hash": "16917414292422184738",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.controller.ts",
-          "hash": "6721957412650102935",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.module.ts",
-          "hash": "3736315639434826491",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.service.ts",
-          "hash": "3049417153727437360",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/constants/permissions.ts",
-          "hash": "9062645037882069909"
-        },
-        {
-          "file": "apps/api/src/shared/database/database.module.ts",
-          "hash": "2546263386604891421",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/permissions.decorator.ts",
-          "hash": "6942134849481315017",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
-          "hash": "17587574241689093482",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
-          "hash": "9213726738914889382",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
-          "hash": "1310519655699488833",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/roles.guard.ts",
-          "hash": "723072486320767808",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/api/test/app.e2e-spec.ts",
-          "hash": "12700387818545954749",
-          "deps": [
-            "npm:@nestjs/testing",
-            "npm:@nestjs/common",
-            "npm:supertest"
-          ]
-        },
-        {
-          "file": "apps/api/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "apps/api/tsconfig.app.json",
-          "hash": "11318115209773804374"
-        },
-        {
-          "file": "apps/api/tsconfig.build.json",
-          "hash": "589474541783518070"
-        },
-        {
-          "file": "apps/api/webpack.config.js",
-          "hash": "5743842417364470590",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
         }
       ]
     }

@@ -5790,6 +5790,15 @@
         "hash": "sha512-mAf4eOsSBsTOn/VbrUO1gsjW6dVh91qqXPMXun4dN8SnNjf7PTQagM9o8d6ab8ZBpNe6UdZftdrZoDetU+n4Qg=="
       }
     },
+    "npm:@nestjs/schedule": {
+      "type": "npm",
+      "name": "npm:@nestjs/schedule",
+      "data": {
+        "version": "6.1.1",
+        "packageName": "@nestjs/schedule",
+        "hash": "sha512-kQl1RRgi02GJ0uaUGCrXHCcwISsCsJDciCKe38ykJZgnAeeoeVWs8luWtBo4AqAAXm4nS5K8RlV0smHUJ4+2FA=="
+      }
+    },
     "npm:@nestjs/schematics": {
       "type": "npm",
       "name": "npm:@nestjs/schematics",
@@ -8481,6 +8490,15 @@
         "hash": "sha512-mFNylyeyqN93lfe/9CSxOGREz8cpzAhH+E93xJ4xWQf62V8sQ/24reV2nyzUWM6H6Xji+GGHpkbLe7pVoUEskg=="
       }
     },
+    "npm:@types/cron": {
+      "type": "npm",
+      "name": "npm:@types/cron",
+      "data": {
+        "version": "2.0.1",
+        "packageName": "@types/cron",
+        "hash": "sha512-WHa/1rtNtD2Q/H0+YTTZoty+/5rcE66iAFX2IY+JuUoOACsevYyFkSYu/2vdw+G5LrmO7Lxowrqm0av4k3qWNQ=="
+      }
+    },
     "npm:@types/eslint": {
       "type": "npm",
       "name": "npm:@types/eslint",
@@ -8623,6 +8641,15 @@
         "version": "1.3.3",
         "packageName": "@types/jspdf",
         "hash": "sha512-DqwyAKpVuv+7DniCp2Deq1xGvfdnKSNgl9Agun2w6dFvR5UKamiv4VfYUgcypd8S9ojUyARFIlZqBrYrBMQlew=="
+      }
+    },
+    "npm:@types/luxon": {
+      "type": "npm",
+      "name": "npm:@types/luxon",
+      "data": {
+        "version": "3.7.1",
+        "packageName": "@types/luxon",
+        "hash": "sha512-H3iskjFIAn5SlJU7OuxUmTEpebK6TKB8rxZShDslBMZJ5u9S//KM1sbdAisiSrqwLQncVjnpi2OK2J51h+4lsg=="
       }
     },
     "npm:@types/methods": {
@@ -8794,6 +8821,15 @@
         "version": "2.0.3",
         "packageName": "@types/stack-utils",
         "hash": "sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw=="
+      }
+    },
+    "npm:@types/streamifier": {
+      "type": "npm",
+      "name": "npm:@types/streamifier",
+      "data": {
+        "version": "0.1.2",
+        "packageName": "@types/streamifier",
+        "hash": "sha512-W53GwxY5Tunz3JUoP1YWDidrAadenSZKOBKMRl6RO3yThOFd03w7yx3HypI8ABGuUCGDHCHUml/5e45FWRt1TQ=="
       }
     },
     "npm:@types/superagent": {
@@ -10164,6 +10200,15 @@
         "hash": "sha512-VRSzKkbMm5jMDoKLbltAkFQ5Qr7VDiTFGXxYFXXowVj387GeGNOCsOH6Msy00SGZ3Fp84b1Naa1psqgcCIEP5Q=="
       }
     },
+    "npm:cloudinary": {
+      "type": "npm",
+      "name": "npm:cloudinary",
+      "data": {
+        "version": "2.9.0",
+        "packageName": "cloudinary",
+        "hash": "sha512-F3iKMOy4y0zy0bi5JBp94SC7HY7i/ImfTPSUV07iJmRzH1Iz8WavFfOlJTR1zvYM/xKGoiGZ3my/zy64In0IQQ=="
+      }
+    },
     "npm:clsx": {
       "type": "npm",
       "name": "npm:clsx",
@@ -10585,6 +10630,15 @@
         "version": "0.0.24",
         "packageName": "critters",
         "hash": "sha512-Oyqew0FGM0wYUSNqR0L6AteO5MpMoUU0rhKRieXeiKs+PmRTxiJMyaunYB2KF6fQ3dzChXKCpbFOEJx3OQ1v/Q=="
+      }
+    },
+    "npm:cron": {
+      "type": "npm",
+      "name": "npm:cron",
+      "data": {
+        "version": "4.4.0",
+        "packageName": "cron",
+        "hash": "sha512-fkdfq+b+AHI4cKdhZlppHveI/mgz2qpiYxcm+t5E5TsxX7QrLS1VE0+7GENEk9z0EeGPcpSciGv6ez24duWhwQ=="
       }
     },
     "npm:cron-parser": {
@@ -15699,6 +15753,15 @@
         "hash": "sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ=="
       }
     },
+    "npm:streamifier": {
+      "type": "npm",
+      "name": "npm:streamifier",
+      "data": {
+        "version": "0.1.1",
+        "packageName": "streamifier",
+        "hash": "sha512-zDgl+muIlWzXNsXeyUfOk9dChMjlpkq0DRsxujtYPgyJ676yQ8jEm6zzaaWHFDg5BNcLuif0eD2MTyJdZqXpdg=="
+      }
+    },
     "npm:streamroller": {
       "type": "npm",
       "name": "npm:streamroller",
@@ -16877,7 +16940,17 @@
       },
       {
         "source": "api",
+        "target": "npm:@nestjs/config",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:@nestjs/serve-static",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:@nestjs/schedule",
         "type": "static"
       },
       {
@@ -16918,6 +16991,11 @@
       {
         "source": "api",
         "target": "npm:multer",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:cloudinary",
         "type": "static"
       },
       {
@@ -25168,6 +25246,23 @@
         "type": "static"
       }
     ],
+    "npm:@nestjs/schedule": [
+      {
+        "source": "npm:@nestjs/schedule",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/schedule",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/schedule",
+        "target": "npm:cron",
+        "type": "static"
+      }
+    ],
     "npm:@nestjs/schematics": [
       {
         "source": "npm:@nestjs/schematics",
@@ -30539,6 +30634,18 @@
         "type": "static"
       }
     ],
+    "npm:@types/cron": [
+      {
+        "source": "npm:@types/cron",
+        "target": "npm:@types/luxon",
+        "type": "static"
+      },
+      {
+        "source": "npm:@types/cron",
+        "target": "npm:@types/node",
+        "type": "static"
+      }
+    ],
     "npm:@types/eslint": [
       {
         "source": "npm:@types/eslint",
@@ -30749,6 +30856,13 @@
     "npm:@types/sockjs": [
       {
         "source": "npm:@types/sockjs",
+        "target": "npm:@types/node",
+        "type": "static"
+      }
+    ],
+    "npm:@types/streamifier": [
+      {
+        "source": "npm:@types/streamifier",
         "target": "npm:@types/node",
         "type": "static"
       }
@@ -32292,6 +32406,13 @@
         "type": "static"
       }
     ],
+    "npm:cloudinary": [
+      {
+        "source": "npm:cloudinary",
+        "target": "npm:lodash",
+        "type": "static"
+      }
+    ],
     "npm:color-convert": [
       {
         "source": "npm:color-convert",
@@ -32674,6 +32795,18 @@
       {
         "source": "npm:critters",
         "target": "npm:postcss-media-query-parser",
+        "type": "static"
+      }
+    ],
+    "npm:cron": [
+      {
+        "source": "npm:cron",
+        "target": "npm:@types/luxon",
+        "type": "static"
+      },
+      {
+        "source": "npm:cron",
+        "target": "npm:luxon",
         "type": "static"
       }
     ],
@@ -42227,5 +42360,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775774583354
+  "computedAt": 1775843877511
 }
