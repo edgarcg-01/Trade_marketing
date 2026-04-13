@@ -5745,6 +5745,42 @@
         "hash": "sha512-FQ3M3Ohqfl+nHAn5tp7++wUQw0f2nAk+SFKe8EpNRnIifPqvfJP6JQxPKtFLMOHbyer4X646prFG4zSRYEssQQ=="
       }
     },
+    "npm:dotenv@17.2.3": {
+      "type": "npm",
+      "name": "npm:dotenv@17.2.3",
+      "data": {
+        "version": "17.2.3",
+        "packageName": "dotenv",
+        "hash": "sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w=="
+      }
+    },
+    "npm:dotenv@16.4.7": {
+      "type": "npm",
+      "name": "npm:dotenv@16.4.7",
+      "data": {
+        "version": "16.4.7",
+        "packageName": "dotenv",
+        "hash": "sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ=="
+      }
+    },
+    "npm:dotenv": {
+      "type": "npm",
+      "name": "npm:dotenv",
+      "data": {
+        "version": "17.4.1",
+        "packageName": "dotenv",
+        "hash": "sha512-k8DaKGP6r1G30Lx8V4+pCsLzKr8vLmV2paqEj1Y55GdAgJuIqpRp5FfajGF8KtwMxCz9qJc6wUIJnm053d/WCw=="
+      }
+    },
+    "npm:dotenv@16.6.1": {
+      "type": "npm",
+      "name": "npm:dotenv@16.6.1",
+      "data": {
+        "version": "16.6.1",
+        "packageName": "dotenv",
+        "hash": "sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow=="
+      }
+    },
     "npm:@nestjs/core": {
       "type": "npm",
       "name": "npm:@nestjs/core",
@@ -7435,33 +7471,6 @@
         "version": "3.0.0",
         "packageName": "define-lazy-prop",
         "hash": "sha512-N+MeXYoqr3pOgn8xfyRPREN7gHakLYjhsHhWGT3fWAiL4IkAt0iDw14QiiEm2bE30c5XX5q0FtAA3CK5f9/BUg=="
-      }
-    },
-    "npm:dotenv@16.4.7": {
-      "type": "npm",
-      "name": "npm:dotenv@16.4.7",
-      "data": {
-        "version": "16.4.7",
-        "packageName": "dotenv",
-        "hash": "sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ=="
-      }
-    },
-    "npm:dotenv": {
-      "type": "npm",
-      "name": "npm:dotenv",
-      "data": {
-        "version": "17.2.3",
-        "packageName": "dotenv",
-        "hash": "sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w=="
-      }
-    },
-    "npm:dotenv@16.6.1": {
-      "type": "npm",
-      "name": "npm:dotenv@16.6.1",
-      "data": {
-        "version": "16.6.1",
-        "packageName": "dotenv",
-        "hash": "sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow=="
       }
     },
     "npm:dotenv-expand@11.0.7": {
@@ -25102,7 +25111,7 @@
       },
       {
         "source": "npm:@nestjs/config",
-        "target": "npm:dotenv",
+        "target": "npm:dotenv@17.2.3",
         "type": "static"
       },
       {
@@ -42365,5 +42374,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1775854857582
+  "computedAt": 1776101269802
 }
