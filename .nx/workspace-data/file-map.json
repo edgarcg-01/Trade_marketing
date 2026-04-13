@@ -16,76 +16,188 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
-        "hash": "12883015568955079618"
+        "file": "build_view_errors.txt",
+        "hash": "11457733576226485762"
       },
       {
-        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
-        "hash": "14549549451554693058"
+        "file": "fix_log.txt",
+        "hash": "3293933121393521550"
       },
       {
-        "file": "setup_cloudinary_env.js",
-        "hash": "14245929185696207490"
-      },
-      {
-        "file": "package.json",
-        "hash": "3396438987588284243"
-      },
-      {
-        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
         "hash": "13476342199117602537"
-      },
-      {
-        "file": "README.md",
-        "hash": "13123434361241207768"
-      },
-      {
-        "file": "database/seeds/000_cleanup.js",
-        "hash": "5519984374282741828"
-      },
-      {
-        "file": "graph.json",
-        "hash": "5095339485186841424"
-      },
-      {
-        "file": "database/seeds/02_brands.js",
-        "hash": "9433446845194446835"
       },
       {
         "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
         "hash": "7983871121639253812"
       },
       {
-        "file": "docs/README.md",
-        "hash": "6326101323683365762"
+        "file": "database/seeds/07_daily_assignments.js",
+        "hash": "8691665342021964492"
       },
       {
-        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
-        "hash": "12836836331476788886"
+        "file": ".env.cloudinary",
+        "hash": "14616568505166596341"
       },
       {
-        "file": "sync-migrations.js",
-        "hash": "1003491844162287775"
+        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
+        "hash": "8498027196165647248"
       },
       {
-        "file": "docs/areas/06_DEV_BASE_DATOS.md",
-        "hash": "6124646719992690656"
+        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
+        "hash": "15696643244356592832"
+      },
+      {
+        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "database/seeds/01_users.js",
+        "hash": "18084758802632903621"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "18740689506893449"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "14145419060237914883"
+      },
+      {
+        "file": "force-migrations.js",
+        "hash": "9799543804621325042"
+      },
+      {
+        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
+        "hash": "910734349432654109"
+      },
+      {
+        "file": "README.md",
+        "hash": "13123434361241207768"
       },
       {
         "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
         "hash": "13476342199117602537"
       },
       {
+        "file": "docs/README.md",
+        "hash": "6326101323683365762"
+      },
+      {
+        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
+        "hash": "14549549451554693058"
+      },
+      {
+        "file": "load-compiler.mjs",
+        "hash": "3719838546652958107"
+      },
+      {
+        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
+        "hash": "11258048054278754970"
+      },
+      {
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "9232749500673163915"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "5464662300828424051"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "15252649419008977943"
+      },
+      {
+        "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
+        "hash": "12883015568955079618"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9211151120200565156"
+      },
+      {
+        "file": "scripts/update-scoring.ts",
+        "hash": "10296846489845123375"
+      },
+      {
+        "file": "database/seeds/02_brands.js",
+        "hash": "8071844623055732288"
+      },
+      {
         "file": "database/seeds/04_catalogs.js",
         "hash": "6934331112225423180"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "16965008863621455296"
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "8071594767942009516"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "6452228679350613213"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "14617887801361699715"
+      },
+      {
+        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "database/seeds/00_roles.js",
+        "hash": "10747781433984945711"
+      },
+      {
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "3247774897966690539"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "544553347653358835"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/add_cloudinary_column.sql",
+        "hash": "12533193470525212601"
+      },
+      {
+        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
+        "hash": "12836836331476788886"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "12161224180873299086"
+      },
+      {
+        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
+        "hash": "14060519850454525079"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "13015276881017404206"
+      },
+      {
+        "file": "fix-zones-relational.js",
+        "hash": "14872550107474188948"
+      },
+      {
+        "file": "database/seeds/03_products.js",
+        "hash": "9577784506096169458"
+      },
+      {
+        "file": "start.sh",
+        "hash": "14422542925529204631"
       },
       {
         "file": "run-migrations.js",
@@ -96,252 +208,88 @@
         "hash": "4683670748986581351"
       },
       {
-        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
-        "hash": "2694918293729740358"
-      },
-      {
-        "file": "database/seeds/03_products.js",
-        "hash": "6126954420561933937"
-      },
-      {
-        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
-        "hash": "8453504317981269079"
-      },
-      {
-        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/knexfile.js",
-        "hash": "15738390706394806791"
-      },
-      {
-        "file": "force-migrations.js",
-        "hash": "9799543804621325042"
-      },
-      {
-        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "docs/areas/03_DEV_UI_UX.md",
-        "hash": "8071594767942009516"
-      },
-      {
-        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
-        "hash": "14060519850454525079"
-      },
-      {
-        "file": "scripts/generate-openapi.ts",
-        "hash": "8027013054770168889"
-      },
-      {
-        "file": "database/migrations/20260409174829_refactor_zones.js",
-        "hash": "15401865167342216230"
+        "file": ".nxignore",
+        "hash": "14392831012809638559"
       },
       {
         "file": "test-api.js",
         "hash": "5884515805934164676"
       },
       {
-        "file": ".gitignore",
-        "hash": "9211151120200565156"
+        "file": "build_api_errors.txt",
+        "hash": "3685835567683813455"
       },
       {
-        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
-        "hash": "157084602558112272"
-      },
-      {
-        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
-        "hash": "8498027196165647248"
-      },
-      {
-        "file": "database/knexfile.ts",
-        "hash": "8410491829216268759"
-      },
-      {
-        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "test-db.js",
-        "hash": "14430486564632836449"
+        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
+        "hash": "8453504317981269079"
       },
       {
         "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
         "hash": "804792513858306976"
       },
       {
-        "file": "scripts/update-scoring.ts",
-        "hash": "10296846489845123375"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "14145419060237914883"
-      },
-      {
-        "file": "database/seeds/08_daily_captures.js",
-        "hash": "17524229896657480800"
-      },
-      {
-        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
-        "hash": "3247774897966690539"
-      },
-      {
-        "file": "Dockerfile",
-        "hash": "10572735534669643169"
-      },
-      {
-        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
-        "hash": "5921733075588760022"
-      },
-      {
-        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "openapi-config.json",
-        "hash": "13681784447332123154"
-      },
-      {
-        "file": ".env.cloudinary",
-        "hash": "14616568505166596341"
-      },
-      {
-        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
-        "hash": "11258048054278754970"
-      },
-      {
-        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
-        "hash": "9562049285079356973"
-      },
-      {
-        "file": ".dockerignore",
-        "hash": "15898575166473191138"
-      },
-      {
-        "file": "build_view_errors.txt",
-        "hash": "11457733576226485762"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10130065283588370018"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "16660984426190944914"
+        "file": "verify-planogram.js",
+        "hash": "6896123037665433471"
       },
       {
         "file": "docs/areas/04_DEV_BACKEND.md",
         "hash": "9621004713984274572"
       },
       {
-        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
-        "hash": "6342132999074673245"
+        "file": "Dockerfile",
+        "hash": "10572735534669643169"
       },
       {
-        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
-        "hash": "910734349432654109"
+        "file": "database/knexfile.js",
+        "hash": "15738390706394806791"
       },
       {
-        "file": "load-compiler.mjs",
-        "hash": "3719838546652958107"
-      },
-      {
-        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
         "hash": "13476342199117602537"
       },
       {
-        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
-        "hash": "12161224180873299086"
+        "file": "nx.json",
+        "hash": "10130065283588370018"
       },
       {
-        "file": ".nxignore",
-        "hash": "14392831012809638559"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13015276881017404206"
+        "file": "database/seeds/08_daily_captures.js",
+        "hash": "17524229896657480800"
       },
       {
         "file": "tsconfig.json",
         "hash": "15026332495893867995"
       },
       {
-        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
-        "hash": "6479812992078546234"
+        "file": "package-lock.json",
+        "hash": "9693431231255313703"
       },
       {
-        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
-        "hash": "9787160593362166455"
+        "file": "package.json",
+        "hash": "3348531131868413248"
       },
       {
-        "file": "database/seeds/05_scoring_config.js",
-        "hash": "7090934775685069120"
-      },
-      {
-        "file": "docs/areas/00_INDICE_GENERAL.md",
-        "hash": "4398867781477227850"
-      },
-      {
-        "file": "docs/areas/08_DOCUMENTACION.md",
-        "hash": "6452228679350613213"
-      },
-      {
-        "file": "tsconfig.tsbuildinfo",
-        "hash": "9232749500673163915"
-      },
-      {
-        "file": "database/seeds/07_daily_assignments.js",
-        "hash": "8691665342021964492"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "5464662300828424051"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "18740689506893449"
+        "file": "setup_cloudinary_env.js",
+        "hash": "14245929185696207490"
       },
       {
         "file": "database/migrations/20260402141502_create_daily_assignments.js",
         "hash": "17749292727758767686"
       },
       {
-        "file": "database/add_cloudinary_column.sql",
-        "hash": "12533193470525212601"
-      },
-      {
-        "file": "start.sh",
-        "hash": "14422542925529204631"
+        "file": "database/seeds/05_scoring_config.js",
+        "hash": "7090934775685069120"
       },
       {
         "file": "nginx.conf",
         "hash": "16793798683316907092"
       },
       {
-        "file": "build_api_errors.txt",
-        "hash": "3685835567683813455"
+        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
+        "hash": "2694918293729740358"
       },
       {
-        "file": "database/seeds/00a_zones.js",
-        "hash": "5615495829054811252"
-      },
-      {
-        "file": "build_error.txt",
-        "hash": "10162157729687506089"
+        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
+        "hash": "6342132999074673245"
       },
       {
         "file": "verify-zones.js",
@@ -352,64 +300,124 @@
         "hash": "6342132999074673245"
       },
       {
-        "file": "database/seeds/01_users.js",
-        "hash": "18084758802632903621"
+        "file": "docs/areas/06_DEV_BASE_DATOS.md",
+        "hash": "6124646719992690656"
       },
       {
-        "file": "database/fix_migration.js",
-        "hash": "18198621046581033228"
+        "file": ".dockerignore",
+        "hash": "15898575166473191138"
       },
       {
-        "file": "database/seeds/00_roles.js",
-        "hash": "2851852427401783893"
+        "file": "build_output.txt",
+        "hash": "12099944199863094113"
       },
       {
-        "file": "fix_log.txt",
-        "hash": "3293933121393521550"
+        "file": "docker-compose.yml",
+        "hash": "16965008863621455296"
       },
       {
-        "file": "docs/areas/05_DEV_FRONTEND.md",
-        "hash": "14617887801361699715"
+        "file": "build_error.txt",
+        "hash": "10162157729687506089"
       },
       {
-        "file": "fix-zones-relational.js",
-        "hash": "14872550107474188948"
+        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
+        "hash": "6479812992078546234"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
       },
       {
         "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
         "hash": "16532866879954088831"
       },
       {
-        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
-        "hash": "13476342199117602537"
+        "file": "sync-migrations.js",
+        "hash": "1003491844162287775"
       },
       {
-        "file": "docs/ARCHITECTURE.md",
-        "hash": "544553347653358835"
-      },
-      {
-        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
-        "hash": "6595132120958136049"
-      },
-      {
-        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
-        "hash": "15252649419008977943"
-      },
-      {
-        "file": ".node-version",
-        "hash": "6716315397486441002"
+        "file": "database/seeds/00a_zones.js",
+        "hash": "1900502817656346393"
       },
       {
         "file": "check-migrations.js",
         "hash": "1394539983362169548"
       },
       {
-        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
-        "hash": "15696643244356592832"
+        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
+        "hash": "5921733075588760022"
+      },
+      {
+        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
+        "hash": "9562049285079356973"
+      },
+      {
+        "file": "database/knexfile.ts",
+        "hash": "8410491829216268759"
+      },
+      {
+        "file": "test-db.js",
+        "hash": "14430486564632836449"
+      },
+      {
+        "file": "database/seeds/000_cleanup.js",
+        "hash": "5519984374282741828"
+      },
+      {
+        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
+        "hash": "6595132120958136049"
+      },
+      {
+        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
+        "hash": "157084602558112272"
+      },
+      {
+        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": ".node-version",
+        "hash": "6716315397486441002"
       },
       {
         "file": "reset-and-seed.js",
         "hash": "6320710308011683146"
+      },
+      {
+        "file": "docs/areas/00_INDICE_GENERAL.md",
+        "hash": "4398867781477227850"
+      },
+      {
+        "file": "database/fix_migration.js",
+        "hash": "18198621046581033228"
+      },
+      {
+        "file": "graph.json",
+        "hash": "5095339485186841424"
+      },
+      {
+        "file": "scripts/generate-openapi.ts",
+        "hash": "8027013054770168889"
+      },
+      {
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "openapi-config.json",
+        "hash": "13681784447332123154"
+      },
+      {
+        "file": "database/migrations/20260409174829_refactor_zones.js",
+        "hash": "13330190866006361687"
       }
     ],
     "projectFileMap": {
@@ -546,7 +554,7 @@
         },
         {
           "file": "apps/view/src/app/modules/auth/login/login.component.html",
-          "hash": "7595180662662898958"
+          "hash": "9138699323335466721"
         },
         {
           "file": "apps/view/src/app/modules/auth/login/login.component.ts",
@@ -715,7 +723,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "8902505010130975870"
+          "hash": "9296772383400028868"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
@@ -750,7 +758,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "3519126579738590842"
+          "hash": "16932744351220106988"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
@@ -770,7 +778,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "7574601837106816304"
+          "hash": "11386118093131437378"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
@@ -828,7 +836,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "11749343534128110588",
+          "hash": "10751025386821293412",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -844,11 +852,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "11171191227229130746"
+          "hash": "16787645446595917022"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "4314426204940761433",
+          "hash": "14845170722327554430",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -986,6 +994,10 @@
         {
           "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
           "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
         },
         {
           "file": "apps/view/src/environments/environment.ts",
