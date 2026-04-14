@@ -3,7 +3,7 @@
  * @returns { Promise<void> }
  */
 exports.up = async function(knex) {
-  console.log('[fix_supervisor_id_integrity] Verificando integridad de supervisor_id...');
+  console.log('[fix_supervisor_id_production] Restaurando supervisor_id en producción...');
   
   // Mapeo de supervisores basado en el seed original 01_users.js
   const supervisorMapping = {
@@ -12,7 +12,7 @@ exports.up = async function(knex) {
     'MORELIA': '504b1d53'   // jose_herrera
   };
   
-  // Mapeo específico de usuario -> supervisor para casos especiales (basado en datos de producción)
+  // Mapeo específico de usuario -> supervisor (basado en datos de producción proporcionados)
   const userToSupervisorMapping = {
     'maria_rocha': '7dc8ef21',
     'maria_valadez': '7dc8ef21',
@@ -33,23 +33,19 @@ exports.up = async function(knex) {
     'cesar_plascencia': '504b1d53'
   };
   
-  // Paso 1: Identificar usuarios colaboradores sin supervisor
-  const usersWithoutSupervisor = await knex('users')
-    .whereNull('supervisor_id')
+  // Paso 1: Identificar todos los usuarios colaboradores (incluso si ya tienen supervisor_id)
+  // Esto asegura que se reasignen los supervisores correctos en producción
+  const colaboradores = await knex('users')
     .where('role_name', 'colaborador')
-    .select('id', 'username', 'zona');
+    .select('id', 'username', 'zona', 'supervisor_id');
   
-  console.log(`[fix_supervisor_id_integrity] Usuarios colaboradores sin supervisor: ${usersWithoutSupervisor.length}`);
-  
-  if (usersWithoutSupervisor.length === 0) {
-    console.log('[fix_supervisor_id_integrity] No se encontraron usuarios sin supervisor. Migración completada.');
-    return;
-  }
+  console.log(`[fix_supervisor_id_production] Colaboradores encontrados: ${colaboradores.length}`);
   
   let fixedCount = 0;
+  let nullCount = 0;
   
   // Paso 2: Asignar supervisor basado en el mapeo específico de usuario
-  for (const user of usersWithoutSupervisor) {
+  for (const user of colaboradores) {
     let supervisorId = userToSupervisorMapping[user.username];
     
     // Si no hay mapeo específico, usar el mapeo por zona
@@ -60,26 +56,30 @@ exports.up = async function(knex) {
     // Si no hay zona o mapeo por zona, asignar al supervisor de LA PIEDAD por defecto
     if (!supervisorId) {
       supervisorId = supervisorMapping['LA PIEDAD'];
-      console.log(`[fix_supervisor_id_integrity] WARNING: Asignando supervisor por defecto a ${user.username} (sin zona o mapeo)`);
+      console.log(`[fix_supervisor_id_production] WARNING: Asignando supervisor por defecto a ${user.username} (sin zona o mapeo)`);
     }
     
-    if (supervisorId) {
-      console.log(`[fix_supervisor_id_integrity] Asignando supervisor ${supervisorId} a ${user.username} (zona: ${user.zona || 'N/A'})`);
+    // Actualizar si el supervisor es diferente o es null
+    if (supervisorId && user.supervisor_id !== supervisorId) {
+      console.log(`[fix_supervisor_id_production] Actualizando supervisor para ${user.username}: ${user.supervisor_id || 'NULL'} -> ${supervisorId}`);
       await knex('users')
         .where({ id: user.id })
         .update({ supervisor_id: supervisorId });
       fixedCount++;
-    } else {
-      console.log(`[fix_supervisor_id_integrity] ERROR: No se pudo asignar supervisor a ${user.username}`);
+      
+      if (!user.supervisor_id) {
+        nullCount++;
+      }
     }
   }
   
-  console.log(`[fix_supervisor_id_integrity] Resumen:`);
-  console.log(`  - Usuarios sin supervisor encontrados: ${usersWithoutSupervisor.length}`);
-  console.log(`  - Usuarios corregidos: ${fixedCount}`);
-  console.log('[fix_supervisor_id_integrity] Migración completada');
+  console.log(`[fix_supervisor_id_production] Resumen:`);
+  console.log(`  - Colaboradores encontrados: ${colaboradores.length}`);
+  console.log(`  - Usuarios actualizados: ${fixedCount}`);
+  console.log(`  - Usuarios que tenían NULL: ${nullCount}`);
+  console.log('[fix_supervisor_id_production] Migración completada');
 };
 
 exports.down = async function(knex) {
-  console.log('[fix_supervisor_id_integrity] Rollback no soportado - esta migración es corrección de datos');
+  console.log('[fix_supervisor_id_production] Rollback no soportado - esta migración es corrección de datos');
 };
