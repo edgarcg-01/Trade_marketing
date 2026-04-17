@@ -62,8 +62,7 @@
               "tsConfig": "apps/view/tsconfig.app.json",
               "assets": [
                 "apps/view/src/favicon.ico",
-                "apps/view/src/assets",
-                "apps/view/src/manifest.json"
+                "apps/view/src/assets"
               ],
               "styles": [
                 "apps/view/src/styles.css"
@@ -18446,6 +18445,11 @@
       {
         "source": "api",
         "target": "npm:cloudinary",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:sharp",
         "type": "static"
       },
       {
@@ -46154,5 +46158,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1776384771735
+  "computedAt": 1776454201124
 }
