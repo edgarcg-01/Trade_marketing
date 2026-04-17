@@ -18450,7 +18450,7 @@
       {
         "source": "api",
         "target": "npm:sharp",
-        "type": "static"
+        "type": "dynamic"
       },
       {
         "source": "api",
@@ -46158,5 +46158,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1776454201124
+  "computedAt": 1776455291384
 }
