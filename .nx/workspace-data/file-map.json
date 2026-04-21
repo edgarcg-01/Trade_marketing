@@ -16,485 +16,1167 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "database/seeds/07_daily_assignments.js",
-        "hash": "6208574813837844553"
+        "file": "database/seeds/00_roles.js",
+        "hash": "12011760469761592671"
       },
       {
-        "file": "reset-and-seed.js",
-        "hash": "6320710308011683146"
+        "file": "documentation/injectables/AdminCatalogsService.html",
+        "hash": "10874287188824799835"
       },
       {
-        "file": ".prettierrc",
-        "hash": "14145419060237914883"
+        "file": "documentation/interfaces/PdfSection-1.html",
+        "hash": "2023361771488106129"
       },
       {
-        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
-        "hash": "13476342199117602537"
+        "file": "documentation/interfaces/PermissionRow.html",
+        "hash": "15394245442004755598"
       },
       {
-        "file": "database/seeds/03_products.js",
-        "hash": "9577784506096169458"
+        "file": "documentation/components/AdminCatalogsComponent.html",
+        "hash": "4624669875809927788"
       },
       {
-        "file": "database/seeds/02_brands.js",
-        "hash": "8071844623055732288"
-      },
-      {
-        "file": "database/seeds/04_catalogs.js",
-        "hash": "18239274589037370207"
-      },
-      {
-        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
-        "hash": "12161224180873299086"
-      },
-      {
-        "file": "SCORING_COMPARISON_EXAMPLES.md",
-        "hash": "10485594661174536734"
-      },
-      {
-        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "verify-zones.js",
-        "hash": "17860296928320444066"
-      },
-      {
-        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".env.cloudinary",
-        "hash": "14616568505166596341"
-      },
-      {
-        "file": "database/migrations/20250415100000_add_offline_sync_fields.js",
-        "hash": "13279619857426876515"
-      },
-      {
-        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "docs/areas/05_DEV_FRONTEND.md",
-        "hash": "14617887801361699715"
-      },
-      {
-        "file": "uploads/exh_S-081830_23u8mip_1775485110307.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
-        "hash": "16532866879954088831"
-      },
-      {
-        "file": "test-db.js",
-        "hash": "14430486564632836449"
-      },
-      {
-        "file": "build_view_errors.txt",
-        "hash": "11457733576226485762"
-      },
-      {
-        "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
-        "hash": "7983871121639253812"
-      },
-      {
-        "file": "database/migrations/20260414104200_normalize_production_roles.js",
-        "hash": "1511542220472984086"
-      },
-      {
-        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
-        "hash": "8498027196165647248"
-      },
-      {
-        "file": "database/fix_migration.js",
-        "hash": "18198621046581033228"
-      },
-      {
-        "file": "build_error.txt",
-        "hash": "10162157729687506089"
-      },
-      {
-        "file": "scripts/update-scoring.ts",
-        "hash": "10296846489845123375"
-      },
-      {
-        "file": ".node-version",
-        "hash": "6716315397486441002"
-      },
-      {
-        "file": "docs/areas/03_DEV_UI_UX.md",
-        "hash": "8071594767942009516"
+        "file": "documentation/images/coverage-badge-documentation.svg",
+        "hash": "5454817942251611647"
       },
       {
         "file": "database/migrations/20260414220000_add_rubrica_ejecucion.js",
-        "hash": "12097299186178601023"
+        "hash": "13417168307797742688"
       },
       {
-        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/migrations/20260414104000_sync_roles_production.js",
-        "hash": "8782082128218528651"
-      },
-      {
-        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
-        "hash": "15252649419008977943"
-      },
-      {
-        "file": "database/seeds/00_roles.js",
-        "hash": "10747781433984945711"
-      },
-      {
-        "file": "tsconfig.tsbuildinfo",
-        "hash": "9232749500673163915"
-      },
-      {
-        "file": "README.md",
-        "hash": "13123434361241207768"
-      },
-      {
-        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
-        "hash": "12836836331476788886"
-      },
-      {
-        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
-        "hash": "910734349432654109"
-      },
-      {
-        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/migrations/20260414130000_fix_supervisor_id_production.js",
-        "hash": "16567554928049929024"
-      },
-      {
-        "file": "docs/OFFLINE_FIRST_IMPLEMENTATION.md",
-        "hash": "10229742102917393800"
-      },
-      {
-        "file": "docs/areas/07_QA_PRUEBAS.md",
-        "hash": "4683670748986581351"
-      },
-      {
-        "file": "scripts/generate-openapi.ts",
-        "hash": "8027013054770168889"
-      },
-      {
-        "file": "nginx.conf",
-        "hash": "16793798683316907092"
-      },
-      {
-        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
-        "hash": "6595132120958136049"
-      },
-      {
-        "file": "database/migrations/20260417180000_add_pertenece_mega_dulces_to_exhibitions.js",
-        "hash": "9621137120459076084"
-      },
-      {
-        "file": "Dockerfile",
-        "hash": "10572735534669643169"
-      },
-      {
-        "file": "package.json",
-        "hash": "5867557228831941283"
-      },
-      {
-        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".nxignore",
-        "hash": "14392831012809638559"
-      },
-      {
-        "file": "docs/ARCHITECTURE.md",
-        "hash": "544553347653358835"
-      },
-      {
-        "file": "setup_cloudinary_env.js",
-        "hash": "14245929185696207490"
-      },
-      {
-        "file": "docs/areas/04_DEV_BACKEND.md",
-        "hash": "9621004713984274572"
-      },
-      {
-        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
-        "hash": "5921733075588760022"
-      },
-      {
-        "file": "tsconfig.json",
-        "hash": "15026332495893867995"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "13015276881017404206"
-      },
-      {
-        "file": "fix-zones-relational.js",
-        "hash": "14872550107474188948"
-      },
-      {
-        "file": "database/migrations/20260414103600_fix_roles_case_production.js",
-        "hash": "15766075889279863953"
-      },
-      {
-        "file": "docker-compose.yml",
-        "hash": "16965008863621455296"
-      },
-      {
-        "file": "sync-migrations.js",
-        "hash": "1003491844162287775"
-      },
-      {
-        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "check-migrations.js",
-        "hash": "1394539983362169548"
-      },
-      {
-        "file": "database/migrations/20260413233200_change_puntuacion_to_decimal.js",
-        "hash": "15251172493032029872"
-      },
-      {
-        "file": "database/seeds/08_daily_captures.js",
-        "hash": "4972110503572054438"
-      },
-      {
-        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
-        "hash": "9562049285079356973"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "12894593111434530222"
-      },
-      {
-        "file": "database/knexfile.ts",
-        "hash": "8410491829216268759"
-      },
-      {
-        "file": "database/migrations/20260413210000_fix_zones_uuids.js",
-        "hash": "5457359976631269049"
-      },
-      {
-        "file": "build_output.txt",
-        "hash": "12099944199863094113"
-      },
-      {
-        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
-        "hash": "14549549451554693058"
-      },
-      {
-        "file": "database/seeds/00a_zones.js",
-        "hash": "1900502817656346393"
-      },
-      {
-        "file": "docs/README.md",
-        "hash": "6326101323683365762"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "18740689506893449"
-      },
-      {
-        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/migrations/20260414120000_fix_supervisor_id_integrity.js",
-        "hash": "3505821100353228262"
-      },
-      {
-        "file": "database/seeds/01_users.js",
-        "hash": "6418577588237313563"
-      },
-      {
-        "file": "build_api_errors.txt",
-        "hash": "3685835567683813455"
-      },
-      {
-        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "force-migrations.js",
-        "hash": "9799543804621325042"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "5464662300828424051"
-      },
-      {
-        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": ".dockerignore",
-        "hash": "15898575166473191138"
-      },
-      {
-        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
-        "hash": "6479812992078546234"
-      },
-      {
-        "file": "database/seeds/05_scoring_config.js",
-        "hash": "12186265854615763900"
-      },
-      {
-        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
-        "hash": "11258048054278754970"
-      },
-      {
-        "file": "test-api.js",
-        "hash": "5884515805934164676"
-      },
-      {
-        "file": "run-migrations.js",
-        "hash": "5548811174841475802"
-      },
-      {
-        "file": "database/migrations/20260414200000_add_scoring_config_versions.js",
-        "hash": "13493415796777598255"
-      },
-      {
-        "file": "database/migrations/20260414220001_add_score_maximo_to_config_versions.js",
-        "hash": "2609183708897791492"
-      },
-      {
-        "file": "database/migrations/20260402141502_create_daily_assignments.js",
-        "hash": "17749292727758767686"
-      },
-      {
-        "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
-        "hash": "12883015568955079618"
-      },
-      {
-        "file": "database/migrations/20260414210000_add_scoring_fields_to_daily_captures.js",
-        "hash": "7853892248515898019"
-      },
-      {
-        "file": "database/migrations/20260409174829_refactor_zones.js",
-        "hash": "13330190866006361687"
-      },
-      {
-        "file": "openapi-config.json",
-        "hash": "13681784447332123154"
-      },
-      {
-        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
-        "hash": "8453504317981269079"
-      },
-      {
-        "file": "fix_log.txt",
-        "hash": "3293933121393521550"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "9211151120200565156"
-      },
-      {
-        "file": "graph.json",
-        "hash": "5095339485186841424"
-      },
-      {
-        "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
-        "hash": "804792513858306976"
-      },
-      {
-        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
-        "hash": "3247774897966690539"
-      },
-      {
-        "file": "load-compiler.mjs",
-        "hash": "3719838546652958107"
-      },
-      {
-        "file": "database/seeds/000_cleanup.js",
-        "hash": "5519984374282741828"
-      },
-      {
-        "file": "database/knexfile.js",
-        "hash": "15738390706394806791"
-      },
-      {
-        "file": "database/add_cloudinary_column.sql",
-        "hash": "12533193470525212601"
-      },
-      {
-        "file": "start.sh",
-        "hash": "11890895187902235727"
-      },
-      {
-        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
-        "hash": "2694918293729740358"
-      },
-      {
-        "file": "verify-planogram.js",
-        "hash": "6896123037665433471"
+        "file": "documentation/js/svg-pan-zoom.controls.js",
+        "hash": "744268667400905464"
       },
       {
         "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
         "hash": "15696643244356592832"
       },
       {
-        "file": "docs/areas/08_DOCUMENTACION.md",
-        "hash": "6452228679350613213"
+        "file": "documentation/template-playground/hbs-render.service.ts",
+        "hash": "3057275644565601635"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "12161224180873299086"
+      },
+      {
+        "file": "documentation/components/VisitsComponent.html",
+        "hash": "5671608585495371014"
+      },
+      {
+        "file": "documentation/components/AdminPlanogramaComponent.html",
+        "hash": "9263422129502545134"
+      },
+      {
+        "file": "documentation/styles/prism.css",
+        "hash": "17076593053264674401"
+      },
+      {
+        "file": "documentation/components/HomeComponent.html",
+        "hash": "12729687632381316627"
+      },
+      {
+        "file": "documentation/overview.html",
+        "hash": "17515627567724118518"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.woff2",
+        "hash": "1410963700615895184"
+      },
+      {
+        "file": "documentation/styles/material.css",
+        "hash": "3940016284014796941"
+      },
+      {
+        "file": "documentation/js/tree.js",
+        "hash": "17844397582318322809"
+      },
+      {
+        "file": "documentation/components/GlobalFiltersComponent.html",
+        "hash": "9448807615192224085"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.ttf",
+        "hash": "5352514732871671459"
+      },
+      {
+        "file": "build_output.txt",
+        "hash": "12099944199863094113"
+      },
+      {
+        "file": "documentation/styles/postmark.css",
+        "hash": "6356096137207536574"
+      },
+      {
+        "file": "documentation/injectables/PwaInstallService.html",
+        "hash": "4692480854943976025"
+      },
+      {
+        "file": "documentation/interfaces/BrandGroup.html",
+        "hash": "5273660853250874102"
+      },
+      {
+        "file": "force-migrations.js",
+        "hash": "12092950406159923158"
+      },
+      {
+        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
+        "hash": "260444976317739642"
+      },
+      {
+        "file": "documentation/components/OfflineStatusComponent.html",
+        "hash": "10256617020488833025"
+      },
+      {
+        "file": ".github/workflows/keep-alive.yaml",
+        "hash": "12075865689376578926"
+      },
+      {
+        "file": "documentation/components/CapturesComponent.html",
+        "hash": "16359077380175841695"
       },
       {
         "file": "docs/areas/06_DEV_BASE_DATOS.md",
         "hash": "6124646719992690656"
       },
       {
+        "file": "documentation/styles/laravel.css",
+        "hash": "5255114620609172927"
+      },
+      {
+        "file": "database/migrations/20250415100000_add_offline_sync_fields.js",
+        "hash": "10072240727474968457"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.woff",
+        "hash": "5050951999862935083"
+      },
+      {
+        "file": "documentation/injectables/AdminPlanogramaService.html",
+        "hash": "1213984594377586799"
+      },
+      {
+        "file": "documentation/components/ProjectsComponent.html",
+        "hash": "18125961532955759667"
+      },
+      {
+        "file": "documentation/js/libs/d3.v3.min.js",
+        "hash": "14168307329048117996"
+      },
+      {
+        "file": "documentation/js/libs/prism.js",
+        "hash": "14293504565076332189"
+      },
+      {
+        "file": "documentation/js/libs/zepto.min.js",
+        "hash": "13078023127810371221"
+      },
+      {
+        "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise.svg",
+        "hash": "11426304453761483524"
+      },
+      {
+        "file": "documentation/interfaces/FiltersState.html",
+        "hash": "7426279299774752520"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise.png",
+        "hash": "6670940543257439260"
+      },
+      {
+        "file": "documentation/interfaces/KpiCard.html",
+        "hash": "16519066303253179402"
+      },
+      {
+        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
+        "hash": "8498027196165647248"
+      },
+      {
+        "file": "documentation/components/AppComponent.html",
+        "hash": "7207663512619879745"
+      },
+      {
+        "file": "documentation/components/DailyAssignmentsComponent.html",
+        "hash": "14990517707359616574"
+      },
+      {
+        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
+        "hash": "910734349432654109"
+      },
+      {
+        "file": "documentation/interfaces/ConceptoExhibicion.html",
+        "hash": "11039521244181076021"
+      },
+      {
+        "file": "documentation/js/search/search_index.js",
+        "hash": "5674781537770571391"
+      },
+      {
+        "file": "documentation/components/ReportsComponent-1.html",
+        "hash": "14427462436386543016"
+      },
+      {
+        "file": "documentation/interfaces/User.html",
+        "hash": "12370199754308373610"
+      },
+      {
+        "file": "documentation/interfaces/PdfSection.html",
+        "hash": "15029477127903964659"
+      },
+      {
+        "file": "documentation/directives/HlmButtonDirective.html",
+        "hash": "12666698229099484061"
+      },
+      {
+        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
+        "hash": "16532866879954088831"
+      },
+      {
+        "file": "documentation/js/libs/vis-network.min.js",
+        "hash": "12319873011007040241"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.svg",
+        "hash": "10760737229288538034"
+      },
+      {
+        "file": "documentation/js/routes/routes_index.js",
+        "hash": "5560125553452561924"
+      },
+      {
+        "file": "documentation/injectables/GeoValidationService.html",
+        "hash": "16404516677475517869"
+      },
+      {
+        "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
+        "hash": "12883015568955079618"
+      },
+      {
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "8071594767942009516"
+      },
+      {
+        "file": "documentation/js/search/search-lunr.js",
+        "hash": "722021871454825163"
+      },
+      {
+        "file": "documentation/template-playground/template-playground.component.ts",
+        "hash": "12012602288256395860"
+      },
+      {
+        "file": "database/seeds/07_daily_assignments.js",
+        "hash": "10533850458307636389"
+      },
+      {
+        "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
+        "hash": "804792513858306976"
+      },
+      {
+        "file": "documentation/interfaces/ProductoItem.html",
+        "hash": "3429873970831818611"
+      },
+      {
+        "file": "database/migrations/20260414104200_normalize_production_roles.js",
+        "hash": "11634888082849146297"
+      },
+      {
+        "file": "documentation/directives/HlmInputDirective.html",
+        "hash": "13157932896370172644"
+      },
+      {
+        "file": "run-migrations.js",
+        "hash": "18290326123775046949"
+      },
+      {
+        "file": "start.sh",
+        "hash": "4288836311568560718"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "verify-zones.js",
+        "hash": "12545562749735138675"
+      },
+      {
+        "file": "documentation/template-playground-app/index.html",
+        "hash": "8413780133400990091"
+      },
+      {
+        "file": "documentation/styles/ionicons.min.css",
+        "hash": "8454038333229049064"
+      },
+      {
+        "file": ".dockerignore",
+        "hash": "15898575166473191138"
+      },
+      {
+        "file": "documentation/template-playground/template-playground.module.ts",
+        "hash": "4096233995754264688"
+      },
+      {
+        "file": "documentation/fonts/ionicons.woff",
+        "hash": "10215852456567241679"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "9941704086940456981"
+      },
+      {
+        "file": "documentation/injectables/OfflineSyncService.html",
+        "hash": "1852578146907337206"
+      },
+      {
         "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
         "hash": "157084602558112272"
+      },
+      {
+        "file": "test-api.js",
+        "hash": "9024370417514005397"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "14145419060237914883"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "15252649419008977943"
+      },
+      {
+        "file": "database/seeds/03_products.js",
+        "hash": "15543212006125928866"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "544553347653358835"
+      },
+      {
+        "file": ".env.cloudinary",
+        "hash": "1587702555345334753"
+      },
+      {
+        "file": "documentation/coverage.html",
+        "hash": "41072765051503308"
+      },
+      {
+        "file": "docs/OFFLINE_FIRST_IMPLEMENTATION.md",
+        "hash": "9728183359147062251"
+      },
+      {
+        "file": "documentation/interfaces/GeoValidationResult.html",
+        "hash": "13965542252788751953"
+      },
+      {
+        "file": "documentation/js/libs/custom-elements-es5-adapter.js",
+        "hash": "16478351581815110526"
+      },
+      {
+        "file": "load-compiler.mjs",
+        "hash": "2996331309920250068"
+      },
+      {
+        "file": "uploads/exh_S-081830_23u8mip_1775485110307.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "documentation/interfaces/DropOption.html",
+        "hash": "6272658680997725659"
+      },
+      {
+        "file": "documentation/interfaces/DashboardData.html",
+        "hash": "5193581470885068430"
+      },
+      {
+        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
+        "hash": "14452574582107848075"
+      },
+      {
+        "file": "database/add_cloudinary_column.sql",
+        "hash": "12170767601534015950"
+      },
+      {
+        "file": "database/seeds/04_catalogs.js",
+        "hash": "5760364577860083285"
+      },
+      {
+        "file": "documentation/fonts/ionicons.svg",
+        "hash": "13397395708463306337"
+      },
+      {
+        "file": "documentation/js/lazy-load-graphs.js",
+        "hash": "5384493267503432515"
+      },
+      {
+        "file": "documentation/interfaces/CatalogoOffline.html",
+        "hash": "1273999212452704895"
+      },
+      {
+        "file": "database/seeds/00a_zones.js",
+        "hash": "17531412748295496775"
+      },
+      {
+        "file": "documentation/js/routes.js",
+        "hash": "16492905510053414854"
+      },
+      {
+        "file": "documentation/styles/original.css",
+        "hash": "15617175025732620720"
+      },
+      {
+        "file": "documentation/styles/dark.css",
+        "hash": "263054016924659583"
+      },
+      {
+        "file": "documentation/template-playground/template-editor.service.ts",
+        "hash": "14355421333242932791"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "16721563661241150312"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "reset-and-seed.js",
+        "hash": "11157830616464715976"
+      },
+      {
+        "file": "documentation/interfaces/NetworkStatus.html",
+        "hash": "6428572481265423346"
+      },
+      {
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "3247774897966690539"
+      },
+      {
+        "file": "documentation/styles/compodoc.css",
+        "hash": "8611434279416525798"
+      },
+      {
+        "file": "nx.json",
+        "hash": "2527295479098868141"
+      },
+      {
+        "file": "documentation/js/tabs.js",
+        "hash": "17298860297793970551"
+      },
+      {
+        "file": "check-migrations.js",
+        "hash": "3714559811420864300"
+      },
+      {
+        "file": "docs/areas/07_QA_PRUEBAS.md",
+        "hash": "4683670748986581351"
+      },
+      {
+        "file": "documentation/js/libs/lit-html.js",
+        "hash": "6258091497474886715"
+      },
+      {
+        "file": "database/knexfile.ts",
+        "hash": "8410491829216268759"
+      },
+      {
+        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
+        "hash": "5093950688688802540"
+      },
+      {
+        "file": "documentation/injectables/DashboardService.html",
+        "hash": "5652550355174946999"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "5878974213190797882"
+      },
+      {
+        "file": "documentation/interfaces/KpiRange.html",
+        "hash": "5947064461756496566"
+      },
+      {
+        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
+        "hash": "14549549451554693058"
+      },
+      {
+        "file": "documentation/js/menu-wc_es5.js",
+        "hash": "546916540437416682"
+      },
+      {
+        "file": "build_error.txt",
+        "hash": "10162157729687506089"
+      },
+      {
+        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
+        "hash": "6479812992078546234"
+      },
+      {
+        "file": "documentation/directives/HlmBadgeDirective.html",
+        "hash": "9773971373661720898"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "README.md",
+        "hash": "13123434361241207768"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.woff",
+        "hash": "5551725997763169280"
+      },
+      {
+        "file": "documentation/interfaces/RetryConfig.html",
+        "hash": "3174515862380708860"
+      },
+      {
+        "file": "database/migrations/20260414220001_add_score_maximo_to_config_versions.js",
+        "hash": "5769448018101356473"
+      },
+      {
+        "file": "database/seeds/05_scoring_config.js",
+        "hash": "3547127868769234357"
+      },
+      {
+        "file": "documentation/fonts/ionicons.eot",
+        "hash": "11954292315687035285"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "15595539435287234365"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "6452228679350613213"
+      },
+      {
+        "file": "database/migrations/20260413210000_fix_zones_uuids.js",
+        "hash": "9166985577853017645"
+      },
+      {
+        "file": "documentation/js/libs/svg-pan-zoom.min.js",
+        "hash": "17875591124579653107"
+      },
+      {
+        "file": "documentation/js/libs/tablesort.min.js",
+        "hash": "15118661930356082429"
+      },
+      {
+        "file": "documentation/miscellaneous/typealiases.html",
+        "hash": "474229972173869365"
+      },
+      {
+        "file": "graph.json",
+        "hash": "6207245112050024150"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.eot",
+        "hash": "4556119219014855615"
+      },
+      {
+        "file": "database/seeds/02_brands.js",
+        "hash": "15031306579306081567"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "18740689506893449"
+      },
+      {
+        "file": "build_view_errors.txt",
+        "hash": "11457733576226485762"
+      },
+      {
+        "file": "scripts/generate-openapi.ts",
+        "hash": "8027013054770168889"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "6326101323683365762"
+      },
+      {
+        "file": "tsconfig.tsbuildinfo",
+        "hash": "9232749500673163915"
+      },
+      {
+        "file": "documentation/injectables/DataUpdateService.html",
+        "hash": "9594426473430045504"
+      },
+      {
+        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
+        "hash": "11258048054278754970"
+      },
+      {
+        "file": "documentation/template-playground/main.ts",
+        "hash": "16905169045410014673"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "9211151120200565156"
+      },
+      {
+        "file": "documentation/index.html",
+        "hash": "13175578652897310602"
+      },
+      {
+        "file": "documentation/components/AdminUsersComponent.html",
+        "hash": "508577044758791227"
+      },
+      {
+        "file": "database/migrations/20260414120000_fix_supervisor_id_integrity.js",
+        "hash": "3402121076076597957"
+      },
+      {
+        "file": "documentation/interfaces/ReportsData.html",
+        "hash": "2808810779135581633"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.svg",
+        "hash": "5064871685992200298"
+      },
+      {
+        "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
+        "hash": "985783995748298683"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.svg",
+        "hash": "17115772852413095572"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.eot",
+        "hash": "16970012345764992539"
+      },
+      {
+        "file": "documentation/interfaces/DayGroup.html",
+        "hash": "10746071776728587799"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.ttf",
+        "hash": "6355862180977459781"
+      },
+      {
+        "file": "documentation/interfaces/SyncStatus.html",
+        "hash": "11347532111566395163"
+      },
+      {
+        "file": "documentation/js/libs/deep-iterator.js",
+        "hash": "12110682540857701089"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.woff2",
+        "hash": "14268032398072346110"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.ttf",
+        "hash": "6723283691141535943"
+      },
+      {
+        "file": "documentation/components/ExhibitionsComponent.html",
+        "hash": "13320997428357336520"
+      },
+      {
+        "file": "test-db.js",
+        "hash": "17939192593374155253"
+      },
+      {
+        "file": "database/migrations/20260413233200_change_puntuacion_to_decimal.js",
+        "hash": "3574761022922196745"
+      },
+      {
+        "file": "documentation/injectables/AdminScoringService.html",
+        "hash": "5701442054576075899"
+      },
+      {
+        "file": "documentation/js/libs/innersvg.js",
+        "hash": "5802205836405538118"
+      },
+      {
+        "file": "documentation/injectables/MetasConfigService.html",
+        "hash": "6537210110127772065"
+      },
+      {
+        "file": "database/seeds/08_daily_captures.js",
+        "hash": "12681943178328811557"
+      },
+      {
+        "file": "docs/areas/04_DEV_BACKEND.md",
+        "hash": "9621004713984274572"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.woff2",
+        "hash": "6682708430513662803"
+      },
+      {
+        "file": "documentation/template-playground-app/app.js",
+        "hash": "8658518747894254343"
+      },
+      {
+        "file": "database/migrations/20260414104000_sync_roles_production.js",
+        "hash": "15606133683229291687"
+      },
+      {
+        "file": "documentation/injectables/OfflineDailyCaptureService.html",
+        "hash": "9765606097144579004"
+      },
+      {
+        "file": "documentation/interfaces/FurnitureMeta.html",
+        "hash": "10410903498017681022"
+      },
+      {
+        "file": "documentation/interfaces/UpdateNotification.html",
+        "hash": "16878246863941020852"
       },
       {
         "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
         "hash": "14060519850454525079"
       },
       {
-        "file": "nx.json",
-        "hash": "10130065283588370018"
+        "file": "scripts/update-scoring.ts",
+        "hash": "10296846489845123375"
+      },
+      {
+        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/routes.html",
+        "hash": "4791199116483472313"
+      },
+      {
+        "file": "documentation/interfaces/VisitaSnapshot.html",
+        "hash": "7623267051770994394"
+      },
+      {
+        "file": "documentation/injectables/UsersService.html",
+        "hash": "1287398404035506577"
+      },
+      {
+        "file": "documentation/js/libs/tablesort.number.min.js",
+        "hash": "14187206818899475591"
+      },
+      {
+        "file": "documentation/components/AdminScoringComponent.html",
+        "hash": "1687114697934233395"
+      },
+      {
+        "file": "documentation/injectables/RetryStrategyService.html",
+        "hash": "5945402746983096873"
+      },
+      {
+        "file": "documentation/injectables/DailyCaptureService.html",
+        "hash": "7725724026682470306"
+      },
+      {
+        "file": "documentation/styles/stripe.css",
+        "hash": "5341739897033551826"
+      },
+      {
+        "file": "documentation/interfaces/SyncLog.html",
+        "hash": "11454973899270152155"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/properties.html",
+        "hash": "16333735231022588151"
+      },
+      {
+        "file": "documentation/styles/bootstrap.min.css",
+        "hash": "2605481430810498933"
+      },
+      {
+        "file": "fix-zones-relational.js",
+        "hash": "5946275071659575389"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.eot",
+        "hash": "16058052300924999321"
+      },
+      {
+        "file": "SCORING_COMPARISON_EXAMPLES.md",
+        "hash": "3824844770978598572"
+      },
+      {
+        "file": "documentation/interfaces/TiendaOffline.html",
+        "hash": "8147977672444829881"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "11267100860701126589"
+      },
+      {
+        "file": "documentation/js/libs/es6-shim.min.js",
+        "hash": "541838624623813887"
+      },
+      {
+        "file": "documentation/js/compodoc.js",
+        "hash": "8639640071730175891"
+      },
+      {
+        "file": "documentation/injectables/FiltersStateService.html",
+        "hash": "11315047278336943206"
+      },
+      {
+        "file": "database/migrations/20260409174829_refactor_zones.js",
+        "hash": "1637055527667658835"
+      },
+      {
+        "file": "database/migrations/20260402141502_create_daily_assignments.js",
+        "hash": "4959690170160711275"
+      },
+      {
+        "file": "database/knexfile.js",
+        "hash": "15738390706394806791"
+      },
+      {
+        "file": "documentation/js/search/lunr.min.js",
+        "hash": "7769939115959793803"
+      },
+      {
+        "file": "sync-migrations.js",
+        "hash": "3881814563128163392"
+      },
+      {
+        "file": "documentation/js/libs/clipboard.min.js",
+        "hash": "15183925666576653457"
+      },
+      {
+        "file": "package.json",
+        "hash": "2391019745304488957"
+      },
+      {
+        "file": "documentation/interfaces/DayGroup-1.html",
+        "hash": "1526060503751434159"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6042707536089298241"
+      },
+      {
+        "file": "documentation/components/StoresComponent.html",
+        "hash": "33249638832189981"
+      },
+      {
+        "file": "documentation/js/search/search.js",
+        "hash": "13561555034848643601"
+      },
+      {
+        "file": "documentation/styles/vagrant.css",
+        "hash": "18316956050239455040"
+      },
+      {
+        "file": "documentation/components/LayoutComponent.html",
+        "hash": "7011356748062704247"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.ttf",
+        "hash": "4417700308891305617"
+      },
+      {
+        "file": "documentation/styles/readthedocs.css",
+        "hash": "9436345951779592580"
+      },
+      {
+        "file": "documentation/interfaces/BeforeInstallPromptEvent.html",
+        "hash": "5669376783167631126"
+      },
+      {
+        "file": "database/migrations/20260414210000_add_scoring_fields_to_daily_captures.js",
+        "hash": "11193782582488434534"
+      },
+      {
+        "file": "documentation/modules.html",
+        "hash": "5741176320505375396"
+      },
+      {
+        "file": "documentation/components/LoginComponent.html",
+        "hash": "16567963819595692587"
+      },
+      {
+        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "documentation/miscellaneous/enumerations.html",
+        "hash": "10699592676022519827"
+      },
+      {
+        "file": ".nxignore",
+        "hash": "14062325651399360254"
+      },
+      {
+        "file": "documentation/js/libs/bootstrap-native.js",
+        "hash": "4674564391422988934"
+      },
+      {
+        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise-inverted.png",
+        "hash": "5020586271611239710"
+      },
+      {
+        "file": "documentation/injectables/AuthService.html",
+        "hash": "5262201472679454486"
+      },
+      {
+        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
+        "hash": "2694918293729740358"
+      },
+      {
+        "file": "documentation/interfaces/SyncResult.html",
+        "hash": "4064810740655968837"
+      },
+      {
+        "file": "database/migrations/20260414103600_fix_roles_case_production.js",
+        "hash": "8517888144778641297"
+      },
+      {
+        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
+        "hash": "4476013461581687517"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise-inverted.svg",
+        "hash": "7115684776184011537"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.woff",
+        "hash": "1398560205593287051"
+      },
+      {
+        "file": "documentation/styles/style.css",
+        "hash": "2277269946734393990"
+      },
+      {
+        "file": "documentation/components/DashboardComponent.html",
+        "hash": "8767993913609782299"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.woff2",
+        "hash": "6009251489912774712"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.eot",
+        "hash": "15098770303203122150"
+      },
+      {
+        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "documentation/styles/reset.css",
+        "hash": "17171789329408911375"
+      },
+      {
+        "file": "documentation/template-playground/zip-export.service.ts",
+        "hash": "13166575887196898845"
+      },
+      {
+        "file": "documentation/fonts/ionicons.woff2",
+        "hash": "11311683446494265812"
+      },
+      {
+        "file": "build_api_errors.txt",
+        "hash": "3685835567683813455"
+      },
+      {
+        "file": "documentation/styles/tablesort.css",
+        "hash": "3196665951570312247"
+      },
+      {
+        "file": "documentation/images/favicon.ico",
+        "hash": "8237334056690247575"
+      },
+      {
+        "file": "documentation/js/menu.js",
+        "hash": "15152626410495210695"
+      },
+      {
+        "file": ".node-version",
+        "hash": "8478008329589569081"
+      },
+      {
+        "file": "documentation/dependencies.html",
+        "hash": "3227113905665684133"
+      },
+      {
+        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "documentation/interfaces/VisitaPendiente.html",
+        "hash": "1960188840875641318"
+      },
+      {
+        "file": "documentation/components/ReportsComponent.html",
+        "hash": "10637457423080363293"
+      },
+      {
+        "file": "openapi-config.json",
+        "hash": "13681784447332123154"
       },
       {
         "file": "docs/areas/00_INDICE_GENERAL.md",
         "hash": "4398867781477227850"
+      },
+      {
+        "file": "database/migrations/20260414200000_add_scoring_config_versions.js",
+        "hash": "1767773529438191238"
+      },
+      {
+        "file": "documentation/components/AdminRolesPermissionsComponent.html",
+        "hash": "3415311225064140737"
+      },
+      {
+        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
+        "hash": "9562049285079356973"
+      },
+      {
+        "file": "documentation/js/libs/jszip.min.js",
+        "hash": "15913628595711008916"
+      },
+      {
+        "file": "documentation/js/libs/EventDispatcher.js",
+        "hash": "5651041577841919592"
+      },
+      {
+        "file": "documentation/interfaces/RegistroExhibicion.html",
+        "hash": "15678325444102687747"
+      },
+      {
+        "file": "database/seeds/000_cleanup.js",
+        "hash": "11564318641312707521"
+      },
+      {
+        "file": "database/seeds/01_users.js",
+        "hash": "5793808740190833912"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.woff",
+        "hash": "5844094029798307855"
+      },
+      {
+        "file": "documentation/template-playground/default-templates.json",
+        "hash": "2435826857248909718"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.svg",
+        "hash": "6643643595714960495"
+      },
+      {
+        "file": "documentation/injectables/ReportsService.html",
+        "hash": "10337579307526188289"
+      },
+      {
+        "file": "database/migrations/20260417180000_add_pertenece_mega_dulces_to_exhibitions.js",
+        "hash": "17046688688907239603"
+      },
+      {
+        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/injectables/OfflineDatabaseService.html",
+        "hash": "7949119768262093049"
+      },
+      {
+        "file": "documentation/interfaces/UbicacionExhibicion.html",
+        "hash": "14701528787148771549"
+      },
+      {
+        "file": "nginx.conf",
+        "hash": "2975738273302625160"
+      },
+      {
+        "file": "documentation/js/sourceCode.js",
+        "hash": "9073579625756559126"
+      },
+      {
+        "file": "verify-planogram.js",
+        "hash": "692445725042595918"
+      },
+      {
+        "file": "setup_cloudinary_env.js",
+        "hash": "14192384044495301981"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "14617887801361699715"
+      },
+      {
+        "file": "documentation/js/libs/promise.min.js",
+        "hash": "11998125303848972939"
+      },
+      {
+        "file": "database/fix_migration.js",
+        "hash": "750253604442746232"
+      },
+      {
+        "file": "documentation/injectables/ThemeService.html",
+        "hash": "11942950856059628169"
+      },
+      {
+        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "documentation/styles/bootstrap-card.css",
+        "hash": "18387034006199116180"
+      },
+      {
+        "file": "database/migrations/20260414130000_fix_supervisor_id_production.js",
+        "hash": "9686040481709306062"
+      },
+      {
+        "file": "fix_log.txt",
+        "hash": "3293933121393521550"
+      },
+      {
+        "file": "documentation/directives/HlmLabelDirective.html",
+        "hash": "10108677221598953181"
+      },
+      {
+        "file": "documentation/interfaces/Coordenada.html",
+        "hash": "12418846979840072204"
+      },
+      {
+        "file": "documentation/js/menu-wc.js",
+        "hash": "10898603440733221794"
+      },
+      {
+        "file": "documentation/js/libs/custom-elements.min.js",
+        "hash": "18369070844174768822"
+      },
+      {
+        "file": "documentation/js/libs/htmlparser.js",
+        "hash": "17185377631851716403"
+      },
+      {
+        "file": "documentation/fonts/ionicons.ttf",
+        "hash": "9482225794616543832"
+      },
+      {
+        "file": "documentation/miscellaneous/variables.html",
+        "hash": "5355323414568294814"
       }
     ],
     "projectFileMap": {
-      "shared-models": [
-        {
-          "file": "libs/shared-models/project.json",
-          "hash": "2000611075598197124"
-        },
-        {
-          "file": "libs/shared-models/src/index.ts",
-          "hash": "16026675232112475516"
-        },
-        {
-          "file": "libs/shared-models/tsconfig.lib.json",
-          "hash": "4136564811073858304"
-        }
-      ],
       "view": [
         {
           "file": "apps/view/.browserslistrc",
@@ -585,7 +1267,7 @@
         },
         {
           "file": "apps/view/src/app/core/constants/permissions.ts",
-          "hash": "4204432822311650066"
+          "hash": "8171265307282960819"
         },
         {
           "file": "apps/view/src/app/core/guards/auth.guard.ts",
@@ -607,7 +1289,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/auth.service.ts",
-          "hash": "6144346900328963422",
+          "hash": "14343644100605151306",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -617,7 +1299,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/data-update.service.ts",
-          "hash": "14151289696847209120",
+          "hash": "2072822865575604177",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -626,21 +1308,21 @@
         },
         {
           "file": "apps/view/src/app/core/services/geo-validation.service.ts",
-          "hash": "12966804459197498548",
+          "hash": "9663346340696226333",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
-          "hash": "6285125752260520043",
+          "hash": "14241681530590312248",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/view/src/app/core/services/offline-database.service.ts",
-          "hash": "6928176394812672142",
+          "hash": "2895651253869841831",
           "deps": [
             "npm:dexie",
             "npm:@angular/core"
@@ -648,7 +1330,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/offline-sync.service.ts",
-          "hash": "8897721056509254956",
+          "hash": "17784222379841083272",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -657,7 +1339,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/pwa-install.service.ts",
-          "hash": "13091530158388476190",
+          "hash": "14578582373289519011",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs"
@@ -665,7 +1347,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
-          "hash": "10902222316202607474",
+          "hash": "1823168971398797704",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs"
@@ -706,7 +1388,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
-          "hash": "12180934675126592169",
+          "hash": "14654995682178442038",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -753,7 +1435,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
-          "hash": "9512450119183183406",
+          "hash": "1343658619654438107",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -795,11 +1477,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "17701204993521727987"
+          "hash": "15210719442152558635"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
-          "hash": "4173032629608449397",
+          "hash": "10920449064806706529",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -809,7 +1491,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
-          "hash": "8730203299979963343",
+          "hash": "8409751863214154766",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -822,11 +1504,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "2140140153085425162"
+          "hash": "13572177279655935801"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "2573715225371399535",
+          "hash": "6427063073479430455",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs",
@@ -837,11 +1519,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
-          "hash": "14217818869556942889"
+          "hash": "2268613803172084452"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
-          "hash": "4964126838165437932",
+          "hash": "2408909547224543450",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -850,15 +1532,15 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
-          "hash": "14316486238542040669"
+          "hash": "10742704315394993214"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "9296772383400028868"
+          "hash": "913971794702701717"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
-          "hash": "10394958488934375739",
+          "hash": "1778367517872632680",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -909,7 +1591,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "10815700778026877815"
+          "hash": "10399756575493744394"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
@@ -922,7 +1604,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
-          "hash": "3981178835590548379",
+          "hash": "17721202605838441918",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -935,7 +1617,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
-          "hash": "13883859923170968623",
+          "hash": "18405774979160215966",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs"
@@ -943,14 +1625,14 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
-          "hash": "14479621192857104299",
+          "hash": "8936936008575339054",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
-          "hash": "5224716899773255854",
+          "hash": "5163890522780369361",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -960,14 +1642,14 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
-          "hash": "13423629955308943493",
+          "hash": "11830865940385912810",
           "deps": [
             "npm:@angular/core"
           ]
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "10751025386821293412",
+          "hash": "3109618859259366644",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -983,11 +1665,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "2229941682052127483"
+          "hash": "18113093840378006725"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "11885447050286470911",
+          "hash": "2814776627012054525",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -999,7 +1681,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
-          "hash": "2530428487899996887",
+          "hash": "7121618685419576821",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -1060,19 +1742,19 @@
         },
         {
           "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
-          "hash": "4882686308242551270"
+          "hash": "13258589359227073107"
         },
         {
           "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
-          "hash": "18055014508437485967"
+          "hash": "8946059392925077262"
         },
         {
           "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
-          "hash": "15860460398933984191"
+          "hash": "10127604642501863729"
         },
         {
           "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
-          "hash": "15184671033259128445",
+          "hash": "9618449003398179726",
           "deps": [
             "npm:@angular/core",
             "npm:rxjs"
@@ -1136,7 +1818,7 @@
         },
         {
           "file": "apps/view/src/assets/icons/favicon.svg",
-          "hash": "1720780708542086794"
+          "hash": "6475210795918509466"
         },
         {
           "file": "apps/view/src/assets/icons/icon-120x120.png",
@@ -1180,7 +1862,7 @@
         },
         {
           "file": "apps/view/src/assets/icons/icon.svg",
-          "hash": "12645407538230465720"
+          "hash": "17293406308354275645"
         },
         {
           "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
@@ -1192,11 +1874,11 @@
         },
         {
           "file": "apps/view/src/assets/manifest.webmanifest",
-          "hash": "14859368440116148871"
+          "hash": "6834005658414736909"
         },
         {
           "file": "apps/view/src/assets/sw-offline.js",
-          "hash": "1305759225118834400"
+          "hash": "569994312941492446"
         },
         {
           "file": "apps/view/src/environments/environment.ts",
@@ -1275,7 +1957,7 @@
         },
         {
           "file": "apps/api/src/app.controller.ts",
-          "hash": "14518636804916088470",
+          "hash": "7751595039639481611",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -1411,7 +2093,7 @@
         },
         {
           "file": "apps/api/src/modules/cron/cron.controller.ts",
-          "hash": "2322092606579742288",
+          "hash": "521784414831690113",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1419,14 +2101,14 @@
         },
         {
           "file": "apps/api/src/modules/cron/cron.module.ts",
-          "hash": "17010469599104318077",
+          "hash": "8856755613610937369",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "apps/api/src/modules/cron/tasks.module.ts",
-          "hash": "13842897624831559826",
+          "hash": "17418073152912863792",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/schedule"
@@ -1434,7 +2116,7 @@
         },
         {
           "file": "apps/api/src/modules/cron/tasks.service.ts",
-          "hash": "2424067354480995189",
+          "hash": "4503720106535132521",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/schedule",
@@ -1443,7 +2125,7 @@
         },
         {
           "file": "apps/api/src/modules/daily-assignments/daily-assignments.controller.ts",
-          "hash": "17928852102053761739",
+          "hash": "7060017827071318638",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1451,14 +2133,14 @@
         },
         {
           "file": "apps/api/src/modules/daily-assignments/daily-assignments.module.ts",
-          "hash": "6264688340089934216",
+          "hash": "17068758422634342289",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.ts",
-          "hash": "12895650857875965289",
+          "hash": "3110421004738796139",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1466,14 +2148,14 @@
         },
         {
           "file": "apps/api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
-          "hash": "13231295700887375962",
+          "hash": "1551085371947123076",
           "deps": [
             "npm:@nestjs/swagger"
           ]
         },
         {
           "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
-          "hash": "9224075325149594246",
+          "hash": "12255958301952647545",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1503,7 +2185,7 @@
         },
         {
           "file": "apps/api/src/modules/data/data.controller.ts",
-          "hash": "15746317760380078882",
+          "hash": "10623335843938862388",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1511,14 +2193,14 @@
         },
         {
           "file": "apps/api/src/modules/data/data.module.ts",
-          "hash": "3615619527449344327",
+          "hash": "1317693330711690638",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "apps/api/src/modules/data/data.service.ts",
-          "hash": "2158807309989833855",
+          "hash": "926685939814310563",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -1550,7 +2232,7 @@
         },
         {
           "file": "apps/api/src/modules/planograms/planograms.controller.ts",
-          "hash": "9056305111064325713",
+          "hash": "2781443645194793031",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1589,7 +2271,7 @@
         },
         {
           "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "5170524068620335928",
+          "hash": "7041544420770551412",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1597,14 +2279,14 @@
         },
         {
           "file": "apps/api/src/modules/scoring/scoring-v2.module.ts",
-          "hash": "8490175042150784037",
+          "hash": "9399395313064002692",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "apps/api/src/modules/scoring/scoring-v2.service.ts",
-          "hash": "5753673860960364798",
+          "hash": "8895635855132539984",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1612,7 +2294,7 @@
         },
         {
           "file": "apps/api/src/modules/scoring/scoring.controller.ts",
-          "hash": "17054048054031448122",
+          "hash": "13768267166269774566",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1696,21 +2378,21 @@
         },
         {
           "file": "apps/api/src/modules/visitas/visitas-sync.controller.ts",
-          "hash": "18233966148587352890",
+          "hash": "9051349644877045253",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "apps/api/src/modules/visitas/visitas-sync.module.ts",
-          "hash": "850628106748692697",
+          "hash": "18225792148512322727",
           "deps": [
             "npm:@nestjs/common"
           ]
         },
         {
           "file": "apps/api/src/modules/visitas/visitas-sync.service.ts",
-          "hash": "1243111092540791890",
+          "hash": "1545868140025933216",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1741,7 +2423,7 @@
         },
         {
           "file": "apps/api/src/shared/cloudinary/cloudinary.module.ts",
-          "hash": "17955460407643888117",
+          "hash": "11485040535683537929",
           "deps": [
             "npm:@nestjs/common",
             "npm:cloudinary",
@@ -1750,7 +2432,7 @@
         },
         {
           "file": "apps/api/src/shared/cloudinary/cloudinary.service.ts",
-          "hash": "14377712343208875081",
+          "hash": "4304103306127135813",
           "deps": [
             "npm:@nestjs/common",
             "npm:cloudinary",
@@ -1762,11 +2444,11 @@
         },
         {
           "file": "apps/api/src/shared/constants/permissions.ts",
-          "hash": "6866556614716510558"
+          "hash": "12454327481198068801"
         },
         {
           "file": "apps/api/src/shared/database/database.module.ts",
-          "hash": "2546263386604891421",
+          "hash": "12928846006218288820",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1774,7 +2456,7 @@
         },
         {
           "file": "apps/api/src/shared/decorators/permissions.decorator.ts",
-          "hash": "6942134849481315017",
+          "hash": "13785587539214512268",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -1837,6 +2519,20 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "shared-models": [
+        {
+          "file": "libs/shared-models/project.json",
+          "hash": "2000611075598197124"
+        },
+        {
+          "file": "libs/shared-models/src/index.ts",
+          "hash": "16026675232112475516"
+        },
+        {
+          "file": "libs/shared-models/tsconfig.lib.json",
+          "hash": "4136564811073858304"
         }
       ]
     }
