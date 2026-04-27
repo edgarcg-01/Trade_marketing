@@ -7,6 +7,6 @@ ingress:
     service: http://localhost:3001
   # Trade Marketing View
   - hostname: megadulcesservice.trycloudflare.com
-    service: http://localhost:81
+    service: http://localhost:82
   # Catch-all
   - service: http://status:404

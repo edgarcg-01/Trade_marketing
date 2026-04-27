@@ -13,7 +13,7 @@ services:
   trade-marketing-view:
     image: edgarcg01/trade-marketing-view:latest
     ports:
-      - "81:80"
+      - "82:80"
     restart: always
 
   watchtower:
