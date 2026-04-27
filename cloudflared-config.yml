@@ -2,9 +2,11 @@ tunnel: megadulcesservice
 credentials-file: C:\Users\Sistemas\.cloudflared\megadulcesservice.json
 
 ingress:
-  # Trade Marketing API (acceso restringido por Cloudflare Access)
-  - service: http://localhost:3001
-  # Trade Marketing View (acceso restringido por Cloudflare Access)
-  - service: http://localhost:81
+  # Trade Marketing API
+  - hostname: api.megadulcesservice.trycloudflare.com
+    service: http://localhost:3001
+  # Trade Marketing View
+  - hostname: megadulcesservice.trycloudflare.com
+    service: http://localhost:81
   # Catch-all
   - service: http://status:404
