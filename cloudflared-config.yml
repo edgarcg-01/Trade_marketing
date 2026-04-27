@@ -4,7 +4,7 @@ credentials-file: C:\Users\Sistemas\.cloudflared\megadulcesservice.json
 ingress:
   # Trade Marketing API
   - hostname: api.megadulcesservice.trycloudflare.com
-    service: http://localhost:3001
+    service: http://localhost:3333
   # Trade Marketing View
   - hostname: megadulcesservice.trycloudflare.com
     service: http://localhost:82
