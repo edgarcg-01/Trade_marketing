@@ -3,10 +3,10 @@ credentials-file: /path/to/credentials/<TUNNEL_ID>.json
 
 ingress:
   # Trade Marketing API
-  - hostname: api.trade-marketing.yourdomain.com
+  - hostname: api.megadulces.com.mx
     service: http://localhost:3001
   # Trade Marketing View
-  - hostname: trade-marketing.yourdomain.com
+  - hostname: megadulces.com.mx
     service: http://localhost:81
   # Catch-all
   - service: http://status:404
