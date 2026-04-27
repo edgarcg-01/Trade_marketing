@@ -6,7 +6,7 @@ services:
     ports:
       - "3001:3000"
     environment:
-      - DATABASE_URL=postgres://user:pass@db:5432/mydb
+      - DATABASE_URL=postgres://postgres:postgres@host.docker.internal:5432/trade_marketing
       - NODE_ENV=production
     restart: always
 
