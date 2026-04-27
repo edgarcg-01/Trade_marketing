@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  trade-marketing-api:
+    image: ghcr.io/edgarcg-01/megadulces-trade-marketing/api:latest
+    ports:
+      - "3001:3000"
+    environment:
+      - DATABASE_URL=postgres://user:pass@db:5432/mydb
+      - NODE_ENV=production
+    restart: always
+
+  trade-marketing-view:
+    image: ghcr.io/edgarcg-01/megadulces-trade-marketing/view:latest
+    ports:
+      - "81:80"
+    restart: always
+
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 300 --cleanup
+    restart: always
