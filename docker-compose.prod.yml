@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   trade-marketing-api:
-    image: ghcr.io/edgarcg-01/megadulces-trade-marketing/api:latest
+    image: edgarcg01/trade-marketing-api:latest
     ports:
       - "3001:3000"
     environment:
@@ -11,7 +11,7 @@ services:
     restart: always
 
   trade-marketing-view:
-    image: ghcr.io/edgarcg-01/megadulces-trade-marketing/view:latest
+    image: edgarcg01/trade-marketing-view:latest
     ports:
       - "81:80"
     restart: always
