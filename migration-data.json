@@ -1,0 +1,3964 @@
+{
+  "newBrands": [
+    {
+      "nombre": "Mars",
+      "activo": true,
+      "orden": 14
+    },
+    {
+      "nombre": "De la Rosa",
+      "activo": true,
+      "orden": 15
+    },
+    {
+      "nombre": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 16
+    },
+    {
+      "nombre": "Delicias",
+      "activo": true,
+      "orden": 17
+    },
+    {
+      "nombre": "Canel's",
+      "activo": true,
+      "orden": 18
+    },
+    {
+      "nombre": "Hershey",
+      "activo": true,
+      "orden": 19
+    },
+    {
+      "nombre": "Reyma",
+      "activo": true,
+      "orden": 20
+    },
+    {
+      "nombre": "Tinajita",
+      "activo": true,
+      "orden": 21
+    },
+    {
+      "nombre": "Hubin",
+      "activo": true,
+      "orden": 22
+    },
+    {
+      "nombre": "Gonac",
+      "activo": true,
+      "orden": 23
+    },
+    {
+      "nombre": "Nutresa",
+      "activo": true,
+      "orden": 24
+    },
+    {
+      "nombre": "Frutifresk",
+      "activo": true,
+      "orden": 25
+    },
+    {
+      "nombre": "Qualamex",
+      "activo": true,
+      "orden": 26
+    },
+    {
+      "nombre": "Montes",
+      "activo": true,
+      "orden": 27
+    },
+    {
+      "nombre": "Pepsico",
+      "activo": true,
+      "orden": 28
+    },
+    {
+      "nombre": "Jovy",
+      "activo": true,
+      "orden": 29
+    },
+    {
+      "nombre": "Totis",
+      "activo": true,
+      "orden": 30
+    },
+    {
+      "nombre": "Arcor",
+      "activo": true,
+      "orden": 31
+    },
+    {
+      "nombre": "Winis",
+      "activo": true,
+      "orden": 32
+    },
+    {
+      "nombre": "Aproza",
+      "activo": true,
+      "orden": 33
+    }
+  ],
+  "newProducts": [
+    {
+      "nombre": "PELON PELO RICO MINI 18P 13GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELON PELO RICO TAM BLS 12P 30GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CRAYON SURTIDO",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KISSES 807.5 NATURAL 2985",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS BARRA COOKIES N CREME 12P 20GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELON PELO RICO TAM BLS 12+2 30GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KISSES LECHE BRAND C",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS BARRA LECHE 12P 20GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KISSES 850G C",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELONETES TAMARINDO 6P 30GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELON PELO RICO TAM EXH 10P 30GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS MINIATURA 850",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELONETA TAMA C",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS JARABE CHOCOLATE 589GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS COOKIES N CREAM 6P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELONETA CHAMOY C",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KISSES ALMENDRA 935GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS ALMENDRA 6P 27G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS JOLLY RANCHER PASTILLA 12 PZAS 2756",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELON PELO RICO MINI MIXTO 18P 13GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS LECHE BARRA 6P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELON PELONAZO 4P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KISSES TAKE HOME SURTIDO (265G)",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "DEL PUESTO SANDIA HERSHEY",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELONETA TAMA-MANGO 18+2P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FIESTEROS DE PELON 895GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS ESPECIAL DARK 3P 0105",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KISSES SELECCION ESPECIAL 260.5 GR HERSHEY",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HERSHEYS MINIATURA 503G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "Mondelez",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO BOCADIN BOLSA",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL MIX PACK 737GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL TAKIS FUEGO MINI 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO BARRITAS FRESA SOBRE 402G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO CANELITAS SOBRE 360G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO PRINCIPE SOBRE 378G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL TAKIS MIX MINI 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO TRIKI TRAKES SOBRE 408G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO PASTELITO HERSHEYS 250GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO GANSITO MINI 192 GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO CHOCO ROLL MINI 224 GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO BARRITAS PINA SOBRE 402GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO BARRA GANSITO 220GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL RUNNERS MINI 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO PINGUINO MINI 200 GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL TAKIS PACK 15P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL CHIPS FUEGO 10P 42GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL FUEGO PACK 10P 56GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL CHIPS JALAPENO 10P 42GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO POLVORONES SOBRE 444G",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL CHIPS MINI FUEGO 25P 18GR",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BIMBO ROCKO MINI BLS (400GR)",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BARCEL TAKIS MINI VERDE 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #8 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #12 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #16 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #10 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MARIEL CHAROLA 855 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #16 LARGO 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MARIEL CHAROLA 66 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #14 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA PLATO PH8 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #5 1",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA CONT HAMBURGUESA 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA CONT 7X7 LISO 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #6 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA PLATO 006 PASTELERO 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #7 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA ENVASE S",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA ENVASE S",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA CONT 8X8 DIVICION 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA CONT 8X8 LISO 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA ROLLO BAJA 60X90 1KG",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA TAPA PARA ENVASE 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #4-A 50P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA VASO #32EU 25P",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA ROLLO BAJA 20X30 1KG",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "REYMA ROLLO BAJA 40X60 1KG",
+      "brand_name": "Mars",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BANITO TRONADOR 96GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT JELLY TINIX 1.60L",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BURBUJAS",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUN SPRAY 288ML",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL VAY VAY CHOC 264 GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR JELLY STICK BOLSA",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CRISTAL LIPS 112 ML",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JERINGA JELLY CAR LIQUIDO",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCO PREMIUM SUPREME 200GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GUMMY OJITOS 500GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL VAY VAY FRESA 264 GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL VAY VAY VAINILLA 264 GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL CREMAS BICOLOR 264GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY FOOD 200GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR LIPSTICK CANDY 120GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FUNNY SPRAY TINAJITA",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MAGIC CANDY TRONADOR 32GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PINATA PACK 1.4 KG",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FRUTY POP 192GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL WAFER CHOCOLATE 156GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL WAFER VAINILLA 156GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOLO FIESTA 120GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GUMMY SODA 500GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SWEET PEN 176GR",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CARAMELO LIQUIDO GOTERIN (440 GR)",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GELATINA MINI FRUTITAS BLS (700G)",
+      "brand_name": "De la Rosa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KPINATON MIX 1.3KG",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY ANIMAL POP",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EXH MINI JELLY HUEVITO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "UEVITO CHOPECHA 216GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCO BISCOCHO FRESA",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL CHOCOOKIE MINI CHOCOLATE 500GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SUPER FOOD MIX 150GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GUMMY FRUTI BANDERILLA",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JELLY CORAZON DISPLAY",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY ELISE",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MINI JELLY HUEVITO TIRA 300GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT MINI RELLENITAX 3D SURTIDO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JELLY VOLCAN XTREME 396GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CONITOY 280GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL CHOCOOKIE MINI RED VELVET 420G",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOLSA NAVIDENA 20X30 GRANDE",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY X MAS POP'S NEON 330GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JELLY HUEVITO 216 GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY SPAGUETTI 460GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ALGODON BOMBA SURTIDO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOLO PEKE SORPRESA 100G",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY CHISPITAS TIRA",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMYS TIRASPLASH TUTIFRUTI 850 GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "Bolsas de los Altos 2",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI MEGA HOT CHILI",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL HOT CHILI",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI MEGA AHUMADO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KIUBO REMIX EXTREMO (35GR)",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL AHUMADO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KIUBO TOTOPO SALSA NEGRA",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI MEGA CHECHO QUESO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI MEGA JALAPENO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL CHECHO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KIUBO RE MIX EXPLOSION (32GR)",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KIUBO TOTOPO NACHO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI INTER HOT CHILI",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI INTER AHUMADO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL JALAPENO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI FRESCO MINI SURTIDO 140ML",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI INTER JALAPENO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI INTER CHECHO QUESO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KIUBO RE MIX QUESO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL MICRO MIX",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KIUBO EXTREMO INTENSO 40 GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL DONA C",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI PERSONAL QUESO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAPAS KIUBO CASERAS FUEGO 26GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAPAS KIUBO CASERAS CON SAL 26GR",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI MEGA QUESO",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI INTER DONA C",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECHI INTER MICROMIX",
+      "brand_name": "Bolsas de los Altos",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC CREMINO BICOLOR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA TRISABOR 224GR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC MUIBON AVELLANAS",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EXH CHOC CREMINO BICOLORE NUTRESA",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC MONEDA EXH",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA PATITAS (152G)",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC CREMINO BLANCO",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT CHOC MONEDA 708G",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA TRISABOR CONFITES NUTRESA",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CREMINO STICK 140GR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC NUCITA BARRA",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BALONCITOS NUTRESA",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA FRESA Y CHOCOLATE 224GR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA FRESA",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA VAINILLA Y CHOCOLATE 240GR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUCITA TRIANG TRISABOR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC CREMINO FRUTOS ROJOS 408GR",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ZUKO 8 S JAMAICA EXH",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ZUKO 8 S HORCHATA EXH",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BALONES BLISTER",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ZUKO 8 S NARANJA EXH",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ZUKO 8 S FRESA EXH",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ZUKO 8 S LIMON EXH",
+      "brand_name": "Delicias",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FRES KIDD SABORES SURT",
+      "brand_name": "Canel's",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOLI COMETIN-IX",
+      "brand_name": "Canel's",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOLI FRESKI ICE FRUTT (700 ML)",
+      "brand_name": "Canel's",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FRESKI SODA MORA AZUL 355ML",
+      "brand_name": "Canel's",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FRESKI SODA UVA 355ML",
+      "brand_name": "Canel's",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "AGUA GASIFICADA CALID 355ML",
+      "brand_name": "Canel's",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MI CHAMOY",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MI CHAMOY 35 GR C",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MI MANGO 300GR",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MI SANDIA",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MAZAPAN GALLETA 1.2KG",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "Bimbo",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "AMPER ENERGY 473 ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BONICE SOTE (400ML)",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BONICE DOBLE ACIDULCE 388ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BONNIEVE 400ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIVE 100 GRANDE (600ML)",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VITALOE (500ML)",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "AMPER KALACA 473 ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIVE 100 CHICO (400ML)",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "AMPER ENERGY BLUE 473ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROGUE DRINK BLUEBERRY 355 ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VITALOE (320ML)",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "RIKO POLLO (660G)",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUTRIBELA 10 RESTAURACION 90 GR",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "KOOL DRINK FRESA Y MORAS 355ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "AMPER MANGO PARTY 473ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NUTRIBELA KERATINA NATURAL 90GR",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MR BLUE AZULITO SIX PACK 473ML",
+      "brand_name": "Hershey",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "DATIL 570G",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHICLOSOS SURTIDOS",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOMY 470G",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "RICOS BESOS",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SUPER NATILLA",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ANDINETA COLORES 5KG MONTES",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ANDINETAS MIX 5 COLORES (500GR)",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ANDINETAS MIX TIRA 160G",
+      "brand_name": "Reyma",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL ROCKALETA NVA",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL TIX TIX SABORES NORMAL",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHUPA BARRITA SONRICS",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GALL MINI MAMUT GAMESA (336GR)",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOT SABRISURTIDO",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL GUDUPOP SONRICS CHILE",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH ROCKA BOLA 320 GR",
+      "brand_name": "Tinajita",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAJETA ENVINADA 25KGS CABADAS",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAJETA ENVINADA FRASCO PET 1KG CABADAS",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "OBLEA CAJETA ECONOMICA",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "OBLEA CAJETA MINI 10S CABADAS",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAJETA ENVINADA GOTERO 660G CABADAS",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAJETA ENVINADA TOPPER 1",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAJETA ENVINADA GOTERO 350G CABADAS",
+      "brand_name": "Hubin",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY BLUE SHARKS (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY CRAZY RINGS SANDIA (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY CRAZY BEAR (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY CRAZY DURAZNO (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY SHARKS MIX (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMIES FRUTASTIKA 1 KG",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY CRAZY WORMS (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY BEAR NEON (1KG)",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY NEON SOUR RING 1 KG",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GUMMY CRAZY WATERMELON 1 KG",
+      "brand_name": "Gonac",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOP-TOPS HOTCHILI 40G",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOP-TOPS NACHO 40G",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOP-TOPS SALSA NEGRA 40G",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOTIS PAPITAS SABOR ELOTE 90 GR",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAPITAS ADOBADAS (90GR)",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOTIS PAPITAS SAL (90 GR)",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOTIS DONITA SAL Y LIMON SOBRE",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOTIS PAPITAS HOT CHILI (90 GR)",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TOP-TOPS SALSA NEGRA 52G",
+      "brand_name": "Nutresa",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BON-BON LECHE EXH",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC NIKOLO 21G",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BUTTER TOFFEES CAFE",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BONBON CAFE EXH",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BON-BON CHOCOFRESA EXH",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BONBON BLANCO EXH",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BON-BON CHOCOLATE EXH",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC NIKOLO CAFE 21G",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GOMITAS MOGUL ORUGA ENCHILADO 1KG ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH POOSH PLUTONITA ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GOMITAS MOGUL GUSANITOS 1KG ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH POOSH FRESA ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GOMITAS MOGUL SANDIA ENCHILADA 1KG",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH POOSH BERRIES",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BUTTER TOFFEES CHOC-CAFE 600GR ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC BONBON FRESA REGALO",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH POOSH SANDIA ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH POOSH UNICORNIO ARCOR",
+      "brand_name": "Frutifresk",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS 12 SURTIDO TUBO",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS TA FRUTAL",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS MAXI TUBO UNICORNIO 16",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS MAXI TUBO DRAGON 16",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS CONGELADAS 700ML",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS MAXI TUBO SIRENA 16",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS BOLSA PINATERA MIX",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS CUADRETA BLS",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS EN POLVO SABORES",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FRUTAFFY FRESAS",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS COOL CONGELADAS 700ML",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS BOOM TORCIDO RELLENO 300GR",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS 12 COOL CUADRETA",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "WINIS MAXI TUBO WOW 16",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FRUTAFFY MORA AZUL",
+      "brand_name": "AP",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO ESPECIAL CHICO 450G",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO DOBLE QUESO ESPECIAL 450G",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO PIZZA 450G",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO VALENCHETO ROJO CHILE 450GR",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO GRANDE QUESO 450G",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO DOBLE QUESO",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "APROZA CHETO BOLA CH 50G",
+      "brand_name": "Qualamex",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE CARLOS V SUIZO 10P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE CARLOS V STICK 20P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE KITKAT 9P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE CARLOS V STICK BLANCO 20P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE FRESKAS ORIGINAL 9P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE LARIN ALMENDRAS S",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC KITKAT 498GR",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE CARLOS V CERO SIN AZUCAR 10P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "NESTLE CRUNCH STICK 20P",
+      "brand_name": "Montes",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA VALENTINA PONY E",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA COSTA BRAVA PONY 370",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA COSTA BRAVA 4LTS",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALS COSTA BRAVA 1",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA COSTA BRAVA 1LT",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA VALENTINA 1LT",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA VALENTINA PONI E",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "Cabadas",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LAPOSSE MAZAPAN LECHE Y ALMENDRA",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LAPOSSE MAZAPAN LECHE Y NUEZ",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCO PIEDRAS 1KG LARA",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SURTIDO 18KG COLOMBINA",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR CAFE 500G LAPOSSE",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHECOLINES TAMARINDO BOLSA",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SURTIDO COLOMBINA 4KG",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SURTIDO 1KG COLOMBINA",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR CAFE 350G LAPOSSE",
+      "brand_name": "Pepsico",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VUALA CHOCOLATE (60GR)",
+      "brand_name": "Jovy",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VUALA VAINILLA (60GR)",
+      "brand_name": "Jovy",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VUALA CAJETA (60GR)",
+      "brand_name": "Jovy",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VUALA SWICH (512GR)",
+      "brand_name": "Jovy",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VUALA SWICH ROLL (512GR)",
+      "brand_name": "Jovy",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLITOS COCADA GRANDE PIN PON",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO COCADA 25 GR PIN PON",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BANDERITAS DE COCO GRANDE",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO GUAYABA 60 GR",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO COCADA PIN PON 270GRS",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO COCADA PIN PON 140GRS",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLITOS COCADA MINI PIN PON",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO COCADA PIN PON 140GRS",
+      "brand_name": "Totis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT CHOC GAROTO 600GR",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EST GOMA RAINBOW BELT 1 KG",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "IRISH CAKE BAILEYS 390GR",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MALVAVISCO ICEE 71GR",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SOUR TUBES 720GR",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC MINI TRUFFLES MIX (1 KG)",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCOLATE ICEE 1KG",
+      "brand_name": "Arcor",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO PAYASO # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO PAYASO # 9 50",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO DECOR BLANCO # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ESPUMA C",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELOTA INFL LISA SURTIDA 8.5",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO DECOR ROSA # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO PAYASO # 7 100 PZS",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO PAYASO # 3",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO DECOR AZUL CIELO # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO METALICO SURTIDO # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO DECOR ROJO CEREZA # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO METAL DORADO # 9",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GLOBO MIX SURTIDO # 12 50PZS",
+      "brand_name": "Winis",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT COCO (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT FRESA (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT FRESA KIWI (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT MORA (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT UVA (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT MANDARINA (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT LIMON (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT MANZANA (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT PONCHE DE FRUTAS (625ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ELECTROLIT MORA AZUL",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOKADOS BOCACHITO EXTREME 900GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOKADOS FRIKOS BRAVOS 900 GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOKADOS BOCACHITO 900GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOKADOS TOPITO NACHO 480GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "COBERTURA 20K LUSSEL CUBETA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "COBERTURA 1K P",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "COBERTURA CHOCOLATE 500GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "COBERTURA 5K P",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "COBERTURA BLANCA 20KG LUSSEL CUBETA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL SHUSHARACHA TAMARINDO 14G",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PICHON SANDIA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOMPY GOMAS MANGUITOS ENCH 1 KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL BINA CARIBENA (560GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL CHOYITAS CHOMPYS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL JOY FRESA 14GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL SABRO SANDIA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON 1-2-3",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO DE PAPEL BANO BIG QUALITY 600",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROLLO DE PAPEL BANO BIG ROLL",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON ROMA 250GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON ROMA 500G",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SOPA MARUCHAN CAMARON Y CHILE HABANERO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LECHE ENTERA 1L",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON ROMA 1 KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LECHE SEMIDESCREMADA 1L",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SOPA MARUCHAN CAMARON Y CHILE PIQ",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LECHE LIGHT 1L",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ACEITE 1-2-3 1",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ATUN DOLORES ACEITE 133GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MAYONESA MCCORMICK 190GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PINOL 828 ML + 172 ML GRATIS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MAYONESA 390GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LECHITA SANTA CLARA SURTIDA 180 ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SOPA MARUCHAN CAMARON",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON BLANCA NIEVES 250GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON ZOTE ROSA BARRA 400GR 03741",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JABON BLANCA NIEVES 500GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LECHE DESLACTOSADA LIGHT 1L",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ATUN DOLORES AGUA 133GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HARINA MASECA 1KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MAYONESA MCCORMICK 3.4 KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FABULOSO LAVANDA 1LT",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CERILLOS SOLES",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "FABULOSO MAR FRESCO 1L",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALSA EMBASA 1L TETRABRIK",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHILES JALAPENOS LA MORENA 210GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA ZOMBIE 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GRANEO PURO CHICLOSO 750GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA MINI MIX 300GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA MINI BROS 300GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA OJOS 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT CAPIBARA MIX",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA OJOS 4D 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA MINI OJO 300GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA DONA 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA SPINNER 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA MIAW 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA LOS BROS 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA ELOTE 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA CHESCO 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GOMA LENTECITOS 120GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA FUTBOL 3D 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "GELIHUEVO 1.14K",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PINATERA GOMI MDC 1.5 KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMA MINI LABUBU 300GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ICE PULPITO 210GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO DART 10J10 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO DART 12J12 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO DART 8J8 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO DART 32J32 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO DART 16J16 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TAPA DART 10FTL C",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TAPA DART 32SL C",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ENVASE DART 60J60 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ENVASE DART 16MJ32 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TAPA DART 16SL C",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO DART 14",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHAROLA 855 TERMICA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHAROLA 66 JAGUAR TERMICA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PLATO PH8 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ENVASE S",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ENVASE S",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TAPA P",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO # 8",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO # 12",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PLATO PH6 TERMICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO # 10",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PLATO #006 PASTELERO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO # 14 BARRILITO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO # 14",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELLISCON TAMARINDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELLISCON TAMARINDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO TAMARINDO CHICO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASO TAMARINDO 2 ONZAS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PELLISCO TAMARINDO GRANDE",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VASOTE TAMARINDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PULPA TAMARINDO GRANDE",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ALMENDRA CONFITADA 1 KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EST JAM JUMBO LA PROVIDENCIA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ALMENDRA CONFITADA 500G",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CACAHUATE CONFITADO (750GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MACARRON JUMBO (560GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JAM JUMBO DRO OPS BAILEYS 420GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH BOMBI CRAYONES",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EST JAM BECERRIN MIX",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EST JAMONCILLO NUEZ 720GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ALMENDRA CONFITADA 10 KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR FRUTITA CONFITADA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CACHIT CONFITADO 500GR PROVIDENCIA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JAM EXTRA BECERRIN",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EST MARINA CHICA 360GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS ROLL FRUTAS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS ROLL MINT",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS FANTA (348.48GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS ROLL FRESA (348.48GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "X-TREMES MORA AZUL 57 GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "X-TREMES FRUTAS 57 GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "X-TREMES FRUTAS (57G)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "X-TREMES MORA AZUL (57G)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS ROLL MIX",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT PAL CHUPA CHUPS CREMOSA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS GUM FRESH MINT (80GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "X-TREMES BITES",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MENTOS GUM SPEARMINT (80GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL CHUPA CHUPS BOLSA YOGURT",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CRAZY DIPS FRESA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VOLT YELLOW ENERGY (473ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VOLT BLUE ENERGY LATA (473ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VOLT GAMER ENERGY 473GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VOLT PINK ENERGY LATA (473ML)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SELZ SODA BLS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL CHIPILETA MIX SOLAPA ANAHUAC 330GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUGO SABORES",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH THE LONG ONE TUTTI (40G)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL CHIPILETA NARANJA BOLSA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL CHIPILETA NARANJA SOLAPA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "SALERO MIX (12GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH OKA LOKA TUTTIFRUTI",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CH OKA LOKA MANZANA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC SUPER SPORTS 1KG PALMER",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "OKA LOKA FUSION (14GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCO PAFFY 250GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "OKA LOKA NANOS FRESA-LIMON",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "OKA LOKA NANOS UVA-SANDIA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "400 GR CHOC SKULLS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOC SUPER SPORT 500KG PAF",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL CACHETADA PULPILANDIA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MEGA HUEVON DISPLAY",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "MEGA HUEVON",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CACHETADA DEVORA TIRA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CACHETADA DEVORALIEN MIX",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL MORDIDILLA TIRA (253 GR)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL PUERQUITOS (560G)",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL NEON LASER 336GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL PUERQUITOS NEON 336G",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PAL PUERQUITO SANDIA 620GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "PISTACHOS 1KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TAZA AMOR Y AMISTAD 40GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TAZA NAVIDAD 40GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOLIS CONGELADO 568 ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCOLATE VOLLMOND",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "EST GUMMY RAINBOW 900GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GATO MINI GELATINA YOGURT 1.53KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT MINI GELATINA POLLO 1.53KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT JELLY POP CANDY VENDING 1.73KG",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUMEX 413ML BOTELLIN DURAZNO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ARIZONA KIWI CON FRESA 570ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUMEX 413ML BOTELLIN MANGO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ARIZONA SANDIA 570ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUMEX 413ML BOTELLIN MANZANA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUGO V8 SPLASH SURTIDO 500ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUMEX MINIBRIK DURAZNO 237ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ARIZONA MANGO 570ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUMEX MINIBRIK MANZANA 237ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "JUMEX MINIBRIK MANGO 237ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCOFRESKY BLS 500 GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCOFRESKYS SOBRE 30GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CHOCOFRESKY BLS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR TAMBORINES C",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR TAMBORINES AZULITOS",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SUAVE ICEE ROPES 600GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROL LIPS ICEE SURTIDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "TA WENO ICEE SURT",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SUAVE ICEE ROPES TROPICAL C",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "ROL LIPS ICEE TROPICAL 300ML",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "CAR SUAVE TIRA ICEE ROPES TROPICAL C",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "LATA ICEE 240GR",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HUEVO MY LITTLE PONY",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "HUEVO BOB ESPONJA",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOING CAJA 500 ML SURTIDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOING BOTELLA 354ML SURTIDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOING CAJA 250 ML SURTIDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "BOING CAJA 125 ML SURTIDO",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    },
+    {
+      "nombre": "VIT GOMANDY CHAMOY 870GR DULANDY",
+      "brand_name": "Aproza",
+      "activo": true,
+      "orden": 0,
+      "puntuacion": 5
+    }
+  ],
+  "brandCorrections": []
+}
