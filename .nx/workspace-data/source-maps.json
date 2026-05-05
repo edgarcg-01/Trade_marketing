@@ -4,6 +4,210 @@
       "apps/api/project.json",
       "nx/core/project-json"
     ],
+    "projectType": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.cache": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.dependsOn": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.inputs": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.outputs": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.cwd": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.args": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies.0": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.description": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.example": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.cwd": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.args": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies.0": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.description": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.example": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
     "name": [
       "apps/api/project.json",
       "nx/core/project-json"
@@ -16,15 +220,7 @@
       "apps/api/project.json",
       "nx/core/project-json"
     ],
-    "projectType": [
-      "apps/api/project.json",
-      "nx/core/project-json"
-    ],
     "tags": [
-      "apps/api/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
       "apps/api/project.json",
       "nx/core/project-json"
     ],
@@ -178,6 +374,210 @@
       "apps/trade-marketing-api/project.json",
       "nx/core/project-json"
     ],
+    "projectType": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.cache": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.dependsOn": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.inputs": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.outputs": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.cwd": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.args": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies.0": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.description": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.example": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.cwd": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.args": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies.0": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.description": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.example": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
     "name": [
       "apps/trade-marketing-api/project.json",
       "nx/core/project-json"
@@ -190,15 +590,7 @@
       "apps/trade-marketing-api/project.json",
       "nx/core/project-json"
     ],
-    "projectType": [
-      "apps/trade-marketing-api/project.json",
-      "nx/core/project-json"
-    ],
     "tags": [
-      "apps/trade-marketing-api/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
       "apps/trade-marketing-api/project.json",
       "nx/core/project-json"
     ],
@@ -352,6 +744,70 @@
       "apps/trade-marketing-view/project.json",
       "nx/core/project-json"
     ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
     "name": [
       "apps/trade-marketing-view/project.json",
       "nx/core/project-json"
@@ -369,10 +825,6 @@
       "nx/core/project-json"
     ],
     "prefix": [
-      "apps/trade-marketing-view/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
       "apps/trade-marketing-view/project.json",
       "nx/core/project-json"
     ],
@@ -582,6 +1034,70 @@
       "apps/view/project.json",
       "nx/core/project-json"
     ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
     "name": [
       "apps/view/project.json",
       "nx/core/project-json"
@@ -599,10 +1115,6 @@
       "nx/core/project-json"
     ],
     "prefix": [
-      "apps/view/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
       "apps/view/project.json",
       "nx/core/project-json"
     ],
@@ -804,6 +1316,10 @@
       "libs/shared-auth/project.json",
       "nx/core/project-json"
     ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
     "name": [
       "libs/shared-auth/project.json",
       "nx/core/project-json"
@@ -821,10 +1337,6 @@
       "nx/core/project-json"
     ],
     "tags": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
       "libs/shared-auth/project.json",
       "nx/core/project-json"
     ],
