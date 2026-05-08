@@ -1174,6 +1174,10 @@
       "apps/view/project.json",
       "nx/core/project-json"
     ],
+    "targets.build.options.serviceWorker": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build.configurations.production": [
       "apps/view/project.json",
       "nx/core/project-json"

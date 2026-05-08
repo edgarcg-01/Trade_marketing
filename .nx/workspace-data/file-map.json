@@ -49,27 +49,103 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "database/migrations/20260427000003_fix_checklists_fotos_foreign_keys_v2.js",
-        "hash": "17086381791522967126"
+        "file": ".nxignore",
+        "hash": "14062325651399360254"
       },
       {
-        "file": "database/migrations/20260428000100_add_chofer_id_to_checklists.js",
-        "hash": "2507772067382964878"
+        "file": "documentation/components/HomeComponent.html",
+        "hash": "12729687632381316627"
       },
       {
-        "file": "database/migrations/20260424120000_add_repartidor_km_to_destinos.js",
-        "hash": "1900552803064564060"
+        "file": "database/migrations/20260424163000_add_fleet_fields_to_unidades.js",
+        "hash": "2294778551477680827"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "8011690573286260331"
+        "file": "documentation/interfaces/DayGroup-1.html",
+        "hash": "1526060503751434159"
       },
       {
-        "file": "documentation/fonts/roboto-v15-latin-300.woff2",
-        "hash": "14268032398072346110"
+        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
+        "hash": "3247774897966690539"
       },
       {
-        "file": "database/migrations/20250428140000_fix_fotos_missing_columns.js",
+        "file": "tsconfig.json",
+        "hash": "16721563661241150312"
+      },
+      {
+        "file": "documentation/template-playground/hbs-render.service.ts",
+        "hash": "3057275644565601635"
+      },
+      {
+        "file": "documentation/modules.html",
+        "hash": "5741176320505375396"
+      },
+      {
+        "file": "documentation/components/ExhibitionsComponent.html",
+        "hash": "13320997428357336520"
+      },
+      {
+        "file": "documentation/styles/material.css",
+        "hash": "3940016284014796941"
+      },
+      {
+        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
+        "hash": "14549549451554693058"
+      },
+      {
+        "file": "documentation/directives/HlmButtonDirective.html",
+        "hash": "12666698229099484061"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.svg",
+        "hash": "5064871685992200298"
+      },
+      {
+        "file": "documentation/injectables/MetasConfigService.html",
+        "hash": "6537210110127772065"
+      },
+      {
+        "file": "documentation/styles/postmark.css",
+        "hash": "6356096137207536574"
+      },
+      {
+        "file": "documentation/fonts/ionicons.woff",
+        "hash": "10215852456567241679"
+      },
+      {
+        "file": "documentation/injectables/AdminPlanogramaService.html",
+        "hash": "1213984594377586799"
+      },
+      {
+        "file": "documentation/template-playground-app/index.html",
+        "hash": "8413780133400990091"
+      },
+      {
+        "file": "documentation/injectables/UsersService.html",
+        "hash": "1287398404035506577"
+      },
+      {
+        "file": "database/seeds/000_cleanup.js",
+        "hash": "11564318641312707521"
+      },
+      {
+        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": "database/seeds/03_products.js",
+        "hash": "15543212006125928866"
+      },
+      {
+        "file": "documentation/interfaces/DashboardData.html",
+        "hash": "5193581470885068430"
+      },
+      {
+        "file": "documentation/interfaces/FurnitureMeta.html",
+        "hash": "10410903498017681022"
+      },
+      {
+        "file": "database/migrations/20260428000200_add_respuestas_to_checklists.js",
         "hash": "2507772067382964878"
       },
       {
@@ -77,859 +153,283 @@
         "hash": "2507772067382964878"
       },
       {
-        "file": "documentation/styles/compodoc.css",
-        "hash": "8611434279416525798"
-      },
-      {
-        "file": "database/migrations/20260424173000_add_costos_columns.js",
-        "hash": "5297740077108540821"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-300.woff",
-        "hash": "5551725997763169280"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-italic.woff",
-        "hash": "5050951999862935083"
-      },
-      {
-        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "documentation/injectables/FiltersStateService.html",
-        "hash": "11315047278336943206"
-      },
-      {
-        "file": "documentation/js/menu-wc.js",
-        "hash": "10898603440733221794"
-      },
-      {
-        "file": "documentation/directives/HlmInputDirective.html",
-        "hash": "13157932896370172644"
-      },
-      {
-        "file": "documentation/images/coverage-badge-documentation.svg",
-        "hash": "5454817942251611647"
-      },
-      {
-        "file": "database/migrations/20260430100000_update_units_and_fuel.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/template-playground/zip-export.service.ts",
-        "hash": "13166575887196898845"
-      },
-      {
-        "file": "database/migrations/20250428130002_remove_subido_por.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/interfaces/SyncStatus.html",
-        "hash": "11347532111566395163"
-      },
-      {
-        "file": "database/seeds/01e_logistica_embarques.js",
-        "hash": "8835181718781686999"
-      },
-      {
-        "file": "documentation/injectables/AdminCatalogsService.html",
-        "hash": "10874287188824799835"
-      },
-      {
-        "file": "documentation/injectables/RetryStrategyService.html",
-        "hash": "5945402746983096873"
-      },
-      {
-        "file": "database/migrations/20260427000001_link_users_to_colaboradores.js",
-        "hash": "12643050964349211605"
-      },
-      {
-        "file": "documentation/interfaces/FurnitureMeta.html",
-        "hash": "10410903498017681022"
-      },
-      {
-        "file": "documentation/js/libs/d3.v3.min.js",
-        "hash": "14168307329048117996"
-      },
-      {
-        "file": "package.json",
-        "hash": "14163955737421742023"
-      },
-      {
-        "file": "database/seeds/00b_rutas.js",
-        "hash": "524694689248979247"
-      },
-      {
-        "file": "database/migrations/20250428000000_add_detalles_tables.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10715093684225930392"
-      },
-      {
-        "file": "documentation/js/libs/vis-network.min.js",
-        "hash": "12319873011007040241"
-      },
-      {
-        "file": "documentation/interfaces/Coordenada.html",
-        "hash": "12418846979840072204"
-      },
-      {
-        "file": "documentation/components/StoresComponent.html",
-        "hash": "33249638832189981"
-      },
-      {
-        "file": "README.md",
-        "hash": "13123434361241207768"
-      },
-      {
-        "file": "database/migrations/20260427000000_add_checklists_and_fotos.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/injectables/UsersService.html",
-        "hash": "1287398404035506577"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-italic.eot",
-        "hash": "15098770303203122150"
-      },
-      {
-        "file": "documentation/images/compodoc-vectorise.svg",
-        "hash": "11426304453761483524"
-      },
-      {
-        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
-        "hash": "14549549451554693058"
-      },
-      {
-        "file": "documentation/styles/reset.css",
-        "hash": "17171789329408911375"
-      },
-      {
-        "file": "documentation/components/AdminCatalogsComponent.html",
-        "hash": "4624669875809927788"
-      },
-      {
-        "file": "database/migrations/20250428180000_add_columns_to_users.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
-        "hash": "4476013461581687517"
-      },
-      {
-        "file": "database/seeds/04_catalogs.js",
-        "hash": "5760364577860083285"
-      },
-      {
-        "file": ".github/workflows/deploy.yml",
-        "hash": "16304487043974844947"
-      },
-      {
-        "file": "documentation/miscellaneous/variables.html",
-        "hash": "5355323414568294814"
-      },
-      {
-        "file": "documentation/js/menu-wc_es5.js",
-        "hash": "546916540437416682"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "18740689506893449"
-      },
-      {
-        "file": "database/migrations/20260414104200_normalize_production_roles.js",
-        "hash": "11634888082849146297"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "9211151120200565156"
-      },
-      {
-        "file": ".github/workflows/keep-alive.yaml",
-        "hash": "12075865689376578926"
-      },
-      {
-        "file": "database/migrations/20250428130000_consolidate_fotos_columns.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/fonts/ionicons.eot",
-        "hash": "11954292315687035285"
-      },
-      {
-        "file": "documentation/components/OfflineStatusComponent.html",
-        "hash": "10256617020488833025"
-      },
-      {
-        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
-        "hash": "15252649419008977943"
-      },
-      {
-        "file": "documentation/injectables/AdminScoringService.html",
-        "hash": "5701442054576075899"
-      },
-      {
-        "file": "documentation/js/search/lunr.min.js",
-        "hash": "7769939115959793803"
-      },
-      {
-        "file": "documentation/injectables/MetasConfigService.html",
-        "hash": "6537210110127772065"
-      },
-      {
-        "file": "uploads/exh_S-130309_a8z3u39_1775070189467.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "documentation/js/routes/routes_index.js",
-        "hash": "5560125553452561924"
-      },
-      {
-        "file": "docs/README.md",
-        "hash": "6326101323683365762"
-      },
-      {
-        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
-        "hash": "16532866879954088831"
-      },
-      {
-        "file": "database/migrations/20260428000300_make_items_nullable.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "database/migrations-products/20260429140000_load_products_from_json_updated.js",
-        "hash": "4784097063108537177"
-      },
-      {
-        "file": "documentation/injectables/OfflineDailyCaptureService.html",
-        "hash": "9765606097144579004"
-      },
-      {
-        "file": "documentation/miscellaneous/typealiases.html",
-        "hash": "474229972173869365"
-      },
-      {
-        "file": "documentation/injectables/OfflineSyncService.html",
-        "hash": "1852578146907337206"
-      },
-      {
-        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "documentation/interfaces/DayGroup-1.html",
-        "hash": "1526060503751434159"
-      },
-      {
-        "file": "documentation/js/libs/EventDispatcher.js",
-        "hash": "5651041577841919592"
-      },
-      {
-        "file": "docs/areas/05_DEV_FRONTEND.md",
-        "hash": "14617887801361699715"
-      },
-      {
-        "file": "graph.json",
-        "hash": "6207245112050024150"
-      },
-      {
-        "file": "documentation/template-playground/main.ts",
-        "hash": "16905169045410014673"
-      },
-      {
-        "file": "documentation/overview.html",
-        "hash": "17515627567724118518"
-      },
-      {
-        "file": "documentation/js/libs/zepto.min.js",
-        "hash": "13078023127810371221"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "documentation/injectables/GeoValidationService.html",
-        "hash": "16404516677475517869"
-      },
-      {
-        "file": "documentation/injectables/DataUpdateService.html",
-        "hash": "9594426473430045504"
-      },
-      {
-        "file": ".dockerignore",
-        "hash": "1978804697117779237"
-      },
-      {
-        "file": "documentation/injectables/DailyCaptureService.html",
-        "hash": "7725724026682470306"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-700.svg",
-        "hash": "17115772852413095572"
-      },
-      {
-        "file": "database/migrations/20250428120001_add_chofer_id_to_fotos.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/interfaces/DropOption.html",
-        "hash": "6272658680997725659"
-      },
-      {
-        "file": "DEPLOY_CHECKLIST.md",
-        "hash": "4761516853418043779"
-      },
-      {
-        "file": "documentation/js/libs/prism.js",
-        "hash": "14293504565076332189"
-      },
-      {
-        "file": "documentation/interfaces/PdfSection.html",
-        "hash": "15029477127903964659"
-      },
-      {
-        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
-        "hash": "2694918293729740358"
-      },
-      {
-        "file": "documentation/js/tabs.js",
-        "hash": "17298860297793970551"
-      },
-      {
-        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
-        "hash": "12161224180873299086"
-      },
-      {
-        "file": "documentation/interfaces/SyncLog.html",
-        "hash": "11454973899270152155"
-      },
-      {
-        "file": "database/migrations/20250101000001_add_checklists_and_fotos.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "docs/areas/00_INDICE_GENERAL.md",
-        "hash": "4398867781477227850"
-      },
-      {
-        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
-        "hash": "14060519850454525079"
-      },
-      {
-        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/migrations/20260414220001_add_score_maximo_to_config_versions.js",
-        "hash": "5769448018101356473"
-      },
-      {
-        "file": "docs/OFFLINE_FIRST_IMPLEMENTATION.md",
-        "hash": "9728183359147062251"
-      },
-      {
-        "file": "documentation/template-playground/hbs-render.service.ts",
-        "hash": "3057275644565601635"
-      },
-      {
-        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
-        "hash": "5093950688688802540"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-300.ttf",
-        "hash": "6723283691141535943"
-      },
-      {
-        "file": "documentation/styles/bootstrap.min.css",
-        "hash": "2605481430810498933"
-      },
-      {
-        "file": "documentation/components/GlobalFiltersComponent.html",
-        "hash": "9448807615192224085"
-      },
-      {
-        "file": "documentation/components/AdminPlanogramaComponent.html",
-        "hash": "9263422129502545134"
+        "file": "tsconfig.base.json",
+        "hash": "8011690573286260331"
       },
       {
         "file": "documentation/styles/stripe.css",
         "hash": "5341739897033551826"
       },
       {
-        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
-        "hash": "12476446805270082612"
+        "file": "documentation/components/DashboardComponent.html",
+        "hash": "8767993913609782299"
       },
       {
-        "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
-        "hash": "12883015568955079618"
+        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
+        "hash": "9787160593362166455"
       },
       {
-        "file": ".nxignore",
-        "hash": "14062325651399360254"
-      },
-      {
-        "file": "documentation/components/ReportsComponent-1.html",
-        "hash": "14427462436386543016"
-      },
-      {
-        "file": "database/migrations/20260414200000_add_scoring_config_versions.js",
-        "hash": "1767773529438191238"
-      },
-      {
-        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
-        "hash": "260444976317739642"
-      },
-      {
-        "file": "documentation/components/ExhibitionsComponent.html",
-        "hash": "13320997428357336520"
-      },
-      {
-        "file": "database/migrations/20260414130000_fix_supervisor_id_production.js",
-        "hash": "9686040481709306062"
-      },
-      {
-        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
-        "hash": "8498027196165647248"
-      },
-      {
-        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
-        "hash": "2890881875717804828"
-      },
-      {
-        "file": "documentation/interfaces/ConceptoExhibicion.html",
-        "hash": "11039521244181076021"
-      },
-      {
-        "file": "documentation/js/search/search_index.js",
-        "hash": "5674781537770571391"
-      },
-      {
-        "file": "documentation/interfaces/BeforeInstallPromptEvent.html",
-        "hash": "5669376783167631126"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-700.eot",
-        "hash": "16058052300924999321"
-      },
-      {
-        "file": "database/migrations/20260509000000_add_ruta_id_to_stores.js",
-        "hash": "12218208231905276564"
-      },
-      {
-        "file": "documentation/interfaces/CatalogoOffline.html",
-        "hash": "1273999212452704895"
-      },
-      {
-        "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
-        "hash": "804792513858306976"
-      },
-      {
-        "file": "docs/areas/06_DEV_BASE_DATOS.md",
-        "hash": "6124646719992690656"
-      },
-      {
-        "file": "database/migrations/20260429180000_add_products_from_json.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/components/LoginComponent.html",
-        "hash": "16567963819595692587"
-      },
-      {
-        "file": "documentation/fonts/ionicons.woff",
-        "hash": "10215852456567241679"
-      },
-      {
-        "file": "docs/areas/04_DEV_BACKEND.md",
-        "hash": "9621004713984274572"
-      },
-      {
-        "file": "documentation/styles/vagrant.css",
-        "hash": "18316956050239455040"
-      },
-      {
-        "file": "documentation/styles/readthedocs.css",
-        "hash": "9436345951779592580"
-      },
-      {
-        "file": "documentation/interfaces/DashboardData.html",
-        "hash": "5193581470885068430"
-      },
-      {
-        "file": "database/migrations/20260413233200_change_puntuacion_to_decimal.js",
-        "hash": "3574761022922196745"
-      },
-      {
-        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
-        "hash": "6479812992078546234"
-      },
-      {
-        "file": "database/migrations/20260402141502_create_daily_assignments.js",
-        "hash": "4959690170160711275"
-      },
-      {
-        "file": "database/knexfile.ts",
-        "hash": "14001205280723615167"
-      },
-      {
-        "file": "nginx.conf",
-        "hash": "5034115621239891456"
-      },
-      {
-        "file": "Dockerfile",
-        "hash": "13727462321743793715"
-      },
-      {
-        "file": "database/migrations/20260505100000_add_la_piedad_vecinal_zone.js",
-        "hash": "11395994719979474105"
-      },
-      {
-        "file": "database/seeds/05_scoring_config.js",
-        "hash": "3547127868769234357"
-      },
-      {
-        "file": "documentation/properties.html",
-        "hash": "16333735231022588151"
-      },
-      {
-        "file": "database/seeds/02_create_drivers_users.js",
-        "hash": "11848354615903015841"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-regular.woff",
-        "hash": "1398560205593287051"
-      },
-      {
-        "file": "documentation/interfaces/FiltersState.html",
-        "hash": "7426279299774752520"
-      },
-      {
-        "file": "database/migrations/20260429000000_add_roles_to_users.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/styles/ionicons.min.css",
-        "hash": "8454038333229049064"
-      },
-      {
-        "file": "database/migrations/20250428120002_add_guia_id_to_fotos.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "database/migrations/20260428000200_add_respuestas_to_checklists.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "database/seeds/00_roles.js",
-        "hash": "9136483672802478015"
-      },
-      {
-        "file": "database/migrations/20250101000000_init_logistics_schema.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/js/compodoc.js",
-        "hash": "8639640071730175891"
-      },
-      {
-        "file": "database/knexfile-products.js",
-        "hash": "16464149718198088128"
-      },
-      {
-        "file": "documentation/injectables/AuthService.html",
-        "hash": "5262201472679454486"
-      },
-      {
-        "file": "documentation/injectables/DashboardService.html",
-        "hash": "5652550355174946999"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-700.woff2",
-        "hash": "1410963700615895184"
-      },
-      {
-        "file": "database/seeds/02_brands.js",
-        "hash": "15031306579306081567"
-      },
-      {
-        "file": "documentation/fonts/ionicons.woff2",
-        "hash": "11311683446494265812"
-      },
-      {
-        "file": "documentation/interfaces/VisitaSnapshot.html",
-        "hash": "7623267051770994394"
-      },
-      {
-        "file": "database/migrations/20260414120000_fix_supervisor_id_integrity.js",
-        "hash": "3402121076076597957"
-      },
-      {
-        "file": "database/migrations/20260424170000_add_estado_to_colaboradores.js",
-        "hash": "16669646245572003754"
-      },
-      {
-        "file": "documentation/js/tree.js",
-        "hash": "17844397582318322809"
-      },
-      {
-        "file": "documentation/js/libs/bootstrap-native.js",
-        "hash": "4674564391422988934"
-      },
-      {
-        "file": "documentation/components/AdminUsersComponent.html",
-        "hash": "508577044758791227"
-      },
-      {
-        "file": "openapi-config.json",
-        "hash": "13681784447332123154"
-      },
-      {
-        "file": "documentation/interfaces/UbicacionExhibicion.html",
-        "hash": "14701528787148771549"
-      },
-      {
-        "file": "database/migrations/20260409174829_refactor_zones.js",
-        "hash": "1637055527667658835"
-      },
-      {
-        "file": "database/knexfile.js",
-        "hash": "7223585056947589135"
-      },
-      {
-        "file": "documentation/template-playground/default-templates.json",
-        "hash": "2435826857248909718"
-      },
-      {
-        "file": "database/migrations/20260414220000_add_rubrica_ejecucion.js",
-        "hash": "13417168307797742688"
-      },
-      {
-        "file": "database/migrations/20260424172000_add_detalles_tables.js",
-        "hash": "15403518210237989824"
-      },
-      {
-        "file": "database/migrations/20260414103600_fix_roles_case_production.js",
-        "hash": "8517888144778641297"
-      },
-      {
-        "file": ".node-version",
-        "hash": "8478008329589569081"
-      },
-      {
-        "file": "database/seeds/01_users.js",
-        "hash": "5793808740190833912"
-      },
-      {
-        "file": "docs/ESPECIFICACIONES_TECNICAS.md",
-        "hash": "3247774897966690539"
-      },
-      {
-        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "database/seeds/07_daily_assignments.js",
-        "hash": "10533850458307636389"
-      },
-      {
-        "file": "start.sh",
-        "hash": "6501748199663442845"
-      },
-      {
-        "file": "database/seeds/00a_zones.js",
-        "hash": "17531412748295496775"
-      },
-      {
-        "file": "documentation/styles/laravel.css",
-        "hash": "5255114620609172927"
-      },
-      {
-        "file": ".env.cloudinary",
-        "hash": "1587702555345334753"
-      },
-      {
-        "file": "sdks/vscode",
-        "hash": "14722813362610518903"
+        "file": "package.json",
+        "hash": "9400184826843758625"
       },
       {
         "file": "documentation/interfaces/NetworkStatus.html",
         "hash": "6428572481265423346"
       },
       {
-        "file": "documentation/interfaces/KpiCard.html",
-        "hash": "16519066303253179402"
+        "file": "documentation/js/lazy-load-graphs.js",
+        "hash": "5384493267503432515"
       },
       {
-        "file": "documentation/js/menu.js",
-        "hash": "15152626410495210695"
+        "file": "documentation/components/VisitsComponent.html",
+        "hash": "5671608585495371014"
       },
       {
-        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
-        "hash": "11258048054278754970"
+        "file": "database/migrations/20260428000100_add_chofer_id_to_checklists.js",
+        "hash": "2507772067382964878"
       },
       {
-        "file": "documentation/fonts/roboto-v15-latin-italic.ttf",
-        "hash": "4417700308891305617"
+        "file": "documentation/injectables/DailyCaptureService.html",
+        "hash": "7725724026682470306"
       },
       {
-        "file": "documentation/js/libs/innersvg.js",
-        "hash": "5802205836405538118"
+        "file": "documentation/injectables/PwaInstallService.html",
+        "hash": "4692480854943976025"
       },
       {
-        "file": "documentation/fonts/ionicons.ttf",
-        "hash": "9482225794616543832"
+        "file": "documentation/styles/prism.css",
+        "hash": "17076593053264674401"
       },
       {
-        "file": ".npmrc",
-        "hash": "9941704086940456981"
+        "file": "documentation/components/ReportsComponent.html",
+        "hash": "10637457423080363293"
       },
       {
-        "file": "documentation/fonts/roboto-v15-latin-regular.woff2",
-        "hash": "6009251489912774712"
+        "file": "documentation/components/AdminCatalogsComponent.html",
+        "hash": "4624669875809927788"
       },
       {
-        "file": "documentation/js/libs/promise.min.js",
-        "hash": "11998125303848972939"
+        "file": ".gitignore",
+        "hash": "9211151120200565156"
       },
       {
-        "file": "documentation/interfaces/UpdateNotification.html",
-        "hash": "16878246863941020852"
+        "file": "documentation/fonts/roboto-v15-latin-italic.woff2",
+        "hash": "6682708430513662803"
       },
       {
-        "file": "documentation/template-playground/template-editor.service.ts",
-        "hash": "14355421333242932791"
-      },
-      {
-        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
-        "hash": "910734349432654109"
-      },
-      {
-        "file": "documentation/components/HomeComponent.html",
-        "hash": "12729687632381316627"
-      },
-      {
-        "file": "load-compiler.mjs",
-        "hash": "3719838546652958107"
+        "file": "documentation/routes.html",
+        "hash": "4791199116483472313"
       },
       {
         "file": "documentation/js/sourceCode.js",
         "hash": "9073579625756559126"
       },
       {
-        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-700.ttf",
-        "hash": "5352514732871671459"
-      },
-      {
-        "file": "documentation/js/libs/custom-elements.min.js",
-        "hash": "18369070844174768822"
-      },
-      {
-        "file": "documentation/injectables/ReportsService.html",
-        "hash": "10337579307526188289"
-      },
-      {
-        "file": "documentation/interfaces/BrandGroup.html",
-        "hash": "5273660853250874102"
-      },
-      {
-        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
-        "hash": "157084602558112272"
-      },
-      {
-        "file": "documentation/js/libs/jszip.min.js",
-        "hash": "15913628595711008916"
-      },
-      {
-        "file": "database/migrations/20260414104000_sync_roles_production.js",
-        "hash": "15606133683229291687"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-regular.ttf",
-        "hash": "6355862180977459781"
-      },
-      {
-        "file": "documentation/js/libs/tablesort.min.js",
-        "hash": "15118661930356082429"
-      },
-      {
-        "file": "documentation/images/compodoc-vectorise-inverted.png",
-        "hash": "5020586271611239710"
+        "file": "documentation/template-playground/main.ts",
+        "hash": "16905169045410014673"
       },
       {
         "file": "documentation/interfaces/User.html",
         "hash": "12370199754308373610"
       },
       {
-        "file": "documentation/directives/HlmButtonDirective.html",
-        "hash": "12666698229099484061"
+        "file": "database/migrations/20260424120000_add_repartidor_km_to_destinos.js",
+        "hash": "1900552803064564060"
       },
       {
-        "file": ".prettierrc",
-        "hash": "14145419060237914883"
+        "file": "documentation/js/menu.js",
+        "hash": "15152626410495210695"
       },
       {
         "file": "documentation/components/AppComponent.html",
         "hash": "7207663512619879745"
       },
       {
-        "file": "documentation/styles/tablesort.css",
-        "hash": "3196665951570312247"
+        "file": "database/migrations/20260402141502_create_daily_assignments.js",
+        "hash": "4959690170160711275"
+      },
+      {
+        "file": "documentation/js/libs/tablesort.number.min.js",
+        "hash": "14187206818899475591"
+      },
+      {
+        "file": "documentation/interfaces/TiendaOffline.html",
+        "hash": "8147977672444829881"
+      },
+      {
+        "file": "database/migrations/20260413233200_change_puntuacion_to_decimal.js",
+        "hash": "3574761022922196745"
+      },
+      {
+        "file": "database/seeds/00a_zones.js",
+        "hash": "17531412748295496775"
       },
       {
         "file": "database/migrations/20250428170000_add_timestamps_to_embarques.js",
         "hash": "2507772067382964878"
       },
       {
-        "file": "documentation/styles/bootstrap-card.css",
-        "hash": "18387034006199116180"
+        "file": "database/migrations/20260414130000_fix_supervisor_id_production.js",
+        "hash": "9686040481709306062"
+      },
+      {
+        "file": "docs/OFFLINE_FIRST_IMPLEMENTATION.md",
+        "hash": "9728183359147062251"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise-inverted.svg",
+        "hash": "7115684776184011537"
+      },
+      {
+        "file": ".github/workflows/keep-alive.yaml",
+        "hash": "12075865689376578926"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "15595539435287234365"
+      },
+      {
+        "file": "database/migrations/20260430110000_create_fleet_usage_and_maintenance.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/interfaces/VisitaSnapshot.html",
+        "hash": "7623267051770994394"
+      },
+      {
+        "file": "database/knexfile.js",
+        "hash": "7223585056947589135"
+      },
+      {
+        "file": "documentation/styles/bootstrap.min.css",
+        "hash": "2605481430810498933"
+      },
+      {
+        "file": "documentation/interfaces/UpdateNotification.html",
+        "hash": "16878246863941020852"
+      },
+      {
+        "file": "documentation/js/tabs.js",
+        "hash": "17298860297793970551"
+      },
+      {
+        "file": "database/migrations/20260401000000_v4_rename_planograma_to_planograms.js",
+        "hash": "12883015568955079618"
       },
       {
         "file": "database/migrations/20260331231959_add_gps_to_captures.js",
         "hash": "9562049285079356973"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "16721563661241150312"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
-        "file": "documentation/fonts/ionicons.svg",
-        "hash": "13397395708463306337"
+        "file": "docs/areas/09_ROADMAP_EJECUCION.md",
+        "hash": "8498027196165647248"
       },
       {
-        "file": "documentation/index.html",
-        "hash": "13175578652897310602"
+        "file": "documentation/fonts/roboto-v15-latin-regular.svg",
+        "hash": "10760737229288538034"
       },
       {
-        "file": "documentation/interfaces/DayGroup.html",
-        "hash": "10746071776728587799"
+        "file": "documentation/js/libs/tablesort.min.js",
+        "hash": "15118661930356082429"
       },
       {
-        "file": "documentation/images/favicon.ico",
-        "hash": "8237334056690247575"
+        "file": "documentation/js/search/search_index.js",
+        "hash": "5674781537770571391"
       },
       {
-        "file": "database/migrations/20260424163000_add_fleet_fields_to_unidades.js",
-        "hash": "2294778551477680827"
+        "file": "documentation/injectables/OfflineSyncService.html",
+        "hash": "1852578146907337206"
       },
       {
-        "file": "documentation/template-playground/template-playground.module.ts",
-        "hash": "4096233995754264688"
+        "file": "database/migrations/20260414104000_sync_roles_production.js",
+        "hash": "15606133683229291687"
       },
       {
-        "file": "database/migrations/20260505000000_add_offline_sync_fields.js",
+        "file": "database/migrations/20260508000000_add_store_id_to_daily_captures.js",
+        "hash": "16474595899675961209"
+      },
+      {
+        "file": "documentation/interfaces/SyncLog.html",
+        "hash": "11454973899270152155"
+      },
+      {
+        "file": "docs/areas/08_DOCUMENTACION.md",
+        "hash": "6452228679350613213"
+      },
+      {
+        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
+        "hash": "12476446805270082612"
+      },
+      {
+        "file": "documentation/components/AdminPlanogramaComponent.html",
+        "hash": "9263422129502545134"
+      },
+      {
+        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
+        "hash": "14452574582107848075"
+      },
+      {
+        "file": "documentation/components/GlobalFiltersComponent.html",
+        "hash": "9448807615192224085"
+      },
+      {
+        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
+        "hash": "2694918293729740358"
+      },
+      {
+        "file": "docs/areas/07_QA_PRUEBAS.md",
+        "hash": "4683670748986581351"
+      },
+      {
+        "file": "nginx.conf",
+        "hash": "5034115621239891456"
+      },
+      {
+        "file": "documentation/injectables/DataUpdateService.html",
+        "hash": "9594426473430045504"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.ttf",
+        "hash": "5352514732871671459"
+      },
+      {
+        "file": "database/migrations/20250428000000_add_detalles_tables.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.eot",
+        "hash": "15098770303203122150"
+      },
+      {
+        "file": "documentation/js/svg-pan-zoom.controls.js",
+        "hash": "744268667400905464"
+      },
+      {
+        "file": "documentation/template-playground/default-templates.json",
+        "hash": "2435826857248909718"
+      },
+      {
+        "file": "documentation/miscellaneous/variables.html",
+        "hash": "5355323414568294814"
+      },
+      {
+        "file": "database/knexfile-products.js",
+        "hash": "16464149718198088128"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.woff",
+        "hash": "1398560205593287051"
+      },
+      {
+        "file": "database/migrations/20260414220001_add_score_maximo_to_config_versions.js",
+        "hash": "5769448018101356473"
+      },
+      {
+        "file": "database/migrations/20250428120002_add_guia_id_to_fotos.js",
         "hash": "2507772067382964878"
       },
       {
@@ -937,416 +437,916 @@
         "hash": "17185377631851716403"
       },
       {
-        "file": "documentation/interfaces/KpiRange.html",
-        "hash": "5947064461756496566"
+        "file": "openapi-config.json",
+        "hash": "13681784447332123154"
       },
       {
-        "file": "database/migrations/20260429000002_fix_guias_missing_columns.js",
-        "hash": "2507772067382964878"
+        "file": "database/migrations/20260409174829_refactor_zones.js",
+        "hash": "1637055527667658835"
       },
       {
-        "file": "documentation/routes.html",
-        "hash": "4791199116483472313"
+        "file": "documentation/styles/ionicons.min.css",
+        "hash": "8454038333229049064"
       },
       {
-        "file": "documentation/js/search/search-lunr.js",
-        "hash": "722021871454825163"
-      },
-      {
-        "file": "documentation/injectables/OfflineDatabaseService.html",
-        "hash": "7949119768262093049"
-      },
-      {
-        "file": "database/seeds/08_daily_captures.js",
-        "hash": "12681943178328811557"
-      },
-      {
-        "file": "documentation/directives/HlmBadgeDirective.html",
-        "hash": "9773971373661720898"
-      },
-      {
-        "file": "documentation/images/compodoc-vectorise-inverted.svg",
-        "hash": "7115684776184011537"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "16263309320067013831"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-regular.eot",
-        "hash": "4556119219014855615"
-      },
-      {
-        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
-        "hash": "13476342199117602537"
-      },
-      {
-        "file": "documentation/interfaces/SyncResult.html",
-        "hash": "4064810740655968837"
-      },
-      {
-        "file": "database/add_cloudinary_column.sql",
-        "hash": "12170767601534015950"
-      },
-      {
-        "file": "documentation/js/search/search.js",
-        "hash": "13561555034848643601"
-      },
-      {
-        "file": "database/seeds/01b_logistica_seed.js",
-        "hash": "16198458835720309069"
-      },
-      {
-        "file": "database/seeds/000_cleanup.js",
-        "hash": "11564318641312707521"
-      },
-      {
-        "file": "documentation/components/DashboardComponent.html",
-        "hash": "8767993913609782299"
-      },
-      {
-        "file": "database/seeds/03_products.js",
-        "hash": "15543212006125928866"
-      },
-      {
-        "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
-        "hash": "985783995748298683"
-      },
-      {
-        "file": "database/migrations/20260402160000_update_assignments_to_weekly.js",
-        "hash": "14452574582107848075"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-700.woff",
-        "hash": "5844094029798307855"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-italic.svg",
-        "hash": "6643643595714960495"
-      },
-      {
-        "file": "documentation/components/LayoutComponent.html",
-        "hash": "7011356748062704247"
-      },
-      {
-        "file": "documentation/js/lazy-load-graphs.js",
-        "hash": "5384493267503432515"
-      },
-      {
-        "file": "documentation/interfaces/VisitaPendiente.html",
-        "hash": "1960188840875641318"
-      },
-      {
-        "file": "documentation/styles/postmark.css",
-        "hash": "6356096137207536574"
-      },
-      {
-        "file": "documentation/injectables/ThemeService.html",
-        "hash": "11942950856059628169"
-      },
-      {
-        "file": "documentation/styles/dark.css",
-        "hash": "263054016924659583"
-      },
-      {
-        "file": "documentation/js/libs/clipboard.min.js",
-        "hash": "15183925666576653457"
-      },
-      {
-        "file": "documentation/js/libs/es6-shim.min.js",
-        "hash": "541838624623813887"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-regular.svg",
-        "hash": "10760737229288538034"
-      },
-      {
-        "file": "uploads/exh_S-145316_21sg5wy_1774990396219.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "documentation/modules.html",
-        "hash": "5741176320505375396"
-      },
-      {
-        "file": "documentation/components/DailyAssignmentsComponent.html",
-        "hash": "14990517707359616574"
-      },
-      {
-        "file": "database/migrations/20250428110000_add_fechas_embarques.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/interfaces/ProductoItem.html",
-        "hash": "3429873970831818611"
-      },
-      {
-        "file": "docs/areas/08_DOCUMENTACION.md",
-        "hash": "6452228679350613213"
-      },
-      {
-        "file": "documentation/js/libs/tablesort.number.min.js",
-        "hash": "14187206818899475591"
-      },
-      {
-        "file": "database/migrations/20260430110000_create_fleet_usage_and_maintenance.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-italic.woff2",
-        "hash": "6682708430513662803"
-      },
-      {
-        "file": "documentation/directives/HlmLabelDirective.html",
-        "hash": "10108677221598953181"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-300.eot",
-        "hash": "16970012345764992539"
-      },
-      {
-        "file": "documentation/styles/material.css",
-        "hash": "3940016284014796941"
-      },
-      {
-        "file": "documentation/styles/original.css",
-        "hash": "15617175025732620720"
-      },
-      {
-        "file": "documentation/styles/style.css",
-        "hash": "2277269946734393990"
-      },
-      {
-        "file": "documentation/interfaces/PermissionRow.html",
-        "hash": "15394245442004755598"
-      },
-      {
-        "file": "database/migrations/20260414210000_add_scoring_fields_to_daily_captures.js",
-        "hash": "11193782582488434534"
-      },
-      {
-        "file": "documentation/components/ProjectsComponent.html",
-        "hash": "18125961532955759667"
-      },
-      {
-        "file": "documentation/js/routes.js",
-        "hash": "16492905510053414854"
-      },
-      {
-        "file": "documentation/miscellaneous/enumerations.html",
-        "hash": "10699592676022519827"
-      },
-      {
-        "file": "documentation/interfaces/RetryConfig.html",
-        "hash": "3174515862380708860"
-      },
-      {
-        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
-        "hash": "6342132999074673245"
-      },
-      {
-        "file": "documentation/interfaces/TiendaOffline.html",
-        "hash": "8147977672444829881"
-      },
-      {
-        "file": "documentation/template-playground/template-playground.component.ts",
-        "hash": "12012602288256395860"
-      },
-      {
-        "file": "documentation/fonts/roboto-v15-latin-300.svg",
-        "hash": "5064871685992200298"
-      },
-      {
-        "file": "docs/areas/07_QA_PRUEBAS.md",
-        "hash": "4683670748986581351"
+        "file": "documentation/injectables/RetryStrategyService.html",
+        "hash": "5945402746983096873"
       },
       {
         "file": "cloudflared-config.yml",
         "hash": "2269427611404429157"
       },
       {
+        "file": "documentation/js/menu-wc.js",
+        "hash": "10898603440733221794"
+      },
+      {
+        "file": ".env.cloudinary",
+        "hash": "1587702555345334753"
+      },
+      {
         "file": "database/migrations/20250415100000_add_offline_sync_fields.js",
         "hash": "2507772067382964878"
       },
       {
-        "file": "docs/PASOS_MIGRACION_PRODUCTOS.md",
-        "hash": "7209343193322417943"
+        "file": "documentation/js/libs/vis-network.min.js",
+        "hash": "12319873011007040241"
       },
       {
-        "file": "database/seeds/01d_logistica_unidades.js",
-        "hash": "18164243747546528061"
+        "file": "documentation/injectables/FiltersStateService.html",
+        "hash": "11315047278336943206"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "15595539435287234365"
+        "file": "documentation/fonts/roboto-v15-latin-300.woff",
+        "hash": "5551725997763169280"
       },
       {
-        "file": "documentation/js/libs/svg-pan-zoom.min.js",
-        "hash": "17875591124579653107"
+        "file": "database/migrations/20260414104200_normalize_production_roles.js",
+        "hash": "11634888082849146297"
       },
       {
-        "file": "documentation/components/AdminScoringComponent.html",
-        "hash": "1687114697934233395"
-      },
-      {
-        "file": "documentation/interfaces/GeoValidationResult.html",
-        "hash": "13965542252788751953"
-      },
-      {
-        "file": "documentation/injectables/PwaInstallService.html",
-        "hash": "4692480854943976025"
-      },
-      {
-        "file": "database/migrations/20260427000002_fix_checklists_fotos_foreign_keys.js",
-        "hash": "17086381791522967126"
-      },
-      {
-        "file": ".continue/agents/new-config.yaml",
-        "hash": "15941798775300854909"
-      },
-      {
-        "file": "documentation/interfaces/PdfSection-1.html",
-        "hash": "2023361771488106129"
-      },
-      {
-        "file": "documentation/template-playground-app/app.js",
-        "hash": "8658518747894254343"
-      },
-      {
-        "file": "database/migrations/20260429000001_fix_embarques_missing_columns.js",
+        "file": "database/migrations/20260505000000_add_offline_sync_fields.js",
         "hash": "2507772067382964878"
       },
       {
-        "file": "documentation/js/libs/custom-elements-es5-adapter.js",
-        "hash": "16478351581815110526"
+        "file": "documentation/interfaces/RetryConfig.html",
+        "hash": "3174515862380708860"
       },
       {
-        "file": "database/migrations/20260508000000_add_store_id_to_daily_captures.js",
-        "hash": "16474595899675961209"
+        "file": "documentation/miscellaneous/typealiases.html",
+        "hash": "474229972173869365"
       },
       {
-        "file": "database/migrations/20260429140000_load_products_from_json_updated.js",
-        "hash": "2507772067382964878"
+        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
+        "hash": "11258048054278754970"
       },
       {
-        "file": "documentation/components/CapturesComponent.html",
-        "hash": "16359077380175841695"
+        "file": "documentation/miscellaneous/enumerations.html",
+        "hash": "10699592676022519827"
       },
       {
-        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
-        "hash": "9787160593362166455"
-      },
-      {
-        "file": "database/migrations/20260424171000_add_ayudantes_to_guias.js",
-        "hash": "14649082301293600806"
-      },
-      {
-        "file": "documentation/template-playground-app/index.html",
-        "hash": "8413780133400990091"
-      },
-      {
-        "file": "database/seeds/01f_embarque_completo_con_relaciones.js",
-        "hash": "9442785581235869120"
+        "file": "documentation/js/search/search.js",
+        "hash": "13561555034848643601"
       },
       {
         "file": "uploads/exh_S-081830_23u8mip_1775485110307.jpg",
         "hash": "6342132999074673245"
       },
       {
-        "file": "database/migrations/20260413210000_fix_zones_uuids.js",
-        "hash": "9166985577853017645"
+        "file": "documentation/styles/compodoc.css",
+        "hash": "8611434279416525798"
       },
       {
-        "file": "docs/ARCHITECTURE.md",
-        "hash": "544553347653358835"
+        "file": "uploads/exh_S-095604_fi1jpjq_1775058965010.jpg",
+        "hash": "13476342199117602537"
       },
       {
-        "file": "documentation/injectables/AdminPlanogramaService.html",
-        "hash": "1213984594377586799"
-      },
-      {
-        "file": "documentation/interfaces/RegistroExhibicion.html",
-        "hash": "15678325444102687747"
-      },
-      {
-        "file": "database/migrations/20260420153000_init_logistics_schema.js",
-        "hash": "2507772067382964878"
-      },
-      {
-        "file": "documentation/images/compodoc-vectorise.png",
-        "hash": "6670940543257439260"
-      },
-      {
-        "file": "documentation/coverage.html",
-        "hash": "41072765051503308"
-      },
-      {
-        "file": "documentation/js/libs/deep-iterator.js",
-        "hash": "12110682540857701089"
+        "file": "documentation/interfaces/Coordenada.html",
+        "hash": "12418846979840072204"
       },
       {
         "file": "database/seeds/01c_logistica_colaboradores.js",
         "hash": "15886563868538360695"
       },
       {
-        "file": "documentation/interfaces/ReportsData.html",
-        "hash": "2808810779135581633"
+        "file": "database/migrations/20260410170612_fix_catalogs_parent_id_constraint.js",
+        "hash": "4476013461581687517"
+      },
+      {
+        "file": "database/migrations/20260414200000_add_scoring_config_versions.js",
+        "hash": "1767773529438191238"
+      },
+      {
+        "file": "documentation/interfaces/FiltersState.html",
+        "hash": "7426279299774752520"
+      },
+      {
+        "file": "documentation/injectables/AdminScoringService.html",
+        "hash": "5701442054576075899"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.woff2",
+        "hash": "6009251489912774712"
+      },
+      {
+        "file": "docs/areas/00_INDICE_GENERAL.md",
+        "hash": "4398867781477227850"
       },
       {
         "file": "database/migrations/20250428130003_recreate_chofer_id.js",
         "hash": "2507772067382964878"
       },
       {
-        "file": "documentation/js/svg-pan-zoom.controls.js",
-        "hash": "744268667400905464"
+        "file": "database/migrations/20260414220000_add_rubrica_ejecucion.js",
+        "hash": "13417168307797742688"
       },
       {
-        "file": "documentation/js/libs/lit-html.js",
-        "hash": "6258091497474886715"
-      },
-      {
-        "file": "database/migrations/20260429170000_add_new_brands_and_products.js",
+        "file": "database/migrations/20260429000002_fix_guias_missing_columns.js",
         "hash": "2507772067382964878"
       },
       {
-        "file": "database/migrations/20260417180000_add_pertenece_mega_dulces_to_exhibitions.js",
-        "hash": "17046688688907239603"
+        "file": "database/migrations/20260424170000_add_estado_to_colaboradores.js",
+        "hash": "16669646245572003754"
       },
       {
-        "file": "docs/areas/03_DEV_UI_UX.md",
-        "hash": "8071594767942009516"
+        "file": "documentation/fonts/roboto-v15-latin-italic.svg",
+        "hash": "6643643595714960495"
+      },
+      {
+        "file": "database/migrations/20260429000001_fix_embarques_missing_columns.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/migrations/20260413210000_fix_zones_uuids.js",
+        "hash": "9166985577853017645"
+      },
+      {
+        "file": "documentation/overview.html",
+        "hash": "17515627567724118518"
+      },
+      {
+        "file": "database/seeds/01d_logistica_unidades.js",
+        "hash": "18164243747546528061"
+      },
+      {
+        "file": ".node-version",
+        "hash": "8478008329589569081"
+      },
+      {
+        "file": "database/migrations/20260414210000_add_scoring_fields_to_daily_captures.js",
+        "hash": "11193782582488434534"
+      },
+      {
+        "file": "documentation/components/DailyAssignmentsComponent.html",
+        "hash": "14990517707359616574"
+      },
+      {
+        "file": "documentation/directives/HlmLabelDirective.html",
+        "hash": "10108677221598953181"
+      },
+      {
+        "file": "documentation/js/libs/bootstrap-native.js",
+        "hash": "4674564391422988934"
       },
       {
         "file": "documentation/components/AdminRolesPermissionsComponent.html",
         "hash": "3415311225064140737"
       },
       {
-        "file": "package-lock.json",
-        "hash": "450610829132864293"
+        "file": "documentation/styles/style.css",
+        "hash": "2277269946734393990"
       },
       {
-        "file": "documentation/styles/prism.css",
-        "hash": "17076593053264674401"
+        "file": "database/migrations/20260414120000_fix_supervisor_id_integrity.js",
+        "hash": "3402121076076597957"
+      },
+      {
+        "file": "database/migrations/20250428120001_add_chofer_id_to_fotos.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/js/libs/EventDispatcher.js",
+        "hash": "5651041577841919592"
+      },
+      {
+        "file": "database/migrations/20250428130002_remove_subido_por.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/seeds/02_create_drivers_users.js",
+        "hash": "11848354615903015841"
+      },
+      {
+        "file": "database/seeds/01f_embarque_completo_con_relaciones.js",
+        "hash": "9442785581235869120"
+      },
+      {
+        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
+        "hash": "6479812992078546234"
+      },
+      {
+        "file": "documentation/fonts/ionicons.svg",
+        "hash": "13397395708463306337"
+      },
+      {
+        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
+        "hash": "910734349432654109"
+      },
+      {
+        "file": "database/migrations/20260427000000_add_checklists_and_fotos.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/styles/laravel.css",
+        "hash": "5255114620609172927"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "13727462321743793715"
+      },
+      {
+        "file": "docs/PASOS_MIGRACION_PRODUCTOS.md",
+        "hash": "7209343193322417943"
+      },
+      {
+        "file": "documentation/components/AdminUsersComponent.html",
+        "hash": "508577044758791227"
+      },
+      {
+        "file": "uploads/exh_S-145250_w933xaf_1774990370869.jpg",
+        "hash": "9787160593362166455"
+      },
+      {
+        "file": "uploads/exh_J-154441_22wyn3t_1775166281268.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "database/migrations/20260430100000_update_units_and_fuel.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/template-playground-app/app.js",
+        "hash": "8658518747894254343"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.ttf",
+        "hash": "6723283691141535943"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.woff2",
+        "hash": "1410963700615895184"
+      },
+      {
+        "file": "database/seeds/07_daily_assignments.js",
+        "hash": "10533850458307636389"
+      },
+      {
+        "file": "docs/areas/01_ARQUITECTO_SISTEMA.md",
+        "hash": "12161224180873299086"
+      },
+      {
+        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
+        "hash": "16532866879954088831"
+      },
+      {
+        "file": "documentation/components/OfflineStatusComponent.html",
+        "hash": "10256617020488833025"
+      },
+      {
+        "file": "documentation/injectables/AuthService.html",
+        "hash": "5262201472679454486"
+      },
+      {
+        "file": "documentation/fonts/ionicons.eot",
+        "hash": "11954292315687035285"
+      },
+      {
+        "file": "docs/areas/05_DEV_FRONTEND.md",
+        "hash": "14617887801361699715"
+      },
+      {
+        "file": ".continue/agents/new-config.yaml",
+        "hash": "15941798775300854909"
+      },
+      {
+        "file": "uploads/exh_J-154441_z9s4mnk_1775166281267.jpg",
+        "hash": "6342132999074673245"
+      },
+      {
+        "file": "documentation/injectables/OfflineDailyCaptureService.html",
+        "hash": "9765606097144579004"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise-inverted.png",
+        "hash": "5020586271611239710"
+      },
+      {
+        "file": "database/migrations/20260427000001_link_users_to_colaboradores.js",
+        "hash": "12643050964349211605"
+      },
+      {
+        "file": "documentation/styles/bootstrap-card.css",
+        "hash": "18387034006199116180"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.woff",
+        "hash": "5844094029798307855"
+      },
+      {
+        "file": "documentation/js/libs/jszip.min.js",
+        "hash": "15913628595711008916"
+      },
+      {
+        "file": "documentation/interfaces/BeforeInstallPromptEvent.html",
+        "hash": "5669376783167631126"
+      },
+      {
+        "file": "documentation/interfaces/DropOption.html",
+        "hash": "6272658680997725659"
+      },
+      {
+        "file": "documentation/injectables/GeoValidationService.html",
+        "hash": "16404516677475517869"
+      },
+      {
+        "file": "documentation/js/menu-wc_es5.js",
+        "hash": "546916540437416682"
+      },
+      {
+        "file": "uploads/exh_S-172443_meiouyt_1774999483753.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.svg",
+        "hash": "17115772852413095572"
+      },
+      {
+        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
+        "hash": "157084602558112272"
+      },
+      {
+        "file": "database/migrations/20250101000000_init_logistics_schema.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/migrations/20260402141501_add_parent_id_to_catalogs.js",
+        "hash": "985783995748298683"
+      },
+      {
+        "file": "documentation/components/ProjectsComponent.html",
+        "hash": "18125961532955759667"
+      },
+      {
+        "file": "docs/areas/03_DEV_UI_UX.md",
+        "hash": "8071594767942009516"
+      },
+      {
+        "file": "documentation/properties.html",
+        "hash": "16333735231022588151"
+      },
+      {
+        "file": "database/migrations/20260417180000_add_pertenece_mega_dulces_to_exhibitions.js",
+        "hash": "17046688688907239603"
+      },
+      {
+        "file": "documentation/js/libs/clipboard.min.js",
+        "hash": "15183925666576653457"
+      },
+      {
+        "file": "documentation/js/libs/custom-elements.min.js",
+        "hash": "18369070844174768822"
+      },
+      {
+        "file": "documentation/interfaces/KpiCard.html",
+        "hash": "16519066303253179402"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "14145419060237914883"
+      },
+      {
+        "file": "uploads/exh_S-145415_rotwx1w_1774990455277.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.woff2",
+        "hash": "14268032398072346110"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-300.eot",
+        "hash": "16970012345764992539"
+      },
+      {
+        "file": "documentation/interfaces/RegistroExhibicion.html",
+        "hash": "15678325444102687747"
+      },
+      {
+        "file": "documentation/components/AdminScoringComponent.html",
+        "hash": "1687114697934233395"
+      },
+      {
+        "file": "start.sh",
+        "hash": "6501748199663442845"
+      },
+      {
+        "file": "documentation/interfaces/GeoValidationResult.html",
+        "hash": "13965542252788751953"
+      },
+      {
+        "file": ".dockerignore",
+        "hash": "1978804697117779237"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-700.eot",
+        "hash": "16058052300924999321"
+      },
+      {
+        "file": "database/migrations/20260428000300_make_items_nullable.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/js/search/lunr.min.js",
+        "hash": "7769939115959793803"
+      },
+      {
+        "file": "documentation/directives/HlmInputDirective.html",
+        "hash": "13157932896370172644"
+      },
+      {
+        "file": "uploads/exh_S-150654_660cnkk_1774991214559.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "documentation/interfaces/PermissionRow.html",
+        "hash": "15394245442004755598"
       },
       {
         "file": "documentation/dependencies.html",
         "hash": "3227113905665684133"
       },
       {
-        "file": "documentation/components/ReportsComponent.html",
-        "hash": "10637457423080363293"
+        "file": "documentation/js/tree.js",
+        "hash": "17844397582318322809"
+      },
+      {
+        "file": "documentation/fonts/ionicons.ttf",
+        "hash": "9482225794616543832"
+      },
+      {
+        "file": "documentation/js/routes/routes_index.js",
+        "hash": "5560125553452561924"
+      },
+      {
+        "file": "database/seeds/01_users.js",
+        "hash": "5793808740190833912"
+      },
+      {
+        "file": "load-compiler.mjs",
+        "hash": "3719838546652958107"
+      },
+      {
+        "file": "documentation/js/libs/es6-shim.min.js",
+        "hash": "541838624623813887"
+      },
+      {
+        "file": "documentation/components/StoresComponent.html",
+        "hash": "33249638832189981"
+      },
+      {
+        "file": "documentation/injectables/ThemeService.html",
+        "hash": "11942950856059628169"
+      },
+      {
+        "file": "documentation/js/libs/prism.js",
+        "hash": "14293504565076332189"
+      },
+      {
+        "file": "database/migrations/20250101000001_add_checklists_and_fotos.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/migrations/20260429000000_add_roles_to_users.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/seeds/01b_logistica_seed.js",
+        "hash": "16198458835720309069"
+      },
+      {
+        "file": "documentation/injectables/ReportsService.html",
+        "hash": "10337579307526188289"
+      },
+      {
+        "file": "documentation/js/libs/lit-html.js",
+        "hash": "6258091497474886715"
+      },
+      {
+        "file": "documentation/interfaces/BrandGroup.html",
+        "hash": "5273660853250874102"
+      },
+      {
+        "file": "database/migrations-products/20260429140000_load_products_from_json_updated.js",
+        "hash": "4784097063108537177"
+      },
+      {
+        "file": "database/seeds/02_brands.js",
+        "hash": "15031306579306081567"
+      },
+      {
+        "file": "documentation/js/libs/promise.min.js",
+        "hash": "11998125303848972939"
+      },
+      {
+        "file": "database/migrations/20260424171000_add_ayudantes_to_guias.js",
+        "hash": "14649082301293600806"
+      },
+      {
+        "file": "sdks/vscode",
+        "hash": "14722813362610518903"
+      },
+      {
+        "file": "documentation/template-playground/template-editor.service.ts",
+        "hash": "14355421333242932791"
+      },
+      {
+        "file": "docs/ARCHITECTURE.md",
+        "hash": "544553347653358835"
+      },
+      {
+        "file": "database/seeds/05_scoring_config.js",
+        "hash": "3547127868769234357"
+      },
+      {
+        "file": "database/migrations/20260410151048_add_cloudinary_public_id.js",
+        "hash": "5093950688688802540"
+      },
+      {
+        "file": "documentation/js/libs/custom-elements-es5-adapter.js",
+        "hash": "16478351581815110526"
+      },
+      {
+        "file": "documentation/coverage.html",
+        "hash": "41072765051503308"
+      },
+      {
+        "file": "documentation/directives/HlmBadgeDirective.html",
+        "hash": "9773971373661720898"
+      },
+      {
+        "file": "documentation/template-playground/template-playground.component.ts",
+        "hash": "12012602288256395860"
+      },
+      {
+        "file": "docs/areas/04_DEV_BACKEND.md",
+        "hash": "9621004713984274572"
+      },
+      {
+        "file": "database/seeds/04_catalogs.js",
+        "hash": "5760364577860083285"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10715093684225930392"
+      },
+      {
+        "file": "documentation/styles/dark.css",
+        "hash": "263054016924659583"
+      },
+      {
+        "file": "documentation/injectables/AdminCatalogsService.html",
+        "hash": "10874287188824799835"
+      },
+      {
+        "file": "documentation/interfaces/PdfSection.html",
+        "hash": "15029477127903964659"
+      },
+      {
+        "file": "documentation/template-playground/template-playground.module.ts",
+        "hash": "4096233995754264688"
+      },
+      {
+        "file": "documentation/js/libs/svg-pan-zoom.min.js",
+        "hash": "17875591124579653107"
+      },
+      {
+        "file": "documentation/styles/vagrant.css",
+        "hash": "18316956050239455040"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "16263309320067013831"
+      },
+      {
+        "file": "documentation/styles/readthedocs.css",
+        "hash": "9436345951779592580"
+      },
+      {
+        "file": "documentation/interfaces/UbicacionExhibicion.html",
+        "hash": "14701528787148771549"
+      },
+      {
+        "file": "database/migrations/20260402130000_add_supervisor_id_to_users.js",
+        "hash": "260444976317739642"
+      },
+      {
+        "file": "documentation/js/libs/deep-iterator.js",
+        "hash": "12110682540857701089"
+      },
+      {
+        "file": "documentation/template-playground/zip-export.service.ts",
+        "hash": "13166575887196898845"
+      },
+      {
+        "file": "database/migrations/20260414103600_fix_roles_case_production.js",
+        "hash": "8517888144778641297"
+      },
+      {
+        "file": "documentation/interfaces/KpiRange.html",
+        "hash": "5947064461756496566"
+      },
+      {
+        "file": "documentation/interfaces/VisitaPendiente.html",
+        "hash": "1960188840875641318"
+      },
+      {
+        "file": "documentation/images/favicon.ico",
+        "hash": "8237334056690247575"
+      },
+      {
+        "file": "documentation/index.html",
+        "hash": "13175578652897310602"
+      },
+      {
+        "file": "README.md",
+        "hash": "13123434361241207768"
+      },
+      {
+        "file": "documentation/interfaces/ConceptoExhibicion.html",
+        "hash": "11039521244181076021"
+      },
+      {
+        "file": "database/migrations/20260424173000_add_costos_columns.js",
+        "hash": "5297740077108540821"
+      },
+      {
+        "file": "database/seeds/00b_rutas.js",
+        "hash": "524694689248979247"
+      },
+      {
+        "file": "documentation/js/libs/zepto.min.js",
+        "hash": "13078023127810371221"
+      },
+      {
+        "file": "database/migrations/20260429170000_add_new_brands_and_products.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/migrations/20250428110000_add_fechas_embarques.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/styles/tablesort.css",
+        "hash": "3196665951570312247"
+      },
+      {
+        "file": "documentation/images/coverage-badge-documentation.svg",
+        "hash": "5454817942251611647"
+      },
+      {
+        "file": "database/migrations/20260420153000_init_logistics_schema.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/migrations/20260427000003_fix_checklists_fotos_foreign_keys_v2.js",
+        "hash": "17086381791522967126"
+      },
+      {
+        "file": "documentation/interfaces/ProductoItem.html",
+        "hash": "3429873970831818611"
+      },
+      {
+        "file": "documentation/components/LayoutComponent.html",
+        "hash": "7011356748062704247"
+      },
+      {
+        "file": "documentation/styles/original.css",
+        "hash": "15617175025732620720"
+      },
+      {
+        "file": "docs/areas/06_DEV_BASE_DATOS.md",
+        "hash": "6124646719992690656"
+      },
+      {
+        "file": "documentation/components/ReportsComponent-1.html",
+        "hash": "14427462436386543016"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.woff",
+        "hash": "5050951999862935083"
+      },
+      {
+        "file": "documentation/interfaces/PdfSection-1.html",
+        "hash": "2023361771488106129"
+      },
+      {
+        "file": "documentation/fonts/ionicons.woff2",
+        "hash": "11311683446494265812"
+      },
+      {
+        "file": "database/migrations/20260429180000_add_products_from_json.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/migrations/20260427000002_fix_checklists_fotos_foreign_keys.js",
+        "hash": "17086381791522967126"
+      },
+      {
+        "file": "database/migrations/20260505100000_add_la_piedad_vecinal_zone.js",
+        "hash": "11395994719979474105"
+      },
+      {
+        "file": "documentation/js/routes.js",
+        "hash": "16492905510053414854"
+      },
+      {
+        "file": "database/migrations/20250428180000_add_columns_to_users.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/seeds/08_daily_captures.js",
+        "hash": "12681943178328811557"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.eot",
+        "hash": "4556119219014855615"
+      },
+      {
+        "file": "docs/README.md",
+        "hash": "6326101323683365762"
+      },
+      {
+        "file": "documentation/components/CapturesComponent.html",
+        "hash": "16359077380175841695"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-regular.ttf",
+        "hash": "6355862180977459781"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13277762669155727506"
+      },
+      {
+        "file": "database/migrations/20260509000000_add_ruta_id_to_stores.js",
+        "hash": "12218208231905276564"
+      },
+      {
+        "file": "uploads/exh_S-115456_r31hmy7_1775066096931.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
+        "hash": "804792513858306976"
+      },
+      {
+        "file": "database/migrations/20250428130000_consolidate_fotos_columns.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/seeds/01e_logistica_embarques.js",
+        "hash": "8835181718781686999"
+      },
+      {
+        "file": "documentation/interfaces/SyncStatus.html",
+        "hash": "11347532111566395163"
+      },
+      {
+        "file": "database/add_cloudinary_column.sql",
+        "hash": "12170767601534015950"
+      },
+      {
+        "file": "documentation/interfaces/CatalogoOffline.html",
+        "hash": "1273999212452704895"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise.png",
+        "hash": "6670940543257439260"
+      },
+      {
+        "file": "documentation/components/LoginComponent.html",
+        "hash": "16567963819595692587"
+      },
+      {
+        "file": "documentation/images/compodoc-vectorise.svg",
+        "hash": "11426304453761483524"
+      },
+      {
+        "file": "graph.json",
+        "hash": "6207245112050024150"
+      },
+      {
+        "file": "database/migrations/20250428140000_fix_fotos_missing_columns.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "database/seeds/00_roles.js",
+        "hash": "9136483672802478015"
+      },
+      {
+        "file": "documentation/fonts/roboto-v15-latin-italic.ttf",
+        "hash": "4417700308891305617"
+      },
+      {
+        "file": "documentation/styles/reset.css",
+        "hash": "17171789329408911375"
+      },
+      {
+        "file": "documentation/interfaces/SyncResult.html",
+        "hash": "4064810740655968837"
+      },
+      {
+        "file": "docs/Dashboard_TradeMarketing_Campo (12).html",
+        "hash": "14060519850454525079"
+      },
+      {
+        "file": ".github/workflows/deploy.yml",
+        "hash": "16304487043974844947"
+      },
+      {
+        "file": "documentation/js/compodoc.js",
+        "hash": "8639640071730175891"
+      },
+      {
+        "file": "documentation/js/libs/d3.v3.min.js",
+        "hash": "14168307329048117996"
+      },
+      {
+        "file": "documentation/interfaces/DayGroup.html",
+        "hash": "10746071776728587799"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "18740689506893449"
+      },
+      {
+        "file": "documentation/js/libs/innersvg.js",
+        "hash": "5802205836405538118"
+      },
+      {
+        "file": "database/migrations/20260424172000_add_detalles_tables.js",
+        "hash": "15403518210237989824"
+      },
+      {
+        "file": "documentation/interfaces/ReportsData.html",
+        "hash": "2808810779135581633"
+      },
+      {
+        "file": "uploads/exh_S-101941_klddfua_1775492381374.png",
+        "hash": "2890881875717804828"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "9941704086940456981"
       },
       {
         "file": "uploads/exh_S-100801_b6u5ui9_1775059681670.jpg",
         "hash": "13476342199117602537"
       },
       {
-        "file": "documentation/components/VisitsComponent.html",
-        "hash": "5671608585495371014"
+        "file": "documentation/injectables/DashboardService.html",
+        "hash": "5652550355174946999"
+      },
+      {
+        "file": "database/migrations/20260429140000_load_products_from_json_updated.js",
+        "hash": "2507772067382964878"
+      },
+      {
+        "file": "documentation/js/search/search-lunr.js",
+        "hash": "722021871454825163"
+      },
+      {
+        "file": "docs/areas/02_ANALISTA_FUNCIONAL.md",
+        "hash": "15252649419008977943"
+      },
+      {
+        "file": "database/knexfile.ts",
+        "hash": "14001205280723615167"
+      },
+      {
+        "file": "documentation/injectables/OfflineDatabaseService.html",
+        "hash": "7949119768262093049"
+      },
+      {
+        "file": "uploads/exh_S-172532_l02rcri_1774999532818.jpg",
+        "hash": "13476342199117602537"
+      },
+      {
+        "file": "DEPLOY_CHECKLIST.md",
+        "hash": "4761516853418043779"
+      },
+      {
+        "file": "uploads/exh_S-092249_kn7snbx_1775056969907.jpg",
+        "hash": "13476342199117602537"
       }
     ],
     "projectFileMap": {
@@ -1651,7 +1651,7 @@
         },
         {
           "file": "apps/api/src/modules/planograms/planograms.module.ts",
-          "hash": "9534432930116506509",
+          "hash": "5691751900726059130",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -1948,153 +1948,6 @@
           "hash": "5743842417364470590",
           "deps": [
             "npm:@nx/webpack"
-          ]
-        }
-      ],
-      "shared-auth": [
-        {
-          "file": "libs/shared-auth/core/constants/permissions.ts",
-          "hash": "15427708784168595588"
-        },
-        {
-          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
-          "hash": "6942134849481315017",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
-          "hash": "4749816109954716157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
-          "hash": "12609748048211883157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
-          "hash": "4902701322189388699",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
-          "hash": "3496432654166559978",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/roles.guard.ts",
-          "hash": "12041705508376265700",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/index.ts",
-          "hash": "4258601884317448187"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/index.ts",
-          "hash": "317859519873821243"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
-          "hash": "11610506879056166175"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
-          "hash": "16512962744461978696"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
-          "hash": "17324561029674889550"
-        },
-        {
-          "file": "libs/shared-auth/core/services/theme.service.ts",
-          "hash": "12531023263740714287",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/index.ts",
-          "hash": "12051972286901611420"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.css",
-          "hash": "7245338981422921800"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.html",
-          "hash": "4076580560835251223"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.ts",
-          "hash": "651774939713101902",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/project.json",
-          "hash": "7147459219175445793"
-        },
-        {
-          "file": "libs/shared-auth/tsconfig.lib.json",
-          "hash": "5682690067453246295"
-        },
-        {
-          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
-          "hash": "8850998944698392266",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/index.ts",
-          "hash": "6943657025407186704"
-        },
-        {
-          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
-          "hash": "17952824023507230128",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/services/auth.service.ts",
-          "hash": "4279177008591840143",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/services/token.service.ts",
-          "hash": "994567566458859229",
-          "deps": [
-            "npm:@angular/core"
           ]
         }
       ],
@@ -2727,7 +2580,7 @@
         },
         {
           "file": "apps/view/project.json",
-          "hash": "14059281719864655660"
+          "hash": "13600897453265871396"
         },
         {
           "file": "apps/view/proxy.conf.json",
@@ -2751,22 +2604,24 @@
         },
         {
           "file": "apps/view/src/app/app.component.html",
-          "hash": "17385897758380840601"
+          "hash": "10015465879027569075"
         },
         {
           "file": "apps/view/src/app/app.component.ts",
-          "hash": "16594619251041031538",
+          "hash": "18433539860068982614",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/router"
+            "npm:@angular/router",
+            "npm:primeng"
           ]
         },
         {
           "file": "apps/view/src/app/app.config.ts",
-          "hash": "12830382590799168392",
+          "hash": "13775024650713352224",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
+            "npm:@angular/service-worker",
             "npm:@angular/common",
             "npm:@angular/platform-browser",
             "npm:primeng",
@@ -2821,7 +2676,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/data-update.service.ts",
-          "hash": "2072822865575604177",
+          "hash": "16316020559614887444",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2873,6 +2728,16 @@
           "deps": [
             "npm:@angular/core",
             "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/pwa-update.service.ts",
+          "hash": "8095804480088355127",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/service-worker",
+            "npm:rxjs",
+            "npm:primeng"
           ]
         },
         {
@@ -2942,11 +2807,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
-          "hash": "17555673031102018269"
+          "hash": "835884434529399785"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
-          "hash": "13410556150032077624",
+          "hash": "13038173184845392086",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3009,11 +2874,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "15210719442152558635"
+          "hash": "15617778766135041315"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
-          "hash": "10857262134114345498",
+          "hash": "10012733214088866078",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3037,11 +2902,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "12407803152347731147"
+          "hash": "8185015980011447973"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "71279715521645347",
+          "hash": "5185144689611967801",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3199,7 +3064,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "6563563948931613466"
+          "hash": "5616766346557704688"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
@@ -3454,6 +3319,10 @@
           "deps": [
             "npm:@angular/platform-browser"
           ]
+        },
+        {
+          "file": "apps/view/src/ngsw-config.json",
+          "hash": "4587883601021279697"
         },
         {
           "file": "apps/view/src/polyfills.ts",
@@ -4266,6 +4135,153 @@
         {
           "file": "apps/trade-marketing-view/tsconfig.spec.json",
           "hash": "11023685540591620072"
+        }
+      ],
+      "shared-auth": [
+        {
+          "file": "libs/shared-auth/core/constants/permissions.ts",
+          "hash": "15427708784168595588"
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
+          "hash": "6942134849481315017",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
+          "hash": "4749816109954716157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
+          "hash": "12609748048211883157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
+          "hash": "4902701322189388699",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
+          "hash": "3496432654166559978",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/roles.guard.ts",
+          "hash": "12041705508376265700",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/index.ts",
+          "hash": "4258601884317448187"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/index.ts",
+          "hash": "317859519873821243"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
+          "hash": "11610506879056166175"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
+          "hash": "16512962744461978696"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
+          "hash": "17324561029674889550"
+        },
+        {
+          "file": "libs/shared-auth/core/services/theme.service.ts",
+          "hash": "12531023263740714287",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/index.ts",
+          "hash": "12051972286901611420"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.css",
+          "hash": "7245338981422921800"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.html",
+          "hash": "4076580560835251223"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.ts",
+          "hash": "651774939713101902",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/project.json",
+          "hash": "7147459219175445793"
+        },
+        {
+          "file": "libs/shared-auth/tsconfig.lib.json",
+          "hash": "5682690067453246295"
+        },
+        {
+          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
+          "hash": "8850998944698392266",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/index.ts",
+          "hash": "6943657025407186704"
+        },
+        {
+          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
+          "hash": "17952824023507230128",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/auth.service.ts",
+          "hash": "4279177008591840143",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/token.service.ts",
+          "hash": "994567566458859229",
+          "deps": [
+            "npm:@angular/core"
+          ]
         }
       ]
     }
