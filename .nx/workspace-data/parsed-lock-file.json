@@ -1674,6 +1674,15 @@
         "hash": "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ=="
       }
     },
+    "npm:tslib@2.3.0": {
+      "type": "npm",
+      "name": "npm:tslib@2.3.0",
+      "data": {
+        "version": "2.3.0",
+        "packageName": "tslib",
+        "hash": "sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg=="
+      }
+    },
     "npm:tslib": {
       "type": "npm",
       "name": "npm:tslib",
@@ -3535,6 +3544,15 @@
         "version": "1.0.4",
         "packageName": "@capacitor/synapse",
         "hash": "sha512-/C1FUo8/OkKuAT4nCIu/34ny9siNHr9qtFezu4kxm6GY1wNFxrCFWjfYx5C1tUhVGz3fxBABegupkpjXvjCHrw=="
+      }
+    },
+    "npm:@casl/ability": {
+      "type": "npm",
+      "name": "npm:@casl/ability",
+      "data": {
+        "version": "6.8.1",
+        "packageName": "@casl/ability",
+        "hash": "sha512-VX5DD1JbSP/DdewZnNwXXaCzve+0pLe14mcUj2l93CdOFAQUT/ylAptNqxf3Wc/jlsuSanAgXza4Z1Iq23dzpQ=="
       }
     },
     "npm:@colors/colors": {
@@ -9891,6 +9909,42 @@
         "hash": "sha512-zhahknjobV2FiD6Ee9iLbS7OV9zi10rG26odsQdfBO/hjSzUQbkIYgda+iNKK1zNiW2ey+Lf8MU5btN17V3dUw=="
       }
     },
+    "npm:@ucast/core": {
+      "type": "npm",
+      "name": "npm:@ucast/core",
+      "data": {
+        "version": "1.10.2",
+        "packageName": "@ucast/core",
+        "hash": "sha512-ons5CwXZ/51wrUPfoduC+cO7AS1/wRb0ybpQJ9RrssossDxVy4t49QxWoWgfBDvVKsz9VXzBk9z0wqTdZ+Cq8g=="
+      }
+    },
+    "npm:@ucast/js": {
+      "type": "npm",
+      "name": "npm:@ucast/js",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "@ucast/js",
+        "hash": "sha512-eJ7yQeYtMK85UZjxoxBEbTWx6UMxEXKbjVyp+NlzrT5oMKV5Gpo/9bjTl3r7msaXTVC8iD9NJacqJ8yp7joX+Q=="
+      }
+    },
+    "npm:@ucast/mongo": {
+      "type": "npm",
+      "name": "npm:@ucast/mongo",
+      "data": {
+        "version": "2.4.3",
+        "packageName": "@ucast/mongo",
+        "hash": "sha512-XcI8LclrHWP83H+7H2anGCEeDq0n+12FU2mXCTz6/Tva9/9ddK/iacvvhCyW6cijAAOILmt0tWplRyRhVyZLsA=="
+      }
+    },
+    "npm:@ucast/mongo2js": {
+      "type": "npm",
+      "name": "npm:@ucast/mongo2js",
+      "data": {
+        "version": "1.4.1",
+        "packageName": "@ucast/mongo2js",
+        "hash": "sha512-9aeg5cmqwRQnKCXHN6I17wk83Rcm487bHelaG8T4vfpWneAI469wSI3Srnbu+PuZ5znWRbnwtVq9RgPL+bN6CA=="
+      }
+    },
     "npm:@ungap/structured-clone": {
       "type": "npm",
       "name": "npm:@ungap/structured-clone",
@@ -12589,6 +12643,15 @@
         "version": "1.0.11",
         "packageName": "ecdsa-sig-formatter",
         "hash": "sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ=="
+      }
+    },
+    "npm:echarts": {
+      "type": "npm",
+      "name": "npm:echarts",
+      "data": {
+        "version": "6.0.0",
+        "packageName": "echarts",
+        "hash": "sha512-Tte/grDQRiETQP4xz3iZWSvoHrkCQtwqd6hs+mifXcjrCuo2iKWbajFObuLJVBlDIJlOzgQPd1hsaKt/3+OMkQ=="
       }
     },
     "npm:ee-first": {
@@ -16099,6 +16162,15 @@
         "version": "2.0.2",
         "packageName": "netmask",
         "hash": "sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg=="
+      }
+    },
+    "npm:ngx-echarts": {
+      "type": "npm",
+      "name": "npm:ngx-echarts",
+      "data": {
+        "version": "21.0.0",
+        "packageName": "ngx-echarts",
+        "hash": "sha512-vivBRmGYMFlnPxK/uxliY+sexGwHqnFZ2pylGbIMF2wikt9RpZpGGSitLmuUXvzYwkVFGo6dQmiUQh1+6Pbfuw=="
       }
     },
     "npm:nice-napi": {
@@ -19897,6 +19969,15 @@
         "version": "0.14.10",
         "packageName": "zone.js",
         "hash": "sha512-YGAhaO7J5ywOXW6InXNlLmfU194F8lVgu7bRntUF3TiG8Y3nBK0x1UJJuHUP/e8IyihkjCYqhCScpSwnlaSRkQ=="
+      }
+    },
+    "npm:zrender": {
+      "type": "npm",
+      "name": "npm:zrender",
+      "data": {
+        "version": "6.0.0",
+        "packageName": "zrender",
+        "hash": "sha512-41dFXEEXuJpNecuUQq6JlbybmnHaqqpGlbH1yxnA5V9MMP4SbohSVZsJIwz+zdjQXSSlR1Vc34EgH1zxyTDvhg=="
       }
     }
   },
@@ -25774,6 +25855,11 @@
     {
       "source": "npm:@capacitor/status-bar",
       "target": "npm:@capacitor/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@casl/ability",
+      "target": "npm:@ucast/mongo2js",
       "type": "static"
     },
     {
@@ -36522,6 +36608,31 @@
       "type": "static"
     },
     {
+      "source": "npm:@ucast/js",
+      "target": "npm:@ucast/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ucast/mongo",
+      "target": "npm:@ucast/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ucast/mongo2js",
+      "target": "npm:@ucast/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ucast/mongo2js",
+      "target": "npm:@ucast/js",
+      "type": "static"
+    },
+    {
+      "source": "npm:@ucast/mongo2js",
+      "target": "npm:@ucast/mongo",
+      "type": "static"
+    },
+    {
       "source": "npm:@unrs/resolver-binding-wasm32-wasi",
       "target": "npm:@napi-rs/wasm-runtime",
       "type": "static"
@@ -39329,6 +39440,16 @@
     {
       "source": "npm:ecdsa-sig-formatter",
       "target": "npm:safe-buffer",
+      "type": "static"
+    },
+    {
+      "source": "npm:echarts",
+      "target": "npm:tslib@2.3.0",
+      "type": "static"
+    },
+    {
+      "source": "npm:echarts",
+      "target": "npm:zrender",
       "type": "static"
     },
     {
@@ -45619,6 +45740,16 @@
     {
       "source": "npm:iconv-lite@0.6.3",
       "target": "npm:safer-buffer",
+      "type": "static"
+    },
+    {
+      "source": "npm:ngx-echarts",
+      "target": "npm:echarts",
+      "type": "static"
+    },
+    {
+      "source": "npm:ngx-echarts",
+      "target": "npm:tslib",
       "type": "static"
     },
     {
@@ -52804,6 +52935,11 @@
     {
       "source": "npm:yauzl",
       "target": "npm:fd-slicer",
+      "type": "static"
+    },
+    {
+      "source": "npm:zrender",
+      "target": "npm:tslib@2.3.0",
       "type": "static"
     }
   ]

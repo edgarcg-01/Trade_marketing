@@ -1,0 +1,1440 @@
+{
+  "apps/api": {
+    "root": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.cache": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.dependsOn": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.inputs": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.outputs": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.cwd": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.args": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies.0": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.description": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.example": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.cwd": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.args": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies.0": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.description": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.example": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "name": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.inspect": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/trade-marketing-api": {
+    "root": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.cache": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.dependsOn": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.inputs": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.outputs": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.cwd": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.args": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.options.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.technologies.0": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.description": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:build.metadata.help.example": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.cwd": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.args": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.options.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.technologies.0": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.description": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.webpack:serve.metadata.help.example": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.args": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.dependsOn": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/trade-marketing-api/webpack.config.js",
+      "@nx/webpack/plugin"
+    ],
+    "name": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.target": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.compiler": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.webpackConfig": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.extractLicenses": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.inspect": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/trade-marketing-api/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/trade-marketing-view": {
+    "root": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.aot": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.buildOptimizer": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.proxyConfig": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/trade-marketing-view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/view": {
+    "root": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.aot": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.buildOptimizer": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.optimization": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.proxyConfig": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/shared-auth": {
+    "root": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}
