@@ -11250,6 +11250,15 @@
         "hash": "sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw=="
       }
     },
+    "npm:chartjs-plugin-annotation": {
+      "type": "npm",
+      "name": "npm:chartjs-plugin-annotation",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "chartjs-plugin-annotation",
+        "hash": "sha512-EkAed6/ycXD/7n0ShrlT1T2Hm3acnbFhgkIEJLa0X+M6S16x0zwj1Fv4suv/2bwayCT3jGPdAtI9uLcAMToaQQ=="
+      }
+    },
     "npm:cheerio": {
       "type": "npm",
       "name": "npm:cheerio",
@@ -38034,6 +38043,11 @@
     {
       "source": "npm:chart.js",
       "target": "npm:@kurkle/color",
+      "type": "static"
+    },
+    {
+      "source": "npm:chartjs-plugin-annotation",
+      "target": "npm:chart.js",
       "type": "static"
     },
     {

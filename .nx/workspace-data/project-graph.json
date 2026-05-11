@@ -12044,6 +12044,15 @@
         "hash": "sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw=="
       }
     },
+    "npm:chartjs-plugin-annotation": {
+      "type": "npm",
+      "name": "npm:chartjs-plugin-annotation",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "chartjs-plugin-annotation",
+        "hash": "sha512-EkAed6/ycXD/7n0ShrlT1T2Hm3acnbFhgkIEJLa0X+M6S16x0zwj1Fv4suv/2bwayCT3jGPdAtI9uLcAMToaQQ=="
+      }
+    },
     "npm:cheerio": {
       "type": "npm",
       "name": "npm:cheerio",
@@ -20848,6 +20857,16 @@
       },
       {
         "source": "trade-marketing-view",
+        "target": "npm:chart.js",
+        "type": "static"
+      },
+      {
+        "source": "trade-marketing-view",
+        "target": "npm:chartjs-plugin-annotation",
+        "type": "static"
+      },
+      {
+        "source": "trade-marketing-view",
         "target": "npm:@spartan-ng/ui-core",
         "type": "static"
       },
@@ -21084,6 +21103,16 @@
       },
       {
         "source": "view",
+        "target": "npm:chart.js",
+        "type": "static"
+      },
+      {
+        "source": "view",
+        "target": "npm:chartjs-plugin-annotation",
+        "type": "static"
+      },
+      {
+        "source": "view",
         "target": "npm:@spartan-ng/ui-core",
         "type": "static"
       },
@@ -21176,12 +21205,12 @@
       },
       {
         "source": "api",
-        "target": "npm:multer",
+        "target": "npm:@casl/ability",
         "type": "static"
       },
       {
         "source": "api",
-        "target": "npm:@casl/ability",
+        "target": "npm:multer",
         "type": "static"
       },
       {
@@ -38624,6 +38653,13 @@
         "type": "static"
       }
     ],
+    "npm:chartjs-plugin-annotation": [
+      {
+        "source": "npm:chartjs-plugin-annotation",
+        "target": "npm:chart.js",
+        "type": "static"
+      }
+    ],
     "npm:cheerio": [
       {
         "source": "npm:cheerio",
@@ -51868,5 +51904,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778517617564
+  "computedAt": 1778529411078
 }
