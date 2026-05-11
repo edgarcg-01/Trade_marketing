@@ -494,7 +494,8 @@
                 "apps/view/src/styles.css"
               ],
               "scripts": [],
-              "serviceWorker": true
+              "serviceWorker": true,
+              "ngswConfigPath": "apps/view/src/ngsw-config.json"
             },
             "configurations": {
               "production": {
@@ -51867,5 +51868,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778280897620
+  "computedAt": 1778517617564
 }
