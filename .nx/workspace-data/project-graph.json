@@ -21140,12 +21140,12 @@
     "api": [
       {
         "source": "api",
-        "target": "npm:@nestjs/testing",
+        "target": "npm:@nestjs/common",
         "type": "static"
       },
       {
         "source": "api",
-        "target": "npm:@nestjs/common",
+        "target": "npm:@nestjs/testing",
         "type": "static"
       },
       {
@@ -21180,12 +21180,12 @@
       },
       {
         "source": "api",
-        "target": "npm:@nestjs/platform-express",
+        "target": "npm:express",
         "type": "static"
       },
       {
         "source": "api",
-        "target": "npm:express",
+        "target": "npm:@nestjs/platform-express",
         "type": "static"
       },
       {
@@ -21195,12 +21195,12 @@
       },
       {
         "source": "api",
-        "target": "npm:knex",
+        "target": "npm:bcryptjs",
         "type": "static"
       },
       {
         "source": "api",
-        "target": "npm:bcryptjs",
+        "target": "npm:knex",
         "type": "static"
       },
       {
@@ -51904,5 +51904,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778542291018
+  "computedAt": 1778602908708
 }
