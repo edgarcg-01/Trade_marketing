@@ -2466,15 +2466,6 @@
         "hash": "sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ=="
       }
     },
-    "npm:tslib@2.3.0": {
-      "type": "npm",
-      "name": "npm:tslib@2.3.0",
-      "data": {
-        "version": "2.3.0",
-        "packageName": "tslib",
-        "hash": "sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg=="
-      }
-    },
     "npm:tslib": {
       "type": "npm",
       "name": "npm:tslib",
@@ -3301,15 +3292,6 @@
         "version": "18.2.14",
         "packageName": "@angular/router",
         "hash": "sha512-v/gweh8MBjjDfh1QssuyjISa+6SVVIvIZox7MaMs81RkaoVHwS9grDtPud1pTKHzms2KxSVpvwwyvkRJQplueg=="
-      }
-    },
-    "npm:@angular/service-worker": {
-      "type": "npm",
-      "name": "npm:@angular/service-worker",
-      "data": {
-        "version": "18.2.14",
-        "packageName": "@angular/service-worker",
-        "hash": "sha512-wHvpzKTEny4Em5z6sbM7n1jwIV9v2wlDPdzXtUE8XoD7b1Y/bs2SpA+P46sw92/pe9GuF3gYX1kqHO0Be3BBUw=="
       }
     },
     "npm:@apideck/better-ajv-errors": {
@@ -13455,15 +13437,6 @@
         "hash": "sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ=="
       }
     },
-    "npm:echarts": {
-      "type": "npm",
-      "name": "npm:echarts",
-      "data": {
-        "version": "6.0.0",
-        "packageName": "echarts",
-        "hash": "sha512-Tte/grDQRiETQP4xz3iZWSvoHrkCQtwqd6hs+mifXcjrCuo2iKWbajFObuLJVBlDIJlOzgQPd1hsaKt/3+OMkQ=="
-      }
-    },
     "npm:ee-first": {
       "type": "npm",
       "name": "npm:ee-first",
@@ -16972,15 +16945,6 @@
         "version": "2.0.2",
         "packageName": "netmask",
         "hash": "sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg=="
-      }
-    },
-    "npm:ngx-echarts": {
-      "type": "npm",
-      "name": "npm:ngx-echarts",
-      "data": {
-        "version": "21.0.0",
-        "packageName": "ngx-echarts",
-        "hash": "sha512-vivBRmGYMFlnPxK/uxliY+sexGwHqnFZ2pylGbIMF2wikt9RpZpGGSitLmuUXvzYwkVFGo6dQmiUQh1+6Pbfuw=="
       }
     },
     "npm:nice-napi": {
@@ -20780,15 +20744,6 @@
         "packageName": "zone.js",
         "hash": "sha512-YGAhaO7J5ywOXW6InXNlLmfU194F8lVgu7bRntUF3TiG8Y3nBK0x1UJJuHUP/e8IyihkjCYqhCScpSwnlaSRkQ=="
       }
-    },
-    "npm:zrender": {
-      "type": "npm",
-      "name": "npm:zrender",
-      "data": {
-        "version": "6.0.0",
-        "packageName": "zrender",
-        "hash": "sha512-41dFXEEXuJpNecuUQq6JlbybmnHaqqpGlbH1yxnA5V9MMP4SbohSVZsJIwz+zdjQXSSlR1Vc34EgH1zxyTDvhg=="
-      }
     }
   },
   "dependencies": {
@@ -21277,11 +21232,6 @@
       {
         "source": "npm:@angular-devkit/build-angular",
         "target": "npm:@angular/compiler-cli",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular-devkit/build-angular",
-        "target": "npm:@angular/service-worker",
         "type": "static"
       },
       {
@@ -24085,11 +24035,6 @@
       },
       {
         "source": "npm:@angular/build",
-        "target": "npm:@angular/service-worker",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/build",
         "target": "npm:postcss",
         "type": "static"
       },
@@ -24946,23 +24891,6 @@
       },
       {
         "source": "npm:@angular/router",
-        "target": "npm:tslib",
-        "type": "static"
-      }
-    ],
-    "npm:@angular/service-worker": [
-      {
-        "source": "npm:@angular/service-worker",
-        "target": "npm:@angular/common",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/service-worker",
-        "target": "npm:@angular/core",
-        "type": "static"
-      },
-      {
-        "source": "npm:@angular/service-worker",
         "target": "npm:tslib",
         "type": "static"
       }
@@ -40007,18 +39935,6 @@
         "type": "static"
       }
     ],
-    "npm:echarts": [
-      {
-        "source": "npm:echarts",
-        "target": "npm:tslib@2.3.0",
-        "type": "static"
-      },
-      {
-        "source": "npm:echarts",
-        "target": "npm:zrender",
-        "type": "static"
-      }
-    ],
     "npm:ejs": [
       {
         "source": "npm:ejs",
@@ -45541,18 +45457,6 @@
       {
         "source": "npm:needle",
         "target": "npm:sax",
-        "type": "static"
-      }
-    ],
-    "npm:ngx-echarts": [
-      {
-        "source": "npm:ngx-echarts",
-        "target": "npm:echarts",
-        "type": "static"
-      },
-      {
-        "source": "npm:ngx-echarts",
-        "target": "npm:tslib",
         "type": "static"
       }
     ],
@@ -51896,16 +51800,9 @@
         "target": "npm:fd-slicer",
         "type": "static"
       }
-    ],
-    "npm:zrender": [
-      {
-        "source": "npm:zrender",
-        "target": "npm:tslib@2.3.0",
-        "type": "static"
-      }
     ]
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778688648863
+  "computedAt": 1778692047677
 }

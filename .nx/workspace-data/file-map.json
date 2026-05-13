@@ -85,6 +85,10 @@
         "hash": "14062325651399360254"
       },
       {
+        "file": ".opencode/plans/optimizacion-parte2.md",
+        "hash": "13942765439408925265"
+      },
+      {
         "file": ".prettierrc",
         "hash": "14145419060237914883"
       },
@@ -1286,11 +1290,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "1085489513838674892"
+        "hash": "8630521710842290026"
       },
       {
         "file": "package.json",
-        "hash": "8228411988624361019"
+        "hash": "14083086896683646308"
       },
       {
         "file": "sdks/vscode",
@@ -1519,817 +1523,6 @@
           "deps": [
             "npm:@angular/core"
           ]
-        }
-      ],
-      "trade-marketing-view": [
-        {
-          "file": "apps/trade-marketing-view/.browserslistrc",
-          "hash": "5145066096085527059"
-        },
-        {
-          "file": "apps/trade-marketing-view/.editorconfig",
-          "hash": "8037249353422744134"
-        },
-        {
-          "file": "apps/trade-marketing-view/.gitignore",
-          "hash": "10175894702052279752"
-        },
-        {
-          "file": "apps/trade-marketing-view/README.md",
-          "hash": "9957948032996686319"
-        },
-        {
-          "file": "apps/trade-marketing-view/components.json",
-          "hash": "2051255686788595788"
-        },
-        {
-          "file": "apps/trade-marketing-view/postcss.config.js",
-          "hash": "4080954692028639031"
-        },
-        {
-          "file": "apps/trade-marketing-view/project.json",
-          "hash": "17703168941078235011"
-        },
-        {
-          "file": "apps/trade-marketing-view/proxy.conf.json",
-          "hash": "3219014540752259563"
-        },
-        {
-          "file": "apps/trade-marketing-view/public/MDDL Logo 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/public/favicon.ico",
-          "hash": "3988961587069885523"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/LOGO MEGA DULCES 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/app.component.html",
-          "hash": "17385897758380840601"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/app.component.ts",
-          "hash": "16594619251041031538",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/app.config.ts",
-          "hash": "12830382590799168392",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/platform-browser",
-            "npm:primeng",
-            "npm:@primeng/themes"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/app.routes.ts",
-          "hash": "12532859127206298120",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/constants/permissions.ts",
-          "hash": "18231861106299281595"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/guards/auth.guard.ts",
-          "hash": "11575897814990018939",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/guards/permission.guard.ts",
-          "hash": "7213958245653280537",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/http/auth.interceptor.ts",
-          "hash": "7253350037982295754",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/auth.service.ts",
-          "hash": "16392992542694504474",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/data-update.service.ts",
-          "hash": "2072822865575604177",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/geo-validation.service.ts",
-          "hash": "9663346340696226333",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/offline-daily-capture.service.ts",
-          "hash": "14241681530590312248",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/offline-database.service.ts",
-          "hash": "2895651253869841831",
-          "deps": [
-            "npm:dexie",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/offline-sync.service.ts",
-          "hash": "17784222379841083272",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/permissions.service.ts",
-          "hash": "2896050455883659135",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/pwa-install.service.ts",
-          "hash": "14578582373289519011",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/retry-strategy.service.ts",
-          "hash": "1823168971398797704",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/core/services/theme.service.ts",
-          "hash": "11206863549548322160",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/auth/login/login.component.css",
-          "hash": "17595759587945482458"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/auth/login/login.component.html",
-          "hash": "9138699323335466721"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/auth/login/login.component.ts",
-          "hash": "10988617688449055215",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
-          "hash": "17108197131120663008"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
-          "hash": "1582612259638475151",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
-          "hash": "17057489463707267017",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
-          "hash": "17555673031102018269"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
-          "hash": "11286636243572748759",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
-          "hash": "14984277863891170376",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
-          "hash": "14125403265333440149",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
-          "hash": "14672819503003650756"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
-          "hash": "8815330160142253090",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
-          "hash": "2927472231450193134",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/admin-users.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "15210719442152558635"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
-          "hash": "10920449064806706529",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/users.service.ts",
-          "hash": "8409751863214154766",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/captures.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "1696197143332665332"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "3115792593277700771",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/daily-capture.models.ts",
-          "hash": "2268613803172084452"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/daily-capture.service.ts",
-          "hash": "8582012780294344960",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
-          "hash": "10742704315394993214"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "913971794702701717"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
-          "hash": "1778367517872632680",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
-          "hash": "8671452674271220249"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
-          "hash": "5999407097046041452",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home.component.css",
-          "hash": "6291323070749853791"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "15884965932140614654"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home.component.ts",
-          "hash": "4218648372755352152",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/layout/layout.component.css",
-          "hash": "3067515883763660527"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "7506904493527086501"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "7554076618978336228",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
-          "hash": "432147048569054315",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
-          "hash": "10207456637957584862",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
-          "hash": "1617975011984491356",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
-          "hash": "10708680512192273874",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
-          "hash": "9576729824381709409",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "5146624781783201174",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.component.css",
-          "hash": "974535914320870322"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "17213305031483200051"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "17405640773230800553",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.service.ts",
-          "hash": "17700124236561421211",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
-          "hash": "9925924655196420289"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
-          "hash": "13838999759676120961"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
-          "hash": "5079480427167873896",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
-          "hash": "818059585225871799",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs",
-            "npm:chart.js",
-            "npm:chartjs-plugin-annotation"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
-          "hash": "16100758475756990727",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/stores/stores.component.css",
-          "hash": "5861827128165989507"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/stores/stores.component.html",
-          "hash": "17100913966683262571"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/stores/stores.component.ts",
-          "hash": "7372600448514720551",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/visits/visits.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/visits/visits.component.html",
-          "hash": "15593205078503149337"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/dashboard/visits/visits.component.ts",
-          "hash": "9362716443871042946",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/projects/projects/projects.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/projects/projects/projects.component.html",
-          "hash": "4122003180593993594"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/modules/projects/projects/projects.component.ts",
-          "hash": "18425312658045164056",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/icon/icon.component.ts",
-          "hash": "16414586347861831717",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.html",
-          "hash": "11383706664663565653"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.scss",
-          "hash": "8946059392925077262"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
-          "hash": "10127604642501863729"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.ts",
-          "hash": "16368977611913367474",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
-          "hash": "6773240714181538285",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/badge/index.ts",
-          "hash": "3313418863466736896"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/button/hlm-button.directive.ts",
-          "hash": "13336365327369514792",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/button/index.ts",
-          "hash": "4705641641850255821"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/input/hlm-input.directive.ts",
-          "hash": "6768129751417257928",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/input/index.ts",
-          "hash": "2014762616443210075"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/label/hlm-label.directive.ts",
-          "hash": "18020695140414742747",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/app/shared/components/ui/label/index.ts",
-          "hash": "10216001031385572683"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/favicon.svg",
-          "hash": "6475210795918509466"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-120x120.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-128x128.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-144x144.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-152x152.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-192x192.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-384x384.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-512x512.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-72x72.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-76x76.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon-96x96.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/icons/icon.svg",
-          "hash": "17293406308354275645"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/logos/mega-dulces-logo.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/logos/mega-dulces-logo.webp",
-          "hash": "11568024712014430667"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/manifest.webmanifest",
-          "hash": "6834005658414736909"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/assets/sw-offline.js",
-          "hash": "12737611887829979765"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/environments/environment.prod.ts",
-          "hash": "1294689565491556426"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/environments/environment.ts",
-          "hash": "16920053114784208314"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/index.html",
-          "hash": "3879231220413000900"
-        },
-        {
-          "file": "apps/trade-marketing-view/src/main.ts",
-          "hash": "11034251973789847075",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/polyfills.ts",
-          "hash": "11803705300934933554",
-          "deps": [
-            "npm:zone.js"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/src/styles.css",
-          "hash": "4460402871189867572"
-        },
-        {
-          "file": "apps/trade-marketing-view/tailwind.config.js",
-          "hash": "18307351522915318624",
-          "deps": [
-            "npm:@spartan-ng/ui-core",
-            "npm:tailwindcss-animate"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-view/tsconfig.app.json",
-          "hash": "12120654287211779749"
-        },
-        {
-          "file": "apps/trade-marketing-view/tsconfig.json",
-          "hash": "16960269419647624450"
-        },
-        {
-          "file": "apps/trade-marketing-view/tsconfig.spec.json",
-          "hash": "11023685540591620072"
         }
       ],
       "api": [
@@ -2940,7 +2133,7 @@
         },
         {
           "file": "apps/api/src/modules/reports/reports.controller.ts",
-          "hash": "7103572926972557561",
+          "hash": "1652282987251853847",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger",
@@ -2970,7 +2163,7 @@
         },
         {
           "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "8268436676664529223",
+          "hash": "1787167366670208259",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -3464,6 +2657,1427 @@
           ]
         }
       ],
+      "trade-marketing-view": [
+        {
+          "file": "apps/trade-marketing-view/.browserslistrc",
+          "hash": "5145066096085527059"
+        },
+        {
+          "file": "apps/trade-marketing-view/.editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": "apps/trade-marketing-view/.gitignore",
+          "hash": "10175894702052279752"
+        },
+        {
+          "file": "apps/trade-marketing-view/README.md",
+          "hash": "9957948032996686319"
+        },
+        {
+          "file": "apps/trade-marketing-view/components.json",
+          "hash": "2051255686788595788"
+        },
+        {
+          "file": "apps/trade-marketing-view/postcss.config.js",
+          "hash": "4080954692028639031"
+        },
+        {
+          "file": "apps/trade-marketing-view/project.json",
+          "hash": "17703168941078235011"
+        },
+        {
+          "file": "apps/trade-marketing-view/proxy.conf.json",
+          "hash": "3219014540752259563"
+        },
+        {
+          "file": "apps/trade-marketing-view/public/MDDL Logo 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/LOGO MEGA DULCES 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/app.component.html",
+          "hash": "17385897758380840601"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/app.component.ts",
+          "hash": "16594619251041031538",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/app.config.ts",
+          "hash": "12830382590799168392",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser",
+            "npm:primeng",
+            "npm:@primeng/themes"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/app.routes.ts",
+          "hash": "12532859127206298120",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/constants/permissions.ts",
+          "hash": "18231861106299281595"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/guards/auth.guard.ts",
+          "hash": "11575897814990018939",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/guards/permission.guard.ts",
+          "hash": "7213958245653280537",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/http/auth.interceptor.ts",
+          "hash": "7253350037982295754",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/auth.service.ts",
+          "hash": "16392992542694504474",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/data-update.service.ts",
+          "hash": "2072822865575604177",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/geo-validation.service.ts",
+          "hash": "9663346340696226333",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/offline-daily-capture.service.ts",
+          "hash": "14241681530590312248",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/offline-database.service.ts",
+          "hash": "2895651253869841831",
+          "deps": [
+            "npm:dexie",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/offline-sync.service.ts",
+          "hash": "17784222379841083272",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/permissions.service.ts",
+          "hash": "2896050455883659135",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/pwa-install.service.ts",
+          "hash": "14578582373289519011",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/retry-strategy.service.ts",
+          "hash": "1823168971398797704",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/core/services/theme.service.ts",
+          "hash": "11206863549548322160",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/auth/login/login.component.css",
+          "hash": "17595759587945482458"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/auth/login/login.component.html",
+          "hash": "9138699323335466721"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/auth/login/login.component.ts",
+          "hash": "10988617688449055215",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
+          "hash": "17108197131120663008"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
+          "hash": "1582612259638475151",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
+          "hash": "17057489463707267017",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
+          "hash": "17555673031102018269"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
+          "hash": "11286636243572748759",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
+          "hash": "14984277863891170376",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
+          "hash": "14125403265333440149",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
+          "hash": "14672819503003650756"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
+          "hash": "8815330160142253090",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
+          "hash": "2927472231450193134",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/admin-users.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/admin-users.component.html",
+          "hash": "15210719442152558635"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
+          "hash": "10920449064806706529",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/admin-users/users.service.ts",
+          "hash": "8409751863214154766",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/captures.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/captures.component.html",
+          "hash": "1696197143332665332"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/captures.component.ts",
+          "hash": "3115792593277700771",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/daily-capture.models.ts",
+          "hash": "2268613803172084452"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/captures/daily-capture.service.ts",
+          "hash": "8582012780294344960",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
+          "hash": "10742704315394993214"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
+          "hash": "913971794702701717"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
+          "hash": "1778367517872632680",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
+          "hash": "8671452674271220249"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
+          "hash": "5999407097046041452",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home-charts.component.ts",
+          "hash": "7096677479730102471",
+          "deps": [
+            "npm:@angular/core",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home.component.css",
+          "hash": "6291323070749853791"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home.component.html",
+          "hash": "9816516630191472109"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/home/home.component.ts",
+          "hash": "16861395291646201992",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/layout/layout.component.css",
+          "hash": "3067515883763660527"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/layout/layout.component.html",
+          "hash": "7506904493527086501"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/layout/layout.component.ts",
+          "hash": "7554076618978336228",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
+          "hash": "432147048569054315",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
+          "hash": "10207456637957584862",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
+          "hash": "1617975011984491356",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
+          "hash": "10708680512192273874",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
+          "hash": "9576729824381709409",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
+          "hash": "5146624781783201174",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.component.css",
+          "hash": "974535914320870322"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.component.html",
+          "hash": "17213305031483200051"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.component.ts",
+          "hash": "17405640773230800553",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/reports.service.ts",
+          "hash": "12756735345788161922",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
+          "hash": "9925924655196420289"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
+          "hash": "13838999759676120961"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
+          "hash": "5079480427167873896",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
+          "hash": "818059585225871799",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs",
+            "npm:chart.js",
+            "npm:chartjs-plugin-annotation"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
+          "hash": "16100758475756990727",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/stores/stores.component.css",
+          "hash": "5861827128165989507"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/stores/stores.component.html",
+          "hash": "17100913966683262571"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/stores/stores.component.ts",
+          "hash": "7372600448514720551",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/visits/visits.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/visits/visits.component.html",
+          "hash": "15593205078503149337"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/dashboard/visits/visits.component.ts",
+          "hash": "9362716443871042946",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/projects/projects/projects.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/projects/projects/projects.component.html",
+          "hash": "4122003180593993594"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/modules/projects/projects/projects.component.ts",
+          "hash": "18425312658045164056",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/icon/icon.component.ts",
+          "hash": "16414586347861831717",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.html",
+          "hash": "11383706664663565653"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.scss",
+          "hash": "8946059392925077262"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
+          "hash": "10127604642501863729"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/offline-status/offline-status.component.ts",
+          "hash": "16368977611913367474",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
+          "hash": "6773240714181538285",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/badge/index.ts",
+          "hash": "3313418863466736896"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/button/hlm-button.directive.ts",
+          "hash": "13336365327369514792",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/button/index.ts",
+          "hash": "4705641641850255821"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/input/hlm-input.directive.ts",
+          "hash": "6768129751417257928",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/input/index.ts",
+          "hash": "2014762616443210075"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/label/hlm-label.directive.ts",
+          "hash": "18020695140414742747",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/app/shared/components/ui/label/index.ts",
+          "hash": "10216001031385572683"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/favicon.svg",
+          "hash": "6475210795918509466"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-120x120.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-128x128.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-144x144.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-152x152.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-192x192.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-384x384.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-512x512.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-72x72.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-76x76.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon-96x96.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/icons/icon.svg",
+          "hash": "17293406308354275645"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/logos/mega-dulces-logo.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/logos/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/manifest.webmanifest",
+          "hash": "6834005658414736909"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/assets/sw-offline.js",
+          "hash": "12737611887829979765"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/environments/environment.prod.ts",
+          "hash": "1294689565491556426"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/environments/environment.ts",
+          "hash": "16920053114784208314"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/index.html",
+          "hash": "13352448062115027158"
+        },
+        {
+          "file": "apps/trade-marketing-view/src/main.ts",
+          "hash": "11034251973789847075",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/polyfills.ts",
+          "hash": "11803705300934933554",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/src/styles.css",
+          "hash": "17601024930440195508"
+        },
+        {
+          "file": "apps/trade-marketing-view/tailwind.config.js",
+          "hash": "18307351522915318624",
+          "deps": [
+            "npm:@spartan-ng/ui-core",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-view/tsconfig.app.json",
+          "hash": "12120654287211779749"
+        },
+        {
+          "file": "apps/trade-marketing-view/tsconfig.json",
+          "hash": "16960269419647624450"
+        },
+        {
+          "file": "apps/trade-marketing-view/tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ],
+      "trade-marketing-api": [
+        {
+          "file": "apps/trade-marketing-api/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/trade-marketing-api/project.json",
+          "hash": "324370843071470347"
+        },
+        {
+          "file": "apps/trade-marketing-api/src/app.controller.spec.ts",
+          "hash": "3407876829745233448",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/app.controller.ts",
+          "hash": "7751595039639481611",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/app.module.ts",
+          "hash": "193993066945048613",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/serve-static",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/app.service.ts",
+          "hash": "15275323873054081339",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/main.ts",
+          "hash": "10315975669299097284",
+          "deps": [
+            "npm:dotenv",
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/platform-express",
+            "npm:express",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/auth/auth.controller.spec.ts",
+          "hash": "11625570402663679261",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/auth/auth.controller.ts",
+          "hash": "7219963483417162605",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/auth/auth.module.ts",
+          "hash": "14554981873806878739",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/auth/auth.service.spec.ts",
+          "hash": "3531801313276079682",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/auth/auth.service.ts",
+          "hash": "17271788246728765332",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/auth/dto/login.dto.ts",
+          "hash": "9762757161550624109",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/captures/captures.controller.ts",
+          "hash": "5424533773146356712",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/captures/captures.module.ts",
+          "hash": "3659140332795565800",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/captures/captures.service.ts",
+          "hash": "5809408417175229180",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/captures/dto/create-capture.dto.ts",
+          "hash": "9937475221115887472",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/catalogs/catalogs.controller.ts",
+          "hash": "11338192304327859784",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/catalogs/catalogs.module.ts",
+          "hash": "15881760083742539031",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/catalogs/catalogs.service.ts",
+          "hash": "2998854855370698807",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/cron/cron.controller.ts",
+          "hash": "521784414831690113",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/cron/cron.module.ts",
+          "hash": "8856755613610937369",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/cron/tasks.module.ts",
+          "hash": "17418073152912863792",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/cron/tasks.service.ts",
+          "hash": "4503720106535132521",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-assignments/daily-assignments.controller.ts",
+          "hash": "7060017827071318638",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-assignments/daily-assignments.module.ts",
+          "hash": "17068758422634342289",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-assignments/daily-assignments.service.ts",
+          "hash": "3110421004738796139",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
+          "hash": "1551085371947123076",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-captures/daily-captures.controller.ts",
+          "hash": "2182910707318042599",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-captures/daily-captures.module.ts",
+          "hash": "6663386572540707866",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-captures/daily-captures.service.ts",
+          "hash": "5339429682241894193",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
+          "hash": "17698800407606654400",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/data/data.controller.ts",
+          "hash": "10623335843938862388",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/data/data.module.ts",
+          "hash": "1317693330711690638",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/data/data.service.ts",
+          "hash": "926685939814310563",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/exhibitions/exhibitions.controller.ts",
+          "hash": "4247966806922233649",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:multer",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/exhibitions/exhibitions.module.ts",
+          "hash": "1236777701416950372",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/exhibitions/exhibitions.service.ts",
+          "hash": "2267310542126867861",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/planograms/planograms.controller.ts",
+          "hash": "13910742510775035338",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/planograms/planograms.module.ts",
+          "hash": "9534432930116506509",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/planograms/planograms.service.ts",
+          "hash": "4424239700225977664",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/reports/reports.controller.ts",
+          "hash": "14672819194825423917",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/reports/reports.module.ts",
+          "hash": "5105368312967521149",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/reports/reports.service.ts",
+          "hash": "14092260100812605392",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/scoring/scoring-v2.module.ts",
+          "hash": "9399395313064002692",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/scoring/scoring-v2.service.ts",
+          "hash": "9380700385846245134",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/scoring/scoring.controller.ts",
+          "hash": "13768267166269774566",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/scoring/scoring.module.ts",
+          "hash": "2527378155134514190",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/scoring/scoring.service.ts",
+          "hash": "3772531613617157903",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/stores/stores.controller.ts",
+          "hash": "18251213968506275146",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:express",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/stores/stores.module.ts",
+          "hash": "9228374827751255982",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/stores/stores.service.ts",
+          "hash": "3295887834270070973",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/users/dto/create-user.dto.ts",
+          "hash": "5332507449805737286",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/users/dto/update-user.dto.ts",
+          "hash": "7679460126645141347",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/users/users.controller.ts",
+          "hash": "10839634739866315484",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/users/users.module.ts",
+          "hash": "1338938314434509734",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/users/users.service.ts",
+          "hash": "16912566737411025296",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/visitas/visitas-sync.controller.ts",
+          "hash": "9051349644877045253",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/visitas/visitas-sync.module.ts",
+          "hash": "18225792148512322727",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/visitas/visitas-sync.service.ts",
+          "hash": "1545868140025933216",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/visits/visits.controller.ts",
+          "hash": "7442796845385286821",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/visits/visits.module.ts",
+          "hash": "10592014523286136650",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/modules/visits/visits.service.ts",
+          "hash": "4903066750654074725",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/ability/ability.factory.ts",
+          "hash": "2992732400971639556",
+          "deps": [
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/ability/ability.types.ts",
+          "hash": "13284967232584510653",
+          "deps": [
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/ability/data-scope.ts",
+          "hash": "4522370752801424009",
+          "deps": [
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/cloudinary/cloudinary.module.ts",
+          "hash": "11485040535683537929",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/cloudinary/cloudinary.service.ts",
+          "hash": "4304103306127135813",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary",
+            [
+              "npm:sharp",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/constants/permissions.ts",
+          "hash": "12252766400116632573"
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/database/database.module.ts",
+          "hash": "12928846006218288820",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/decorators/permissions.decorator.ts",
+          "hash": "13785587539214512268",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/decorators/req-user.decorator.ts",
+          "hash": "17587574241689093482",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/decorators/roles.decorator.ts",
+          "hash": "7408415384539106392"
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/guards/require-auth.guard.ts",
+          "hash": "1310519655699488833",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/src/shared/guards/roles.guard.ts",
+          "hash": "11897803830503123536",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/test/app.e2e-spec.ts",
+          "hash": "12700387818545954749",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/trade-marketing-api/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/trade-marketing-api/tsconfig.app.json",
+          "hash": "11318115209773804374"
+        },
+        {
+          "file": "apps/trade-marketing-api/tsconfig.build.json",
+          "hash": "589474541783518070"
+        },
+        {
+          "file": "apps/trade-marketing-api/webpack.config.js",
+          "hash": "5743842417364470590",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
       "view": [
         {
           "file": "apps/view/.browserslistrc",
@@ -3865,16 +4479,24 @@
           ]
         },
         {
+          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
+          "hash": "7096677479730102471",
+          "deps": [
+            "npm:@angular/core",
+            "npm:primeng"
+          ]
+        },
+        {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
           "hash": "6291323070749853791"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "15884965932140614654"
+          "hash": "9816516630191472109"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
-          "hash": "4218648372755352152",
+          "hash": "16861395291646201992",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3980,7 +4602,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
-          "hash": "7361209452210373545",
+          "hash": "585501429313123218",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -4255,7 +4877,7 @@
         },
         {
           "file": "apps/view/src/index.html",
-          "hash": "5984152143055965093"
+          "hash": "16967544204870040120"
         },
         {
           "file": "apps/view/src/main.ts",
@@ -4273,7 +4895,7 @@
         },
         {
           "file": "apps/view/src/styles.css",
-          "hash": "4460402871189867572"
+          "hash": "17601024930440195508"
         },
         {
           "file": "apps/view/tailwind.config.js",
@@ -4294,608 +4916,6 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
-        }
-      ],
-      "trade-marketing-api": [
-        {
-          "file": "apps/trade-marketing-api/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "apps/trade-marketing-api/project.json",
-          "hash": "324370843071470347"
-        },
-        {
-          "file": "apps/trade-marketing-api/src/app.controller.spec.ts",
-          "hash": "3407876829745233448",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/app.controller.ts",
-          "hash": "7751595039639481611",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/app.module.ts",
-          "hash": "193993066945048613",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:@nestjs/serve-static",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/app.service.ts",
-          "hash": "15275323873054081339",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/main.ts",
-          "hash": "10315975669299097284",
-          "deps": [
-            "npm:dotenv",
-            "npm:@nestjs/core",
-            "npm:@nestjs/swagger",
-            "npm:@nestjs/platform-express",
-            "npm:express",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/auth/auth.controller.spec.ts",
-          "hash": "11625570402663679261",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/auth/auth.controller.ts",
-          "hash": "7219963483417162605",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/auth/auth.module.ts",
-          "hash": "14554981873806878739",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/auth/auth.service.spec.ts",
-          "hash": "3531801313276079682",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/auth/auth.service.ts",
-          "hash": "17271788246728765332",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/auth/dto/login.dto.ts",
-          "hash": "9762757161550624109",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/captures/captures.controller.ts",
-          "hash": "5424533773146356712",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/captures/captures.module.ts",
-          "hash": "3659140332795565800",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/captures/captures.service.ts",
-          "hash": "5809408417175229180",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/captures/dto/create-capture.dto.ts",
-          "hash": "9937475221115887472",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/catalogs/catalogs.controller.ts",
-          "hash": "11338192304327859784",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/catalogs/catalogs.module.ts",
-          "hash": "15881760083742539031",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/catalogs/catalogs.service.ts",
-          "hash": "2998854855370698807",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/cron/cron.controller.ts",
-          "hash": "521784414831690113",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/cron/cron.module.ts",
-          "hash": "8856755613610937369",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/cron/tasks.module.ts",
-          "hash": "17418073152912863792",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/cron/tasks.service.ts",
-          "hash": "4503720106535132521",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/schedule",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-assignments/daily-assignments.controller.ts",
-          "hash": "7060017827071318638",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-assignments/daily-assignments.module.ts",
-          "hash": "17068758422634342289",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-assignments/daily-assignments.service.ts",
-          "hash": "3110421004738796139",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
-          "hash": "1551085371947123076",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-captures/daily-captures.controller.ts",
-          "hash": "2182910707318042599",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-captures/daily-captures.module.ts",
-          "hash": "6663386572540707866",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "5339429682241894193",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
-          "hash": "17698800407606654400",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/data/data.controller.ts",
-          "hash": "10623335843938862388",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/data/data.module.ts",
-          "hash": "1317693330711690638",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/data/data.service.ts",
-          "hash": "926685939814310563",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/exhibitions/exhibitions.controller.ts",
-          "hash": "4247966806922233649",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:multer",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/exhibitions/exhibitions.module.ts",
-          "hash": "1236777701416950372",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/exhibitions/exhibitions.service.ts",
-          "hash": "2267310542126867861",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/planograms/planograms.controller.ts",
-          "hash": "13910742510775035338",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/planograms/planograms.module.ts",
-          "hash": "9534432930116506509",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/planograms/planograms.service.ts",
-          "hash": "4424239700225977664",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/reports/reports.controller.ts",
-          "hash": "11515215688755631843",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/reports/reports.module.ts",
-          "hash": "5105368312967521149",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/reports/reports.service.ts",
-          "hash": "7878849425836272455",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/scoring/scoring-v2.module.ts",
-          "hash": "9399395313064002692",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/scoring/scoring-v2.service.ts",
-          "hash": "9380700385846245134",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/scoring/scoring.controller.ts",
-          "hash": "13768267166269774566",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/scoring/scoring.module.ts",
-          "hash": "2527378155134514190",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/scoring/scoring.service.ts",
-          "hash": "3772531613617157903",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/stores/stores.controller.ts",
-          "hash": "18251213968506275146",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:express",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/stores/stores.module.ts",
-          "hash": "9228374827751255982",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/stores/stores.service.ts",
-          "hash": "3295887834270070973",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/users/dto/create-user.dto.ts",
-          "hash": "5332507449805737286",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/users/dto/update-user.dto.ts",
-          "hash": "7679460126645141347",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/users/users.controller.ts",
-          "hash": "10839634739866315484",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/users/users.module.ts",
-          "hash": "1338938314434509734",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/users/users.service.ts",
-          "hash": "16912566737411025296",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/visitas/visitas-sync.controller.ts",
-          "hash": "9051349644877045253",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/visitas/visitas-sync.module.ts",
-          "hash": "18225792148512322727",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/visitas/visitas-sync.service.ts",
-          "hash": "1545868140025933216",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/visits/visits.controller.ts",
-          "hash": "7442796845385286821",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/visits/visits.module.ts",
-          "hash": "10592014523286136650",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/modules/visits/visits.service.ts",
-          "hash": "4903066750654074725",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/ability/ability.factory.ts",
-          "hash": "2992732400971639556",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/ability/ability.types.ts",
-          "hash": "13284967232584510653",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/ability/data-scope.ts",
-          "hash": "4522370752801424009",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/cloudinary/cloudinary.module.ts",
-          "hash": "11485040535683537929",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:cloudinary",
-            "npm:@nestjs/config"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/cloudinary/cloudinary.service.ts",
-          "hash": "4304103306127135813",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:cloudinary",
-            [
-              "npm:sharp",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/constants/permissions.ts",
-          "hash": "12252766400116632573"
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/database/database.module.ts",
-          "hash": "12928846006218288820",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/decorators/permissions.decorator.ts",
-          "hash": "13785587539214512268",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/decorators/req-user.decorator.ts",
-          "hash": "17587574241689093482",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/decorators/roles.decorator.ts",
-          "hash": "7408415384539106392"
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/guards/require-auth.guard.ts",
-          "hash": "1310519655699488833",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/src/shared/guards/roles.guard.ts",
-          "hash": "11897803830503123536",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/test/app.e2e-spec.ts",
-          "hash": "12700387818545954749",
-          "deps": [
-            "npm:@nestjs/testing",
-            "npm:@nestjs/common",
-            "npm:supertest"
-          ]
-        },
-        {
-          "file": "apps/trade-marketing-api/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "apps/trade-marketing-api/tsconfig.app.json",
-          "hash": "11318115209773804374"
-        },
-        {
-          "file": "apps/trade-marketing-api/tsconfig.build.json",
-          "hash": "589474541783518070"
-        },
-        {
-          "file": "apps/trade-marketing-api/webpack.config.js",
-          "hash": "5743842417364470590",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
         }
       ]
     }
