@@ -74,8 +74,8 @@
                 "budgets": [
                   {
                     "type": "initial",
-                    "maximumWarning": "2mb",
-                    "maximumError": "5mb"
+                    "maximumWarning": "900kb",
+                    "maximumError": "1.2mb"
                   },
                   {
                     "type": "anyComponentStyle",
@@ -493,9 +493,7 @@
               "styles": [
                 "apps/view/src/styles.css"
               ],
-              "scripts": [],
-              "serviceWorker": true,
-              "ngswConfigPath": "apps/view/src/ngsw-config.json"
+              "scripts": []
             },
             "configurations": {
               "production": {
@@ -505,8 +503,8 @@
                 "budgets": [
                   {
                     "type": "initial",
-                    "maximumWarning": "2mb",
-                    "maximumError": "5mb"
+                    "maximumWarning": "900kb",
+                    "maximumError": "1.2mb"
                   },
                   {
                     "type": "anyComponentStyle",
@@ -21049,11 +21047,6 @@
       {
         "source": "view",
         "target": "npm:primeng",
-        "type": "static"
-      },
-      {
-        "source": "view",
-        "target": "npm:@angular/service-worker",
         "type": "static"
       },
       {
@@ -51914,5 +51907,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778683043183
+  "computedAt": 1778688648863
 }
