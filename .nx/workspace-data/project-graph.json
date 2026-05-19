@@ -1,368 +1,5 @@
 {
   "nodes": {
-    "trade-marketing-view": {
-      "name": "trade-marketing-view",
-      "type": "app",
-      "data": {
-        "root": "apps/trade-marketing-view",
-        "targets": {
-          "lint": {
-            "cache": true,
-            "options": {
-              "cwd": "apps/trade-marketing-view",
-              "command": "eslint ."
-            },
-            "inputs": [
-              "default",
-              "^default",
-              "{workspaceRoot}/eslint.config.js",
-              "{workspaceRoot}/tools/eslint-rules/**/*",
-              {
-                "externalDependencies": [
-                  "eslint"
-                ]
-              }
-            ],
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "metadata": {
-              "technologies": [
-                "eslint"
-              ],
-              "description": "Runs ESLint on project",
-              "help": {
-                "command": "npx eslint --help",
-                "example": {
-                  "options": {
-                    "max-warnings": 0
-                  }
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "build": {
-            "executor": "@nx/angular:browser-esbuild",
-            "outputs": [
-              "{options.outputPath}"
-            ],
-            "options": {
-              "outputPath": "dist/apps/trade-marketing-view",
-              "index": "apps/trade-marketing-view/src/index.html",
-              "main": "apps/trade-marketing-view/src/main.ts",
-              "polyfills": [
-                "apps/trade-marketing-view/src/polyfills.ts"
-              ],
-              "tsConfig": "apps/trade-marketing-view/tsconfig.app.json",
-              "assets": [
-                "apps/trade-marketing-view/src/favicon.ico",
-                "apps/trade-marketing-view/src/assets"
-              ],
-              "styles": [
-                "apps/trade-marketing-view/src/styles.css"
-              ],
-              "scripts": []
-            },
-            "configurations": {
-              "production": {
-                "aot": true,
-                "buildOptimizer": true,
-                "optimization": true,
-                "budgets": [
-                  {
-                    "type": "initial",
-                    "maximumWarning": "900kb",
-                    "maximumError": "1.2mb"
-                  },
-                  {
-                    "type": "anyComponentStyle",
-                    "maximumWarning": "4kb",
-                    "maximumError": "10kb"
-                  }
-                ],
-                "outputHashing": "all"
-              },
-              "development": {
-                "optimization": false,
-                "extractLicenses": false,
-                "sourceMap": true
-              }
-            },
-            "defaultConfiguration": "production",
-            "parallelism": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ]
-          },
-          "serve": {
-            "executor": "@nx/angular:dev-server",
-            "options": {
-              "port": 4204
-            },
-            "configurations": {
-              "production": {
-                "buildTarget": "trade-marketing-view:build:production"
-              },
-              "development": {
-                "buildTarget": "trade-marketing-view:build:development",
-                "proxyConfig": "apps/trade-marketing-view/proxy.conf.json"
-              }
-            },
-            "defaultConfiguration": "development",
-            "parallelism": true
-          },
-          "extract-i18n": {
-            "executor": "@nx/angular:extract-i18n",
-            "options": {
-              "buildTarget": "trade-marketing-view:build"
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "outputs": [
-              "{workspaceRoot}/coverage/apps/trade-marketing-view"
-            ],
-            "options": {
-              "jestConfig": "apps/trade-marketing-view/jest.config.ts",
-              "passWithNoTests": true
-            },
-            "configurations": {},
-            "parallelism": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/jest.preset.js"
-            ]
-          }
-        },
-        "name": "trade-marketing-view",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "projectType": "application",
-        "sourceRoot": "apps/trade-marketing-view/src",
-        "prefix": "app",
-        "implicitDependencies": [],
-        "tags": []
-      }
-    },
-    "trade-marketing-api": {
-      "name": "trade-marketing-api",
-      "type": "app",
-      "data": {
-        "root": "apps/trade-marketing-api",
-        "projectType": "application",
-        "metadata": {},
-        "targets": {
-          "webpack:build": {
-            "options": {
-              "cwd": "apps/trade-marketing-api",
-              "args": [
-                "--node-env=production"
-              ],
-              "command": "webpack-cli build"
-            },
-            "cache": true,
-            "dependsOn": [
-              "^webpack:build"
-            ],
-            "inputs": [
-              "production",
-              "^production",
-              {
-                "externalDependencies": [
-                  "webpack-cli"
-                ]
-              }
-            ],
-            "outputs": [
-              "{workspaceRoot}/dist/{projectRoot}"
-            ],
-            "metadata": {
-              "technologies": [
-                "webpack"
-              ],
-              "description": "Runs Webpack build",
-              "help": {
-                "command": "npx webpack-cli build --help",
-                "example": {
-                  "options": {
-                    "json": "stats.json"
-                  },
-                  "args": [
-                    "--profile"
-                  ]
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "webpack:serve": {
-            "options": {
-              "cwd": "apps/trade-marketing-api",
-              "args": [
-                "--node-env=development"
-              ],
-              "command": "webpack-cli serve"
-            },
-            "metadata": {
-              "technologies": [
-                "webpack"
-              ],
-              "description": "Starts Webpack dev server",
-              "help": {
-                "command": "npx webpack-cli serve --help",
-                "example": {
-                  "options": {
-                    "args": [
-                      "--client-progress",
-                      "--history-api-fallback "
-                    ]
-                  }
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "preview": {
-            "options": {
-              "cwd": "apps/trade-marketing-api",
-              "args": [
-                "--node-env=production"
-              ],
-              "command": "webpack-cli serve"
-            },
-            "metadata": {
-              "technologies": [
-                "webpack"
-              ],
-              "description": "Starts Webpack dev server in production mode",
-              "help": {
-                "command": "npx webpack-cli serve --help",
-                "example": {
-                  "options": {
-                    "args": [
-                      "--client-progress",
-                      "--history-api-fallback "
-                    ]
-                  }
-                }
-              }
-            },
-            "executor": "nx:run-commands",
-            "configurations": {},
-            "parallelism": true
-          },
-          "serve-static": {
-            "dependsOn": [
-              "webpack:build"
-            ],
-            "executor": "@nx/web:file-server",
-            "options": {
-              "buildTarget": "webpack:build",
-              "spa": true
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "lint": {
-            "executor": "@nx/eslint:lint",
-            "outputs": [
-              "{options.outputFile}"
-            ],
-            "options": {
-              "lintFilePatterns": [
-                "apps/trade-marketing-api/**/*.ts"
-              ]
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "build": {
-            "executor": "@nx/webpack:webpack",
-            "outputs": [
-              "{options.outputPath}"
-            ],
-            "options": {
-              "target": "node",
-              "compiler": "tsc",
-              "outputPath": "dist/apps/trade-marketing-api",
-              "main": "apps/trade-marketing-api/src/main.ts",
-              "tsConfig": "apps/trade-marketing-api/tsconfig.app.json",
-              "webpackConfig": "apps/trade-marketing-api/webpack.config.js",
-              "assets": [
-                {
-                  "glob": "**/*",
-                  "input": "database/migrations",
-                  "output": "database/migrations"
-                },
-                {
-                  "glob": "**/*",
-                  "input": "database/seeds",
-                  "output": "database/seeds"
-                }
-              ]
-            },
-            "configurations": {
-              "production": {
-                "optimization": true,
-                "extractLicenses": true,
-                "inspect": false
-              }
-            },
-            "parallelism": true,
-            "dependsOn": [
-              "^build"
-            ],
-            "inputs": [
-              "production",
-              "^production"
-            ]
-          },
-          "serve": {
-            "executor": "@nx/js:node",
-            "options": {
-              "buildTarget": "trade-marketing-api:build"
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "executor": "@nx/jest:jest",
-            "outputs": [
-              "{workspaceRoot}/coverage/apps/trade-marketing-api"
-            ],
-            "options": {
-              "jestConfig": "apps/trade-marketing-api/jest.config.ts",
-              "passWithNoTests": true
-            },
-            "configurations": {},
-            "parallelism": true,
-            "inputs": [
-              "default",
-              "^production",
-              "{workspaceRoot}/jest.preset.js"
-            ]
-          }
-        },
-        "name": "trade-marketing-api",
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/trade-marketing-api/src",
-        "tags": [],
-        "implicitDependencies": []
-      }
-    },
     "shared-auth": {
       "name": "shared-auth",
       "type": "lib",
@@ -7353,6 +6990,15 @@
         "hash": "sha512-mAf4eOsSBsTOn/VbrUO1gsjW6dVh91qqXPMXun4dN8SnNjf7PTQagM9o8d6ab8ZBpNe6UdZftdrZoDetU+n4Qg=="
       }
     },
+    "npm:@nestjs/platform-socket.io": {
+      "type": "npm",
+      "name": "npm:@nestjs/platform-socket.io",
+      "data": {
+        "version": "11.1.21",
+        "packageName": "@nestjs/platform-socket.io",
+        "hash": "sha512-Tq5JgaVS+auD3DXuRBy8UMU3mf69HJO8Ep+BuRS9GYMXGd/5sdMHqIQvXlXkGih9tQXdeeG9WoqURe/+IjPKng=="
+      }
+    },
     "npm:@nestjs/schedule": {
       "type": "npm",
       "name": "npm:@nestjs/schedule",
@@ -7414,6 +7060,15 @@
         "version": "6.5.0",
         "packageName": "@nestjs/throttler",
         "hash": "sha512-9j0ZRfH0QE1qyrj9JjIRDz5gQLPqq9yVC2nHsrosDVAfI5HHw08/aUAWx9DZLSdQf4HDkmhTTEGLrRFHENvchQ=="
+      }
+    },
+    "npm:@nestjs/websockets": {
+      "type": "npm",
+      "name": "npm:@nestjs/websockets",
+      "data": {
+        "version": "11.1.21",
+        "packageName": "@nestjs/websockets",
+        "hash": "sha512-2L+jFf6Nbjv7WacngvSoYGYTalqNuXlOkFl9Q5e92XiPK4gR6c4Zw6zFcb7btTY5zf7pITvOoAJIGwf3+gciRA=="
       }
     },
     "npm:@ngrx/router-store": {
@@ -13536,6 +13191,15 @@
         "hash": "sha512-U2SN0w3OpjFRVlrc17E6TMDmH58Xl9rai1MblNjAdwWp07Kk+llmzX0hjDpQdrDGzwmvOtgM5yI+meYX6iZ2xA=="
       }
     },
+    "npm:engine.io-client": {
+      "type": "npm",
+      "name": "npm:engine.io-client",
+      "data": {
+        "version": "6.6.4",
+        "packageName": "engine.io-client",
+        "hash": "sha512-+kjUJnZGwzewFDw951CDWcwj35vMNf2fcj7xQWOctq1F2i1jkDdVvdFG9kM/BEChymCH36KgjnW0NsL58JYRxw=="
+      }
+    },
     "npm:engine.io-parser": {
       "type": "npm",
       "name": "npm:engine.io-parser",
@@ -18954,6 +18618,15 @@
         "hash": "sha512-DkkO/dz7MGln0dHn5bmN3pPy+JmywNICWrJqVWiVOyvXjWQFIv9c2h24JrQLLFJ2aQVQf/Cvl1vblnd4r2apLQ=="
       }
     },
+    "npm:socket.io-client": {
+      "type": "npm",
+      "name": "npm:socket.io-client",
+      "data": {
+        "version": "4.8.3",
+        "packageName": "socket.io-client",
+        "hash": "sha512-uP0bpjWrjQmUt5DTHq9RuoCBdFJF10cdX9X+a368j/Ft0wmaVgxlrjvK3kjvgCODOMMOz9lcaRzxmso0bTWZ/g=="
+      }
+    },
     "npm:socket.io-parser": {
       "type": "npm",
       "name": "npm:socket.io-parser",
@@ -20673,6 +20346,15 @@
         "hash": "sha512-JZnDKK8B0RCDw84FNdDAIpZK+JuJw+s7Lz8nksI7SIuU3UXJJslUthsi+uWBUYOwPFwW7W7PRLRfUKpxjtjFCw=="
       }
     },
+    "npm:xmlhttprequest-ssl": {
+      "type": "npm",
+      "name": "npm:xmlhttprequest-ssl",
+      "data": {
+        "version": "2.1.2",
+        "packageName": "xmlhttprequest-ssl",
+        "hash": "sha512-TEU+nJVUUnA4CYJFLvK5X9AOeH4KvDvhIfm0vV1GaQRtchnG0hgK5p8hw/xjv8cunWYCsiPCSDzObPyhEwq3KQ=="
+      }
+    },
     "npm:xtend": {
       "type": "npm",
       "name": "npm:xtend",
@@ -20747,200 +20429,6 @@
     }
   },
   "dependencies": {
-    "trade-marketing-view": [
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@angular/core",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@angular/router",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@angular/common",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@angular/platform-browser",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:primeng",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@primeng/themes",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:rxjs",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:dexie",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@casl/ability",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@angular/forms",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:jspdf",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:jspdf-autotable",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:chart.js",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:chartjs-plugin-annotation",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:@spartan-ng/ui-core",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:class-variance-authority",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:clsx",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:zone.js",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-view",
-        "target": "npm:tailwindcss-animate",
-        "type": "static"
-      }
-    ],
-    "trade-marketing-api": [
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/testing",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/common",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/config",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/serve-static",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/schedule",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:dotenv",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/core",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/swagger",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/platform-express",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:express",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nestjs/jwt",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:knex",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:bcryptjs",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:multer",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@casl/ability",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:cloudinary",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:sharp",
-        "type": "dynamic"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:supertest",
-        "type": "static"
-      },
-      {
-        "source": "trade-marketing-api",
-        "target": "npm:@nx/webpack",
-        "type": "static"
-      }
-    ],
     "shared-auth": [
       {
         "source": "shared-auth",
@@ -21032,6 +20520,11 @@
       {
         "source": "view",
         "target": "npm:@casl/ability",
+        "type": "static"
+      },
+      {
+        "source": "view",
+        "target": "npm:socket.io-client",
         "type": "static"
       },
       {
@@ -21169,6 +20662,16 @@
       {
         "source": "api",
         "target": "npm:handlebars",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:@nestjs/websockets",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:socket.io",
         "type": "static"
       },
       {
@@ -30686,6 +30189,11 @@
       },
       {
         "source": "npm:@nestjs/core",
+        "target": "npm:@nestjs/websockets",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/core",
         "target": "npm:reflect-metadata",
         "type": "static"
       },
@@ -30804,6 +30312,33 @@
       },
       {
         "source": "npm:@nestjs/platform-express",
+        "target": "npm:tslib",
+        "type": "static"
+      }
+    ],
+    "npm:@nestjs/platform-socket.io": [
+      {
+        "source": "npm:@nestjs/platform-socket.io",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/platform-socket.io",
+        "target": "npm:@nestjs/websockets",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/platform-socket.io",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/platform-socket.io",
+        "target": "npm:socket.io",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/platform-socket.io",
         "target": "npm:tslib",
         "type": "static"
       }
@@ -31036,6 +30571,48 @@
       {
         "source": "npm:@nestjs/throttler",
         "target": "npm:reflect-metadata",
+        "type": "static"
+      }
+    ],
+    "npm:@nestjs/websockets": [
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:@nestjs/platform-socket.io",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:reflect-metadata",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:iterare",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:object-hash",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/websockets",
+        "target": "npm:tslib",
         "type": "static"
       }
     ],
@@ -40034,6 +39611,33 @@
         "type": "static"
       }
     ],
+    "npm:engine.io-client": [
+      {
+        "source": "npm:engine.io-client",
+        "target": "npm:@socket.io/component-emitter",
+        "type": "static"
+      },
+      {
+        "source": "npm:engine.io-client",
+        "target": "npm:debug",
+        "type": "static"
+      },
+      {
+        "source": "npm:engine.io-client",
+        "target": "npm:engine.io-parser",
+        "type": "static"
+      },
+      {
+        "source": "npm:engine.io-client",
+        "target": "npm:ws@8.18.3",
+        "type": "static"
+      },
+      {
+        "source": "npm:engine.io-client",
+        "target": "npm:xmlhttprequest-ssl",
+        "type": "static"
+      }
+    ],
     "npm:enhanced-resolve": [
       {
         "source": "npm:enhanced-resolve",
@@ -48468,6 +48072,28 @@
         "type": "static"
       }
     ],
+    "npm:socket.io-client": [
+      {
+        "source": "npm:socket.io-client",
+        "target": "npm:@socket.io/component-emitter",
+        "type": "static"
+      },
+      {
+        "source": "npm:socket.io-client",
+        "target": "npm:debug",
+        "type": "static"
+      },
+      {
+        "source": "npm:socket.io-client",
+        "target": "npm:engine.io-client",
+        "type": "static"
+      },
+      {
+        "source": "npm:socket.io-client",
+        "target": "npm:socket.io-parser",
+        "type": "static"
+      }
+    ],
     "npm:socket.io-parser": [
       {
         "source": "npm:socket.io-parser",
@@ -51804,5 +51430,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1778881730279
+  "computedAt": 1779220986825
 }
