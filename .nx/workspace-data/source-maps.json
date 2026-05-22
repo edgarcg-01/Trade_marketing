@@ -369,132 +369,6 @@
       "nx/target-defaults"
     ]
   },
-  "libs/shared-auth": {
-    "root": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets": [
-      "eslint.config.js",
-      "@nx/eslint/plugin"
-    ],
-    "name": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "$schema": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "sourceRoot": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "projectType": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "tags": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.executor": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.outputs": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.outputPath": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.main": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.tsConfig": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.options.assets": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.executor": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.outputs": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.lint.options.lintFilePatterns": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.executor": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.outputs": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.jestConfig": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.test.options.passWithNoTests": [
-      "libs/shared-auth/project.json",
-      "nx/core/project-json"
-    ],
-    "targets.build.dependsOn": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.build.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.inputs": [
-      "nx.json",
-      "nx/target-defaults"
-    ],
-    "targets.test.parallelism": [
-      "nx.json",
-      "nx/target-defaults"
-    ]
-  },
   "apps/view": {
     "root": [
       "apps/view/project.json",
@@ -754,6 +628,132 @@
     ],
     "targets.test.options.passWithNoTests": [
       "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "libs/shared-auth": {
+    "root": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "libs/shared-auth/project.json",
       "nx/core/project-json"
     ],
     "targets.build.dependsOn": [

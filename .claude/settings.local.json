@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(psql:*)",
+      "Bash(*/psql.exe*)",
+      "Bash(*\\psql.exe*)",
+      "Bash(\"/c/Program Files/PostgreSQL/16/bin/psql.exe\":*)",
+      "Bash(\"C:\\Program Files\\PostgreSQL\\16\\bin\\psql.exe\":*)"
+    ]
+  }
+}

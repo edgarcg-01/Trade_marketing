@@ -42,6 +42,862 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "view": [
+        {
+          "file": "apps/view/.browserslistrc",
+          "hash": "5145066096085527059"
+        },
+        {
+          "file": "apps/view/.editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": "apps/view/.gitignore",
+          "hash": "10175894702052279752"
+        },
+        {
+          "file": "apps/view/README.md",
+          "hash": "9957948032996686319"
+        },
+        {
+          "file": "apps/view/components.json",
+          "hash": "2051255686788595788"
+        },
+        {
+          "file": "apps/view/postcss.config.js",
+          "hash": "4080954692028639031"
+        },
+        {
+          "file": "apps/view/project.json",
+          "hash": "13877384930397478215"
+        },
+        {
+          "file": "apps/view/proxy.conf.json",
+          "hash": "3219014540752259563"
+        },
+        {
+          "file": "apps/view/public/MDDL Logo 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/view/src/LOGO MEGA DULCES 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/app.component.html",
+          "hash": "10015465879027569075"
+        },
+        {
+          "file": "apps/view/src/app/app.component.ts",
+          "hash": "7088129857668011868",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.config.ts",
+          "hash": "8127624932599439242",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser",
+            "npm:primeng",
+            "npm:@primeng/themes"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.routes.ts",
+          "hash": "5649789902521767986",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/constants/permissions.ts",
+          "hash": "18120677320739255820"
+        },
+        {
+          "file": "apps/view/src/app/core/guards/auth.guard.ts",
+          "hash": "11575897814990018939",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/guards/permission.guard.ts",
+          "hash": "16783114173625295703",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
+          "hash": "7253350037982295754",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/auth.service.ts",
+          "hash": "17200537073060137453",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/data-update.service.ts",
+          "hash": "4773825376667131093",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/geo-validation.service.ts",
+          "hash": "9663346340696226333",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
+          "hash": "8398199584058515102",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-database.service.ts",
+          "hash": "13123909697677560342",
+          "deps": [
+            "npm:dexie",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-sync.service.ts",
+          "hash": "10582395215262898674",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/permissions.service.ts",
+          "hash": "2896050455883659135",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/pwa-install.service.ts",
+          "hash": "14578582373289519011",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/realtime-data.service.ts",
+          "hash": "6914217143826077157",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
+          "hash": "1823168971398797704",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/theme.service.ts",
+          "hash": "11206863549548322160",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/websocket.service.ts",
+          "hash": "5685791934535106818",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:socket.io-client"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.css",
+          "hash": "17595759587945482458"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.html",
+          "hash": "9138699323335466721"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
+          "hash": "12986435405157046739",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
+          "hash": "8621899521876476343"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
+          "hash": "10433011511336858747",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
+          "hash": "17057489463707267017",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
+          "hash": "338607153653723890"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
+          "hash": "13038173184845392086",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
+          "hash": "14984277863891170376",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
+          "hash": "15897038441490464598",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
+          "hash": "10961295348557135103"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
+          "hash": "17974211723563334439",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
+          "hash": "2927472231450193134",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
+          "hash": "2828962914786491374"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
+          "hash": "1020499686091636528",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
+          "hash": "8022502344541600343",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
+          "hash": "15255834478090382753"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
+          "hash": "3494465477954686676",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
+          "hash": "5729367069009790213"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
+          "hash": "13116438273385004794",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
+          "hash": "10742704315394993214"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
+          "hash": "16068867234780894963"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
+          "hash": "11473203539056294977",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
+          "hash": "213520505854234871"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
+          "hash": "5999407097046041452",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
+          "hash": "7096677479730102471",
+          "deps": [
+            "npm:@angular/core",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
+          "hash": "6291323070749853791"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
+          "hash": "16356502938072404655"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
+          "hash": "8365381085248351854",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
+          "hash": "3798163631326653286"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
+          "hash": "16570643007687426479"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
+          "hash": "9552082503726696435",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
+          "hash": "16283353383737746557",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
+          "hash": "10207456637957584862",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
+          "hash": "1617975011984491356",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
+          "hash": "1700368972058103319",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
+          "hash": "9576729824381709409",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
+          "hash": "7880621981036541945",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
+          "hash": "974535914320870322"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
+          "hash": "11861548909167507656"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
+          "hash": "15168068375378039595",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:rxjs",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
+          "hash": "585501429313123218",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.css",
+          "hash": "15997858625478599847"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.html",
+          "hash": "196228723925554000"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.ts",
+          "hash": "7779717400513614808",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
+          "hash": "9925924655196420289"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
+          "hash": "4926587909017962212"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
+          "hash": "1657753554254573075",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.html",
+          "hash": "18056610387699432103"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
+          "hash": "16346694208379085646",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs",
+            "npm:chart.js",
+            "npm:chartjs-plugin-annotation"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
+          "hash": "16100758475756990727",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
+          "hash": "5861827128165989507"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
+          "hash": "7808519122470033773"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
+          "hash": "7037330257727223149",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
+          "hash": "1956882555711631365"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
+          "hash": "9362716443871042946",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
+          "hash": "4122003180593993594"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
+          "hash": "7703738634833174080",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
+          "hash": "13258589359227073107"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
+          "hash": "8946059392925077262"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
+          "hash": "10127604642501863729"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
+          "hash": "9618449003398179726",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
+          "hash": "6773240714181538285",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
+          "hash": "3313418863466736896"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
+          "hash": "13336365327369514792",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
+          "hash": "4705641641850255821"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
+          "hash": "6768129751417257928",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
+          "hash": "2014762616443210075"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
+          "hash": "18020695140414742747",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
+          "hash": "10216001031385572683"
+        },
+        {
+          "file": "apps/view/src/app/shared/directives/can-do.directive.ts",
+          "hash": "12787788147227738092",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/assets/icons/favicon.svg",
+          "hash": "6475210795918509466"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-120x120.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-128x128.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-144x144.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-152x152.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-192x192.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-384x384.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-512x512.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-72x72.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-76x76.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-96x96.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon.svg",
+          "hash": "17293406308354275645"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
+        },
+        {
+          "file": "apps/view/src/assets/manifest.webmanifest",
+          "hash": "6834005658414736909"
+        },
+        {
+          "file": "apps/view/src/assets/sw-offline.js",
+          "hash": "12737611887829979765"
+        },
+        {
+          "file": "apps/view/src/environments/environment.ts",
+          "hash": "26503312842440983"
+        },
+        {
+          "file": "apps/view/src/index.html",
+          "hash": "16967544204870040120"
+        },
+        {
+          "file": "apps/view/src/main.ts",
+          "hash": "11034251973789847075",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/view/src/polyfills.ts",
+          "hash": "11803705300934933554",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/view/src/styles.css",
+          "hash": "17601024930440195508"
+        },
+        {
+          "file": "apps/view/tailwind.config.js",
+          "hash": "18307351522915318624",
+          "deps": [
+            "npm:@spartan-ng/ui-core",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "apps/view/tsconfig.app.json",
+          "hash": "12120654287211779749"
+        },
+        {
+          "file": "apps/view/tsconfig.json",
+          "hash": "3244122702489971225"
+        },
+        {
+          "file": "apps/view/tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ],
       "api": [
         {
           "file": "apps/api/nest-cli.json",
@@ -306,7 +1162,7 @@
         },
         {
           "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
-          "hash": "15704159629367108803",
+          "hash": "13133200100762847213",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1199,862 +2055,6 @@
           ]
         }
       ],
-      "view": [
-        {
-          "file": "apps/view/.browserslistrc",
-          "hash": "5145066096085527059"
-        },
-        {
-          "file": "apps/view/.editorconfig",
-          "hash": "8037249353422744134"
-        },
-        {
-          "file": "apps/view/.gitignore",
-          "hash": "10175894702052279752"
-        },
-        {
-          "file": "apps/view/README.md",
-          "hash": "9957948032996686319"
-        },
-        {
-          "file": "apps/view/components.json",
-          "hash": "2051255686788595788"
-        },
-        {
-          "file": "apps/view/postcss.config.js",
-          "hash": "4080954692028639031"
-        },
-        {
-          "file": "apps/view/project.json",
-          "hash": "13877384930397478215"
-        },
-        {
-          "file": "apps/view/proxy.conf.json",
-          "hash": "3219014540752259563"
-        },
-        {
-          "file": "apps/view/public/MDDL Logo 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/public/favicon.ico",
-          "hash": "3988961587069885523"
-        },
-        {
-          "file": "apps/view/src/LOGO MEGA DULCES 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/app.component.html",
-          "hash": "10015465879027569075"
-        },
-        {
-          "file": "apps/view/src/app/app.component.ts",
-          "hash": "7088129857668011868",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/app.config.ts",
-          "hash": "8127624932599439242",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/platform-browser",
-            "npm:primeng",
-            "npm:@primeng/themes"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/app.routes.ts",
-          "hash": "5649789902521767986",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/constants/permissions.ts",
-          "hash": "18120677320739255820"
-        },
-        {
-          "file": "apps/view/src/app/core/guards/auth.guard.ts",
-          "hash": "11575897814990018939",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/guards/permission.guard.ts",
-          "hash": "16783114173625295703",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
-          "hash": "7253350037982295754",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/auth.service.ts",
-          "hash": "17200537073060137453",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/data-update.service.ts",
-          "hash": "4773825376667131093",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/geo-validation.service.ts",
-          "hash": "9663346340696226333",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
-          "hash": "8398199584058515102",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-database.service.ts",
-          "hash": "13123909697677560342",
-          "deps": [
-            "npm:dexie",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-sync.service.ts",
-          "hash": "10582395215262898674",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/permissions.service.ts",
-          "hash": "2896050455883659135",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/pwa-install.service.ts",
-          "hash": "14578582373289519011",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/realtime-data.service.ts",
-          "hash": "6914217143826077157",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
-          "hash": "1823168971398797704",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/theme.service.ts",
-          "hash": "11206863549548322160",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/websocket.service.ts",
-          "hash": "5685791934535106818",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:socket.io-client"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.css",
-          "hash": "17595759587945482458"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.html",
-          "hash": "9138699323335466721"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
-          "hash": "12986435405157046739",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
-          "hash": "8621899521876476343"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
-          "hash": "10433011511336858747",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
-          "hash": "17057489463707267017",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
-          "hash": "338607153653723890"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
-          "hash": "13038173184845392086",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
-          "hash": "14984277863891170376",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
-          "hash": "15897038441490464598",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
-          "hash": "10961295348557135103"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
-          "hash": "17974211723563334439",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
-          "hash": "2927472231450193134",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "2828962914786491374"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
-          "hash": "1020499686091636528",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
-          "hash": "8022502344541600343",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "15255834478090382753"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "3494465477954686676",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
-          "hash": "5729367069009790213"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
-          "hash": "13116438273385004794",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
-          "hash": "10742704315394993214"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "16068867234780894963"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
-          "hash": "11473203539056294977",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
-          "hash": "213520505854234871"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
-          "hash": "5999407097046041452",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
-          "hash": "7096677479730102471",
-          "deps": [
-            "npm:@angular/core",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
-          "hash": "6291323070749853791"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "16356502938072404655"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
-          "hash": "8365381085248351854",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
-          "hash": "3798163631326653286"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "16570643007687426479"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "9552082503726696435",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
-          "hash": "16283353383737746557",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
-          "hash": "10207456637957584862",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
-          "hash": "1617975011984491356",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
-          "hash": "1700368972058103319",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
-          "hash": "9576729824381709409",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "7880621981036541945",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
-          "hash": "974535914320870322"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "11861548909167507656"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "15168068375378039595",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:rxjs",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
-          "hash": "585501429313123218",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.css",
-          "hash": "15997858625478599847"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.html",
-          "hash": "196228723925554000"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.ts",
-          "hash": "7779717400513614808",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
-          "hash": "9925924655196420289"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
-          "hash": "4926587909017962212"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
-          "hash": "1657753554254573075",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.html",
-          "hash": "18056610387699432103"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
-          "hash": "16346694208379085646",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs",
-            "npm:chart.js",
-            "npm:chartjs-plugin-annotation"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
-          "hash": "16100758475756990727",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
-          "hash": "5861827128165989507"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
-          "hash": "7808519122470033773"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
-          "hash": "7037330257727223149",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
-          "hash": "1956882555711631365"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
-          "hash": "9362716443871042946",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
-          "hash": "4122003180593993594"
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
-          "hash": "7703738634833174080",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
-          "hash": "13258589359227073107"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
-          "hash": "8946059392925077262"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
-          "hash": "10127604642501863729"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
-          "hash": "9618449003398179726",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
-          "hash": "6773240714181538285",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
-          "hash": "3313418863466736896"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
-          "hash": "13336365327369514792",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
-          "hash": "4705641641850255821"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
-          "hash": "6768129751417257928",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
-          "hash": "2014762616443210075"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
-          "hash": "18020695140414742747",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
-          "hash": "10216001031385572683"
-        },
-        {
-          "file": "apps/view/src/app/shared/directives/can-do.directive.ts",
-          "hash": "12787788147227738092",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/assets/icons/favicon.svg",
-          "hash": "6475210795918509466"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-120x120.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-128x128.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-144x144.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-152x152.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-192x192.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-384x384.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-512x512.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-72x72.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-76x76.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-96x96.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon.svg",
-          "hash": "17293406308354275645"
-        },
-        {
-          "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
-          "hash": "11568024712014430667"
-        },
-        {
-          "file": "apps/view/src/assets/manifest.webmanifest",
-          "hash": "6834005658414736909"
-        },
-        {
-          "file": "apps/view/src/assets/sw-offline.js",
-          "hash": "12737611887829979765"
-        },
-        {
-          "file": "apps/view/src/environments/environment.ts",
-          "hash": "26503312842440983"
-        },
-        {
-          "file": "apps/view/src/index.html",
-          "hash": "16967544204870040120"
-        },
-        {
-          "file": "apps/view/src/main.ts",
-          "hash": "11034251973789847075",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/view/src/polyfills.ts",
-          "hash": "11803705300934933554",
-          "deps": [
-            "npm:zone.js"
-          ]
-        },
-        {
-          "file": "apps/view/src/styles.css",
-          "hash": "17601024930440195508"
-        },
-        {
-          "file": "apps/view/tailwind.config.js",
-          "hash": "18307351522915318624",
-          "deps": [
-            "npm:@spartan-ng/ui-core",
-            "npm:tailwindcss-animate"
-          ]
-        },
-        {
-          "file": "apps/view/tsconfig.app.json",
-          "hash": "12120654287211779749"
-        },
-        {
-          "file": "apps/view/tsconfig.json",
-          "hash": "3244122702489971225"
-        },
-        {
-          "file": "apps/view/tsconfig.spec.json",
-          "hash": "11023685540591620072"
-        }
-      ],
       "shared-auth": [
         {
           "file": "libs/shared-auth/core/constants/permissions.ts",
@@ -2205,6 +2205,10 @@
     },
     "nonProjectFiles": [
       {
+        "file": ".claude/settings.local.json",
+        "hash": "1854501018844093133"
+      },
+      {
         "file": ".continue/agents/new-config.yaml",
         "hash": "15941798775300854909"
       },
@@ -2259,6 +2263,238 @@
       {
         "file": "README.md",
         "hash": "13123434361241207768"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM.zip",
+        "hash": "4458973447097085943"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.00.34 AM.jpeg",
+        "hash": "14119097152348496249"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.01.37 AM.jpeg",
+        "hash": "1249174734963949"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.02.19 AM.jpeg",
+        "hash": "11203258540448595497"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.02.59 AM.jpeg",
+        "hash": "6395295162601911777"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.03.45 AM.jpeg",
+        "hash": "3262872838513905572"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.04.28 AM.jpeg",
+        "hash": "10590268577137587422"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.05.19 AM.jpeg",
+        "hash": "10803358272323169308"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.07.30 AM.jpeg",
+        "hash": "417066881242198339"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.09.12 AM.jpeg",
+        "hash": "6394554955790138948"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.10.08 AM.jpeg",
+        "hash": "11949687484649164847"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.10.53 AM.jpeg",
+        "hash": "9358660346395829806"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.11.47 AM.jpeg",
+        "hash": "641729473250329465"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.12.37 AM.jpeg",
+        "hash": "12192572086318695916"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.13.13 AM.jpeg",
+        "hash": "387794730855770378"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.13.44 AM.jpeg",
+        "hash": "11768416733152286126"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.17.14 AM.jpeg",
+        "hash": "17288733387120680990"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.18.29 AM.jpeg",
+        "hash": "8295925816577739897"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.19.16 AM.jpeg",
+        "hash": "13951422900755026151"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.20.01 AM.jpeg",
+        "hash": "7853451030922992230"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.20.56 AM.jpeg",
+        "hash": "8846361956554875057"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.21.30 AM.jpeg",
+        "hash": "11065484683659322127"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.22.05 AM.jpeg",
+        "hash": "1757074599508742311"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.22.53 AM.jpeg",
+        "hash": "3105530704110459880"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.23.41 AM.jpeg",
+        "hash": "2490777677376147264"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.24.41 AM.jpeg",
+        "hash": "14390955226198681034"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.25.13 AM.jpeg",
+        "hash": "10048887320381850875"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.25.48 AM.jpeg",
+        "hash": "11069847900021957112"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.26.38 AM.jpeg",
+        "hash": "18141206666298122090"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.27.06 AM.jpeg",
+        "hash": "2827199461333698919"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.27.43 AM.jpeg",
+        "hash": "1352332289339992127"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.28.32 AM.jpeg",
+        "hash": "11452591191030351459"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.29.28 AM.jpeg",
+        "hash": "982184429994325635"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.30.07 AM.jpeg",
+        "hash": "9354632460404126603"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.30.52 AM.jpeg",
+        "hash": "13221086299556506499"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.31.36 AM.jpeg",
+        "hash": "13606321405708580701"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.32.21 AM.jpeg",
+        "hash": "513828325003807513"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.34.27 AM.jpeg",
+        "hash": "2987529391791864750"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.35.14 AM.jpeg",
+        "hash": "11231843844770307572"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.36.01 AM.jpeg",
+        "hash": "9166731716903263104"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.38.22 AM.jpeg",
+        "hash": "11492516310255287565"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.39.22 AM.jpeg",
+        "hash": "6208220686389889679"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.40.31 AM.jpeg",
+        "hash": "17052978734141663086"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.41.34 AM.jpeg",
+        "hash": "6881332703496945469"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.42.43 AM.jpeg",
+        "hash": "13754467567494376762"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.44.08 AM.jpeg",
+        "hash": "8920671567874803975"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.44.36 AM.jpeg",
+        "hash": "8999361511302314582"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.45.51 AM.jpeg",
+        "hash": "3070942082677889705"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.48.39 AM.jpeg",
+        "hash": "3695258569067389661"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 10.50.16 AM.jpeg",
+        "hash": "18291160668614584955"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.53.01 AM.jpeg",
+        "hash": "2557058094440842125"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.53.41 AM.jpeg",
+        "hash": "9310098247406737214"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.54.25 AM.jpeg",
+        "hash": "14677086418969554871"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.54.51 AM.jpeg",
+        "hash": "5854867351319394633"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.55.55 AM.jpeg",
+        "hash": "16944115615349408438"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.56.55 AM.jpeg",
+        "hash": "8329063400309739552"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.58.19 AM.jpeg",
+        "hash": "13534566349807191922"
+      },
+      {
+        "file": "WhatsApp Unknown 2026-05-21 at 6.52.40 PM/WhatsApp Image 2026-04-29 at 9.59.12 AM.jpeg",
+        "hash": "11818204100074130964"
       },
       {
         "file": "cloudflared-config.yml",
