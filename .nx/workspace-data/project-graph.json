@@ -1,5 +1,71 @@
 {
   "nodes": {
+    "shared-scoring": {
+      "name": "shared-scoring",
+      "type": "lib",
+      "data": {
+        "root": "libs/shared-scoring",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/shared-scoring/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "build": {
+            "executor": "@nx/js:tsc",
+            "outputs": [
+              "{options.outputPath}"
+            ],
+            "options": {
+              "outputPath": "dist/libs/shared-scoring",
+              "main": "libs/shared-scoring/index.ts",
+              "tsConfig": "libs/shared-scoring/tsconfig.lib.json",
+              "assets": []
+            },
+            "configurations": {},
+            "parallelism": true,
+            "dependsOn": [
+              "^build"
+            ],
+            "inputs": [
+              "production",
+              "^production"
+            ]
+          },
+          "test": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/libs/shared-scoring"
+            ],
+            "options": {
+              "jestConfig": "libs/shared-scoring/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "configurations": {},
+            "parallelism": true,
+            "inputs": [
+              "default",
+              "^production",
+              "{workspaceRoot}/jest.preset.js"
+            ]
+          }
+        },
+        "name": "shared-scoring",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/shared-scoring",
+        "projectType": "library",
+        "tags": [],
+        "implicitDependencies": []
+      }
+    },
     "shared-auth": {
       "name": "shared-auth",
       "type": "lib",
@@ -20429,6 +20495,7 @@
     }
   },
   "dependencies": {
+    "shared-scoring": [],
     "shared-auth": [
       {
         "source": "shared-auth",
@@ -20534,6 +20601,11 @@
       },
       {
         "source": "view",
+        "target": "shared-scoring",
+        "type": "static"
+      },
+      {
+        "source": "view",
         "target": "npm:jspdf",
         "type": "static"
       },
@@ -20631,6 +20703,16 @@
       },
       {
         "source": "api",
+        "target": "npm:@nestjs/platform-socket.io",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:socket.io",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:@nestjs/jwt",
         "type": "static"
       },
@@ -20651,6 +20733,16 @@
       },
       {
         "source": "api",
+        "target": "npm:class-transformer",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:multer",
         "type": "static"
       },
@@ -20666,12 +20758,12 @@
       },
       {
         "source": "api",
-        "target": "npm:@nestjs/websockets",
+        "target": "shared-scoring",
         "type": "static"
       },
       {
         "source": "api",
-        "target": "npm:socket.io",
+        "target": "npm:@nestjs/websockets",
         "type": "static"
       },
       {
@@ -51430,5 +51522,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1779464346990
+  "computedAt": 1779724753616
 }
