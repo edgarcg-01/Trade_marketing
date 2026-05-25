@@ -922,28 +922,6 @@
           "hash": "11023685540591620072"
         }
       ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
-        }
-      ],
       "shared-auth": [
         {
           "file": "libs/shared-auth/core/constants/permissions.ts",
@@ -1328,7 +1306,7 @@
         },
         {
           "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
-          "hash": "5376673631093642703",
+          "hash": "5790854026624350240",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger",
@@ -1381,10 +1359,6 @@
             "npm:class-transformer",
             "npm:class-validator"
           ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/dto/update-role-permissions.dto.ts",
-          "hash": "479125603128616452"
         },
         {
           "file": "apps/api/src/modules/cron/cron.controller.js",
@@ -2348,6 +2322,28 @@
             "npm:@nx/webpack"
           ]
         }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
+        }
       ]
     },
     "nonProjectFiles": [
@@ -3018,6 +3014,10 @@
       {
         "file": "database/migrations/20260523120000_add_audit_fields_to_users.js",
         "hash": "9783416008244340501"
+      },
+      {
+        "file": "database/migrations/20260525130000_restore_superadmin_permissions.js",
+        "hash": "15311111016368830969"
       },
       {
         "file": "database/move-canels-from-tira.js",
