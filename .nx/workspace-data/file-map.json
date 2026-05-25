@@ -45,6 +45,28 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
+        }
+      ],
       "view": [
         {
           "file": "apps/view/.browserslistrc",
@@ -509,7 +531,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "15020853211905247702",
+          "hash": "16161972977633893656",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -964,7 +986,7 @@
         },
         {
           "file": "apps/api/src/app.module.ts",
-          "hash": "7918962747605054668",
+          "hash": "6123593512256931796",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/config",
@@ -1067,7 +1089,7 @@
         },
         {
           "file": "apps/api/src/modules/auth/auth.service.ts",
-          "hash": "17271788246728765332",
+          "hash": "1846870131286874692",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/jwt",
@@ -1189,7 +1211,7 @@
         },
         {
           "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
-          "hash": "16804841862077129273",
+          "hash": "1978686918558208752",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1971,6 +1993,13 @@
           ]
         },
         {
+          "file": "apps/api/src/shared/ability/ability.module.ts",
+          "hash": "6794415705056550223",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
           "file": "apps/api/src/shared/ability/ability.types.js",
           "hash": "10533815908077531553"
         },
@@ -1993,6 +2022,14 @@
           "hash": "4522370752801424009",
           "deps": [
             "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ability/permissions-cache.service.ts",
+          "hash": "4050003397562055439",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
           ]
         },
         {
@@ -2126,11 +2163,10 @@
         },
         {
           "file": "apps/api/src/shared/guards/roles.guard.ts",
-          "hash": "11897803830503123536",
+          "hash": "616257202062792885",
           "deps": [
             "npm:@nestjs/common",
-            "npm:@nestjs/core",
-            "npm:@casl/ability"
+            "npm:@nestjs/core"
           ]
         },
         {
@@ -2164,28 +2200,6 @@
           "deps": [
             "npm:@nx/webpack"
           ]
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
         }
       ],
       "shared-auth": [
@@ -2351,7 +2365,7 @@
       },
       {
         "file": ".dockerignore",
-        "hash": "1978804697117779237"
+        "hash": "3968219372838946122"
       },
       {
         "file": ".env.cloudinary",
@@ -2375,7 +2389,7 @@
       },
       {
         "file": ".npmrc",
-        "hash": "9941704086940456981"
+        "hash": "6392116143152472448"
       },
       {
         "file": ".nxignore",
@@ -2395,7 +2409,7 @@
       },
       {
         "file": "Dockerfile",
-        "hash": "13727462321743793715"
+        "hash": "13612526861055174271"
       },
       {
         "file": "README.md",
@@ -2975,7 +2989,7 @@
       },
       {
         "file": "database/migrations/20260522103000_backfill_missing_role_permissions.js",
-        "hash": "13434322983065649379"
+        "hash": "12597122753777989360"
       },
       {
         "file": "database/migrations/20260522104500_remove_orphan_log_permissions.js",
@@ -3887,7 +3901,7 @@
       },
       {
         "file": "load-compiler.mjs",
-        "hash": "3719838546652958107"
+        "hash": "16874978071351736746"
       },
       {
         "file": "nginx.conf",
@@ -3915,7 +3929,7 @@
       },
       {
         "file": "start.sh",
-        "hash": "6501748199663442845"
+        "hash": "10119021575018284194"
       },
       {
         "file": "test-query.js",
