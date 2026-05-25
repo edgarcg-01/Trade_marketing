@@ -20611,8 +20611,18 @@
       },
       {
         "source": "view",
+        "target": "npm:jspdf",
+        "type": "dynamic"
+      },
+      {
+        "source": "view",
         "target": "npm:jspdf-autotable",
         "type": "static"
+      },
+      {
+        "source": "view",
+        "target": "npm:jspdf-autotable",
+        "type": "dynamic"
       },
       {
         "source": "view",
@@ -51522,5 +51532,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1779724753616
+  "computedAt": 1779732458774
 }
