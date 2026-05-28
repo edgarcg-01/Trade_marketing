@@ -20858,6 +20858,11 @@
       },
       {
         "source": "view",
+        "target": "npm:@capacitor/haptics",
+        "type": "dynamic"
+      },
+      {
+        "source": "view",
         "target": "npm:dexie",
         "type": "static"
       },
@@ -20865,6 +20870,11 @@
         "source": "view",
         "target": "npm:@casl/ability",
         "type": "static"
+      },
+      {
+        "source": "view",
+        "target": "npm:@capacitor/status-bar",
+        "type": "dynamic"
       },
       {
         "source": "view",
@@ -52002,5 +52012,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1779982730541
+  "computedAt": 1779986624521
 }
