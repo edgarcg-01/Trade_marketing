@@ -45,6 +45,153 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "shared-auth": [
+        {
+          "file": "libs/shared-auth/core/constants/permissions.ts",
+          "hash": "15427708784168595588"
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
+          "hash": "6942134849481315017",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
+          "hash": "4749816109954716157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
+          "hash": "12609748048211883157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
+          "hash": "4902701322189388699",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
+          "hash": "3496432654166559978",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/roles.guard.ts",
+          "hash": "12041705508376265700",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/index.ts",
+          "hash": "4258601884317448187"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/index.ts",
+          "hash": "317859519873821243"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
+          "hash": "11610506879056166175"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
+          "hash": "16512962744461978696"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
+          "hash": "17324561029674889550"
+        },
+        {
+          "file": "libs/shared-auth/core/services/theme.service.ts",
+          "hash": "12531023263740714287",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/index.ts",
+          "hash": "12051972286901611420"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.css",
+          "hash": "7245338981422921800"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.html",
+          "hash": "4076580560835251223"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.ts",
+          "hash": "651774939713101902",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/project.json",
+          "hash": "7147459219175445793"
+        },
+        {
+          "file": "libs/shared-auth/tsconfig.lib.json",
+          "hash": "5682690067453246295"
+        },
+        {
+          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
+          "hash": "8850998944698392266",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/index.ts",
+          "hash": "6943657025407186704"
+        },
+        {
+          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
+          "hash": "17952824023507230128",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/auth.service.ts",
+          "hash": "4279177008591840143",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/token.service.ts",
+          "hash": "994567566458859229",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        }
+      ],
       "view": [
         {
           "file": "apps/view/.browserslistrc",
@@ -276,7 +423,7 @@
         },
         {
           "file": "apps/view/src/app/modules/auth/login/login.component.html",
-          "hash": "6591532187693570553"
+          "hash": "12675571503930410630"
         },
         {
           "file": "apps/view/src/app/modules/auth/login/login.component.ts",
@@ -660,7 +807,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "10764528985835280997"
+          "hash": "3733974857569938772"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
@@ -1141,7 +1288,7 @@
         },
         {
           "file": "apps/view/src/app/modules/portal/portal-shell.component.ts",
-          "hash": "15987729726424613955",
+          "hash": "5821730873411430884",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -1218,7 +1365,7 @@
         },
         {
           "file": "apps/view/src/app/modules/televenta/pages/televenta-take-order.component.ts",
-          "hash": "6012557478177726547",
+          "hash": "12547686681065808433",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -1291,7 +1438,7 @@
         },
         {
           "file": "apps/view/src/app/modules/vendor/vendor-shell.component.ts",
-          "hash": "760064539588760252",
+          "hash": "8687311202196131507",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -1464,10 +1611,6 @@
           "hash": "7839236364359930840"
         },
         {
-          "file": "apps/view/src/assets/sw-offline.js",
-          "hash": "16719020499502210100"
-        },
-        {
           "file": "apps/view/src/environments/environment.ts",
           "hash": "26503312842440983"
         },
@@ -1491,7 +1634,7 @@
         },
         {
           "file": "apps/view/src/styles.css",
-          "hash": "7816348840809295923"
+          "hash": "15849919197179340543"
         },
         {
           "file": "apps/view/src/styles/tokens.css",
@@ -1516,28 +1659,6 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
         }
       ],
       "api": [
@@ -1616,7 +1737,7 @@
         },
         {
           "file": "apps/api/src/modules/ai-product-matcher/ai-product-matcher.service.ts",
-          "hash": "11730390804358785560",
+          "hash": "14080402978667995647",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1632,7 +1753,7 @@
         },
         {
           "file": "apps/api/src/modules/ai-product-matcher/embedding-sync.service.ts",
-          "hash": "6098950899065291785",
+          "hash": "7091214685368838082",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/schedule",
@@ -1657,7 +1778,7 @@
         },
         {
           "file": "apps/api/src/modules/auth-mt/auth-mt.service.ts",
-          "hash": "5193079550275248317",
+          "hash": "9688939147181223182",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/jwt",
@@ -2079,7 +2200,7 @@
         },
         {
           "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.ts",
-          "hash": "8560261735841524270",
+          "hash": "18132320116183743520",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -2924,151 +3045,26 @@
           ]
         }
       ],
-      "shared-auth": [
+      "shared-scoring": [
         {
-          "file": "libs/shared-auth/core/constants/permissions.ts",
-          "hash": "15427708784168595588"
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
         },
         {
-          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
-          "hash": "6942134849481315017",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
         },
         {
-          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
-          "hash": "4749816109954716157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
         },
         {
-          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
-          "hash": "12609748048211883157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
         },
         {
-          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
-          "hash": "4902701322189388699",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
-          "hash": "3496432654166559978",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/roles.guard.ts",
-          "hash": "12041705508376265700",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/index.ts",
-          "hash": "4258601884317448187"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/index.ts",
-          "hash": "317859519873821243"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
-          "hash": "11610506879056166175"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
-          "hash": "16512962744461978696"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
-          "hash": "17324561029674889550"
-        },
-        {
-          "file": "libs/shared-auth/core/services/theme.service.ts",
-          "hash": "12531023263740714287",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/index.ts",
-          "hash": "12051972286901611420"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.css",
-          "hash": "7245338981422921800"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.html",
-          "hash": "4076580560835251223"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.ts",
-          "hash": "651774939713101902",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/project.json",
-          "hash": "7147459219175445793"
-        },
-        {
-          "file": "libs/shared-auth/tsconfig.lib.json",
-          "hash": "5682690067453246295"
-        },
-        {
-          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
-          "hash": "8850998944698392266",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/index.ts",
-          "hash": "6943657025407186704"
-        },
-        {
-          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
-          "hash": "17952824023507230128",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/services/auth.service.ts",
-          "hash": "4279177008591840143",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/services/token.service.ts",
-          "hash": "994567566458859229",
-          "deps": [
-            "npm:@angular/core"
-          ]
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
         }
       ]
     },
@@ -4116,6 +4112,10 @@
       {
         "file": "database/scripts/fix-sin-exhibidor-scoring-weight.sql",
         "hash": "17719598127978015391"
+      },
+      {
+        "file": "database/scripts/railway-pgvector-minimal-migrate.js",
+        "hash": "15864194335119140854"
       },
       {
         "file": "database/scripts/sync-245-compatibility-shims.sql",
