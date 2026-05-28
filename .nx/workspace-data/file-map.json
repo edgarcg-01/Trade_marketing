@@ -1443,7 +1443,7 @@
         },
         {
           "file": "apps/api/src/shared/database/database.module.ts",
-          "hash": "14227962842316999767",
+          "hash": "5993900934830510803",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1513,16 +1513,17 @@
         },
         {
           "file": "apps/api/src/shared/tenant/tenant-context.interceptor.ts",
-          "hash": "12369642140644551708",
+          "hash": "9005063195998092959",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/jwt",
+            "npm:knex",
             "npm:rxjs"
           ]
         },
         {
           "file": "apps/api/src/shared/tenant/tenant-context.service.ts",
-          "hash": "6540644347324898292",
+          "hash": "6875535493134978572",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -1566,6 +1567,28 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
         }
       ],
       "view": [
@@ -1895,11 +1918,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
-          "hash": "13739789070729503179"
+          "hash": "4152807250534062465"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
-          "hash": "11200486477848838390",
+          "hash": "14282533872644986526",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -2269,11 +2292,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "2059265807452891928"
+          "hash": "16299301665906501983"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "16673157746902725328",
+          "hash": "1067657448052377358",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3007,7 +3030,7 @@
         },
         {
           "file": "apps/view/src/styles.css",
-          "hash": "15837819746449940717"
+          "hash": "7816348840809295923"
         },
         {
           "file": "apps/view/src/styles/tokens.css",
@@ -3032,28 +3055,6 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
         }
       ]
     },
@@ -3693,6 +3694,10 @@
       {
         "file": "database/migrations-newdb/20260527170000_logistics_vehicle_usage_maintenance.js",
         "hash": "17762447752252598177"
+      },
+      {
+        "file": "database/migrations-newdb/20260527180000_auto_populate_tenant_id_trigger.js",
+        "hash": "17339891068844596596"
       },
       {
         "file": "database/migrations-products/20260429140000_load_products_from_json_updated.js",
