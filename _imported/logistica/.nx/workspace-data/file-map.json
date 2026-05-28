@@ -1,0 +1,1679 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.8.4",
+  "pathMappings": {
+    "@logistica-api/*": [
+      "apps/logistica-api/src/*"
+    ],
+    "@logistica-view/*": [
+      "apps/logistica-view/src/*"
+    ],
+    "@megadulces/shared-auth": [
+      "libs/shared-auth/index.ts"
+    ],
+    "@megadulces/shared-auth/core": [
+      "libs/shared-auth/core/index.ts"
+    ],
+    "@megadulces/shared-auth/ui": [
+      "libs/shared-auth/ui/index.ts"
+    ],
+    "@trade-marketing-api/*": [
+      "apps/trade-marketing-api/src/*"
+    ],
+    "@trade-marketing-view/*": [
+      "apps/trade-marketing-view/src/*"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "webpack:build",
+        "serveTargetName": "webpack:serve",
+        "previewTargetName": "preview"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    },
+    {
+      "name": "@nx/playwright/plugin",
+      "options": {
+        "targetName": "e2e"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "database/migrations/20260501000003_add_detalles_tables.js",
+        "hash": "15403518210237989824"
+      },
+      {
+        "file": "database/migrations/2026050200036_0_create_fleet_usage_and_maintenance.js",
+        "hash": "6261945902358569427"
+      },
+      {
+        "file": "database/seeds/04_catalogs.js",
+        "hash": "5760364577860083285"
+      },
+      {
+        "file": "database/migrations/2026050200006_8_add_cloudinary_public_id.js",
+        "hash": "5093950688688802540"
+      },
+      {
+        "file": "database/migrations/20260501000006_add_guia_id_to_fotos.js",
+        "hash": "13664891830428248439"
+      },
+      {
+        "file": "docker-compose.prod.yml",
+        "hash": "8011190076617577811"
+      },
+      {
+        "file": "database/migrations/2026050200028_4_create_fuel_management_schema.js",
+        "hash": "4997244382901198109"
+      },
+      {
+        "file": "database/seeds/00a_zones.js",
+        "hash": "17531412748295496775"
+      },
+      {
+        "file": "database/migrations/20260330165447_20260330_init_field_operations_schema.js",
+        "hash": "16532866879954088831"
+      },
+      {
+        "file": "database/migrations/2026050200015_0_add_scoring_config_versions.js",
+        "hash": "1767773529438191238"
+      },
+      {
+        "file": "database/seeds/01g_logistica_colaboradores_users.js",
+        "hash": "521923252905384363"
+      },
+      {
+        "file": "database/migrations/2026050200005_9_refactor_zones.js",
+        "hash": "1637055527667658835"
+      },
+      {
+        "file": "database/migrations/20260506000000_add_factor_to_destinos.js",
+        "hash": "5822572005849524867"
+      },
+      {
+        "file": "database/mark_existing_migrations.js",
+        "hash": "2790835943997107079"
+      },
+      {
+        "file": "database/migrations/20260501000011_add_timestamps_to_embarques.js",
+        "hash": "1813151571886933288"
+      },
+      {
+        "file": "database/migrations/2026050200000_0_v4_rename_planograma_to_planograms.js",
+        "hash": "12883015568955079618"
+      },
+      {
+        "file": "database/migrations/2026050200003_2_create_daily_assignments.js",
+        "hash": "4959690170160711275"
+      },
+      {
+        "file": "database/migrations/20260330165444_20260330_init_planograma_schema.js",
+        "hash": "910734349432654109"
+      },
+      {
+        "file": "database/seeds/01i_check_chofer_users.js",
+        "hash": "6453574563061799396"
+      },
+      {
+        "file": "database/seeds/01_users.js",
+        "hash": "5793808740190833912"
+      },
+      {
+        "file": "database/migrations/20260501000002_add_offline_sync_fields.js",
+        "hash": "10072240727474968457"
+      },
+      {
+        "file": "database/migrations/2026050200020_0_add_repartidor_km_to_destinos.js",
+        "hash": "1900552803064564060"
+      },
+      {
+        "file": ".env.example",
+        "hash": "13641522815734789647"
+      },
+      {
+        "file": "database/migrations/20260501000005_add_chofer_id_to_fotos.js",
+        "hash": "9019370488918755488"
+      },
+      {
+        "file": "database/seeds/01g_check_users.js",
+        "hash": "15269228154260848623"
+      },
+      {
+        "file": "package.json",
+        "hash": "682609818605742655"
+      },
+      {
+        "file": "database/migrations/20260501000007_consolidate_fotos_columns.js",
+        "hash": "1700816492952251072"
+      },
+      {
+        "file": "database/migrations/2026050200027_3_fix_checklists_fotos_foreign_keys_v2.js",
+        "hash": "2271061520884769879"
+      },
+      {
+        "file": "database/migrations/2026050200033_1_fix_embarques_missing_columns.js",
+        "hash": "5473721305911808158"
+      },
+      {
+        "file": "database/migrations/20260501000008_remove_subido_por.js",
+        "hash": "14149446561302570964"
+      },
+      {
+        "file": "database/migrations/2026050200035_0_update_units_and_fuel.js",
+        "hash": "15782018776777550404"
+      },
+      {
+        "file": "database/migrations/2026050200001_0_add_supervisor_id_to_users.js",
+        "hash": "260444976317739642"
+      },
+      {
+        "file": "database/migrations/2026050200004_0_update_assignments_to_weekly.js",
+        "hash": "14452574582107848075"
+      },
+      {
+        "file": "database/migrations/2026050200026_2_fix_checklists_fotos_foreign_keys.js",
+        "hash": "2271061520884769879"
+      },
+      {
+        "file": "database/migrations/20260501000012_add_columns_to_users.js",
+        "hash": "8753520911357596533"
+      },
+      {
+        "file": "database/seeds/07_daily_assignments.js",
+        "hash": "10533850458307636389"
+      },
+      {
+        "file": "database/migrations/20260330165442_20260330_init_captures_schema.js",
+        "hash": "804792513858306976"
+      },
+      {
+        "file": "database/seeds/05_scoring_config.js",
+        "hash": "3547127868769234357"
+      },
+      {
+        "file": "database/seeds/08_daily_captures.js",
+        "hash": "12681943178328811557"
+      },
+      {
+        "file": "database/migrations/20260503000000_add_tipo_to_unidades.js",
+        "hash": "11953759090367694093"
+      },
+      {
+        "file": "start.sh",
+        "hash": "11476809294636418107"
+      },
+      {
+        "file": "database/migrations/20260501000001_add_checklists_and_fotos.js",
+        "hash": "4339160978411433185"
+      },
+      {
+        "file": "database/seeds/02_brands.js",
+        "hash": "15031306579306081567"
+      },
+      {
+        "file": "database/add_cloudinary_column.sql",
+        "hash": "12170767601534015950"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "10528245914417106144"
+      },
+      {
+        "file": "database/seeds/00_roles.js",
+        "hash": "3758935580653823398"
+      },
+      {
+        "file": "database/migrations/2026050200016_0_add_scoring_fields_to_daily_captures.js",
+        "hash": "11193782582488434534"
+      },
+      {
+        "file": "database/migrations/20260330165443_20260330_init_daily_captures_schema.js",
+        "hash": "157084602558112272"
+      },
+      {
+        "file": "scripts/migrate-production-manual.js",
+        "hash": "6513530854537090365"
+      },
+      {
+        "file": "database/seeds/01b_logistica_seed.js",
+        "hash": "16198458835720309069"
+      },
+      {
+        "file": "database/seeds/01j_create_users_for_choferes.js",
+        "hash": "1533076172091648545"
+      },
+      {
+        "file": "database/knexfile.js",
+        "hash": "18181780783978050873"
+      },
+      {
+        "file": "database/migrations/2026050200008_0_fix_zones_uuids.js",
+        "hash": "9166985577853017645"
+      },
+      {
+        "file": "database/migrations/20260330165441_20260330_init_auth_schema.js",
+        "hash": "11258048054278754970"
+      },
+      {
+        "file": "database/seeds/01e_logistica_embarques.js",
+        "hash": "8411341162076969865"
+      },
+      {
+        "file": "database/migrations/2026050200011_0_sync_roles_production.js",
+        "hash": "15606133683229291687"
+      },
+      {
+        "file": "database/migrations/20260501000010_fix_fotos_missing_columns.js",
+        "hash": "10689910822580822645"
+      },
+      {
+        "file": "database/migrations/2026050200032_0_add_roles_to_users.js",
+        "hash": "7731176087764908206"
+      },
+      {
+        "file": "database/migrations/2026050200023_0_add_ayudantes_to_guias.js",
+        "hash": "14649082301293600806"
+      },
+      {
+        "file": "database/migrations/2026050200007_2_fix_catalogs_parent_id_constraint.js",
+        "hash": "4476013461581687517"
+      },
+      {
+        "file": "backup_database.js",
+        "hash": "11416814833988109881"
+      },
+      {
+        "file": "database/migrations/2026050200030_0_add_respuestas_to_checklists.js",
+        "hash": "7021841836466038761"
+      },
+      {
+        "file": "database/migrations/2026050200002_1_add_parent_id_to_catalogs.js",
+        "hash": "985783995748298683"
+      },
+      {
+        "file": "database/migrations/2026050200017_0_add_rubrica_ejecucion.js",
+        "hash": "13417168307797742688"
+      },
+      {
+        "file": "database/seeds/01h_chofer_users.js",
+        "hash": "13975130444617543123"
+      },
+      {
+        "file": "database/seeds/03_products.js",
+        "hash": "15543212006125928866"
+      },
+      {
+        "file": "database/seeds/01d_remove_specific_colaboradores.js",
+        "hash": "8214880246200095808"
+      },
+      {
+        "file": "database/migrations/2026050200009_0_change_puntuacion_to_decimal.js",
+        "hash": "3574761022922196745"
+      },
+      {
+        "file": "database/migrations/20260330165445_20260330_init_catalogs_schema.js",
+        "hash": "2694918293729740358"
+      },
+      {
+        "file": "database/seeds/01f_verify_roles.js",
+        "hash": "12962287101793780386"
+      },
+      {
+        "file": "database/seeds/01f_embarque_completo_con_relaciones.js",
+        "hash": "9442785581235869120"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "check_column.js",
+        "hash": "9230951608341910739"
+      },
+      {
+        "file": "database/migrations/2026050200013_0_fix_supervisor_id_integrity.js",
+        "hash": "3402121076076597957"
+      },
+      {
+        "file": "database/migrations/2026050200031_0_make_items_nullable.js",
+        "hash": "9044178873733507872"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "18403852652919284176"
+      },
+      {
+        "file": "database/migrations/20260331000001_v3_add_scores_to_catalogs.js",
+        "hash": "14549549451554693058"
+      },
+      {
+        "file": "scripts/seed-production-manual.js",
+        "hash": "15892901316133974631"
+      },
+      {
+        "file": "database/migrations/20260501000000_init_logistics_schema.js",
+        "hash": "186249475715477346"
+      },
+      {
+        "file": "database/seeds/01c_logistica_colaboradores.js",
+        "hash": "2489189475947655993"
+      },
+      {
+        "file": "database/migrations/2026050200019_0_add_pertenece_mega_dulces_to_exhibitions.js",
+        "hash": "17046688688907239603"
+      },
+      {
+        "file": "database/migrations/2026050200025_1_link_users_to_colaboradores.js",
+        "hash": "12643050964349211605"
+      },
+      {
+        "file": "database/seeds/00_clean_colaboradores_embarques.js",
+        "hash": "4603342233030415652"
+      },
+      {
+        "file": "Dockerfile.view",
+        "hash": "7331423205422890008"
+      },
+      {
+        "file": "database/migrations/2026050200012_0_normalize_production_roles.js",
+        "hash": "11634888082849146297"
+      },
+      {
+        "file": "database/migrations/2026050200022_0_add_estado_to_colaboradores.js",
+        "hash": "16669646245572003754"
+      },
+      {
+        "file": "database/migrations/2026050200034_2_fix_guias_missing_columns.js",
+        "hash": "14054184901395079376"
+      },
+      {
+        "file": "respaldo_db.sql",
+        "hash": "4239517917074893832"
+      },
+      {
+        "file": "database/seeds/01d_logistica_unidades.js",
+        "hash": "18164243747546528061"
+      },
+      {
+        "file": "nx.json",
+        "hash": "18265618586128586142"
+      },
+      {
+        "file": "database/migrations/2026050200029_0_add_chofer_id_to_checklists.js",
+        "hash": "17584599170312736689"
+      },
+      {
+        "file": "database/migrations/20260330165446_20260330_init_scoring_schema.js",
+        "hash": "6479812992078546234"
+      },
+      {
+        "file": "database/migrations/20260501000009_recreate_chofer_id.js",
+        "hash": "14986855030333544972"
+      },
+      {
+        "file": "database/migrations/2026050200014_0_fix_supervisor_id_production.js",
+        "hash": "9686040481709306062"
+      },
+      {
+        "file": "database/migrations/2026050200010_0_fix_roles_case_production.js",
+        "hash": "8517888144778641297"
+      },
+      {
+        "file": "database/fix_migration.js",
+        "hash": "750253604442746232"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16171470636116759533"
+      },
+      {
+        "file": "database/fix_migration_records.js",
+        "hash": "9089801125700572407"
+      },
+      {
+        "file": "database/seeds/000_cleanup.js",
+        "hash": "11564318641312707521"
+      },
+      {
+        "file": "database/migrations/2026050200024_0_add_costos_columns.js",
+        "hash": "5297740077108540821"
+      },
+      {
+        "file": "backup_alternative.js",
+        "hash": "122184578014812068"
+      },
+      {
+        "file": "database/migrations/20260331231959_add_gps_to_captures.js",
+        "hash": "9562049285079356973"
+      },
+      {
+        "file": "database/seeds/01h_test_users_endpoint.js",
+        "hash": "1184646372494453535"
+      },
+      {
+        "file": "nginx.conf",
+        "hash": "17936468969436158907"
+      },
+      {
+        "file": "database/migrations/20260501000004_add_fechas_embarques.js",
+        "hash": "8470818984313662472"
+      },
+      {
+        "file": "README.md",
+        "hash": "9278998110682614562"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "database/knexfile.ts",
+        "hash": "13873446368838919225"
+      },
+      {
+        "file": "database/migrations/2026050200018_1_add_score_maximo_to_config_versions.js",
+        "hash": "5769448018101356473"
+      },
+      {
+        "file": ".github/workflows/deploy.yml",
+        "hash": "14759475886759361421"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "8011690573286260331"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "9941704086940456981"
+      },
+      {
+        "file": "database/migrations/20260331000000_v2_daily_captures_schema.js",
+        "hash": "15696643244356592832"
+      },
+      {
+        "file": "database/seeds/01e_clean_users_related.js",
+        "hash": "6837806709852510800"
+      },
+      {
+        "file": "database/migrations/2026050200021_0_add_fleet_fields_to_unidades.js",
+        "hash": "2294778551477680827"
+      }
+    ],
+    "projectFileMap": {
+      "shared-auth": [
+        {
+          "file": "libs/shared-auth/core/constants/permissions.ts",
+          "hash": "4736746566080985842"
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
+          "hash": "6942134849481315017",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
+          "hash": "4749816109954716157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
+          "hash": "12609748048211883157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
+          "hash": "4902701322189388699",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
+          "hash": "3496432654166559978",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/roles.guard.ts",
+          "hash": "13505500421368460835",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/index.ts",
+          "hash": "4258601884317448187"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/index.ts",
+          "hash": "317859519873821243"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
+          "hash": "575791437578175273"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
+          "hash": "16512962744461978696"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
+          "hash": "9666210885066122722"
+        },
+        {
+          "file": "libs/shared-auth/core/services/theme.service.ts",
+          "hash": "12531023263740714287",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/index.ts",
+          "hash": "12051972286901611420"
+        },
+        {
+          "file": "libs/shared-auth/project.json",
+          "hash": "7147459219175445793"
+        },
+        {
+          "file": "libs/shared-auth/tsconfig.lib.json",
+          "hash": "5682690067453246295"
+        },
+        {
+          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
+          "hash": "8850998944698392266",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/index.ts",
+          "hash": "6943657025407186704"
+        },
+        {
+          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
+          "hash": "17952824023507230128",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/auth.service.ts",
+          "hash": "4279177008591840143",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/token.service.ts",
+          "hash": "994567566458859229",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        }
+      ],
+      "logistica-view": [
+        {
+          "file": "apps/logistica-view/eslint.config.js",
+          "hash": "12883900717377691005",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/jest.config.ts",
+          "hash": "12969402683746412217"
+        },
+        {
+          "file": "apps/logistica-view/project.json",
+          "hash": "1509237139028568463"
+        },
+        {
+          "file": "apps/logistica-view/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/logistica-view/public/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
+        },
+        {
+          "file": "apps/logistica-view/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/logistica-view/src/app/app.component.html",
+          "hash": "18005490570874178689"
+        },
+        {
+          "file": "apps/logistica-view/src/app/app.component.spec.ts",
+          "hash": "962092961024151380",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/app.component.ts",
+          "hash": "5919971399209295688",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/app.config.ts",
+          "hash": "16734722205411745575",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser",
+            "npm:primeng",
+            "npm:@primeng/themes"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/app.routes.ts",
+          "hash": "4070002738143283229",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/guards/auth.guard.ts",
+          "hash": "5839460749132453241",
+          "deps": [
+            "npm:@angular/router",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/guards/driver.guard.ts",
+          "hash": "10997111137796110651",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/interceptors/auth.interceptor.ts",
+          "hash": "3947337145160711985",
+          "deps": [
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/interceptors/http-error.interceptor.ts",
+          "hash": "11922735022370885882",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/layout/layout.component.ts",
+          "hash": "2442282495036491274",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/layout/sidebar/sidebar.component.ts",
+          "hash": "1500893873532813126",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/layout/topbar/topbar.component.ts",
+          "hash": "836807311369922077",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/models/fuel.models.ts",
+          "hash": "16410665235183342891"
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/models/logistics.models.ts",
+          "hash": "18380756821364881168"
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/services/auth.service.ts",
+          "hash": "3508128313873933744",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/services/catalog.service.ts",
+          "hash": "10427357715783794960",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/services/checklist.service.ts",
+          "hash": "17289248805403595449",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/services/fotos.service.ts",
+          "hash": "11304349035279036845",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/services/logistics.service.ts",
+          "hash": "2244854376970655812",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/core/services/shipments-driver.service.ts",
+          "hash": "10699607384942233565",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/admin/settings/settings.component.ts",
+          "hash": "3359201988043251917",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/admin/users/users.component.ts",
+          "hash": "16555570119247384482",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/auth/login/login.component.css",
+          "hash": "4830126596878286320"
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/auth/login/login.component.html",
+          "hash": "1801255550045985874"
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/auth/login/login.component.ts",
+          "hash": "12451130791713588362",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/config/config.component.ts",
+          "hash": "4661798642208445065",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/costs/cost-form.component.ts",
+          "hash": "955715583560798423",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/costs/costs.component.ts",
+          "hash": "8877515787659234558",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/dashboard/dashboard.component.ts",
+          "hash": "4988250346094311976",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/driver-assignments/driver-assignments.component.ts",
+          "hash": "15264659065884167109",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/fleet/fleet-form.component.ts",
+          "hash": "17045359887989889327",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/fleet/fleet.component.ts",
+          "hash": "8062031288109371877",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/fleet/fleet.routes.ts",
+          "hash": "6253665889004264411",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/fleet/usage/check-in-form.component.ts",
+          "hash": "152657605939877625",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/fleet/usage/check-out-form.component.ts",
+          "hash": "14183364585782701509",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/guides/guide-form.component.html",
+          "hash": "11159617749020589408"
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/guides/guide-form.component.ts",
+          "hash": "11404669438170857601",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/guides/guides.component.ts",
+          "hash": "17871862050229518171",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/profile/password/password.component.ts",
+          "hash": "452916462384315990",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/profile/profile.component.ts",
+          "hash": "15010294428273948062",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/projects/projects.component.ts",
+          "hash": "4143065873357040801",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/reports/report-print.component.ts",
+          "hash": "8718497418031344034",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/reports/reports.component.ts",
+          "hash": "14025893955257139452",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/shipments/shipment-form.component.html",
+          "hash": "11814062008390233904"
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/shipments/shipment-form.component.ts",
+          "hash": "11904757926121053063",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:motion"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/shipments/shipments.component.ts",
+          "hash": "5596840116073538577",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/staff/staff-form.component.ts",
+          "hash": "10994444358020743363",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/features/staff/staff.component.ts",
+          "hash": "5395478523493784649",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/checklist/checklist.component.ts",
+          "hash": "9867316132031878525",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/delivery-wizard/delivery-wizard.component.ts",
+          "hash": "8905717388942317288",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/form-field/form-field.component.html",
+          "hash": "10418031522548498235"
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/form-field/form-field.component.ts",
+          "hash": "17487623320316451175",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/icon/icon.component.ts",
+          "hash": "12730328334797956109",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/labor-assignment/labor-assignment.component.html",
+          "hash": "1233115844101520127"
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/labor-assignment/labor-assignment.component.ts",
+          "hash": "5842872308109081044",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/photo-upload/photo-upload.component.ts",
+          "hash": "11582233329025882742",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/ui/filter-bar.component.ts",
+          "hash": "10590057426648500291",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/ui/ios-prime-segmented.component.scss",
+          "hash": "12645590268530783107"
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/ui/ios-prime-segmented.component.ts",
+          "hash": "5766829847659915043",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/ui/kpi-card.component.ts",
+          "hash": "2986739121442571755",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/app/shared/components/ui/page-header.component.ts",
+          "hash": "12716146102816027323",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/assets/logos/mega-dulces-logo.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/logistica-view/src/assets/logos/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
+        },
+        {
+          "file": "apps/logistica-view/src/environments/environment.production.ts",
+          "hash": "16315361540161228177"
+        },
+        {
+          "file": "apps/logistica-view/src/environments/environment.ts",
+          "hash": "3057759637178879849"
+        },
+        {
+          "file": "apps/logistica-view/src/index.html",
+          "hash": "2468593009445661268"
+        },
+        {
+          "file": "apps/logistica-view/src/main.ts",
+          "hash": "732663438483983849",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/src/styles.css",
+          "hash": "8003461252404855336"
+        },
+        {
+          "file": "apps/logistica-view/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/tailwind.config.js",
+          "hash": "12563225737809138106",
+          "deps": [
+            "npm:@spartan-ng/ui-core",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "apps/logistica-view/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "apps/logistica-view/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "apps/logistica-view/tsconfig.json",
+          "hash": "6424220500541951295"
+        },
+        {
+          "file": "apps/logistica-view/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ],
+      "logistica-api": [
+        {
+          "file": "apps/logistica-api/.env.example",
+          "hash": "13431348438166770651"
+        },
+        {
+          "file": "apps/logistica-api/eslint.config.js",
+          "hash": "17472210594086834595"
+        },
+        {
+          "file": "apps/logistica-api/jest.config.ts",
+          "hash": "8631014535803249171"
+        },
+        {
+          "file": "apps/logistica-api/project.json",
+          "hash": "2346845910298030178"
+        },
+        {
+          "file": "apps/logistica-api/src/app/app.controller.spec.ts",
+          "hash": "9499997688052526633",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/app.controller.ts",
+          "hash": "9005150069945785676",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/app.module.ts",
+          "hash": "1306292693309101621",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/schedule",
+            "npm:@nestjs/serve-static"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/app.service.spec.ts",
+          "hash": "8587461140686713758",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/app.service.ts",
+          "hash": "9967902337593410053",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/auth/auth.controller.ts",
+          "hash": "13560421561833277111",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "npm:bcryptjs",
+            "npm:@nestjs/jwt",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/auth/auth.module.ts",
+          "hash": "10188479210672032834",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/auth/jwt.strategy.ts",
+          "hash": "11223351444244237147",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport",
+            "npm:passport-jwt",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/checklists/checklist-items.config.ts",
+          "hash": "9866845458521887815"
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/checklists/checklists.controller.ts",
+          "hash": "11522194997020347389",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/checklists/checklists.module.ts",
+          "hash": "3083332902044034455",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/checklists/checklists.service.ts",
+          "hash": "11283691860950371465",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/config/config.controller.ts",
+          "hash": "13649077316171779084",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/config/config.module.ts",
+          "hash": "2155257452043906518",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/config/config.service.ts",
+          "hash": "15445110543775275537",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/costs/costs.controller.ts",
+          "hash": "1629532171249259803",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/costs/costs.module.ts",
+          "hash": "3739373613158767226",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/costs/costs.service.ts",
+          "hash": "128987411499466721",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fleet/alerts.service.ts",
+          "hash": "507692307398266502",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fleet/fleet.controller.ts",
+          "hash": "12093075120242152465",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fleet/fleet.module.ts",
+          "hash": "3933073522830897010",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fleet/fleet.service.ts",
+          "hash": "2654781752606393408",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fleet/maintenance.service.ts",
+          "hash": "2530122174931758559",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fleet/usage-log.service.ts",
+          "hash": "17934376276953160538",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fotos/fotos.controller.ts",
+          "hash": "2568641026076134143",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fotos/fotos.module.ts",
+          "hash": "29501949248680725",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/fotos/fotos.service.ts",
+          "hash": "10498314025689085034",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/guides/guides.controller.ts",
+          "hash": "16982941987576577176",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/guides/guides.module.ts",
+          "hash": "6405586920734207753",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/guides/guides.service.ts",
+          "hash": "14532272603937636430",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/reports/reports.controller.ts",
+          "hash": "7122740616152171724",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/reports/reports.module.ts",
+          "hash": "4149114158817564504",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/reports/reports.service.ts",
+          "hash": "5563094372527914350",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:puppeteer"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/shipments/shipments.controller.ts",
+          "hash": "14456237164963701604",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/shipments/shipments.module.ts",
+          "hash": "127207542175105693",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/shipments/shipments.service.ts",
+          "hash": "3511034707396772406",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/staff/staff.controller.ts",
+          "hash": "16746202672853549549",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "shared-auth"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/staff/staff.module.ts",
+          "hash": "938726697384652678",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/app/modules/staff/staff.service.ts",
+          "hash": "14916911351168658652",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/logistica-api/src/main.ts",
+          "hash": "16954786587169596382",
+          "deps": [
+            "npm:dotenv",
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/platform-express",
+            "npm:express",
+            "npm:@nestjs/common",
+            "npm:helmet"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/modules/cron/cron.controller.ts",
+          "hash": "85034354675043922",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/modules/cron/cron.module.ts",
+          "hash": "17010469599104318077",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/modules/cron/tasks.service.ts",
+          "hash": "13460218485292624618",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/shared/cloudinary/cloudinary.module.ts",
+          "hash": "17440311820258186632",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/shared/cloudinary/cloudinary.service.ts",
+          "hash": "10522684403609985346",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary",
+            [
+              "npm:sharp",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/logistica-api/src/shared/database/database.module.ts",
+          "hash": "12443624933508818847",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/logistica-api/tsconfig.app.json",
+          "hash": "6898394007853650864"
+        },
+        {
+          "file": "apps/logistica-api/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "apps/logistica-api/tsconfig.spec.json",
+          "hash": "11550347367511341917"
+        },
+        {
+          "file": "apps/logistica-api/webpack.config.js",
+          "hash": "1697212267088228819",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ]
+    }
+  }
+}

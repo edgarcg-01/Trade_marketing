@@ -1,0 +1,2480 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import 'primeicons/primeicons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tabla compacta para reportes */
+.p-datatable-report .p-datatable-thead > tr > th {
+  padding: 0.375rem 0.75rem !important;
+  font-size: 0.625rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.08em !important;
+  background: var(--surface-ground) !important;
+  color: var(--text-muted) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.p-datatable-report .p-datatable-tbody > tr > td {
+  padding: 0.375rem 0.75rem !important;
+  font-size: 0.8125rem !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* ==========================================================================
+   VISTA EN PANTALLA (OCULTO)
+   ========================================================================== */
+.print-wrapper {
+  display: none;
+}
+
+/* ==========================================================================
+   VISTA DE IMPRESIÓN / PDF
+   ========================================================================== */
+@media print {
+  /* 1. Ocultar toda la UI de la aplicación */
+  body * {
+    visibility: hidden;
+  }
+
+  /* 2. Mostrar solo el reporte */
+  .print-wrapper, .print-wrapper * {
+    visibility: visible;
+  }
+
+  /* 3. Posicionar el reporte en la página */
+  .print-wrapper {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+  }
+
+  /* 4. Configuración de la página */
+  @page {
+    size: letter portrait;
+    margin: 1.5cm;
+  }
+
+  /* ══ ENCABEZADO ══ */
+  .print-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .print-company-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #111;
+  }
+
+  .print-company-sub {
+    font-size: 14px;
+    color: #666;
+    margin: 4px 0 0 0;
+  }
+
+  .print-header-right {
+    text-align: right;
+  }
+
+  .print-report-title {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+    color: #222;
+  }
+
+  .print-report-period, .print-report-date {
+    font-size: 12px;
+    color: #555;
+    margin: 2px 0;
+  }
+
+  .print-divider {
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 25px;
+  }
+
+  /* ══ SECCIONES ══ */
+  .print-section {
+    margin-bottom: 30px;
+    page-break-inside: avoid;
+  }
+
+  .print-section-title {
+    font-size: 16px;
+    color: #444;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+
+  /* ══ KPIs ══ */
+  .print-kpis {
+    display: flex;
+    gap: 15px;
+  }
+
+  .print-kpi {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    background-color: #fafafa;
+  }
+
+  .print-kpi-label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #6b7280;
+    margin-bottom: 5px;
+  }
+
+  .print-kpi-value {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .print-kpi-green .print-kpi-value { color: #16a34a; }
+  .print-kpi-red .print-kpi-value { color: #dc2626; }
+  .print-kpi-blue .print-kpi-value { color: #2563eb; }
+  .print-kpi-dark .print-kpi-value { color: #111827; }
+
+  /* ══ TABLAS ══ */
+  .print-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .print-table th {
+    background-color: #f3f4f6;
+    color: #374151;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border-bottom: 2px solid #d1d5db;
+  }
+
+  .print-table td {
+    padding: 8px;
+    border-bottom: 1px solid #e5e7eb;
+    color: #4b5563;
+  }
+
+  .print-table tr {
+    page-break-inside: avoid;
+  }
+
+  /* ══ UTILIDADES ══ */
+  .text-right { text-align: right; }
+  .text-center { text-align: center; }
+  .font-bold { font-weight: bold; }
+  .text-green { color: #16a34a; }
+  .text-red { color: #dc2626; }
+  
+  /* ══ GRÁFICA SVG ══ */
+  .print-chart {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+}
+
+/* Premium minimalist scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-faint);
+}
+
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 14px; /* Reducido de 16px para escala más compacta */
+}
+
+:root {
+  --layout-bg: #f4f4f5;
+  --sidebar-bg: #ffffff;
+  --border-color: #e4e4e7;
+  
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.375rem;
+  --spacing-md: 0.625rem;
+  --spacing-lg: 0.875rem;
+  
+  --text-main: #09090b;
+  --text-muted: #52525b;
+  --text-faint: #a1a1aa;
+  --text-disabled: rgba(9, 9, 11, 0.5);
+  
+  --hover-bg: #f4f4f5;
+  --active-bg: #09090b;
+  --active-text: #ffffff;
+
+  --card-bg: #ffffff;
+  --table-border: #f8fafc;
+  --table-hover: rgba(248, 250, 252, 0.5);
+
+  --shadow-light: 0 1px 3px rgba(246, 143, 30, 0.05);
+  --shadow-hover: 0 10px 40px -10px rgba(246, 143, 30, 0.15);
+  --skeleton-bg: #e2e8f0;
+
+  --surface-ground: #f8fafc;
+
+  /* BRAND PALETTE */
+  --brand-primary: rgba(253, 231, 7, 1);
+  --brand-orange: #f68f1e;
+  --brand-sunset: #f05a28;
+  --brand-light: #fff8bc;
+  --accent-brand-light: rgba(253, 231, 7, 0.15);
+}
+
+.my-app-dark {
+  --layout-bg: #000000;
+  --sidebar-bg: #111111;
+  --border-color: #27272a;
+  
+  --text-main: #fafafa;
+  --text-muted: #a1a1aa;
+  --text-faint: #52525b;
+  --text-disabled: rgba(255, 255, 255, 0.4);
+  
+  --hover-bg: #18181b;
+  --active-bg: #fafafa;
+  --active-text: #09090b;
+
+  --card-bg: #09090b;
+  --table-border: #18181b;
+  --table-hover: rgba(255, 255, 255, 0.03);
+
+  --shadow-light: 0 1px 3px rgba(0,0,0,0.5);
+  --shadow-hover: 0 0 20px rgba(0,0,0,0.8);
+  --skeleton-bg: #18181b;
+
+  --surface-ground: #000000;
+  --accent-brand-light: rgba(253, 231, 7, 0.1);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--layout-bg);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+/* Dark Mode / Monochrome Theme */
+.my-app-dark body {
+  --layout-bg: #000000;
+  --sidebar-bg: #111111;
+  --border-color: #333333;
+  
+  --text-main: #ffffff;
+  --text-muted: #a1a1aa;
+  --text-faint: #52525b;
+  --text-disabled: rgba(255, 255, 255, 0.5);
+  
+  --hover-bg: #222222;
+  --active-bg: #ffffff;
+  --active-text: #000000;
+
+  --card-bg: #111111;
+  --table-border: #222222;
+  --table-hover: rgba(255, 255, 255, 0.05);
+
+  --shadow-light: 0 1px 3px rgba(0,0,0,0.5);
+  --shadow-hover: 0 0 20px rgba(255,255,255,0.1);
+  --skeleton-bg: #333333;
+
+  --surface-ground: #111111;
+
+  background-color: var(--layout-bg);
+  color: var(--text-main);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* 
+ * UTILITIES: BRAND ACCENTS 
+ */
+.card-premium-accent {
+  position: relative;
+  overflow: hidden;
+}
+
+.text-brand {
+  color: var(--accent-brand) !important;
+}
+
+.bg-brand {
+  background-color: var(--accent-brand) !important;
+}
+
+.border-brand {
+  border-color: var(--accent-brand) !important;
+}
+
+/* Brand Gradient Utilities */
+.bg-gradient-brand {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-orange) 50%, var(--brand-sunset) 100%) !important;
+}
+
+.bg-gradient-brand-subtle {
+  background: linear-gradient(135deg, var(--brand-light) 0%, rgba(253, 231, 7, 0.3) 100%) !important;
+}
+
+.bg-gradient-brand-horizontal {
+  background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-orange) 100%) !important;
+}
+
+.text-brand-orange {
+  color: var(--brand-orange) !important;
+}
+
+.text-brand-sunset {
+  color: var(--brand-sunset) !important;
+}
+
+.text-brand-gradient {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-sunset) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.border-brand-orange {
+  border-color: var(--brand-orange) !important;
+}
+
+.border-brand-sunset {
+  border-color: var(--brand-sunset) !important;
+}
+
+/* Score/Status colors using brand palette instead of green/blue */
+.text-score-high {
+  color: var(--brand-orange) !important;
+}
+
+.text-score-medium {
+  color: var(--brand-sunset) !important;
+}
+
+.text-score-low {
+  color: #dc2626 !important;
+}
+
+.bg-score-high {
+  background-color: rgba(246, 143, 30, 0.15) !important;
+  color: var(--brand-orange) !important;
+}
+
+.bg-score-medium {
+  background-color: rgba(240, 90, 40, 0.15) !important;
+  color: var(--brand-sunset) !important;
+}
+
+/* Progress bars with brand colors */
+.progress-bar-brand {
+  background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-orange) 100%) !important;
+}
+
+.progress-bar-orange {
+  background: linear-gradient(90deg, var(--brand-orange) 0%, var(--brand-sunset) 100%) !important;
+}
+
+.p-button.p-button-brand {
+  background: #09090b !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.1em !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(9, 9, 11, 1) !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.p-button.p-button-brand:hover {
+  background: #000000 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 15px 30px -8px rgba(0, 0, 0, 0.4), 0 0 15px -2px rgba(239, 68, 68, 0.3) !important;
+  border-color: #ef4444 !important;
+  color: #ef4444 !important;
+}
+
+/* Enhanced interactions */
+.p-button {
+  transition: all 0.2s ease !important;
+}
+
+.p-button:active {
+  transform: scale(0.98) !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: 2px solid var(--accent-brand) !important;
+  outline-offset: 2px !important;
+}
+
+/* Validation Highlights */
+.ng-invalid.ng-dirty, 
+.ng-invalid.ng-touched,
+.p-invalid {
+  border-color: #ef4444 !important;
+}
+
+.p-inputtext.ng-invalid.ng-dirty,
+.p-inputtext.p-invalid,
+.p-select.ng-invalid.ng-dirty,
+.p-select.p-invalid,
+.p-calendar.ng-invalid.ng-dirty,
+.p-calendar.p-invalid,
+.p-inputnumber.ng-invalid.ng-dirty,
+.p-inputnumber.p-invalid {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 1px rgba(239, 68, 68, 0.2) !important;
+}
+
+/* Specific for PrimeNG 18 Select and components that use internal borders */
+.p-select.p-invalid, .p-datepicker.p-invalid, .p-inputnumber.p-invalid {
+    --p-select-border-color: #ef4444;
+    --p-datepicker-border-color: #ef4444;
+    --p-inputnumber-border-color: #ef4444;
+}
+
+/* Override PrimeNG fonts to use Inter */
+.p-component {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Force PrimeNG tables to use theme colors in dark mode */
+.my-app-dark .p-datatable .p-datatable-thead > tr > th {
+  background: var(--surface-ground) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-datatable .p-datatable-tbody > tr {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-datatable .p-datatable-tbody > tr:hover {
+  background: var(--hover-bg) !important;
+}
+
+.my-app-dark .p-datatable .p-datatable-tbody > tr:nth-child(even) {
+  background: var(--surface-ground) !important;
+}
+
+.my-app-dark .p-datatable .p-datatable-tbody > tr > td {
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-datatable .p-paginator {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-paginator .p-paginator-pages .p-paginator-page {
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background: var(--hover-bg) !important;
+}
+
+.my-app-dark .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: var(--active-bg) !important;
+  color: var(--active-text) !important;
+}
+
+/* Responsive table styles */
+.p-datatable-responsive {
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+.p-datatable-responsive .p-datatable-wrapper {
+  min-width: 100% !important;
+}
+
+/* Mobile table optimizations */
+@media (max-width: 768px) {
+  .p-datatable .p-datatable-thead > tr > th,
+  .p-datatable .p-datatable-tbody > tr > td {
+    padding: 0.5rem 0.75rem !important;
+    font-size: 0.75rem !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    min-width: 120px !important;
+  }
+
+  .p-datatable .p-datatable-thead > tr > th:last-child,
+  .p-datatable .p-datatable-tbody > tr > td:last-child {
+    min-width: 100px !important;
+    position: sticky !important;
+    right: 0 !important;
+    background: inherit !important;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .p-datatable.p-datatable-sm .p-datatable-thead > tr > th,
+  .p-datatable.p-datatable-sm .p-datatable-tbody > tr > td {
+    padding: 0.375rem 0.5rem !important;
+    font-size: 0.7rem !important;
+  }
+
+  /* Hide less important columns on very small screens */
+  .p-datatable .p-datatable-thead > tr > th:nth-child(n+6),
+  .p-datatable .p-datatable-tbody > tr > td:nth-child(n+6) {
+    display: none !important;
+  }
+
+  .p-datatable .p-datatable-thead > tr > th:last-child,
+  .p-datatable .p-datatable-tbody > tr > td:last-child {
+    display: table-cell !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .p-datatable .p-datatable-thead > tr > th,
+  .p-datatable .p-datatable-tbody > tr > td {
+    min-width: 100px !important;
+    font-size: 0.7rem !important;
+  }
+
+  /* Show only essential columns on very small screens */
+  .p-datatable .p-datatable-thead > tr > th:nth-child(n+4),
+  .p-datatable .p-datatable-tbody > tr > td:nth-child(n+4) {
+    display: none !important;
+  }
+
+  .p-datatable .p-datatable-thead > tr > th:last-child,
+  .p-datatable .p-datatable-tbody > tr > td:last-child {
+    display: table-cell !important;
+  }
+}
+
+/* Force PrimeNG tabs to use theme colors in dark mode */
+.my-app-dark .p-tabview .p-tabview-nav {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tabview .p-tabview-nav li {
+  background: var(--card-bg) !important;
+}
+
+.my-app-dark .p-tabview .p-tabview-nav li a {
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tabview .p-tabview-nav li a:hover {
+  background: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-tabview .p-tabview-nav li.p-highlight a {
+  background: var(--active-bg) !important;
+  color: var(--active-text) !important;
+  border-color: var(--active-bg) !important;
+}
+
+.my-app-dark .p-tabview .p-tabview-panels {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tabview .p-tabview-panel {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+/* Override hardcoded bg-white in tab content */
+.my-app-dark .p-tabpanel .bg-white {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-tabpanel .text-zinc-500 {
+  color: var(--text-muted) !important;
+}
+
+.my-app-dark .p-tabpanel .text-emerald-600 {
+  color: var(--accent-brand) !important;
+}
+
+.my-app-dark .p-tabpanel .text-blue-600 {
+  color: var(--accent-brand) !important;
+}
+
+/* Modern styling for PrimeNG p-tabs (both light and dark modes) */
+.p-tabs,
+.p-tabs.p-component,
+.p-tabs[data-pc-name="tabs"] {
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.p-tablist,
+.p-tablist.p-component,
+.p-tablist[data-pc-name="tablist"] {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid var(--border-color, #e5e7eb) !important;
+  padding: 0 !important;
+  margin-bottom: 1.5rem !important;
+  box-shadow: none !important;
+}
+
+.p-tablist-content,
+.p-tablist-content[data-pc-name="tablistcontent"] {
+  background: transparent !important;
+}
+
+.p-tablist-tab-list,
+.p-tablist-tab-list[data-pc-name="tablisttablist"] {
+  display: flex !important;
+  gap: 0 !important;
+  background: transparent !important;
+}
+
+.p-tab,
+.p-tab.p-component,
+.p-tab.p-ripple,
+.p-tab[data-pc-name="tab"],
+.p-tab[data-pc-section="tab"] {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0.75rem 1.5rem !important;
+  margin: 0 !important;
+  position: relative !important;
+  transition: all 0.2s ease !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  color: var(--text-muted, #6b7280) !important;
+  cursor: pointer !important;
+  box-shadow: none !important;
+  outline: none !important;
+  text-decoration: none !important;
+  min-height: auto !important;
+  line-height: 1.5 !important;
+}
+
+.p-tab:hover,
+.p-tab.p-component:hover,
+.p-tab.p-ripple:hover,
+.p-tab[data-pc-name="tab"]:hover,
+.p-tab[data-pc-section="tab"]:hover {
+  background: transparent !important;
+  color: var(--text-main, #111827) !important;
+  box-shadow: none !important;
+}
+
+.p-tab.p-tab-active,
+.p-tab.p-component.p-tab-active,
+.p-tab.p-ripple.p-tab-active,
+.p-tab[data-pc-name="tab"][data-p-active="true"],
+.p-tab[data-pc-section="tab"][aria-selected="true"] {
+  background: transparent !important;
+  color: var(--accent-brand, #3b82f6) !important;
+  border-bottom: 2px solid var(--accent-brand, #3b82f6) !important;
+  margin-bottom: -1px !important;
+  box-shadow: none !important;
+}
+
+.p-tabpanels,
+.p-tabpanels.p-component,
+.p-tabpanels[data-pc-name="tabpanels"] {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.p-tabpanel,
+.p-tabpanel.p-component,
+.p-tabpanel[data-pc-name="tabpanel"] {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+/* Force PrimeNG p-tabs (newer version) to use theme colors in dark mode */
+.my-app-dark .p-tabs {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tablist {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tablist-content {
+  background: var(--card-bg) !important;
+}
+
+.my-app-dark .p-tablist-tab-list {
+  background: var(--card-bg) !important;
+}
+
+.my-app-dark .p-tab {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tab:hover {
+  background: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-tab.p-tab-active {
+  background: var(--active-bg) !important;
+  color: var(--active-text) !important;
+  border-color: var(--active-bg) !important;
+}
+
+.my-app-dark .p-tabpanels {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-tabpanel {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+/* More specific overrides for hardcoded styles */
+.my-app-dark .p-tabpanel div.bg-white {
+  background: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-tabpanel div.text-zinc-500 {
+  color: var(--text-muted) !important;
+}
+
+.my-app-dark .p-tabpanel div.text-emerald-600 {
+  color: var(--accent-brand) !important;
+}
+
+.my-app-dark .p-tabpanel div.text-blue-600 {
+  color: var(--accent-brand) !important;
+}
+
+/* ============================================================
+   OVERRIDES PARA CLASSES HARDCODEADAS EN MODO OSCURO
+   ============================================================ */
+
+/* Green colors - Ok status */
+.my-app-dark .bg-green-100 {
+  background-color: rgba(34, 197, 94, 0.2) !important;
+}
+
+.my-app-dark .bg-green-500 {
+  background-color: rgba(34, 197, 94, 0.8) !important;
+}
+
+.my-app-dark .text-green-600,
+.my-app-dark .text-green-700 {
+  color: #4ade80 !important;
+}
+
+.my-app-dark .text-green-800 {
+  color: #86efac !important;
+}
+
+.my-app-dark .border-green-400 {
+  border-color: #4ade80 !important;
+}
+
+/* Amber colors - Warn status */
+.my-app-dark .bg-amber-100 {
+  background-color: rgba(251, 191, 36, 0.2) !important;
+}
+
+.my-app-dark .bg-amber-400 {
+  background-color: rgba(251, 191, 36, 0.8) !important;
+}
+
+.my-app-dark .text-amber-500,
+.my-app-dark .text-amber-700 {
+  color: #fbbf24 !important;
+}
+
+.my-app-dark .text-amber-800 {
+  color: #fcd34d !important;
+}
+
+.my-app-dark .border-amber-400 {
+  border-color: #fbbf24 !important;
+}
+
+/* Red colors - Bad status */
+.my-app-dark .bg-red-100 {
+  background-color: rgba(239, 68, 68, 0.2) !important;
+}
+
+.my-app-dark .bg-red-500 {
+  background-color: rgba(239, 68, 68, 0.8) !important;
+}
+
+.my-app-dark .text-red-500,
+.my-app-dark .text-red-700 {
+  color: #f87171 !important;
+}
+
+.my-app-dark .text-red-800 {
+  color: #fca5a5 !important;
+}
+
+.my-app-dark .border-red-400 {
+  border-color: #f87171 !important;
+}
+
+/* Blue colors - GPS and other */
+.my-app-dark .bg-blue-50 {
+  background-color: rgba(59, 130, 246, 0.2) !important;
+}
+
+.my-app-dark .text-blue-700 {
+  color: #60a5fa !important;
+}
+
+.my-app-dark .border-blue-100 {
+  border-color: rgba(59, 130, 246, 0.4) !important;
+}
+
+/* Ring colors */
+.my-app-dark .ring-blue-400 {
+  --tw-ring-color: rgba(96, 165, 250, 0.5) !important;
+}
+
+/* ============================================================
+   ANIMACIONES SUTILES
+   ============================================================ */
+
+/* Fade in con movimiento suave hacia arriba */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.4s ease-out forwards;
+}
+
+/* Pulse sutil para indicadores activos */
+@keyframes subtlePulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.7;
+    transform: scale(1.1);
+  }
+}
+
+.animate-subtle-pulse {
+  animation: subtlePulse 2s ease-in-out infinite;
+}
+
+/* Slide in desde la izquierda para sidebar */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slideInLeft 0.3s ease-out forwards;
+}
+
+/* Efecto shimmer monocromático */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(0, 0, 0, 0.03) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.my-app-dark .animate-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.04) 50%,
+    transparent 100%
+  );
+}
+
+/* Hover lift effect suave */
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Focus ring con marca */
+.focus-brand:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--brand-primary), 0 0 0 4px white;
+}
+
+/* ============================================================
+   12 MEJORAS MODERNAS, SUTILES Y MONOCRÓMATICAS
+   ============================================================ */
+
+/* 1. MICRO-SOMBRAS DE PROFUNDIDAD (Elevation) */
+.elevation-1 {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03), 0 1px 3px 0 rgba(0, 0, 0, 0.02);
+}
+
+.elevation-2 {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.04), 0 2px 6px -1px rgba(0, 0, 0, 0.02);
+}
+
+.elevation-3 {
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.03);
+}
+
+.elevation-hover {
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+.elevation-hover:hover {
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.08), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+  transform: translateY(-1px);
+}
+
+/* 2. BORDES "GHOST" (Fantasma) */
+.border-ghost {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.border-ghost:hover {
+  border-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.my-app-dark .border-ghost {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.my-app-dark .border-ghost:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* 3. GLASSMORPHISM MONOCRÓMATICO */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.my-app-dark .glass {
+  background: rgba(17, 17, 17, 0.85);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* 4. EFECTO SPOTLIGHT/HALO - Monocromático sutil */
+.spotlight {
+  position: relative;
+  overflow: hidden;
+}
+
+.spotlight::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.03) 0%, transparent 70%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.4s ease;
+  pointer-events: none;
+}
+
+.spotlight:hover::before {
+  transform: translate(-50%, -50%) scale(2);
+}
+
+.my-app-dark .spotlight::before {
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.04) 0%, transparent 70%);
+}
+
+/* 5. MORPHING DE BORDES */
+.morph-borders {
+  border-radius: 8px;
+  transition: border-radius 0.3s ease, background-color 0.25s ease;
+}
+
+.morph-borders:hover {
+  border-radius: 12px;
+}
+
+/* 6. MAGNETIC BUTTONS (Sutil) - CSS-only approximation */
+.magnetic {
+  transition: transform 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.magnetic:hover {
+  transform: translateY(-2px) scale(1.02);
+}
+
+.magnetic:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* 7. TEXT REVEAL PROGRESIVO */
+@keyframes textReveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.text-reveal > * {
+  animation: textReveal 0.5s ease forwards;
+  opacity: 0;
+}
+
+.text-reveal > *:nth-child(1) { animation-delay: 0ms; }
+.text-reveal > *:nth-child(2) { animation-delay: 50ms; }
+.text-reveal > *:nth-child(3) { animation-delay: 100ms; }
+.text-reveal > *:nth-child(4) { animation-delay: 150ms; }
+.text-reveal > *:nth-child(5) { animation-delay: 200ms; }
+
+/* 8. FOCUS RING ANIMADO */
+@keyframes focusRingDraw {
+  from {
+    box-shadow: 0 0 0 0 var(--brand-primary);
+  }
+  to {
+    box-shadow: 0 0 0 3px var(--brand-primary), 0 0 0 6px rgba(253, 231, 7, 0.2);
+  }
+}
+
+.focus-ring-animated:focus {
+  outline: none;
+  animation: focusRingDraw 0.3s ease forwards;
+}
+
+/* 9. PARALLAX SUTIL EN CARDS */
+.parallax-card {
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out;
+}
+
+.parallax-card:hover {
+  transform: perspective(1000px) rotateX(1deg) rotateY(-1deg) translateZ(10px);
+}
+
+/* 10. NOISE/GRAIN TEXTURE */
+.noise-bg {
+  position: relative;
+}
+
+.noise-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.015;
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+.my-app-dark .noise-bg::after {
+  opacity: 0.03;
+}
+
+/* 11. SCROLL PROGRESS INDICATOR - Monocromático */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9999;
+  transition: width 0.1s linear;
+}
+
+.my-app-dark .scroll-progress {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* 12. SMOOTH PAGE TRANSITIONS */
+.page-transition-enter {
+  animation: pageEnter 0.3s ease forwards;
+}
+
+@keyframes pageEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-transition-exit {
+  animation: pageExit 0.2s ease forwards;
+}
+
+/* New row highlight animation */
+.new-row-highlight {
+  animation: newRowHighlight 2s ease-out forwards;
+}
+
+@keyframes newRowHighlight {
+  0% {
+    background-color: rgba(253, 231, 7, 0.3);
+    border-left: 3px solid var(--brand-orange);
+  }
+  100% {
+    background-color: transparent;
+    border-left: 1px solid var(--border-color);
+  }
+}
+
+@keyframes pageExit {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* ============================================================
+   SISTEMA TIPOGRÁFICO CONSISTENTE - Inter
+   ============================================================ */
+
+/* Escala tipográfica estandarizada */
+.text-display {
+  font-size: 2.25rem;    /* 36px */
+  line-height: 2.5rem;   /* 40px */
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.text-headline {
+  font-size: 1.5rem;     /* 24px */
+  line-height: 2rem;     /* 32px */
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.text-title {
+  font-size: 1.25rem;    /* 20px */
+  line-height: 1.75rem;  /* 28px */
+  font-weight: 600;
+}
+
+.text-body-large {
+  font-size: 1rem;       /* 16px */
+  line-height: 1.5rem;   /* 24px */
+  font-weight: 400;
+}
+
+.text-body {
+  font-size: 0.875rem;   /* 14px */
+  line-height: 1.25rem;  /* 20px */
+  font-weight: 400;
+}
+
+.text-label {
+  font-size: 0.75rem;    /* 12px */
+  line-height: 1rem;     /* 16px */
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* Tablas - consistencia */
+.table-header {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.table-cell {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.table-cell-strong {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .text-display {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .text-headline {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .text-title {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* ============================================================
+   CLASES PARA REPORTS - CONTENT COLORS
+   ============================================================ */
+
+.text-content-main {
+  color: var(--text-main);
+}
+
+.text-content-muted {
+  color: var(--text-muted);
+}
+
+.text-content-faint {
+  color: var(--text-faint);
+}
+
+/* Surface colors */
+.bg-surface-layout {
+  background-color: var(--layout-bg);
+}
+
+.bg-surface-ground {
+  background-color: var(--surface-ground);
+}
+
+.bg-surface-card {
+  background-color: var(--card-bg);
+}
+
+.bg-surface-hover {
+  background-color: var(--hover-bg);
+}
+
+/* Border colors */
+.border-divider {
+  border-color: var(--border-color);
+}
+
+/* ============================================================
+   CARD PREMIUM - Para reports y dashboard
+   ============================================================ */
+
+.card-premium {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 0.875rem !important;
+  box-shadow: var(--shadow-light);
+  transition: all 0.2s ease;
+}
+
+.card-premium:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.my-app-dark .card-premium {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+/* Card con acento superior - línea fija removida, ahora usa slider dinámico */
+.card-premium-accent {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ============================================================
+   MODERN TABS WRAPPER
+   ============================================================ */
+
+.modern-tabs-wrapper {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.my-app-dark .modern-tabs-wrapper {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+/* ============================================================
+   TABLAS MODERNAS
+   ============================================================ */
+
+.p-datatable-modern {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+}
+
+.p-datatable-modern .p-datatable-thead > tr > th {
+  background: var(--surface-ground);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.p-datatable-modern .p-datatable-tbody > tr {
+  background: var(--card-bg);
+  transition: background-color 0.15s ease;
+}
+
+.p-datatable-modern .p-datatable-tbody > tr:hover {
+  background: var(--hover-bg);
+}
+
+.p-datatable-modern .p-datatable-tbody > tr > td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-main);
+}
+
+.my-app-dark .p-datatable-modern .p-datatable-thead > tr > th {
+  background: var(--surface-ground);
+  color: var(--text-muted);
+  border-color: var(--border-color);
+}
+
+.my-app-dark .p-datatable-modern .p-datatable-tbody > tr {
+  background: var(--card-bg);
+  color: var(--text-main);
+}
+
+.my-app-dark .p-datatable-modern .p-datatable-tbody > tr:hover {
+  background: var(--hover-bg);
+}
+
+.my-app-dark .p-datatable-modern .p-datatable-tbody > tr > td {
+  border-color: var(--border-color);
+  color: var(--text-main);
+}
+
+.p-button-brand {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-orange) 100%) !important;
+  border: none !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 12px rgba(246, 143, 30, 0.2);
+}
+
+/* Fix secondary buttons in dark mode */
+.my-app-dark .p-button.p-button-secondary {
+  background: var(--hover-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-button.p-button-secondary.p-button-outlined {
+  background: transparent !important;
+  color: var(--text-muted) !important;
+}
+
+.my-app-dark .p-button.p-button-secondary.p-button-outlined:hover {
+  background: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.p-button-brand:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+
+/* ============================================================
+  UI FOUNDATION - MONOCHROME SYSTEM
+============================================================ */
+.kpi-card-modern {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.kpi-card-modern:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--text-faint);
+}
+
+.filter-bar-modern {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Radical KPI Border Trace Animation - Refined */
+.kpi-card-trace {
+  position: relative;
+  background: var(--card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--border-color); /* Small default gray border */
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1); /* Snappier transition */
+  overflow: hidden;
+}
+
+/* Base state: subtle background */
+.kpi-card-trace {
+  background-image: linear-gradient(var(--card-bg), var(--card-bg)), 
+                    linear-gradient(to right, var(--border-color), var(--border-color));
+}
+
+/* Hover states with progressive filling gradients */
+.kpi-card-trace:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border: 2px solid transparent; /* Hide standard border to show gradient */
+}
+
+/* Status-specific filling gradients with balanced speed */
+.kpi-card-trace-0:hover {
+  background-image: linear-gradient(var(--card-bg), var(--card-bg)), 
+                    linear-gradient(135deg, #71717a, #09090b, #71717a);
+  animation: border-trace 2s linear infinite; /* Balanced speed */
+}
+
+.kpi-card-trace-1:hover {
+  background-image: linear-gradient(var(--card-bg), var(--card-bg)), 
+                    linear-gradient(135deg, #60a5fa, #2563eb, #60a5fa);
+  animation: border-trace 2s linear infinite;
+}
+
+.kpi-card-trace-2:hover {
+  background-image: linear-gradient(var(--card-bg), var(--card-bg)), 
+                    linear-gradient(135deg, #fbbf24, #d97706, #fbbf24);
+  animation: border-trace 2s linear infinite;
+}
+
+.kpi-card-trace-3:hover {
+  background-image: linear-gradient(var(--card-bg), var(--card-bg)), 
+                    linear-gradient(135deg, #4ade80, #16a34a, #4ade80);
+  animation: border-trace 2s linear infinite;
+}
+
+
+@keyframes border-trace {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Clean up old slider line */
+.kpi-slider-line, .kpi-line-0, .kpi-line-1, .kpi-line-2, .kpi-line-3 {
+  display: none !important;
+}
+
+
+
+.p-button.p-button-contrast {
+  background: var(--text-main) !important;
+  border-color: var(--text-main) !important;
+  color: var(--layout-bg) !important;
+  font-weight: 600 !important;
+}
+
+.p-tag.p-tag-success {
+  background-color: rgba(34, 197, 94, 0.1) !important;
+  color: #16a34a !important;
+  border: 1px solid rgba(34, 197, 94, 0.2) !important;
+}
+
+/* Action Button Hover States */
+.action-view:hover {
+  color: #2563eb !important;
+  background: rgba(37, 99, 235, 0.1) !important;
+}
+
+.action-edit:hover {
+  color: #eab308 !important;
+  background: rgba(234, 179, 8, 0.1) !important;
+}
+
+.action-clear:hover {
+  color: #16a34a !important;
+  background: rgba(22, 163, 74, 0.1) !important;
+}
+
+.action-export:hover, .action-pdf:hover {
+  color: #dc2626 !important;
+  background: rgba(220, 38, 38, 0.1) !important;
+}
+
+.flete-chip {
+  background: #000000 !important;
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  padding: 0 0.75rem !important;
+  height: 1.75rem !important;
+  border-radius: 20px !important;
+  border: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.flete-chip .p-chip-text {
+  color: #ffffff !important;
+  font-size: 0.8125rem !important;
+  line-height: 1 !important;
+}
+
+.folio-badge {
+  background: rgba(0, 0, 0, 0.03) !important;
+  color: var(--text-main) !important;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace !important;
+  font-weight: 700 !important;
+  font-size: 0.75rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  padding: 0.15rem 0.45rem !important;
+  border-radius: 4px !important;
+  text-transform: uppercase !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  letter-spacing: 0.025em !important;
+}
+
+.my-app-dark .folio-badge {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-main) !important;
+}
+
+
+
+
+
+
+/* Margin Highlight Gradient */
+.margin-highlight {
+  background: linear-gradient(135deg, rgba(246, 143, 30, 0.08) 0%, rgba(240, 90, 40, 0.08) 100%) !important;
+  border: 1px solid rgba(246, 143, 30, 0.2) !important;
+  box-shadow: inset 0 0 20px rgba(246, 143, 30, 0.05) !important;
+}
+
+.text-gradient-margin {
+  background: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-sunset) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(246, 143, 30, 0.1));
+}
+
+/* PrimeNG controls: stronger visual separation */
+.p-inputtext,
+.p-inputnumber-input,
+.p-dropdown,
+.p-select,
+.p-calendar .p-inputtext,
+.p-inputtextarea {
+  border: 2px solid var(--border-color) !important;
+  border-radius: 6px !important;
+  background: var(--card-bg) !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+/* Validation styles (Error state) */
+.p-inputtext.ng-invalid.ng-touched,
+.p-inputnumber.ng-invalid.ng-touched .p-inputnumber-input,
+.p-dropdown.ng-invalid.ng-touched,
+.p-select.ng-invalid.ng-touched,
+.p-calendar.ng-invalid.ng-touched .p-inputtext,
+.p-inputtextarea.ng-invalid.ng-touched {
+  border-color: #dc2626 !important;
+}
+
+
+.p-inputtext:enabled:hover,
+.p-inputnumber-input:enabled:hover,
+.p-dropdown:not(.p-disabled):hover,
+.p-select:not(.p-disabled):hover,
+.p-calendar .p-inputtext:enabled:hover,
+.p-inputtextarea:enabled:hover {
+  border-color: var(--text-faint) !important;
+}
+
+.p-inputtext:enabled:focus,
+.p-inputnumber-input:enabled:focus,
+.p-dropdown:not(.p-disabled).p-focus,
+.p-select:not(.p-disabled).p-focus,
+.p-calendar .p-inputtext:enabled:focus,
+.p-inputtextarea:enabled:focus {
+  border-color: var(--text-main) !important;
+  box-shadow: 0 0 0 1px var(--text-main) !important;
+}
+
+/* IconField & InputIcon Premium Alignment */
+.p-iconfield {
+  display: inline-flex !important;
+  align-items: center !important;
+  position: relative !important;
+}
+
+.p-inputicon {
+  position: absolute !important;
+  top: 50% !important;
+  margin-top: -0.5rem !important; /* Center based on pi-size */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: var(--text-faint) !important;
+  line-height: 1 !important;
+}
+
+.p-iconfield-left .p-inputicon {
+  left: 0.75rem !important;
+}
+
+.p-iconfield-left .p-inputtext {
+  padding-left: 2.5rem !important;
+}
+
+
+/* Sizing and Design Coherence for Select/Dropdown */
+.p-select, .p-dropdown {
+  min-height: 42px !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.p-select-label, .p-dropdown-label {
+  padding: 0.5rem 0.75rem !important;
+  font-size: 1rem !important;
+  line-height: normal !important;
+  display: flex !important;
+  align-items: center !important;
+  color: var(--text-main) !important;
+}
+
+.p-select-dropdown, .p-dropdown-trigger, .p-datepicker-trigger {
+  padding-right: 0.75rem !important;
+  padding-left: 0.25rem !important;
+  color: var(--text-muted) !important;
+}
+
+
+
+/* Fix for PrimeNG 18 Overlays (Dropdown Panels) */
+.p-select-overlay, 
+.p-select-panel,
+.p-dropdown-panel,
+.p-datepicker {
+  background-color: var(--card-bg) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 12px !important;
+  box-shadow: var(--shadow-hover) !important;
+  backdrop-filter: none !important; /* Remove any blur that might cause transparency issues */
+}
+
+/* DatePicker (Calendar) Premium Branding */
+.p-datepicker-header {
+  background: var(--surface-ground) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+  padding: 0.5rem 0.75rem !important;
+}
+
+.p-datepicker-title, .p-datepicker-month, .p-datepicker-year {
+  font-weight: 700 !important;
+  font-size: 0.875rem !important;
+  color: var(--text-main) !important;
+}
+
+.p-datepicker-calendar-container {
+  padding: 0.5rem !important;
+}
+
+.p-datepicker-calendar th > span {
+  font-size: 0.7rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  color: var(--text-faint) !important;
+}
+
+.p-datepicker-calendar td > span {
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  border-radius: 8px !important;
+  font-size: 0.8125rem !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  color: var(--text-main) !important;
+}
+
+/* Selected Day: Brand Orange */
+.p-datepicker-calendar td > span.p-highlight {
+  background: var(--brand-orange) !important;
+  color: white !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 10px -2px rgba(246, 143, 30, 0.4) !important;
+}
+
+.p-datepicker-calendar td > span:not(.p-highlight):hover {
+  background: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.p-datepicker-today > span {
+  border: 1px solid var(--brand-orange) !important;
+  color: var(--brand-orange) !important;
+}
+
+.p-datepicker-buttonbar {
+  border-top: 1px solid var(--border-color) !important;
+  padding: 0.5rem !important;
+  background: var(--surface-ground) !important;
+}
+
+.p-datepicker-buttonbar .p-button {
+  font-size: 0.75rem !important;
+  padding: 0.4rem 0.8rem !important;
+}
+
+/* Dark mode specific datepicker overrides */
+.my-app-dark .p-datepicker {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-datepicker-header {
+  background-color: var(--surface-ground) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-datepicker-title,
+.my-app-dark .p-datepicker-month,
+.my-app-dark .p-datepicker-year {
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-datepicker-calendar th > span {
+  color: var(--text-faint) !important;
+}
+
+.my-app-dark .p-datepicker-calendar td > span {
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-datepicker-calendar td > span:not(.p-highlight):hover {
+  background-color: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-datepicker-today > span {
+  border-color: var(--brand-orange) !important;
+  color: var(--brand-orange) !important;
+}
+
+.my-app-dark .p-datepicker-buttonbar {
+  background-color: var(--surface-ground) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-datepicker .p-datepicker-buttonbar .p-button {
+  background-color: var(--hover-bg) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-datepicker .p-datepicker-buttonbar .p-button:hover {
+  background-color: var(--active-bg) !important;
+  color: var(--active-text) !important;
+}
+
+
+.p-select-list-container,
+.p-dropdown-items-wrapper {
+  background-color: var(--card-bg) !important;
+}
+
+.p-select-option,
+.p-dropdown-item {
+  color: var(--text-main) !important;
+  padding: 0.625rem 1rem !important;
+  font-size: 0.875rem !important;
+}
+
+.p-select-option:hover,
+.p-dropdown-item:hover,
+.p-select-option.p-focus,
+.p-dropdown-item.p-focus {
+  background-color: var(--hover-bg) !important;
+}
+
+.p-select-option.p-select-option-selected,
+.p-dropdown-item.p-highlight {
+  background-color: var(--accent-brand-light) !important;
+  color: var(--brand-orange) !important;
+  font-weight: 600 !important;
+}
+
+.p-select-option.p-select-option-selected.p-focus,
+.p-dropdown-item.p-highlight.p-focus {
+  background-color: var(--accent-brand-light) !important;
+  filter: brightness(0.95);
+}
+
+
+
+/* PrimeNG buttons: modern monochrome styling */
+.p-button {
+  border-radius: 6px !important;
+  border: 1px solid var(--border-color) !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Apply padding only to normal buttons, not action buttons */
+.p-button:not(.action-view):not(.action-edit):not(.action-pdf):not(.action-clear):not(.action-export):not(.p-datepicker-trigger) {
+  padding: 0.375rem 0.75rem !important;
+  font-size: 0.8125rem !important;
+}
+
+.p-button:not(:disabled):hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-light);
+  background-color: var(--surface-hover) !important;
+}
+
+.p-button.p-button-secondary,
+.p-button.p-button-outlined {
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+
+.p-button.p-button-contrast {
+  background: var(--text-main) !important;
+  border-color: var(--text-main) !important;
+  color: var(--layout-bg) !important;
+  font-weight: 500 !important;
+}
+
+.p-button.p-button-contrast:not(:disabled):hover {
+  background: var(--text-main) !important;
+  border-color: var(--text-main) !important;
+  color: var(--layout-bg) !important;
+  opacity: 0.9 !important;
+}
+
+.p-button.cancel-button {
+  color: #dc2626 !important;
+  border-color: #dc2626 !important;
+  background: transparent !important;
+}
+
+.p-button.cancel-button:hover {
+  background: #dc2626 !important;
+  color: #ffffff !important;
+}
+
+.p-button.action-pdf:hover {
+  color: #dc2626 !important;
+  background: rgba(220, 38, 38, 0.1) !important;
+}
+
+.p-button.action-edit:hover {
+  color: #eab308 !important;
+  background: rgba(234, 179, 8, 0.1) !important;
+}
+
+.p-button.action-view:hover {
+  color: #3b82f6 !important;
+  background: rgba(59, 130, 246, 0.1) !important;
+}
+
+.p-button.action-clear:hover {
+  color: #22c55e !important;
+  background: rgba(34, 197, 94, 0.1) !important;
+}
+
+.p-button.action-export:hover {
+  color: #000000 !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Status chips with distinctive border-based design */
+.status-chip {
+  background: transparent !important;
+  font-weight: 500 !important;
+  padding: 0.25rem 0.75rem !important;
+  border-radius: 9999px !important;
+  transition: all 0.2s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 2px solid currentColor !important;
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+}
+
+/* Specific Shipment Statuses */
+.status-programado { --status-color: var(--brand-orange); color: var(--status-color) !important; }
+.status-en_transito { --status-color: var(--brand-sunset); color: var(--status-color) !important; }
+.status-completado { --status-color: #16a34a; color: var(--status-color) !important; }
+.status-cancelado { --status-color: #ef4444; color: var(--status-color) !important; }
+
+/* Specific Staff Statuses */
+.status-activo { --status-color: #16a34a; color: var(--status-color) !important; }
+.status-inactivo { --status-color: #ef4444; color: var(--status-color) !important; }
+.status-suspendido { --status-color: var(--brand-orange); color: var(--status-color) !important; }
+
+.status-chip:hover {
+  background: var(--status-color, currentColor) !important;
+  color: white !important;
+}
+
+/* Chip severity classes for direct use */
+.chip-success { color: #16a34a !important; }
+.chip-danger { color: #ef4444 !important; }
+.chip-warn { color: var(--brand-orange) !important; }
+.chip-info { color: var(--brand-sunset) !important; }
+.chip-secondary { color: var(--text-muted) !important; }
+
+/* KPI cards - more compact */
+.grid .card-premium {
+  padding: 0.625rem !important;
+}
+
+/* Tags/chips more compact */
+.p-tag.status-chip {
+  padding: 0.125rem 0.5rem !important;
+  font-size: 0.6875rem !important;
+}
+
+/* Force text-center in all table headers and cells to override PrimeNG */
+.p-datatable-modern .p-datatable-thead > tr > th,
+.p-datatable-modern .p-datatable-tbody > tr > td {
+  text-align: center !important;
+}
+
+/* KPI slider line - fade out → reposition → fade in effect */
+.kpi-slider-line {
+  position: absolute;
+  top: 0;
+  left: 0.5rem; /* margen para no tocar bordes */
+  width: calc(25% - 1.5rem); /* ancho reducido para no tocar bordes */
+  height: 2px; /* línea más delgada */
+  background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-orange) 100%);
+  border-radius: 0 0 2px 2px;
+  z-index: 10;
+  transition: opacity 0.12s ease;
+  /* sin transform transition — salta instantáneo a la nueva posición */
+  pointer-events: none;
+}
+
+/* Smaller action buttons */
+.p-button.action-view,
+.p-button.action-edit,
+.p-button.action-pdf,
+.p-button.action-complete {
+  width: 28px !important;
+  height: 28px !important;
+  padding: 0 !important;
+  font-size: 0.75rem !important;
+}
+
+.p-button.action-view .pi,
+.p-button.action-edit .pi,
+.p-button.action-pdf .pi,
+.p-button.action-complete .pi {
+  font-size: 0.875rem !important;
+}
+
+/* Smaller toolbar buttons and inputs - direct selectors for global CSS */
+.p-button.action-clear,
+.p-button.action-export {
+  width: 28px !important;
+  height: 28px !important;
+  padding: 0 !important;
+  min-width: 28px !important;
+  min-height: 28px !important;
+}
+
+.p-button.action-clear .pi,
+.p-button.action-export .pi {
+  font-size: 0.75rem !important;
+}
+
+.p-inputtext,
+.p-dropdown,
+.p-calendar .p-inputtext {
+  font-size: 0.8125rem !important;
+  padding: 0.375rem 0.625rem !important;
+}
+
+.p-dropdown .p-dropdown-trigger {
+  width: auto !important;
+  min-width: 140px !important;
+}
+
+/* Dropdown/Calendar overlays above sticky panels */
+.p-dropdown-panel,
+.p-datepicker,
+.p-overlaypanel {
+  z-index: 2500 !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 10px !important;
+  box-shadow: var(--shadow-hover) !important;
+  background-color: var(--card-bg) !important;
+  background-image: none !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  border-radius: 6px;
+  margin: 0.15rem 0.3rem;
+  background: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.p-dropdown-panel .p-dropdown-items {
+  background: var(--card-bg) !important;
+}
+
+.p-dropdown-panel .p-dropdown-header,
+.p-dropdown-panel .p-dropdown-filter-container,
+.p-datepicker-header {
+  background: var(--surface-ground) !important;
+  opacity: 1 !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:hover,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+/* PrimeNG v18+ overlays (data-pc-name) */
+div[data-pc-name="overlay"],
+div[data-pc-name="dropdownpanel"],
+div[data-pc-name="datepicker"],
+div[data-pc-name="overlaypanel"],
+div[data-pc-section="panel"] {
+  background: var(--card-bg) !important;
+  background-color: var(--card-bg) !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+div[data-pc-name="dropdownpanel"] .p-dropdown-items-wrapper,
+div[data-pc-name="dropdownpanel"] .p-dropdown-items,
+div[data-pc-name="dropdownpanel"] .p-dropdown-header,
+div[data-pc-name="dropdownpanel"] .p-dropdown-filter-container,
+div[data-pc-name="dropdownpanel"] .p-dropdown-item,
+div[data-pc-name="dropdownpanel"] .p-dropdown-empty-message,
+div[data-pc-name="datepicker"] .p-datepicker-group,
+div[data-pc-name="datepicker"] table,
+div[data-pc-name="datepicker"] .p-datepicker-header {
+  background: var(--card-bg) !important;
+  background-color: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+/* Hard override: prevent any transparent dropdown layer */
+body .p-dropdown-panel,
+body .p-dropdown-panel *,
+body div[data-pc-name="dropdownpanel"],
+body div[data-pc-name="dropdownpanel"] *,
+body .p-datepicker,
+body .p-datepicker *,
+body div[data-pc-name="datepicker"],
+body div[data-pc-name="datepicker"] * {
+  background-color: var(--card-bg) !important;
+  background-image: none !important;
+}
+
+body .p-dropdown-panel::before,
+body .p-dropdown-panel::after,
+body div[data-pc-name="dropdownpanel"]::before,
+body div[data-pc-name="dropdownpanel"]::after,
+body .p-datepicker::before,
+body .p-datepicker::after,
+body div[data-pc-name="datepicker"]::before,
+body div[data-pc-name="datepicker"]::after {
+  background: var(--card-bg) !important;
+  opacity: 1 !important;
+}
+
+body .p-dropdown-panel .p-dropdown-item,
+body div[data-pc-name="dropdownpanel"] .p-dropdown-item {
+  color: var(--text-main) !important;
+}
+
+/* Dark mode overrides for overlays */
+.my-app-dark .p-dropdown-panel,
+.my-app-dark .p-datepicker,
+.my-app-dark .p-overlaypanel {
+  background-color: var(--card-bg) !important;
+  border-color: var(--border-color) !important;
+}
+
+.my-app-dark .p-dropdown-panel .p-dropdown-items,
+.my-app-dark .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  background-color: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-dropdown-panel .p-dropdown-items .p-dropdown-item:hover,
+.my-app-dark .p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background-color: var(--hover-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark .p-dropdown-panel .p-dropdown-header,
+.my-app-dark .p-dropdown-panel .p-dropdown-filter-container {
+  background-color: var(--surface-ground) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark div[data-pc-name="datepicker"],
+.my-app-dark div[data-pc-name="dropdownpanel"] {
+  background-color: var(--card-bg) !important;
+}
+
+.my-app-dark div[data-pc-name="datepicker"] .p-datepicker-group,
+.my-app-dark div[data-pc-name="datepicker"] table,
+.my-app-dark div[data-pc-name="datepicker"] .p-datepicker-header {
+  background-color: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.my-app-dark body .p-datepicker,
+.my-app-dark body .p-datepicker *,
+.my-app-dark body div[data-pc-name="datepicker"],
+.my-app-dark body div[data-pc-name="datepicker"] * {
+  background-color: var(--card-bg) !important;
+  color: var(--text-main) !important;
+}
+
+.shipment-dialog .p-dialog {
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+}
+
+.shipment-dialog-fullscreen .p-dialog {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.shipment-dialog .p-dialog-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--card-bg);
+}
+
+.shipment-dialog .p-dialog-content {
+  background: var(--card-bg);
+}
+
+.shipment-dialog-fullscreen .p-dialog-content {
+  height: calc(100vh - 3.5rem) !important;
+  padding: 0 !important;
+}
+
+/* Fit dense shipment form into one viewport */
+.shipment-fit-screen {
+  transform: scale(0.95);
+  transform-origin: top left;
+  width: 105.3%;
+  height: 105.3%;
+}
+
+.shipment-scroll-column {
+  max-height: calc(100vh - 9rem);
+  scrollbar-width: thin;
+}
+
+/* High contrast readability pass */
+.card-premium {
+  border: 1px solid #b3b3b8 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+}
+
+.my-app-dark .card-premium {
+  border-color: #4a4a4f !important;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.08) !important;
+}
+
+.text-content-muted {
+  color: #2f2f35 !important;
+}
+
+.my-app-dark .text-content-muted {
+  color: #d4d4da !important;
+}
+
+.text-content-faint {
+  color: #55555d !important;
+}
+
+.my-app-dark .text-content-faint {
+  color: #b5b5bd !important;
+}
+
+.p-inputtext,
+.p-inputnumber-input,
+.p-dropdown,
+.p-calendar .p-inputtext,
+.p-inputtextarea {
+  border-width: 1px !important;
+  border-color: #a3a3aa !important;
+  padding: 0.72rem 0.85rem !important;
+}
+
+.p-calendar {
+  width: 100%;
+}
+
+.p-calendar .p-inputtext {
+  width: 100%;
+  padding-right: 2.5rem !important;
+}
+
+.p-calendar .p-datepicker-trigger {
+  width: 2.25rem !important;
+  min-width: 2.25rem !important;
+  border-left: 1px solid var(--border-color) !important;
+}
+
+.my-app-dark .p-inputtext,
+.my-app-dark .p-inputnumber-input,
+.my-app-dark .p-dropdown,
+.my-app-dark .p-calendar .p-inputtext,
+.my-app-dark .p-inputtextarea {
+  border-color: #585861 !important;
+}
+
+.p-inputtext,
+.p-inputnumber-input,
+.p-dropdown .p-dropdown-label,
+.p-calendar .p-inputtext,
+.p-inputtextarea {
+  color: rgba(25, 25, 30, 0.78) !important;
+}
+
+.my-app-dark .p-inputtext,
+.my-app-dark .p-inputnumber-input,
+.my-app-dark .p-dropdown .p-dropdown-label,
+.my-app-dark .p-calendar .p-inputtext,
+.my-app-dark .p-inputtextarea {
+  color: rgba(245, 245, 250, 0.78) !important;
+}
+
+.p-inputtext::placeholder,
+.p-inputtextarea::placeholder,
+.p-inputnumber-input::placeholder {
+  opacity: 0.5 !important;
+}
+
+.shipment-dialog .p-dialog {
+  border-width: 2px !important;
+  border-color: #8c8c94 !important;
+}
+
+.my-app-dark .shipment-dialog .p-dialog {
+  border-color: #5c5c66 !important;
+}
+
+.p-dialog-mask {
+  backdrop-filter: blur(2px);
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+
+.my-app-dark .p-dialog-mask {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Premium Paginator Styling */
+.p-paginator {
+  background: var(--surface-ground) !important;
+  border-top: 1px solid var(--border-color) !important;
+  padding: 0.5rem !important;
+  border-radius: 0 0 12px 12px !important;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page {
+  min-width: 2.25rem !important;
+  height: 2.25rem !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+  font-size: 0.875rem !important;
+  color: var(--text-muted) !important;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: var(--brand-orange) !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 12px rgba(246, 143, 30, 0.3) !important;
+}
+
+.p-paginator .p-paginator-first, 
+.p-paginator .p-paginator-prev, 
+.p-paginator .p-paginator-next, 
+.p-paginator .p-paginator-last {
+  min-width: 2.25rem !important;
+  height: 2.25rem !important;
+  border-radius: 8px !important;
+  color: var(--text-main) !important;
+}
+
+.p-paginator .p-select, 
+.p-paginator .p-dropdown {
+  height: 2.25rem !important;
+  border-radius: 8px !important;
+  border: 1px solid var(--border-color) !important;
+  background: var(--card-bg) !important;
+}
+
+.p-paginator .p-select .p-select-label,
+.p-paginator .p-dropdown .p-dropdown-label {
+  padding: 0 0.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 0.8125rem !important;
+}
+
+/* ============================================================
+   MONOCHROME / BLACK & WHITE THEME
+============================================================ */
+.theme-monochrome {
+  filter: grayscale(100%) contrast(1.1);
+}
+
+.theme-monochrome *,
+.theme-monochrome *::before,
+.theme-monochrome *::after {
+  filter: grayscale(100%) contrast(1.1);
+}
+
+.theme-monochrome img,
+.theme-monochrome svg {
+  filter: grayscale(100%) contrast(1.1);
+}

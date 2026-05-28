@@ -1,0 +1,75 @@
+{
+  "name": "logistica-api",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/logistica-api/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/logistica-api",
+        "main": "apps/logistica-api/src/main.ts",
+        "tsConfig": "apps/logistica-api/tsconfig.app.json",
+        "webpackConfig": "apps/logistica-api/webpack.config.js",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "database/migrations",
+            "output": "database/migrations"
+          },
+          {
+            "glob": "**/*",
+            "input": "database/seeds",
+            "output": "database/seeds"
+          }
+        ]
+      },
+      "configurations": {
+        "development": {
+          "optimization": false,
+          "extractLicenses": false,
+          "inspect": false
+        },
+        "production": {
+          "optimization": true,
+          "extractLicenses": true,
+          "inspect": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "logistica-api:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "logistica-api:build:development"
+        },
+        "production": {
+          "buildTarget": "logistica-api:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/logistica-api/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/apps/logistica-api"],
+      "options": {
+        "jestConfig": "apps/logistica-api/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

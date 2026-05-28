@@ -1,0 +1,50 @@
+name: Deploy Logistica to GHCR
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/logistica-api/**'
+      - 'apps/logistica-view/**'
+      - 'libs/**'
+      - 'Dockerfile.*'
+      - '.github/workflows/deploy.yml'
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push API Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile.api
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/api:latest
+
+      - name: Build and push View Image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: ./Dockerfile.view
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}/view:latest

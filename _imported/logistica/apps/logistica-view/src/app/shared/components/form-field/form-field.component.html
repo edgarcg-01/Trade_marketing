@@ -1,0 +1,15 @@
+<div class="flex flex-col gap-1">
+  <label [for]="fieldId()" class="text-sm font-medium text-content-main">
+    {{ label() }} @if (required()) { <span class="text-red-500">*</span> }
+  </label>
+  
+  @if (inputContent) {
+    <ng-container *ngTemplateOutlet="inputContent"></ng-container>
+  } @else {
+    <ng-content></ng-content>
+  }
+  
+  @if (showError() && isInvalid) {
+    <small class="text-xs text-red-500">{{ errorMessage() }}</small>
+  }
+</div>

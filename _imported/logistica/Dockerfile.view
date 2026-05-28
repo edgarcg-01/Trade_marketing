@@ -1,0 +1,20 @@
+# ETAPA 1: Dependencias
+FROM node:20.12.2-alpine AS deps
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --frozen-lockfile
+
+# ETAPA 2: Build
+FROM node:20.12.2-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+RUN npx nx build logistica-view -c production
+
+# ETAPA 3: Producción (NGINX)
+FROM nginx:alpine AS runner
+# Ajustado para estructura de Angular 18+ por defecto (incluye subcarpeta browser)
+COPY --from=builder /app/dist/apps/logistica-view/browser /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,103 @@
+<div class="topbar">
+  <div class="logo">
+    MEGADULCES <span>de los Altos</span>
+  </div>
+  <div style="display: flex; gap: 12px; align-items: center;">
+    <span class="badge-beta">Logística v1.0</span>
+    <!-- Auth Info here if needed -->
+  </div>
+</div>
+
+<div class="nav">
+  <button class="nav-btn" [class.active]="activeSection === 'dashboard'" (click)="activeSection = 'dashboard'">📊 Dashboard</button>
+  <button class="nav-btn" [class.active]="activeSection === 'embarques'" (click)="activeSection = 'embarques'">🚛 Embarques</button>
+  <button class="nav-btn" [class.active]="activeSection === 'guias'" (click)="activeSection = 'guias'">📋 Guías</button>
+  <button class="nav-btn" [class.active]="activeSection === 'flotilla'" (click)="activeSection = 'flotilla'">🚚 Flotilla</button>
+  <button class="nav-btn" [class.active]="activeSection === 'colaboradores'" (click)="activeSection = 'colaboradores'">👥 Colaboradores</button>
+  <button class="nav-btn" [class.active]="activeSection === 'catalogos'" (click)="activeSection = 'catalogos'">⚙️ Catálogos</button>
+  <button class="nav-btn" [class.active]="activeSection === 'liquidaciones'" (click)="activeSection = 'liquidaciones'">💵 Liquidaciones</button>
+</div>
+
+<main class="main">
+  <!-- DASHBOARD SECTION -->
+  <div class="section" [class.active]="activeSection === 'dashboard'">
+    <div class="sec-header">
+      <h2 class="sec-title">Dashboard <span>Logístico</span></h2>
+      <div style="display: flex; gap: 10px; align-items: center;">
+        <button class="btn btn-primary btn-sm" (click)="showShipmentForm = true">+ Registrar Embarque</button>
+        <button class="btn btn-secondary btn-sm" (click)="showGuideForm = true">+ Registrar Guía</button>
+        <div class="td-mono" style="color: var(--text-dim);">{{ today | date:'longDate' | uppercase }}</div>
+      </div>
+    </div>
+
+    <!-- FORMS -->
+    <app-shipment-form *ngIf="showShipmentForm" (saved)="showShipmentForm = false; loadDashboardData()" (canceled)="showShipmentForm = false"></app-shipment-form>
+    <app-guide-form *ngIf="showGuideForm" (saved)="showGuideForm = false; loadDashboardData()" (canceled)="showGuideForm = false"></app-guide-form>
+
+    <div class="kpi-grid" *ngIf="kpis">
+      <div class="kpi-card">
+        <div class="kpi-label">Embarques</div>
+        <div class="kpi-value">{{ kpis.embarques }}</div>
+        <div class="kpi-sub">Total del período</div>
+      </div>
+      <div class="kpi-card green">
+        <div class="kpi-label">Ingreso Bruto</div>
+        <div class="kpi-value">{{ kpis.ingreso | currency:'MXN' }}</div>
+        <div class="kpi-sub">Fletes acumulados</div>
+      </div>
+      <div class="kpi-card red">
+        <div class="kpi-label">Costo Operativo</div>
+        <div class="kpi-value">{{ kpis.costo | currency:'MXN' }}</div>
+        <div class="kpi-sub">Gastos de viaje</div>
+      </div>
+      <div class="kpi-card blue">
+        <div class="kpi-label">Kilómetros</div>
+        <div class="kpi-value">{{ kpis.km | number }} km</div>
+        <div class="kpi-sub">Distancia recorrida</div>
+      </div>
+    </div>
+
+    <div class="card" *ngIf="recentShipments.length > 0">
+      <div class="form-title">Últimos Embarques</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Folio</th>
+              <th>Fecha</th>
+              <th>Unidad</th>
+              <th>Ruta</th>
+              <th>Km</th>
+              <th>Flete</th>
+              <th>Estado</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let e of recentShipments">
+              <td class="td-mono">{{ e.folio }}</td>
+              <td class="td-mono">{{ e.fecha | date:'shortDate' }}</td>
+              <td class="td-mono">{{ e.unidad_placa }}</td>
+              <td>{{ e.origen }} → {{ e.destino }}</td>
+              <td class="td-mono">{{ e.km }}</td>
+              <td class="td-mono">{{ e.flete | currency:'MXN' }}</td>
+              <td><span class="badge badge-blue">{{ e.estado }}</span></td>
+              <td>
+                <button class="btn btn-secondary btn-sm" (click)="downloadPdf(e)">📄 PDF</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Placeholder for other sections -->
+  <div class="section" [class.active]="activeSection !== 'dashboard'">
+    <div class="empty">
+      <div class="empty-icon">🚧</div>
+      <div class="empty-text">Módulo en construcción</div>
+      <p style="margin-top: 10px; color: var(--text-dim);">Estamos migrando la lógica del prototipo...</p>
+    </div>
+  </div>
+</main>

@@ -1,0 +1,42 @@
+# Docker Compose para PRODUCCIÓN únicamente
+# Para desarrollo local, usa PostgreSQL instalado localmente
+# Ver apps/logistica-api/.env.example para configuración de desarrollo local
+version: '3.8'
+
+services:
+  logistica-api:
+    image: ghcr.io/edgarcg-01/megadulces-logistica/api:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - DATABASE_URL=postgres://user:pass@db:5432/mydb
+      - NODE_ENV=production
+    restart: always
+    depends_on:
+      - db
+
+  logistica-view:
+    image: ghcr.io/edgarcg-01/megadulces-logistica/view:latest
+    ports:
+      - "80:80"
+    restart: always
+
+  db:
+    image: postgres:15.5-alpine
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=mydb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    restart: always
+
+  watchtower:
+    image: containrrr/watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --interval 300 --cleanup
+    restart: always
+
+volumes:
+  pgdata:

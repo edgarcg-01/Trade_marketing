@@ -1,0 +1,74 @@
+<div class="card-premium p-4">
+  <div class="flex items-center justify-between mb-3 pb-2 border-b border-divider">
+    <div class="flex items-center gap-2">
+      <app-icon [name]="icon()" size="md" class="text-content-main"></app-icon>
+      <span class="font-semibold text-content-main uppercase tracking-wide text-sm">{{ title() }}</span>
+    </div>
+    <p-button type="button" label="Agregar"
+      severity="contrast" size="small" (onClick)="addClicked.emit()" [disabled]="saving()">
+      <ng-template pTemplate="icon">
+        <app-icon name="plus" size="sm"></app-icon>
+      </ng-template>
+    </p-button>
+  </div>
+
+  @if (length > 0) {
+    <div class="space-y-2">
+      @for (item of controls; track item; let i = $index) {
+        @if (showTarifa()) {
+          <div [formGroup]="getGroup(i)" class="grid grid-cols-12 gap-3 items-end p-3 bg-surface-hover rounded-lg">
+            <div class="col-span-8">
+              <label [for]="'colaborador-' + i" class="text-xs text-content-muted block mb-1">Colaborador</label>
+              <p-dropdown formControlName="colaborador_id" [id]="'colaborador-' + i" [options]="catalogoColaboradores()" optionLabel="nombre"
+                optionValue="id" placeholder="Seleccionar colaborador..." styleClass="w-full" [filter]="true" filterPlaceholder="Buscar colaborador..." [appendTo]="'body'" emptyMessage="No hay colaboradores disponibles" emptyFilterMessage="No se encontraron colaboradores" />
+            </div>
+            <div class="col-span-3">
+              <label [for]="'tarifa-' + i" class="text-xs text-content-muted block mb-1">Tarifa ($)</label>
+              <p-inputNumber formControlName="tarifa" [id]="'tarifa-' + i" [min]="0" mode="currency" currency="MXN" locale="es-MX" [minFractionDigits]="2" [maxFractionDigits]="2" styleClass="w-full" />
+            </div>
+            <div class="col-span-1">
+              <p-button type="button" icon="pi pi-trash" severity="danger" text
+                (onClick)="removeClicked.emit(i)" size="small">
+                <ng-template pTemplate="icon">
+                  <app-icon name="trash" size="sm"></app-icon>
+                </ng-template>
+              </p-button>
+            </div>
+          </div>
+        } @else {
+          <div [formGroup]="getGroup(i)" class="flex items-center gap-2">
+            <p-dropdown formControlName="colaborador_id" [id]="'colaborador-' + i" [options]="catalogoColaboradores()" optionLabel="nombre"
+              optionValue="id" placeholder="Seleccionar colaborador..." styleClass="flex-1" [filter]="true" filterPlaceholder="Buscar colaborador..." [appendTo]="'body'" emptyMessage="No hay colaboradores disponibles" emptyFilterMessage="No se encontraron colaboradores" />
+            <p-button type="button" severity="danger" text
+              (onClick)="removeClicked.emit(i)" size="small">
+              <ng-template pTemplate="icon">
+                <app-icon name="trash" size="sm"></app-icon>
+              </ng-template>
+            </p-button>
+          </div>
+        }
+      }
+    </div>
+  }
+
+  @if (length === 0 && showEmptyState()) {
+    @if (emptyStateTemplate) {
+      <ng-container *ngTemplateOutlet="emptyStateTemplate"></ng-container>
+    } @else {
+      <div class="text-center py-8 text-content-muted bg-surface-ground rounded-lg">
+        <app-icon name="users" size="xl" class="mb-2 opacity-50"></app-icon>
+        <p class="text-sm">No hay colaboradores asignados</p>
+        <p-button type="button" label="Agregar" severity="contrast" size="small" mt-2
+        (onClick)="addClicked.emit()" [disabled]="saving()">
+          <ng-template pTemplate="icon">
+            <app-icon name="plus" size="sm"></app-icon>
+          </ng-template>
+        </p-button>
+      </div>
+    }
+  }
+
+  @if (additionalContent) {
+    <ng-container *ngTemplateOutlet="additionalContent"></ng-container>
+  }
+</div>

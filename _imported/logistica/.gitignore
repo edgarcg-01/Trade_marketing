@@ -1,0 +1,16 @@
+node_modules
+dist
+.nx/cache
+*.log
+.env
+.idea
+.vscode
+*.swp
+*.bak
+swagger.json
+build_view_err.log
+.angular/
+.vercel
+.env*.local
+
+.angular

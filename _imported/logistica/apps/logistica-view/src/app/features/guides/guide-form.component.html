@@ -1,0 +1,316 @@
+<div class="flex h-full min-h-0 flex-col bg-surface-card">
+  <form [formGroup]="guideForm" (ngSubmit)="onSubmit()" class="flex-1 overflow-hidden p-3">
+    <div class="mb-2 flex items-center justify-between rounded-lg border border-divider bg-surface-ground px-3 py-1.5">
+      <div class="flex items-center gap-2">
+        <div class="flex h-7 w-7 items-center justify-center rounded-md border border-divider bg-surface-card">
+          <app-icon name="file-text" size="sm" class="text-brand"></app-icon>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <p class="text-sm font-black text-content-main leading-tight uppercase tracking-wider">Nueva Guía de Viaje</p>
+            <p-button 
+              icon="pi pi-question-circle" 
+              [text]="true" 
+              severity="secondary" 
+              styleClass="p-0 h-4 w-4" 
+              (click)="op.toggle($event)" />
+          </div>
+          <p class="text-[10px] text-content-muted leading-tight uppercase font-bold tracking-tighter">Control de liquidación y costos operativos</p>
+        </div>
+
+        <p-popover #op>
+          <div class="p-3 w-72">
+            <div class="flex items-center gap-2 mb-2">
+              <app-icon name="info-circle" size="sm" class="text-brand-orange"></app-icon>
+              <span class="font-bold text-sm">Ayuda de Guías</span>
+            </div>
+            <div class="text-xs leading-relaxed text-content-muted">
+              Registra los detalles finales de la ruta, viáticos entregados y gastos de operación.
+              <br><br>
+              <b>Campos clave:</b>
+              <ul class="pl-4 mt-1 list-disc font-medium">
+                <li>Número de guía oficial.</li>
+                <li>Personal de apoyo asignado.</li>
+                <li>Monto real de maniobras y viáticos.</li>
+              </ul>
+            </div>
+          </div>
+        </p-popover>
+      </div>
+      <p-button
+        type="button"
+        severity="secondary"
+        [text]="true"
+        styleClass="h-7 w-7"
+        (onClick)="canceled.emit()">
+        <ng-template pTemplate="icon">
+          <app-icon name="close" size="sm"></app-icon>
+        </ng-template>
+      </p-button>
+    </div>
+
+    @if (submitError()) {
+      <div class="mb-4 rounded-lg border border-red-400/40 bg-red-100/40 px-4 py-3 text-sm text-content-main">
+        <i class="pi pi-exclamation-triangle mr-2"></i>{{ submitError() }}
+      </div>
+    }
+
+    <div class="shipment-fit-screen grid h-full grid-cols-12 gap-3">
+      
+      <!-- COLUMNA IZQUIERDA: DATOS PRINCIPALES -->
+      <div class="col-span-9 space-y-3 overflow-y-auto pr-2 shipment-scroll-column">
+        
+        <!-- Mensaje informativo cuando no hay embarque -->
+        @if (!guideForm.get('embarque_id')?.value) {
+          <div class="card-premium p-4 border-2 border-amber-200 bg-amber-50/30 mb-3">
+            <div class="flex items-center gap-3">
+              <i class="pi pi-info-circle text-amber-500 text-xl"></i>
+              <div>
+                <p class="font-semibold text-amber-800 text-sm">Selecciona un Embarque</p>
+                <p class="text-xs text-amber-700">Para crear una guía, primero debes seleccionar el embarque asociado. Los datos se completarán automáticamente.</p>
+              </div>
+            </div>
+          </div>
+        }
+
+        <!-- Información Principal -->
+        <div class="card-premium p-4 border-2">
+          <div class="flex items-center gap-2 mb-3 pb-2 border-b border-divider">
+            <app-icon name="file-edit" size="md" class="text-content-main"></app-icon>
+            <span class="font-semibold text-content-main uppercase tracking-wide text-sm">Información de la Guía</span>
+          </div>
+
+          <div class="grid grid-cols-4 gap-3">
+            <!-- Número -->
+            <div class="col-span-1 flex flex-col gap-1">
+              <label for="numero" class="text-label mb-1">Número <span class="text-red-500">*</span></label>
+              <input pInputText formControlName="numero" id="numero" placeholder="GIA-001" class="w-full text-base font-bold" [ngClass]="{'ng-invalid ng-dirty': isInvalid('numero')}" />
+              @if (isInvalid('numero')) {
+                <small class="text-red-500 text-[10px] font-bold uppercase">Requerido</small>
+              }
+            </div>
+
+            <!-- Fecha Salida -->
+            <div class="col-span-1 flex flex-col gap-1">
+              <label for="fecha_salida" class="text-label mb-1">Fecha Salida <span class="text-red-500">*</span></label>
+              <p-calendar formControlName="fecha_salida" id="fecha_salida" dateFormat="dd/mm/yy" [showIcon]="true" [showButtonBar]="true" [touchUI]="false" styleClass="w-full" [appendTo]="'body'" [ngClass]="{'p-invalid ng-dirty': isInvalid('fecha_salida')}" />
+              @if (isInvalid('fecha_salida')) {
+                <small class="text-red-500 text-[10px] font-bold uppercase">Requerido</small>
+              }
+            </div>
+
+            <!-- Tipo -->
+            <div class="col-span-1 flex flex-col gap-1">
+              <label for="tipo" class="text-label mb-1">Tipo <span class="text-red-500">*</span></label>
+              <p-select formControlName="tipo" id="tipo" [options]="tipoOptions" optionLabel="label" optionValue="value" styleClass="w-full" [appendTo]="'body'" emptyMessage="Sin opciones" [ngClass]="{'p-invalid ng-dirty': isInvalid('tipo')}" />
+              @if (isInvalid('tipo')) {
+                <small class="text-red-500 text-[10px] font-bold uppercase">Requerido</small>
+              }
+            </div>
+
+            <!-- Estado (siempre pendiente y disabled) -->
+            <div class="col-span-1 flex flex-col gap-1">
+              <label for="estado" class="text-label mb-1">Estado</label>
+              <div class="p-2 bg-surface-ground border border-divider rounded text-sm font-medium text-content-muted">
+                <span class="inline-flex items-center gap-1">
+                  <i class="pi pi-clock text-amber-500"></i>
+                  PENDIENTE
+                </span>
+              </div>
+              <input type="hidden" formControlName="estado" value="pendiente">
+            </div>
+
+            <!-- Embarque -->
+            <div class="col-span-2 flex flex-col gap-1">
+              <label for="embarque_id" class="text-label mb-1">Embarque Asociado</label>
+              <p-select formControlName="embarque_id" id="embarque_id" [options]="shipments()" optionLabel="folio" optionValue="id"
+                placeholder="Seleccionar..." styleClass="w-full" [filter]="true" filterPlaceholder="Buscar..." [appendTo]="'body'" />
+            </div>
+
+            <!-- Chofer (siempre deshabilitado - viene del embarque) -->
+            <div class="col-span-2 flex flex-col gap-1">
+              <label for="chofer_id" class="text-label mb-1">Chofer <span class="text-red-500">*</span></label>
+              <input pInputText
+                [value]="displayChoferName()"
+                disabled
+                class="w-full bg-surface-ground text-content-muted cursor-not-allowed"
+                placeholder="Se autocompleta del embarque" />
+              <input type="hidden" formControlName="chofer_id">
+            </div>
+
+            <!-- KM Salida -->
+            <div class="col-span-1 flex flex-col gap-1">
+              <label for="km_salida" class="text-label mb-1">KM Salida</label>
+              <p-inputNumber formControlName="km_salida" id="km_salida" [min]="0" [useGrouping]="false" styleClass="w-full font-mono" />
+              @if (isInvalid('km_salida')) {
+                <small class="text-red-500 text-[10px] font-bold uppercase">Inválido</small>
+              }
+            </div>
+
+            <!-- Viáticos -->
+            <div class="col-span-1 flex flex-col gap-1">
+              <label for="viaticos" class="text-label mb-1">Viáticos ($)</label>
+              <p-inputNumber formControlName="viaticos" id="viaticos" [min]="0" mode="currency" currency="MXN" locale="es-MX" [minFractionDigits]="2" [maxFractionDigits]="2" styleClass="w-full font-mono font-bold text-blue-600" />
+            </div>
+
+            <!-- Observaciones -->
+            <div class="col-span-4 flex flex-col gap-1">
+              <label for="obs" class="text-label mb-1">Observaciones</label>
+              <textarea pInputTextarea formControlName="obs" id="obs" rows="2" placeholder="Notas de la guía..." class="w-full"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal de Apoyo -->
+        <div class="card-premium p-4">
+          <div class="flex items-center justify-between mb-3 pb-2 border-b border-divider">
+            <div class="flex items-center gap-2">
+              <i class="pi pi-users text-content-main text-base"></i>
+              <span class="font-semibold text-content-main uppercase tracking-wide text-sm">Personal de Apoyo</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-3">
+            <!-- Ayudante 1 -->
+            <div class="flex flex-col gap-1">
+              <label for="ayudante1_id" class="text-label mb-1">Ayudante 1</label>
+              <p-select formControlName="ayudante1_id" id="ayudante1_id" [options]="helpers()" optionLabel="nombre" optionValue="id"
+                placeholder="Seleccionar..." styleClass="w-full" [filter]="true" [appendTo]="'body'" />
+            </div>
+
+            <!-- Ayudante 2 -->
+            <div class="flex flex-col gap-1">
+              <label for="ayudante2_id" class="text-label mb-1">Ayudante 2</label>
+              <p-select formControlName="ayudante2_id" id="ayudante2_id" [options]="helpers()" optionLabel="nombre" optionValue="id"
+                placeholder="Seleccionar..." styleClass="w-full" [filter]="true" [appendTo]="'body'" />
+            </div>
+
+            <!-- Cargador -->
+            <div class="flex flex-col gap-1">
+              <label for="cargador_id" class="text-label mb-1">Cargador</label>
+              <p-select formControlName="cargador_id" id="cargador_id" [options]="helpers()" optionLabel="nombre" optionValue="id"
+                placeholder="Seleccionar..." styleClass="w-full" [filter]="true" [appendTo]="'body'" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Costos de Operación Directos -->
+        <div class="card-premium p-4">
+          <div class="flex items-center gap-2 mb-3 pb-2 border-b border-divider">
+            <app-icon name="dollar-sign" size="md" class="text-content-main"></app-icon>
+            <span class="font-semibold text-content-main uppercase tracking-wide text-sm">Costos de Operación Directos</span>
+          </div>
+
+          <div class="grid grid-cols-4 gap-3">
+            <!-- Maniobras -->
+            <div class="flex flex-col gap-1">
+              <label for="monto_maniobras" class="text-label mb-1">Maniobras ($)</label>
+              <p-inputNumber formControlName="monto_maniobras" id="monto_maniobras" [min]="0" mode="currency" currency="MXN" locale="es-MX" [minFractionDigits]="2" [maxFractionDigits]="2" styleClass="w-full font-mono text-score-medium font-bold" />
+            </div>
+
+            <!-- Pago Ayudantes -->
+            <div class="flex flex-col gap-1">
+              <label for="monto_ayudantes" class="text-label mb-1">Pago Ayudantes ($)</label>
+              <p-inputNumber formControlName="monto_ayudantes" id="monto_ayudantes" [min]="0" mode="currency" currency="MXN" locale="es-MX" [minFractionDigits]="2" [maxFractionDigits]="2" styleClass="w-full font-mono" />
+            </div>
+
+            <!-- Permisos / Gastos -->
+            <div class="flex flex-col gap-1">
+              <label for="monto_permisos" class="text-label mb-1">Permisos / Gastos ($)</label>
+              <p-inputNumber formControlName="monto_permisos" id="monto_permisos" [min]="0" mode="currency" currency="MXN" locale="es-MX" [minFractionDigits]="2" [maxFractionDigits]="2" styleClass="w-full font-mono" />
+            </div>
+
+            <!-- Talachas / Reparaciones -->
+            <div class="flex flex-col gap-1">
+              <label for="monto_talachas" class="text-label mb-1">Talachas / Reparaciones ($)</label>
+              <p-inputNumber formControlName="monto_talachas" id="monto_talachas" [min]="0" mode="currency" currency="MXN" locale="es-MX" [minFractionDigits]="2" [maxFractionDigits]="2" styleClass="w-full font-mono" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-span-3 space-y-3">
+        <div class="card-premium sticky top-0 flex min-h-[35rem] flex-col p-4 bg-surface-ground/30">
+          <div class="flex items-center gap-2 mb-5 pb-3 border-b border-divider">
+            <app-icon name="calculator" size="lg" class="text-content-main"></app-icon>
+            <span class="font-semibold text-content-main uppercase tracking-wide text-sm">Resumen Liquidación</span>
+          </div>
+
+          <div class="space-y-3">
+            <div class="flex justify-between items-center p-3 bg-surface-card border border-divider rounded-xl">
+              <span class="text-[10px] font-black uppercase text-content-muted">Estado</span>
+              <span class="status-chip status-{{ guideForm.get('estado')?.value }} !text-[10px]">
+                {{ guideForm.get('estado')?.value || 'PENDIENTE' }}
+              </span>
+            </div>
+
+            <div class="flex justify-between items-center p-3 bg-surface-card border border-divider rounded-xl">
+              <span class="text-[10px] font-black uppercase text-content-muted">Viáticos</span>
+              <span class="text-xl font-bold text-content-main font-mono">
+                {{ (guideForm.get('viaticos')?.value || 0) | currency:'MXN' }}
+              </span>
+            </div>
+
+            <div class="pt-2">
+               <p class="text-[9px] font-black uppercase text-content-faint tracking-widest mb-2">Gastos Operativos</p>
+               <div class="p-3 bg-red-50/50 border border-red-100 rounded-xl">
+                 <div class="flex justify-between items-center mb-1">
+                   <span class="text-[10px] font-bold text-red-700 uppercase">Mano de Obra</span>
+                   <span class="text-xs font-black text-red-700 font-mono">
+                     {{ ( (guideForm.get('monto_maniobras')?.value || 0) + (guideForm.get('monto_ayudantes')?.value || 0) ) | currency:'MXN' }}
+                   </span>
+                 </div>
+                 <div class="flex justify-between items-center">
+                   <span class="text-[10px] font-bold text-red-700 uppercase">Otros Gastos</span>
+                   <span class="text-xs font-black text-red-700 font-mono">
+                     {{ ( (guideForm.get('monto_permisos')?.value || 0) + (guideForm.get('monto_talachas')?.value || 0) ) | currency:'MXN' }}
+                   </span>
+                 </div>
+               </div>
+            </div>
+          </div>
+
+          <!-- Info Box Premium -->
+          <div class="mt-auto mb-4 rounded-xl border border-divider bg-surface-card p-3">
+            <div class="flex items-start gap-2">
+              <app-icon [name]="guideForm.valid ? 'check-circle' : 'exclamation-circle'" size="sm" 
+                [class]="guideForm.valid ? 'text-green-500' : 'text-amber-500'" class="mt-0.5"></app-icon>
+              <div>
+                <p class="text-xs font-black text-content-main uppercase tracking-tight">
+                  {{ guideForm.valid ? 'Lista para Guardar' : 'Datos Incompletos' }}
+                </p>
+                <p class="mt-0.5 text-[9px] font-medium text-content-muted leading-tight">
+                  {{ guideForm.valid ? 'La liquidación cumple con los requisitos.' : 'Verifica los campos obligatorios (*).' }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 grid grid-cols-1 gap-4 pt-4 border-t border-divider">
+            <p-button
+              type="button"
+              label="Cancelar"
+              severity="secondary"
+              size="large" 
+              styleClass="w-full py-4 text-lg cancel-button"
+              (onClick)="canceled.emit()">
+              <ng-template pTemplate="icon">
+                <app-icon name="close" size="sm"></app-icon>
+              </ng-template>
+            </p-button>
+            <p-button
+              type="submit"
+              [label]="saving() ? 'Guardando...' : 'Finalizar Guía'"
+              styleClass="w-full p-button-brand py-4 text-lg"
+              [loading]="saving()"
+              [disabled]="saving()">
+              <ng-template pTemplate="icon">
+                <app-icon name="check" size="sm"></app-icon>
+              </ng-template>
+            </p-button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

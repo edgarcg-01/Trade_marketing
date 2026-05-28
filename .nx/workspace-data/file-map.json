@@ -45,2195 +45,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "view": [
-        {
-          "file": "apps/view/.browserslistrc",
-          "hash": "5145066096085527059"
-        },
-        {
-          "file": "apps/view/.editorconfig",
-          "hash": "8037249353422744134"
-        },
-        {
-          "file": "apps/view/.gitignore",
-          "hash": "10175894702052279752"
-        },
-        {
-          "file": "apps/view/README.md",
-          "hash": "9957948032996686319"
-        },
-        {
-          "file": "apps/view/components.json",
-          "hash": "2051255686788595788"
-        },
-        {
-          "file": "apps/view/postcss.config.js",
-          "hash": "4080954692028639031"
-        },
-        {
-          "file": "apps/view/project.json",
-          "hash": "13877384930397478215"
-        },
-        {
-          "file": "apps/view/proxy.conf.json",
-          "hash": "3219014540752259563"
-        },
-        {
-          "file": "apps/view/public/MDDL Logo 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/public/favicon.ico",
-          "hash": "3988961587069885523"
-        },
-        {
-          "file": "apps/view/src/LOGO MEGA DULCES 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/app.component.html",
-          "hash": "10015465879027569075"
-        },
-        {
-          "file": "apps/view/src/app/app.component.ts",
-          "hash": "7088129857668011868",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/app.config.ts",
-          "hash": "1057570213910397879",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/platform-browser",
-            "npm:primeng",
-            "npm:@primeng/themes"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/app.routes.ts",
-          "hash": "5649789902521767986",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/constants/permissions.ts",
-          "hash": "18120677320739255820"
-        },
-        {
-          "file": "apps/view/src/app/core/guards/auth.guard.ts",
-          "hash": "11575897814990018939",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/guards/permission.guard.ts",
-          "hash": "16783114173625295703",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
-          "hash": "7253350037982295754",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/http/visit-form-data.ts",
-          "hash": "269089408727205245"
-        },
-        {
-          "file": "apps/view/src/app/core/services/auth.service.ts",
-          "hash": "17200537073060137453",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/data-update.service.ts",
-          "hash": "4773825376667131093",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/geo-validation.service.ts",
-          "hash": "9663346340696226333",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
-          "hash": "8398199584058515102",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-database.service.ts",
-          "hash": "8779212322796763954",
-          "deps": [
-            "npm:dexie",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-sync.service.ts",
-          "hash": "9948658267677959987",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/permissions.service.ts",
-          "hash": "2896050455883659135",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/pwa-install.service.ts",
-          "hash": "14578582373289519011",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/realtime-data.service.ts",
-          "hash": "6914217143826077157",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
-          "hash": "1823168971398797704",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/theme.service.ts",
-          "hash": "11206863549548322160",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/websocket.service.ts",
-          "hash": "11816674968680415727",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:socket.io-client"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/utils/geo.ts",
-          "hash": "15065292719410586902"
-        },
-        {
-          "file": "apps/view/src/app/core/utils/mx-date.ts",
-          "hash": "2334920784634293950"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.css",
-          "hash": "17595759587945482458"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.html",
-          "hash": "9138699323335466721"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
-          "hash": "12986435405157046739",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
-          "hash": "12000369106924826968"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
-          "hash": "14877997210713765806",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
-          "hash": "5676019271461293687",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
-          "hash": "13711637844054244768"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
-          "hash": "3369302685947029811",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
-          "hash": "8979006059915436531",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
-          "hash": "4038078629243878458",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
-          "hash": "10961295348557135103"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
-          "hash": "17974211723563334439",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
-          "hash": "2927472231450193134",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "17229169493027227193"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
-          "hash": "15213141752723256609",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
-          "hash": "11342650754885338645",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "9440890908551467638"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "1408343290280858389",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
-          "hash": "3591219667457791222"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
-          "hash": "15173337095285800500",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "shared-scoring"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
-          "hash": "10742704315394993214"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "14492192238386925044"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
-          "hash": "10291870686510478908",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
-          "hash": "213520505854234871"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
-          "hash": "5999407097046041452",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
-          "hash": "7096677479730102471",
-          "deps": [
-            "npm:@angular/core",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
-          "hash": "316952896657969989"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "2397266753011774754"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
-          "hash": "9722667370333744611",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
-          "hash": "623311927509496968"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "4999647146223482277"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "16161972977633893656",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
-          "hash": "1791108725883572838",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
-          "hash": "10207456637957584862",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
-          "hash": "3132769275307942883",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
-          "hash": "1700368972058103319",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
-          "hash": "9576729824381709409",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "13720127521159873057",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
-          "hash": "7138635939815310069"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "2059265807452891928"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "10741195364658123214",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:rxjs",
-            "npm:primeng",
-            "npm:jspdf",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
-          "hash": "11963120402101274842",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.css",
-          "hash": "15997858625478599847"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.html",
-          "hash": "196228723925554000"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.ts",
-          "hash": "7779717400513614808",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
-          "hash": "9925924655196420289"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
-          "hash": "4926587909017962212"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
-          "hash": "1657753554254573075",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.html",
-          "hash": "15692360499779859562"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
-          "hash": "8461456564807049865",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs",
-            "npm:chart.js",
-            "npm:chartjs-plugin-annotation"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
-          "hash": "11390901687107632508",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
-          "hash": "5861827128165989507"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
-          "hash": "14341225143097539990"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
-          "hash": "11916276592348161246",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
-          "hash": "1956882555711631365"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
-          "hash": "9362716443871042946",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
-          "hash": "4122003180593993594"
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
-          "hash": "7703738634833174080",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
-          "hash": "13258589359227073107"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
-          "hash": "8946059392925077262"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
-          "hash": "10127604642501863729"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
-          "hash": "9618449003398179726",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
-          "hash": "6773240714181538285",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
-          "hash": "3313418863466736896"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
-          "hash": "13336365327369514792",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
-          "hash": "4705641641850255821"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
-          "hash": "6768129751417257928",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
-          "hash": "2014762616443210075"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
-          "hash": "18020695140414742747",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
-          "hash": "10216001031385572683"
-        },
-        {
-          "file": "apps/view/src/app/shared/directives/can-do.directive.ts",
-          "hash": "12787788147227738092",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/assets/icons/favicon.svg",
-          "hash": "6475210795918509466"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-120x120.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-128x128.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-144x144.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-152x152.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-192x192.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-384x384.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-512x512.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-72x72.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-76x76.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-96x96.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon.svg",
-          "hash": "17293406308354275645"
-        },
-        {
-          "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
-          "hash": "11568024712014430667"
-        },
-        {
-          "file": "apps/view/src/assets/manifest.webmanifest",
-          "hash": "6834005658414736909"
-        },
-        {
-          "file": "apps/view/src/assets/sw-offline.js",
-          "hash": "12737611887829979765"
-        },
-        {
-          "file": "apps/view/src/environments/environment.ts",
-          "hash": "26503312842440983"
-        },
-        {
-          "file": "apps/view/src/index.html",
-          "hash": "4408380194464774223"
-        },
-        {
-          "file": "apps/view/src/main.ts",
-          "hash": "11034251973789847075",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/view/src/polyfills.ts",
-          "hash": "11803705300934933554",
-          "deps": [
-            "npm:zone.js"
-          ]
-        },
-        {
-          "file": "apps/view/src/styles.css",
-          "hash": "9880227111643256416"
-        },
-        {
-          "file": "apps/view/tailwind.config.js",
-          "hash": "18307351522915318624",
-          "deps": [
-            "npm:@spartan-ng/ui-core",
-            "npm:tailwindcss-animate"
-          ]
-        },
-        {
-          "file": "apps/view/tsconfig.app.json",
-          "hash": "12120654287211779749"
-        },
-        {
-          "file": "apps/view/tsconfig.json",
-          "hash": "12162852996555272448"
-        },
-        {
-          "file": "apps/view/tsconfig.spec.json",
-          "hash": "11023685540591620072"
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
-        }
-      ],
-      "api": [
-        {
-          "file": "apps/api/nest-cli.json",
-          "hash": "18272654682417215031"
-        },
-        {
-          "file": "apps/api/project.json",
-          "hash": "3930298014880981250"
-        },
-        {
-          "file": "apps/api/src/app.controller.js",
-          "hash": "1159267023978394422",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.controller.spec.ts",
-          "hash": "3407876829745233448",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.controller.ts",
-          "hash": "14518636804916088470",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.module.js",
-          "hash": "3452246697149690088",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:@nestjs/serve-static",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.module.ts",
-          "hash": "6123593512256931796",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/config",
-            "npm:@nestjs/serve-static",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.service.js",
-          "hash": "9739623557965115389",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/app.service.ts",
-          "hash": "15275323873054081339",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/main.js",
-          "hash": "12290674450824180559",
-          "deps": [
-            "npm:dotenv",
-            "npm:@nestjs/core",
-            "npm:@nestjs/swagger",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/main.ts",
-          "hash": "2761894042647957017",
-          "deps": [
-            "npm:dotenv",
-            "npm:@nestjs/common",
-            "npm:@nestjs/core",
-            "npm:@nestjs/swagger",
-            "npm:@nestjs/platform-express",
-            "npm:@nestjs/platform-socket.io",
-            "npm:express",
-            "npm:@nestjs/schedule",
-            "npm:socket.io"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.js",
-          "hash": "7410729706864140152",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
-          "hash": "11625570402663679261",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.controller.ts",
-          "hash": "7219963483417162605",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.module.js",
-          "hash": "10260242107366044931",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.module.ts",
-          "hash": "14554981873806878739",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.js",
-          "hash": "13344369152943595361",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
-          "hash": "3531801313276079682",
-          "deps": [
-            "npm:@nestjs/testing"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/auth.service.ts",
-          "hash": "16353749059773153370",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/dto/login.dto.js",
-          "hash": "17686614224660762254",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
-          "hash": "9762757161550624109",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.controller.js",
-          "hash": "10036918727770585010",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.controller.ts",
-          "hash": "3336049931187623765",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.module.js",
-          "hash": "8472196836451145147",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.module.ts",
-          "hash": "3659140332795565800",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.service.js",
-          "hash": "11043077896029786689",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/captures.service.ts",
-          "hash": "5809408417175229180",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/dto/create-capture.dto.js",
-          "hash": "11583003637090668718",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/captures/dto/create-capture.dto.ts",
-          "hash": "9937475221115887472",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.controller.js",
-          "hash": "12574889846056545841",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
-          "hash": "5790854026624350240",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.module.js",
-          "hash": "14231509588560505157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
-          "hash": "15881760083742539031",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.service.js",
-          "hash": "5699154478861558308",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
-          "hash": "1988588914044541509",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/dto/create-catalog-item.dto.ts",
-          "hash": "900449093095431320",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/catalogs/dto/update-catalog-item.dto.ts",
-          "hash": "4955798650725179182",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/cron.controller.js",
-          "hash": "12628881961346562796",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/cron.controller.ts",
-          "hash": "521784414831690113",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/cron.module.js",
-          "hash": "11187624041658116907",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/cron.module.ts",
-          "hash": "8856755613610937369",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/tasks.module.js",
-          "hash": "14752208748508645503",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/tasks.module.ts",
-          "hash": "17418073152912863792",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/tasks.service.js",
-          "hash": "6980544717944745294",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/schedule"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/cron/tasks.service.ts",
-          "hash": "16587418405957311610",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/schedule",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.controller.js",
-          "hash": "15237004253450638438",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.controller.ts",
-          "hash": "1810657705936717655",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.module.js",
-          "hash": "7204064083190215503",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.module.ts",
-          "hash": "17068758422634342289",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.js",
-          "hash": "14792205140921518455",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.ts",
-          "hash": "18032839123331465202",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/dto/create-assignment.dto.js",
-          "hash": "12157936485634422116",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
-          "hash": "16711680253763097894",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-assignments/dto/update-assignment.dto.ts",
-          "hash": "16951751801977291728",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.js",
-          "hash": "2569346485323710474",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
-          "hash": "11614514913081849923",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.module.js",
-          "hash": "15825506429345664766",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
-          "hash": "16480905413670443723",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.service.js",
-          "hash": "13147794039863404858",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "12165648137473446882",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.js",
-          "hash": "18243116328709218036",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
-          "hash": "17817208970380192288",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/data/data.controller.js",
-          "hash": "5098080426894359486",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/data/data.controller.ts",
-          "hash": "10623335843938862388",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/data/data.module.js",
-          "hash": "17333464185063331959",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/data/data.module.ts",
-          "hash": "1317693330711690638",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/data/data.service.js",
-          "hash": "14423132195174231481",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/data/data.service.ts",
-          "hash": "926685939814310563",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.js",
-          "hash": "5806425272283948818",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:multer",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
-          "hash": "4247966806922233649",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:multer",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.module.js",
-          "hash": "3739655309723245308",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
-          "hash": "1236777701416950372",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.service.js",
-          "hash": "2865735481391728540",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
-          "hash": "2267310542126867861",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/dto/brand.dto.ts",
-          "hash": "3752954208219093576",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/dto/product.dto.ts",
-          "hash": "12562068321390067927",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.controller.js",
-          "hash": "11508034900723532764",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
-          "hash": "16784226668100045327",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.module.js",
-          "hash": "11670823731287074847",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.module.ts",
-          "hash": "5691751900726059130",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.service.js",
-          "hash": "6715373163622056111",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/planograms/planograms.service.ts",
-          "hash": "12715741121441307572",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/dto/reports-filter.dto.ts",
-          "hash": "1622555949755786394",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-transformer",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/pdf.service.ts",
-          "hash": "10939454424729209453",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:puppeteer",
-            "npm:handlebars"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports-cache.service.ts",
-          "hash": "11121896513879187652",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.controller.js",
-          "hash": "10528856355329206405",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.controller.ts",
-          "hash": "15604813532976488514",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.module.js",
-          "hash": "7892242741187250187",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.module.ts",
-          "hash": "11608594613702573616",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.service.js",
-          "hash": "3258028052115607994",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "11584727161322119100",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring-v2.module.js",
-          "hash": "105690583309088494",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring-v2.module.ts",
-          "hash": "9399395313064002692",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring-v2.service.js",
-          "hash": "2091040103765058883",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring-v2.service.ts",
-          "hash": "16139511455063886157",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex",
-            "shared-scoring"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.controller.js",
-          "hash": "3799580702882518713",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
-          "hash": "13768267166269774566",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.module.js",
-          "hash": "16348778610146204604",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.module.ts",
-          "hash": "2527378155134514190",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.service.js",
-          "hash": "1544391550375908472",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/scoring/scoring.service.ts",
-          "hash": "3772531613617157903",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/dto/create-store.dto.ts",
-          "hash": "15020275837106831732",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/dto/update-store.dto.ts",
-          "hash": "10827660136968944602",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.controller.js",
-          "hash": "2557563775073227746",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.controller.ts",
-          "hash": "7381813019657324802",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.module.js",
-          "hash": "13172590046142776410",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.module.ts",
-          "hash": "9228374827751255982",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.service.js",
-          "hash": "17360731180093380885",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/stores/stores.service.ts",
-          "hash": "2363834390055386742",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/create-user.dto.js",
-          "hash": "14620367961117134044",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
-          "hash": "14165118253205816535",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/update-user.dto.js",
-          "hash": "15254082177542265970",
-          "deps": [
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
-          "hash": "4303628816020046589",
-          "deps": [
-            "npm:@nestjs/swagger",
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.controller.js",
-          "hash": "2298339898198065633",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.controller.ts",
-          "hash": "7667379725921235041",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.module.js",
-          "hash": "14457866920638679674",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.module.ts",
-          "hash": "1338938314434509734",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.service.js",
-          "hash": "4035801577552700171",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/users/users.service.ts",
-          "hash": "5365239541656452574",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visitas/visitas-sync.controller.js",
-          "hash": "13707329123040528238",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visitas/visitas-sync.controller.ts",
-          "hash": "9051349644877045253",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visitas/visitas-sync.module.js",
-          "hash": "11187590523047207248",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visitas/visitas-sync.module.ts",
-          "hash": "18259525455287852212",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visitas/visitas-sync.service.js",
-          "hash": "15770725833036237839",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visitas/visitas-sync.service.ts",
-          "hash": "907968246447673419",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.controller.js",
-          "hash": "386614952070798581",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.controller.ts",
-          "hash": "7442796845385286821",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.module.js",
-          "hash": "9488981660698534867",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.module.ts",
-          "hash": "10592014523286136650",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.service.js",
-          "hash": "2480989578570043433",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/visits/visits.service.ts",
-          "hash": "4903066750654074725",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/websocket/events.service.ts",
-          "hash": "13606788740586353993",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/websockets",
-            "npm:socket.io",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/websocket/websocket.module.ts",
-          "hash": "18164901423039719728",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/ability.factory.js",
-          "hash": "16331734971353633555",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/ability.factory.ts",
-          "hash": "2992732400971639556",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/ability.module.ts",
-          "hash": "6794415705056550223",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/ability.types.js",
-          "hash": "10533815908077531553"
-        },
-        {
-          "file": "apps/api/src/shared/ability/ability.types.ts",
-          "hash": "9509119568297896184",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/data-scope.js",
-          "hash": "8993109135298895979",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/data-scope.ts",
-          "hash": "4522370752801424009",
-          "deps": [
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/ability/permissions-cache.service.ts",
-          "hash": "4050003397562055439",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/cloudinary/cloudinary.module.js",
-          "hash": "12638290788391269349",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:cloudinary",
-            "npm:@nestjs/config"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/cloudinary/cloudinary.module.ts",
-          "hash": "11485040535683537929",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:cloudinary",
-            "npm:@nestjs/config"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/cloudinary/cloudinary.service.js",
-          "hash": "14523544522458670239",
-          "deps": [
-            "npm:@nestjs/common",
-            [
-              "npm:sharp",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/cloudinary/cloudinary.service.ts",
-          "hash": "4304103306127135813",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:cloudinary",
-            [
-              "npm:sharp",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/constants/permissions.js",
-          "hash": "7037890681696897641"
-        },
-        {
-          "file": "apps/api/src/shared/constants/permissions.ts",
-          "hash": "12252766400116632573"
-        },
-        {
-          "file": "apps/api/src/shared/database/database.module.js",
-          "hash": "12251208378681852380",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/database.module.ts",
-          "hash": "12928846006218288820",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/new-database.module.ts",
-          "hash": "18275965335337361003",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/database/tenant-knex.service.ts",
-          "hash": "16486185437148850090",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/date/mx-date.ts",
-          "hash": "1392224706417038207"
-        },
-        {
-          "file": "apps/api/src/shared/decorators/permissions.decorator.js",
-          "hash": "1586860403276905982",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/permissions.decorator.ts",
-          "hash": "13785587539214512268",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/req-user.decorator.js",
-          "hash": "15315307578635743314",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
-          "hash": "17587574241689093482",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/decorators/roles.decorator.js",
-          "hash": "10493922223385399442"
-        },
-        {
-          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
-          "hash": "7408415384539106392"
-        },
-        {
-          "file": "apps/api/src/shared/guards/require-auth.guard.js",
-          "hash": "15084408069913532993",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
-          "hash": "1310519655699488833",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/roles.guard.js",
-          "hash": "6678193601246545779",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/api/src/shared/guards/roles.guard.ts",
-          "hash": "616257202062792885",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "apps/api/templates/reporte.hbs",
-          "hash": "2724278598562735521"
-        },
-        {
-          "file": "apps/api/test/app.e2e-spec.ts",
-          "hash": "12700387818545954749",
-          "deps": [
-            "npm:@nestjs/testing",
-            "npm:@nestjs/common",
-            "npm:supertest"
-          ]
-        },
-        {
-          "file": "apps/api/test/jest-e2e.json",
-          "hash": "10645908491471703423"
-        },
-        {
-          "file": "apps/api/tsconfig.app.json",
-          "hash": "11318115209773804374"
-        },
-        {
-          "file": "apps/api/tsconfig.build.json",
-          "hash": "589474541783518070"
-        },
-        {
-          "file": "apps/api/webpack.config.js",
-          "hash": "18233645455842380857",
-          "deps": [
-            "npm:@nx/webpack"
-          ]
-        }
-      ],
       "shared-auth": [
         {
           "file": "libs/shared-auth/core/constants/permissions.ts",
@@ -2380,6 +191,2870 @@
             "npm:@angular/core"
           ]
         }
+      ],
+      "api": [
+        {
+          "file": "apps/api/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/api/project.json",
+          "hash": "3930298014880981250"
+        },
+        {
+          "file": "apps/api/src/app.controller.spec.ts",
+          "hash": "3407876829745233448",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.controller.ts",
+          "hash": "8272050511253378646",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.module.ts",
+          "hash": "10433645430284847372",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/config",
+            "npm:@nestjs/throttler",
+            "npm:@nestjs/core",
+            "npm:@nestjs/serve-static",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/api/src/app.service.ts",
+          "hash": "15275323873054081339",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "6348837001605689140",
+          "deps": [
+            "npm:dotenv",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/swagger",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/platform-socket.io",
+            "npm:express",
+            "npm:helmet",
+            "npm:@nestjs/schedule",
+            "npm:socket.io"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/ai-product-matcher/ai-product-matcher.controller.ts",
+          "hash": "16574633046361726597",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/throttler",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/ai-product-matcher/ai-product-matcher.module.ts",
+          "hash": "6292957466532900764",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/ai-product-matcher/ai-product-matcher.service.ts",
+          "hash": "11730390804358785560",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/ai-product-matcher/dto/match-ai.dto.ts",
+          "hash": "3025867070706821637",
+          "deps": [
+            "npm:class-validator",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/ai-product-matcher/embedding-sync.service.ts",
+          "hash": "6098950899065291785",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth-mt/auth-mt.controller.ts",
+          "hash": "13502013084142955750",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth-mt/auth-mt.module.ts",
+          "hash": "12205694795798617098",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth-mt/auth-mt.service.ts",
+          "hash": "5193079550275248317",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.spec.ts",
+          "hash": "11625570402663679261",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.controller.ts",
+          "hash": "13775502751916231379",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.module.ts",
+          "hash": "14554981873806878739",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.spec.ts",
+          "hash": "3531801313276079682",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/auth.service.ts",
+          "hash": "16353749059773153370",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/auth/dto/login.dto.ts",
+          "hash": "9762757161550624109",
+          "deps": [
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.controller.ts",
+          "hash": "5790854026624350240",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.module.ts",
+          "hash": "15881760083742539031",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/catalogs.service.ts",
+          "hash": "17357503262089700475",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/dto/create-catalog-item.dto.ts",
+          "hash": "900449093095431320",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/catalogs/dto/update-catalog-item.dto.ts",
+          "hash": "4955798650725179182",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-alerts/alerts-scanner.service.ts",
+          "hash": "8854922458184615522",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-alerts/alerts.controller.ts",
+          "hash": "7330847483535906636",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-alerts/alerts.gateway.ts",
+          "hash": "15214390437212222758",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/websockets",
+            "npm:socket.io",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-alerts/alerts.service.ts",
+          "hash": "17412915815563298125",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-alerts/alerts.types.ts",
+          "hash": "5798131848309889117"
+        },
+        {
+          "file": "apps/api/src/modules/commercial-alerts/commercial-alerts.module.ts",
+          "hash": "15261885141928111625",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-analytics/analytics-refresh.service.ts",
+          "hash": "14443547344978148127",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-analytics/commercial-analytics.controller.ts",
+          "hash": "4726531942163197787",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-analytics/commercial-analytics.module.ts",
+          "hash": "17228503166773630691",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-analytics/commercial-analytics.service.ts",
+          "hash": "16058253588299777582",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-customers/commercial-customers.controller.ts",
+          "hash": "16044849340690683634",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-customers/commercial-customers.module.ts",
+          "hash": "9367684186768163705",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-customers/commercial-customers.service.ts",
+          "hash": "6040790439143979995",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-inventory/commercial-inventory.controller.ts",
+          "hash": "2532097543699065695",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-inventory/commercial-inventory.module.ts",
+          "hash": "9183620498758675154",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-inventory/commercial-inventory.service.ts",
+          "hash": "7364834096006404245",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-orders/commercial-orders.controller.ts",
+          "hash": "17675177750469531691",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-orders/commercial-orders.module.ts",
+          "hash": "829167830691460194",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-orders/commercial-orders.service.ts",
+          "hash": "5064388501737954473",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-pricing/commercial-pricing.controller.ts",
+          "hash": "15996798495168523044",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-pricing/commercial-pricing.module.ts",
+          "hash": "4038734035329736224",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-pricing/commercial-pricing.service.ts",
+          "hash": "1797729232312260725",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-promotions/commercial-promotions.controller.ts",
+          "hash": "18330632419860500754",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-promotions/commercial-promotions.module.ts",
+          "hash": "17104578989067420361",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-promotions/commercial-promotions.service.ts",
+          "hash": "14746534064310938432",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-recommendations/commercial-recommendations.module.ts",
+          "hash": "7923406743413306809",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-recommendations/recommendations-refresh.service.ts",
+          "hash": "10392803757039773623",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-recommendations/recommendations.controller.ts",
+          "hash": "9623281654797777925",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-recommendations/recommendations.service.ts",
+          "hash": "2300787468690856032",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-recommendations/recommendations.types.ts",
+          "hash": "14962991985155672997"
+        },
+        {
+          "file": "apps/api/src/modules/commercial-televenta/commercial-televenta.controller.ts",
+          "hash": "12549035301435280733",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-televenta/commercial-televenta.module.ts",
+          "hash": "258483112385132796",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-televenta/commercial-televenta.service.ts",
+          "hash": "8431899795671756306",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-televenta/televenta-cron.service.ts",
+          "hash": "11846180722558542015",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-warehouses/commercial-warehouses.controller.ts",
+          "hash": "1086754439885672848",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-warehouses/commercial-warehouses.module.ts",
+          "hash": "12534124235461706677",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-warehouses/commercial-warehouses.service.ts",
+          "hash": "6717257651426082836",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/cron.controller.ts",
+          "hash": "521784414831690113",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/cron.module.ts",
+          "hash": "8856755613610937369",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/tasks.module.ts",
+          "hash": "17418073152912863792",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/cron/tasks.service.ts",
+          "hash": "7985999372092702130",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/schedule",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/daily-assignments.controller.ts",
+          "hash": "1810657705936717655",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/daily-assignments.module.ts",
+          "hash": "17068758422634342289",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/daily-assignments.service.ts",
+          "hash": "8560261735841524270",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/dto/create-assignment.dto.ts",
+          "hash": "16711680253763097894",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-assignments/dto/update-assignment.dto.ts",
+          "hash": "16951751801977291728",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
+          "hash": "11614514913081849923",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.module.ts",
+          "hash": "16480905413670443723",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
+          "hash": "12165648137473446882",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/daily-captures/dto/create-daily-capture.dto.ts",
+          "hash": "17817208970380192288",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/data/data.controller.ts",
+          "hash": "10623335843938862388",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/data/data.module.ts",
+          "hash": "1317693330711690638",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/data/data.service.ts",
+          "hash": "926685939814310563",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
+          "hash": "4247966806922233649",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/platform-express",
+            "npm:multer",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
+          "hash": "1236777701416950372",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
+          "hash": "2267310542126867861",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-analytics/logistics-analytics.controller.ts",
+          "hash": "10403929127221697667",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-analytics/logistics-analytics.module.ts",
+          "hash": "16446949018711139889",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-analytics/logistics-analytics.service.ts",
+          "hash": "18230196804246783774",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-checklists/logistics-checklists.controller.ts",
+          "hash": "6231564693204846558",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-checklists/logistics-checklists.module.ts",
+          "hash": "7422992714591097979",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-checklists/logistics-checklists.service.ts",
+          "hash": "15242144833285161538",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-config/logistics-config.controller.ts",
+          "hash": "10214733356645787305",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-config/logistics-config.module.ts",
+          "hash": "2269328250877184650",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-config/logistics-config.service.ts",
+          "hash": "15464123006708446677",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-expenses/logistics-expenses.controller.ts",
+          "hash": "14011696410986433668",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-expenses/logistics-expenses.module.ts",
+          "hash": "148399270135800312",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-expenses/logistics-expenses.service.ts",
+          "hash": "6225257033619259391",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-fleet/logistics-fleet.controller.ts",
+          "hash": "14581510194461279993",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-fleet/logistics-fleet.module.ts",
+          "hash": "10928525424252476372",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-fleet/logistics-fleet.service.ts",
+          "hash": "1738687590132275422",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-guides/logistics-guides.controller.ts",
+          "hash": "7471742585214096278",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-guides/logistics-guides.module.ts",
+          "hash": "14210028414116013009",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-guides/logistics-guides.service.ts",
+          "hash": "1094397120244290996",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-payroll/logistics-payroll.controller.ts",
+          "hash": "9371920616449620854",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-payroll/logistics-payroll.module.ts",
+          "hash": "17977199673958927922",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-payroll/logistics-payroll.service.ts",
+          "hash": "8135003018181128980",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-photos/logistics-photos.controller.ts",
+          "hash": "358281018930978205",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-photos/logistics-photos.module.ts",
+          "hash": "3022547072389393707",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-photos/logistics-photos.service.ts",
+          "hash": "16900848553866206109",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-reports/logistics-reports.controller.ts",
+          "hash": "852543853021789102",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-reports/logistics-reports.module.ts",
+          "hash": "17111680356976496133",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-reports/logistics-reports.service.ts",
+          "hash": "17440360356298026497",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:jspdf",
+            "npm:jspdf-autotable"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-shipments/logistics-shipments.controller.ts",
+          "hash": "4849086025152930385",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-shipments/logistics-shipments.module.ts",
+          "hash": "14860031169215254451",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/logistics-shipments/logistics-shipments.service.ts",
+          "hash": "2143788545044911225",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/dto/brand.dto.ts",
+          "hash": "3752954208219093576",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/dto/product.dto.ts",
+          "hash": "12562068321390067927",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.controller.ts",
+          "hash": "16784226668100045327",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.module.ts",
+          "hash": "9358206495099760617",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/planograms/planograms.service.ts",
+          "hash": "3095552834588390707",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/dto/reports-filter.dto.ts",
+          "hash": "1622555949755786394",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-transformer",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/pdf.service.ts",
+          "hash": "10939454424729209453",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:puppeteer",
+            "npm:handlebars"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports-cache.service.ts",
+          "hash": "11121896513879187652",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.controller.ts",
+          "hash": "15604813532976488514",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.module.ts",
+          "hash": "11608594613702573616",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/reports/reports.service.ts",
+          "hash": "11584727161322119100",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring-v2.module.ts",
+          "hash": "9399395313064002692",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring-v2.service.ts",
+          "hash": "14001906597221870424",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "shared-scoring"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.controller.ts",
+          "hash": "13768267166269774566",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.module.ts",
+          "hash": "2527378155134514190",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/scoring/scoring.service.ts",
+          "hash": "3772531613617157903",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/dto/create-store.dto.ts",
+          "hash": "15020275837106831732",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/dto/update-store.dto.ts",
+          "hash": "10827660136968944602",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.controller.ts",
+          "hash": "7381813019657324802",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.module.ts",
+          "hash": "9228374827751255982",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/stores/stores.service.ts",
+          "hash": "2395290054280211323",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/tenants-admin/tenants-admin.controller.ts",
+          "hash": "12752301815680314307",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/tenants-admin/tenants-admin.module.ts",
+          "hash": "3108499483068662565",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/tenants-admin/tenants-admin.service.ts",
+          "hash": "17055610528454056449",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/create-user.dto.ts",
+          "hash": "14165118253205816535",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/dto/update-user.dto.ts",
+          "hash": "4303628816020046589",
+          "deps": [
+            "npm:@nestjs/swagger",
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.controller.ts",
+          "hash": "7667379725921235041",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.module.ts",
+          "hash": "1338938314434509734",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/users/users.service.ts",
+          "hash": "5365239541656452574",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visitas/visitas-sync.controller.ts",
+          "hash": "3050241759644862925",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visitas/visitas-sync.module.ts",
+          "hash": "18259525455287852212",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visitas/visitas-sync.service.ts",
+          "hash": "10052921267117430574",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.controller.ts",
+          "hash": "7442796845385286821",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.module.ts",
+          "hash": "10592014523286136650",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/visits/visits.service.ts",
+          "hash": "4903066750654074725",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/websocket/events.service.ts",
+          "hash": "13606788740586353993",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/websockets",
+            "npm:socket.io",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/websocket/websocket.module.ts",
+          "hash": "18164901423039719728",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ability/ability.factory.ts",
+          "hash": "2992732400971639556",
+          "deps": [
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ability/ability.module.ts",
+          "hash": "6794415705056550223",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ability/ability.types.ts",
+          "hash": "9509119568297896184",
+          "deps": [
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ability/data-scope.ts",
+          "hash": "4522370752801424009",
+          "deps": [
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ability/permissions-cache.service.ts",
+          "hash": "4050003397562055439",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ai/embeddings.service.ts",
+          "hash": "4890985138238197971",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/ai/llm-extractor.service.ts",
+          "hash": "4093594698284503397",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/auth/jwt-auth.guard.ts",
+          "hash": "18098204547006727037",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/auth/public.decorator.ts",
+          "hash": "12759565071619878957",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/cloudinary/cloudinary.module.ts",
+          "hash": "11485040535683537929",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary",
+            "npm:@nestjs/config"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/cloudinary/cloudinary.service.ts",
+          "hash": "4304103306127135813",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:cloudinary",
+            [
+              "npm:sharp",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/constants/permissions.ts",
+          "hash": "7874615188107258059"
+        },
+        {
+          "file": "apps/api/src/shared/database/database.module.ts",
+          "hash": "14227962842316999767",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/new-database.module.ts",
+          "hash": "8765682455863096698",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/database/tenant-knex.service.ts",
+          "hash": "5852471114839042964",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:knex"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/date/mx-date.ts",
+          "hash": "1392224706417038207"
+        },
+        {
+          "file": "apps/api/src/shared/decorators/permissions.decorator.ts",
+          "hash": "13785587539214512268",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/req-user.decorator.ts",
+          "hash": "17587574241689093482",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/decorators/roles.decorator.ts",
+          "hash": "7408415384539106392"
+        },
+        {
+          "file": "apps/api/src/shared/guards/require-auth.guard.ts",
+          "hash": "1310519655699488833",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/guards/roles.guard.ts",
+          "hash": "616257202062792885",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/schemas/jsonb-schemas.ts",
+          "hash": "3260783485197521916",
+          "deps": [
+            "npm:zod"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/tenant/tenant-context.interceptor.ts",
+          "hash": "12369642140644551708",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/tenant/tenant-context.service.ts",
+          "hash": "6540644347324898292",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/shared/tenant/tenant.module.ts",
+          "hash": "5250183715131562029",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt"
+          ]
+        },
+        {
+          "file": "apps/api/templates/reporte.hbs",
+          "hash": "2724278598562735521"
+        },
+        {
+          "file": "apps/api/test/app.e2e-spec.ts",
+          "hash": "12700387818545954749",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:supertest"
+          ]
+        },
+        {
+          "file": "apps/api/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "11318115209773804374"
+        },
+        {
+          "file": "apps/api/tsconfig.build.json",
+          "hash": "589474541783518070"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "18233645455842380857",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "view": [
+        {
+          "file": "apps/view/.browserslistrc",
+          "hash": "5145066096085527059"
+        },
+        {
+          "file": "apps/view/.editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": "apps/view/.gitignore",
+          "hash": "10175894702052279752"
+        },
+        {
+          "file": "apps/view/README.md",
+          "hash": "9957948032996686319"
+        },
+        {
+          "file": "apps/view/components.json",
+          "hash": "2051255686788595788"
+        },
+        {
+          "file": "apps/view/postcss.config.js",
+          "hash": "4080954692028639031"
+        },
+        {
+          "file": "apps/view/project.json",
+          "hash": "13877384930397478215"
+        },
+        {
+          "file": "apps/view/proxy.conf.json",
+          "hash": "3219014540752259563"
+        },
+        {
+          "file": "apps/view/public/MDDL Logo 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/view/src/LOGO MEGA DULCES 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/app.component.html",
+          "hash": "10015465879027569075"
+        },
+        {
+          "file": "apps/view/src/app/app.component.ts",
+          "hash": "7088129857668011868",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.config.ts",
+          "hash": "1057570213910397879",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser",
+            "npm:primeng",
+            "npm:@primeng/themes"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.routes.ts",
+          "hash": "3238583384336462012",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/constants/permissions.ts",
+          "hash": "10306558875933143162"
+        },
+        {
+          "file": "apps/view/src/app/core/guards/auth.guard.ts",
+          "hash": "11575897814990018939",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/guards/permission.guard.ts",
+          "hash": "16783114173625295703",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
+          "hash": "6036994789548741415",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/http/visit-form-data.ts",
+          "hash": "269089408727205245"
+        },
+        {
+          "file": "apps/view/src/app/core/services/auth.service.ts",
+          "hash": "4270262961826392362",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/data-update.service.ts",
+          "hash": "4773825376667131093",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/geo-validation.service.ts",
+          "hash": "9663346340696226333",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
+          "hash": "8398199584058515102",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-database.service.ts",
+          "hash": "8779212322796763954",
+          "deps": [
+            "npm:dexie",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-sync.service.ts",
+          "hash": "9948658267677959987",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/permissions.service.ts",
+          "hash": "2896050455883659135",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/pwa-install.service.ts",
+          "hash": "14578582373289519011",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/realtime-data.service.ts",
+          "hash": "6914217143826077157",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
+          "hash": "1823168971398797704",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/theme.service.ts",
+          "hash": "15520989589954126627",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/websocket.service.ts",
+          "hash": "11816674968680415727",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:socket.io-client"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/utils/geo.ts",
+          "hash": "15065292719410586902"
+        },
+        {
+          "file": "apps/view/src/app/core/utils/mx-date.ts",
+          "hash": "2334920784634293950"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.css",
+          "hash": "17595759587945482458"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.html",
+          "hash": "6591532187693570553"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
+          "hash": "5656186324614390117",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/comercial.service.ts",
+          "hash": "1129718330806027161",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-customers.component.ts",
+          "hash": "15366334552896904407",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-inventory.component.ts",
+          "hash": "17829925090634720202",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-order-detail.component.ts",
+          "hash": "1883243643702481990",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-orders.component.ts",
+          "hash": "15714653366854895631",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-pricing.component.ts",
+          "hash": "4131050890799307822",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-promotions.component.ts",
+          "hash": "10559230237065458148",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-warehouses.component.ts",
+          "hash": "2173654278222996740",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/promotions-meta.ts",
+          "hash": "92307568264894882"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
+          "hash": "13739789070729503179"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
+          "hash": "11200486477848838390",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
+          "hash": "5676019271461293687",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
+          "hash": "3495492335337630990"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
+          "hash": "3369302685947029811",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
+          "hash": "8979006059915436531",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
+          "hash": "4723910640811161526",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
+          "hash": "10961295348557135103"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
+          "hash": "17974211723563334439",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
+          "hash": "2927472231450193134",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
+          "hash": "6230633192336503276"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
+          "hash": "15213141752723256609",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
+          "hash": "11342650754885338645",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-matcher.service.ts",
+          "hash": "15273103526657583177",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.html",
+          "hash": "9520204319718131979"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.ts",
+          "hash": "664594516566958544",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
+          "hash": "18387939243840463544"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
+          "hash": "11963373007541485635",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
+          "hash": "3591219667457791222"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
+          "hash": "17829908768460998960",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "shared-scoring"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/alerts-socket.service.ts",
+          "hash": "14519736033390242988",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:socket.io-client"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.css",
+          "hash": "8846717707374277815"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.html",
+          "hash": "9067109298111595931"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.ts",
+          "hash": "13653948924367177841",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.service.ts",
+          "hash": "17273064888066789163",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
+          "hash": "10742704315394993214"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
+          "hash": "1102865808827180603"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
+          "hash": "10291870686510478908",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
+          "hash": "213520505854234871"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
+          "hash": "5999407097046041452",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
+          "hash": "11723917587230771871",
+          "deps": [
+            "npm:@angular/core",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
+          "hash": "7810024947199850512"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
+          "hash": "10900216139721917102"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
+          "hash": "6948807443865978586",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
+          "hash": "623311927509496968"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
+          "hash": "1805097943466668490"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
+          "hash": "2209487324660453412",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
+          "hash": "3324761938104429447",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
+          "hash": "10207456637957584862",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
+          "hash": "3351606905809692339",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
+          "hash": "1700368972058103319",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
+          "hash": "9576729824381709409",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
+          "hash": "5767262829707332614",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
+          "hash": "7138635939815310069"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
+          "hash": "2059265807452891928"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
+          "hash": "16673157746902725328",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:rxjs",
+            "npm:primeng",
+            "npm:jspdf",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
+          "hash": "11963120402101274842",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.css",
+          "hash": "15997858625478599847"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.html",
+          "hash": "196228723925554000"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.ts",
+          "hash": "10590091806329501258",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
+          "hash": "9925924655196420289"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
+          "hash": "1307954655914552335"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
+          "hash": "1657753554254573075",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.html",
+          "hash": "15692360499779859562"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
+          "hash": "81229384875825108",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs",
+            "npm:chart.js",
+            "npm:chartjs-plugin-annotation"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
+          "hash": "11390901687107632508",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
+          "hash": "5861827128165989507"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
+          "hash": "16839077911242278060"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
+          "hash": "14975186452808975761",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
+          "hash": "1774289870995646836"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
+          "hash": "9362716443871042946",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/components/delivery-wizard.component.ts",
+          "hash": "5316930911290521011",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            [
+              "npm:@capacitor/camera",
+              "dynamic"
+            ],
+            [
+              "npm:@capacitor/geolocation",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/components/shipment-form-dialog.component.ts",
+          "hash": "12259048300812814539",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/logistica.service.ts",
+          "hash": "9729884687309124660",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-checklist.component.ts",
+          "hash": "9243351461956962602",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-config.component.ts",
+          "hash": "2691638899878428204",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-costs.component.ts",
+          "hash": "8875017505271589583",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-dashboard.component.ts",
+          "hash": "10300342473124892855",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-driver-assignments.component.ts",
+          "hash": "10535741971375262974",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-fleet.component.ts",
+          "hash": "9505225387996927579",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-guides.component.ts",
+          "hash": "12453086799506662993",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-payroll.component.ts",
+          "hash": "7206038179145889604",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-photos.component.ts",
+          "hash": "10175563492185481728",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng",
+            [
+              "npm:@capacitor/camera",
+              "dynamic"
+            ],
+            [
+              "npm:@capacitor/geolocation",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-reports.component.ts",
+          "hash": "2867706259095368323",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-shipment-detail.component.ts",
+          "hash": "15214733878385314048",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-shipments.component.ts",
+          "hash": "11231878404188388066",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-staff.component.ts",
+          "hash": "3479845799605455188",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-cart.component.ts",
+          "hash": "8845317926910415974",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-catalog.component.ts",
+          "hash": "7529668711269086060",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-login.component.ts",
+          "hash": "9037448539806841300",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-order-detail.component.ts",
+          "hash": "7389315506744805170",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-orders.component.ts",
+          "hash": "15468051033160841611",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-recommendations.component.ts",
+          "hash": "11960694126965845634",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/portal-shell.component.ts",
+          "hash": "15987729726424613955",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/portal.guard.ts",
+          "hash": "7586925731863942837",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/portal.service.ts",
+          "hash": "6454636570899239879",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
+          "hash": "8326831285314208154"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
+          "hash": "7857373298305395023",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-dashboard.component.ts",
+          "hash": "14089117264957027975",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-lead.component.ts",
+          "hash": "11448273042159181661",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-queue.component.ts",
+          "hash": "11714350348470651731",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-take-order.component.ts",
+          "hash": "6012557478177726547",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/televenta-shell.component.ts",
+          "hash": "5589553738335377071",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/televenta.guard.ts",
+          "hash": "16477754211193332381",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/televenta.service.ts",
+          "hash": "6102753081712522368",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/pages/vendor-customers.component.ts",
+          "hash": "11136540563051241625",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/pages/vendor-take-order.component.ts",
+          "hash": "9624039276616857793",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/pages/vendor-today.component.ts",
+          "hash": "15031104340524735785",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/vendor-shell.component.ts",
+          "hash": "760064539588760252",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/vendor.guard.ts",
+          "hash": "12054494819244998636",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/vendor.service.ts",
+          "hash": "6891353160200042616",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
+          "hash": "2924607220509189078"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
+          "hash": "8946059392925077262"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
+          "hash": "10127604642501863729"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
+          "hash": "9618449003398179726",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
+          "hash": "6773240714181538285",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
+          "hash": "3313418863466736896"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
+          "hash": "13336365327369514792",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
+          "hash": "4705641641850255821"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
+          "hash": "6768129751417257928",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
+          "hash": "2014762616443210075"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
+          "hash": "18020695140414742747",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
+          "hash": "10216001031385572683"
+        },
+        {
+          "file": "apps/view/src/app/shared/directives/can-do.directive.ts",
+          "hash": "12787788147227738092",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/theme/chart-theme.ts",
+          "hash": "12268273778199693349"
+        },
+        {
+          "file": "apps/view/src/assets/icons/favicon.svg",
+          "hash": "6475210795918509466"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-120x120.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-128x128.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-144x144.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-152x152.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-192x192.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-384x384.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-512x512.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-72x72.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-76x76.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-96x96.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon.svg",
+          "hash": "17293406308354275645"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
+        },
+        {
+          "file": "apps/view/src/assets/manifest.webmanifest",
+          "hash": "6834005658414736909"
+        },
+        {
+          "file": "apps/view/src/assets/sw-offline.js",
+          "hash": "12737611887829979765"
+        },
+        {
+          "file": "apps/view/src/environments/environment.ts",
+          "hash": "26503312842440983"
+        },
+        {
+          "file": "apps/view/src/index.html",
+          "hash": "1204031587686648004"
+        },
+        {
+          "file": "apps/view/src/main.ts",
+          "hash": "9430614692094070715",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/view/src/polyfills.ts",
+          "hash": "11803705300934933554",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/view/src/styles.css",
+          "hash": "15837819746449940717"
+        },
+        {
+          "file": "apps/view/src/styles/tokens.css",
+          "hash": "5351257847940058216"
+        },
+        {
+          "file": "apps/view/tailwind.config.js",
+          "hash": "3661444602056128095",
+          "deps": [
+            "npm:@spartan-ng/ui-core",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "apps/view/tsconfig.app.json",
+          "hash": "12120654287211779749"
+        },
+        {
+          "file": "apps/view/tsconfig.json",
+          "hash": "12162852996555272448"
+        },
+        {
+          "file": "apps/view/tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
+        }
       ]
     },
     "nonProjectFiles": [
@@ -2400,12 +3075,8 @@
         "hash": "3968219372838946122"
       },
       {
-        "file": ".env.cloudinary",
-        "hash": "1587702555345334753"
-      },
-      {
         "file": ".env.example",
-        "hash": "12670758251749070625"
+        "hash": "4751983046240545823"
       },
       {
         "file": ".github/workflows/deploy.yml",
@@ -2417,7 +3088,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "9211151120200565156"
+        "hash": "4480174401086661895"
       },
       {
         "file": ".node-version",
@@ -2429,7 +3100,7 @@
       },
       {
         "file": ".nxignore",
-        "hash": "14062325651399360254"
+        "hash": "7647613180727209392"
       },
       {
         "file": ".opencode/plans/optimizacion-parte2.md",
@@ -2441,7 +3112,7 @@
       },
       {
         "file": "CLAUDE.md",
-        "hash": "1211601489265835067"
+        "hash": "16853107815933523357"
       },
       {
         "file": "DEPLOY_CHECKLIST.md",
@@ -2688,6 +3359,10 @@
         "hash": "11818204100074130964"
       },
       {
+        "file": "_auth.json",
+        "hash": "16140173778632553222"
+      },
+      {
         "file": "cloudflared-config.yml",
         "hash": "2269427611404429157"
       },
@@ -2700,12 +3375,184 @@
         "hash": "12170767601534015950"
       },
       {
+        "file": "database/apply-all-prod.sql",
+        "hash": "11925372141451352156"
+      },
+      {
+        "file": "database/apply-format-fixes.sql",
+        "hash": "12434494922540150358"
+      },
+      {
+        "file": "database/apply-normalize.sql",
+        "hash": "16412509388181309404"
+      },
+      {
+        "file": "database/apply-typo-fixes-batch2.sql",
+        "hash": "15873968394832218908"
+      },
+      {
+        "file": "database/apply-typo-fixes.sql",
+        "hash": "2571093292716135320"
+      },
+      {
+        "file": "database/audit-products-pass2.sql",
+        "hash": "12493639513645180924"
+      },
+      {
+        "file": "database/audit-products-pass2b.sql",
+        "hash": "16363486841155443918"
+      },
+      {
+        "file": "database/audit-products.sql",
+        "hash": "4358302511282442113"
+      },
+      {
+        "file": "database/cutover-preflight.js",
+        "hash": "10015827112465323141"
+      },
+      {
+        "file": "database/cutover-rollback-check.js",
+        "hash": "1600841858580684401"
+      },
+      {
+        "file": "database/cutover-smoke-test.js",
+        "hash": "13678393889788594"
+      },
+      {
+        "file": "database/cutover-to-railway.js",
+        "hash": "11515293083659739590"
+      },
+      {
         "file": "database/dedup-canels.js",
         "hash": "9805319743663844789"
       },
       {
         "file": "database/dedup-larosa.js",
         "hash": "6860818493093976110"
+      },
+      {
+        "file": "database/diff-railway-vs-local.js",
+        "hash": "7130069001027330751"
+      },
+      {
+        "file": "database/dry-run-normalize.sql",
+        "hash": "3377647685982734438"
+      },
+      {
+        "file": "database/http-ai-match-test.js",
+        "hash": "8526816508402168371"
+      },
+      {
+        "file": "database/http-alerts-ws-test.js",
+        "hash": "2873113972852144827"
+      },
+      {
+        "file": "database/http-analytics-mv-test.js",
+        "hash": "10103622386148532399"
+      },
+      {
+        "file": "database/http-analytics-test.js",
+        "hash": "14856454598750361244"
+      },
+      {
+        "file": "database/http-e2e-test.js",
+        "hash": "6811539116319146085"
+      },
+      {
+        "file": "database/http-e2e-test.sh",
+        "hash": "7609465105429241176"
+      },
+      {
+        "file": "database/http-logistics-analytics-test.js",
+        "hash": "6988028667991413512"
+      },
+      {
+        "file": "database/http-logistics-e2e-test.js",
+        "hash": "12972782767985884420"
+      },
+      {
+        "file": "database/http-logistics-j8-test.js",
+        "hash": "15014561263243051173"
+      },
+      {
+        "file": "database/http-logistics-j9-test.js",
+        "hash": "3546545777838025813"
+      },
+      {
+        "file": "database/http-portal-b2b-test.js",
+        "hash": "16003976518142689821"
+      },
+      {
+        "file": "database/http-recommendations-test.js",
+        "hash": "7107762154927250061"
+      },
+      {
+        "file": "database/http-shipment-hook-fulfill-test.js",
+        "hash": "17441721268956574016"
+      },
+      {
+        "file": "database/http-televenta-test.js",
+        "hash": "10020122387166362870"
+      },
+      {
+        "file": "database/http-tenant-isolation-test.js",
+        "hash": "996145947650654588"
+      },
+      {
+        "file": "database/importers/README.md",
+        "hash": "8987093386291326934"
+      },
+      {
+        "file": "database/importers/commercial_import.js",
+        "hash": "4471394691413223651"
+      },
+      {
+        "file": "database/importers/examples/brands.json",
+        "hash": "5331565669776927709"
+      },
+      {
+        "file": "database/importers/examples/customers.json",
+        "hash": "14291554657690510934"
+      },
+      {
+        "file": "database/importers/examples/prices.json",
+        "hash": "5125716786761759795"
+      },
+      {
+        "file": "database/importers/examples/products.json",
+        "hash": "5708025637733339294"
+      },
+      {
+        "file": "database/importers/examples/stock.json",
+        "hash": "720667631479159277"
+      },
+      {
+        "file": "database/importers/examples/warehouses.json",
+        "hash": "13332629040458094909"
+      },
+      {
+        "file": "database/importers/logistics_baseline.js",
+        "hash": "901931881475523709"
+      },
+      {
+        "file": "database/importers/testdata/01_brands.json",
+        "hash": "1383422822255861533"
+      },
+      {
+        "file": "database/importers/testdata/02_products.json",
+        "hash": "7736115193870946934"
+      },
+      {
+        "file": "database/importers/testdata/03_prices.json",
+        "hash": "8063390634336090687"
+      },
+      {
+        "file": "database/importers/testdata/04_customers.json",
+        "hash": "1694514867960378411"
+      },
+      {
+        "file": "database/importers/testdata/05_stock.json",
+        "hash": "12358087253519651617"
       },
       {
         "file": "database/knexfile-newdb.js",
@@ -2724,8 +3571,128 @@
         "hash": "14001205280723615167"
       },
       {
+        "file": "database/migrate-legacy-to-newdb.js",
+        "hash": "16369379910784515017"
+      },
+      {
         "file": "database/migrations-newdb/20260526000001_init_tenants_and_extensions.js",
         "hash": "1895613585499683267"
+      },
+      {
+        "file": "database/migrations-newdb/20260526000002_core_identity.js",
+        "hash": "9695191369456282164"
+      },
+      {
+        "file": "database/migrations-newdb/20260526000003_create_app_runtime_role.js",
+        "hash": "9654907366765801093"
+      },
+      {
+        "file": "database/migrations-newdb/20260526000004_product_catalog.js",
+        "hash": "725085727313719833"
+      },
+      {
+        "file": "database/migrations-newdb/20260526000005_field_operations.js",
+        "hash": "15015381182940330037"
+      },
+      {
+        "file": "database/migrations-newdb/20260526000006_scoring.js",
+        "hash": "5003268616675946056"
+      },
+      {
+        "file": "database/migrations-newdb/20260526000007_captures.js",
+        "hash": "11129383370769835198"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100001_commercial_customers_warehouses.js",
+        "hash": "14395837251661924625"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100002_commercial_pricing.js",
+        "hash": "14585986033136367749"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100003_commercial_inventory.js",
+        "hash": "13643970449781187811"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100004_commercial_orders_payments.js",
+        "hash": "6384700400683854191"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100005_commercial_order_sequences.js",
+        "hash": "6943884559080410789"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100006_analytics_schema_and_mvs.js",
+        "hash": "6133665506088027671"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100007_users_customer_link_and_order_history.js",
+        "hash": "482208927387047891"
+      },
+      {
+        "file": "database/migrations-newdb/20260526100008_commercial_recommended_baskets.js",
+        "hash": "5893982031133253774"
+      },
+      {
+        "file": "database/migrations-newdb/20260527000001_commercial_promotions.js",
+        "hash": "2281961379738409498"
+      },
+      {
+        "file": "database/migrations-newdb/20260527100001_logistics_schema_and_catalogs.js",
+        "hash": "8305315686290667464"
+      },
+      {
+        "file": "database/migrations-newdb/20260527100002_logistics_shipments.js",
+        "hash": "9261655945074893010"
+      },
+      {
+        "file": "database/migrations-newdb/20260527100003_logistics_finance.js",
+        "hash": "14890441632868948660"
+      },
+      {
+        "file": "database/migrations-newdb/20260527100004_logistics_sequences.js",
+        "hash": "15409049507032375421"
+      },
+      {
+        "file": "database/migrations-newdb/20260527100005_users_customer_id_unique.js",
+        "hash": "253004837499968409"
+      },
+      {
+        "file": "database/migrations-newdb/20260527100006_orders_delivery_type.js",
+        "hash": "14733898694681656407"
+      },
+      {
+        "file": "database/migrations-newdb/20260527110001_logistics_j8_checklists_photos_states.js",
+        "hash": "18329109453557925946"
+      },
+      {
+        "file": "database/migrations-newdb/20260527110002_logistics_routes_km_decimal.js",
+        "hash": "6583798390185985839"
+      },
+      {
+        "file": "database/migrations-newdb/20260527120000_enable_pgvector_and_products_embedding.js",
+        "hash": "17929531267749820135"
+      },
+      {
+        "file": "database/migrations-newdb/20260527130000_add_activo_virtual_to_multitenant_tables.js",
+        "hash": "14745196107625746646"
+      },
+      {
+        "file": "database/migrations-newdb/20260527140000_add_legacy_columns_zones_daily_captures.js",
+        "hash": "11076505012410280800"
+      },
+      {
+        "file": "database/migrations-newdb/20260527150000_products_embedding_staleness_trigger.js",
+        "hash": "3190508383874731101"
+      },
+      {
+        "file": "database/migrations-newdb/20260527160000_commercial_televenta_schema.js",
+        "hash": "7918184727451607431"
+      },
+      {
+        "file": "database/migrations-newdb/20260527170000_logistics_vehicle_usage_maintenance.js",
+        "hash": "17762447752252598177"
       },
       {
         "file": "database/migrations-products/20260429140000_load_products_from_json_updated.js",
@@ -3072,20 +4039,84 @@
         "hash": "15311111016368830969"
       },
       {
+        "file": "database/migrations/20260526180000_normalize_product_names.js",
+        "hash": "1514634294981954286"
+      },
+      {
         "file": "database/move-canels-from-tira.js",
         "hash": "1746268008559302087"
+      },
+      {
+        "file": "database/preview-format-fixes.sql",
+        "hash": "58164029404281118"
+      },
+      {
+        "file": "database/preview-normalize.sql",
+        "hash": "12928578015640900017"
+      },
+      {
+        "file": "database/preview-prod-counts.sql",
+        "hash": "11360867713704387459"
       },
       {
         "file": "database/recalc-today-scores.js",
         "hash": "2017410086284900112"
       },
       {
+        "file": "database/run-all-tests.js",
+        "hash": "10846988051566940636"
+      },
+      {
         "file": "database/run-seed-91.js",
         "hash": "11481512929820345332"
       },
       {
+        "file": "database/scripts/backfill-product-embeddings.js",
+        "hash": "1966133122622135623"
+      },
+      {
+        "file": "database/scripts/backfill-stats-puntuacion-total-historicas.sql",
+        "hash": "4564630574796771397"
+      },
+      {
+        "file": "database/scripts/fix-daily-captures-mt-shim.sql",
+        "hash": "15520580066105250342"
+      },
+      {
+        "file": "database/scripts/fix-sin-exhibidor-scoring-weight.sql",
+        "hash": "17719598127978015391"
+      },
+      {
+        "file": "database/scripts/sync-245-compatibility-shims.sql",
+        "hash": "7594285218719964500"
+      },
+      {
+        "file": "database/scripts/sync-from-remote.js",
+        "hash": "16091960026671876268"
+      },
+      {
         "file": "database/seeds-newdb/01_first_tenant_mega_dulces.js",
         "hash": "1659266479113984784"
+      },
+      {
+        "file": "database/seeds-newdb/02_mega_dulces_initial_roles.js",
+        "hash": "4542261387793501714"
+      },
+      {
+        "file": "database/seeds-newdb/03_mega_dulces_superoot_user.js",
+        "hash": "15007795114884123815"
+      },
+      {
+        "file": "database/seeds-newdb/04_mega_dulces_commercial_baseline.js",
+        "hash": "16113723666659189868"
+      },
+      {
+        "file": "database/seeds-newdb/05_mega_dulces_demo_customer_user.js",
+        "hash": "16832130252558970873"
+      },
+      {
+        "file": "database/seeds-newdb/06_mega_dulces_logistics_baseline.js",
+        "hash": "6518297386981513196"
       },
       {
         "file": "database/seeds/000_cleanup.js",
@@ -3160,6 +4191,34 @@
         "hash": "15106964042471500100"
       },
       {
+        "file": "database/test-logistics-rls-smoke.js",
+        "hash": "17239433691850821504"
+      },
+      {
+        "file": "database/test-newdb-auth-multitenant.js",
+        "hash": "4863777647431277455"
+      },
+      {
+        "file": "database/test-newdb-orders-flow.js",
+        "hash": "13962525040826104753"
+      },
+      {
+        "file": "database/test-newdb-orders-with-testdata.js",
+        "hash": "2244935517304796703"
+      },
+      {
+        "file": "database/test-newdb-rls-isolation.js",
+        "hash": "5752740418311912390"
+      },
+      {
+        "file": "database/test-newdb-tenant-context.js",
+        "hash": "15261141188923097813"
+      },
+      {
+        "file": "database/verify-prod-state.sql",
+        "hash": "9007879832986110144"
+      },
+      {
         "file": "debug-db.js",
         "hash": "18088203788452098239"
       },
@@ -3185,15 +4244,23 @@
       },
       {
         "file": "docs/IMPLEMENTACION/01_TRACKER_PROGRESO.md",
-        "hash": "12543354970471393587"
+        "hash": "3980065584832601069"
       },
       {
         "file": "docs/IMPLEMENTACION/02_DECISIONES_ARQUITECTURA.md",
-        "hash": "14538120807480718314"
+        "hash": "14295132648772248347"
       },
       {
         "file": "docs/IMPLEMENTACION/03_LOG_REVISIONES.md",
-        "hash": "16855747445541415364"
+        "hash": "16600681631692048095"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/04_FLUJO_END_TO_END_REVIEW.md",
+        "hash": "4623311294200028742"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/ANALISIS_COMUNICACIONES.md",
+        "hash": "8278194177791932018"
       },
       {
         "file": "docs/IMPLEMENTACION/AUDITORIA_BASE_INICIAL.md",
@@ -3208,8 +4275,12 @@
         "hash": "635577434750910766"
       },
       {
+        "file": "docs/IMPLEMENTACION/FASES/FASE_B_COMERCIAL_CORE.md",
+        "hash": "792623977249745645"
+      },
+      {
         "file": "docs/IMPLEMENTACION/FASES/FASE_B_INTEGRACION_KEPLER.md",
-        "hash": "2475686760774796463"
+        "hash": "17487957399672194119"
       },
       {
         "file": "docs/IMPLEMENTACION/FASES/FASE_C_SALES_INTELLIGENCE.md",
@@ -3221,7 +4292,7 @@
       },
       {
         "file": "docs/IMPLEMENTACION/FASES/FASE_E_REMOTE_MANAGER.md",
-        "hash": "7381182193623421326"
+        "hash": "16497657474256208907"
       },
       {
         "file": "docs/IMPLEMENTACION/FASES/FASE_F_WHATSAPP_BOT.md",
@@ -3240,8 +4311,36 @@
         "hash": "6965544840173027850"
       },
       {
+        "file": "docs/IMPLEMENTACION/FASES/FASE_J8_REPO_MIGRATION.md",
+        "hash": "610257474773608188"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/FASES/FASE_J9_UI_REPO_PORT.md",
+        "hash": "12880598447499621122"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/FASES/FASE_J_LOGISTICA.md",
+        "hash": "8184736112722437954"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/FASES/FASE_K_AI_PRODUCT_MATCH.md",
+        "hash": "18442489482476367187"
+      },
+      {
         "file": "docs/IMPLEMENTACION/INDEX.md",
-        "hash": "2320950415826597664"
+        "hash": "3237328952815266184"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/RAILWAY_CUTOVER_RUNBOOK.md",
+        "hash": "7325312960024452253"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/RUNBOOKS/CUTOVER_NEW_DB.md",
+        "hash": "3503039337975022024"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/RUNBOOKS/VALIDACION_VISUAL_PORTAL_VENDOR.md",
+        "hash": "4339649977690283430"
       },
       {
         "file": "docs/OFFLINE_FIRST_IMPLEMENTATION.md",
@@ -3258,6 +4357,10 @@
       {
         "file": "docs/README.md",
         "hash": "6326101323683365762"
+      },
+      {
+        "file": "docs/UX_TOKENS.md",
+        "hash": "10732817280659226115"
       },
       {
         "file": "docs/areas/00_INDICE_GENERAL.md",
@@ -4028,8 +5131,12 @@
         "hash": "16874978071351736746"
       },
       {
+        "file": "main_check.tmp",
+        "hash": "823216964611568117"
+      },
+      {
         "file": "nginx.conf",
-        "hash": "1373352810461451482"
+        "hash": "16326575781196336323"
       },
       {
         "file": "nx.json",
@@ -4041,11 +5148,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "11327122475417959611"
+        "hash": "18155586533216156113"
       },
       {
         "file": "package.json",
-        "hash": "4378722480983321208"
+        "hash": "2928973921830648422"
       },
       {
         "file": "scripts/backup-db.ps1",
@@ -4069,7 +5176,7 @@
       },
       {
         "file": "start.sh",
-        "hash": "6104147403058196171"
+        "hash": "2630063698513356386"
       },
       {
         "file": "test-query.js",

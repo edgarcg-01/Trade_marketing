@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolvePackageJsonExports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2022",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@logistica-api/*": ["apps/logistica-api/src/*"],
+      "@logistica-view/*": ["apps/logistica-view/src/*"],
+      "@megadulces/shared-auth": ["libs/shared-auth/index.ts"],
+      "@megadulces/shared-auth/core": ["libs/shared-auth/core/index.ts"],
+      "@megadulces/shared-auth/ui": ["libs/shared-auth/ui/index.ts"],
+      "@trade-marketing-api/*": ["apps/trade-marketing-api/src/*"],
+      "@trade-marketing-view/*": ["apps/trade-marketing-view/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
