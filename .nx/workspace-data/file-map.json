@@ -265,7 +265,7 @@
         },
         {
           "file": "apps/view/src/app/modules/auth/login/login.component.css",
-          "hash": "17595759587945482458"
+          "hash": "2219227635867161860"
         },
         {
           "file": "apps/view/src/app/modules/auth/login/login.component.html",
@@ -400,7 +400,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
-          "hash": "3495492335337630990"
+          "hash": "4095932335853061285"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
@@ -425,7 +425,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
-          "hash": "4723910640811161526",
+          "hash": "18143983891594189470",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -440,7 +440,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
-          "hash": "10961295348557135103"
+          "hash": "12870012377877557163"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
@@ -468,7 +468,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "6230633192336503276"
+          "hash": "3514150947282005395"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
@@ -502,7 +502,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.html",
-          "hash": "9520204319718131979"
+          "hash": "6127177295749124731"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.ts",
@@ -520,11 +520,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "18387939243840463544"
+          "hash": "18183420556422517909"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "11963373007541485635",
+          "hash": "9137249340867989990",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -589,7 +589,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "1102865808827180603"
+          "hash": "17346115234261292715"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
@@ -608,7 +608,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
-          "hash": "213520505854234871"
+          "hash": "9469788407540361740"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
@@ -629,7 +629,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
-          "hash": "7810024947199850512"
+          "hash": "393024847451307085"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
@@ -649,15 +649,15 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
-          "hash": "623311927509496968"
+          "hash": "2872010902058984535"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "1805097943466668490"
+          "hash": "10764528985835280997"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "2209487324660453412",
+          "hash": "9277654879694325197",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -722,7 +722,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "5767262829707332614",
+          "hash": "13997960874940237488",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -746,7 +746,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "6798051262866750998"
+          "hash": "868835651552185556"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
@@ -801,7 +801,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
-          "hash": "1307954655914552335"
+          "hash": "13132149592045096704"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
@@ -845,7 +845,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
-          "hash": "16839077911242278060"
+          "hash": "2469599728540946784"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
@@ -864,7 +864,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
-          "hash": "1774289870995646836"
+          "hash": "16039862749298474739"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
@@ -1166,7 +1166,7 @@
         },
         {
           "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
-          "hash": "8326831285314208154"
+          "hash": "10832773185915329566"
         },
         {
           "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
@@ -1492,7 +1492,7 @@
         },
         {
           "file": "apps/view/tailwind.config.js",
-          "hash": "3661444602056128095",
+          "hash": "9212084698202820945",
           "deps": [
             "npm:@spartan-ng/ui-core",
             "npm:tailwindcss-animate"
@@ -1509,6 +1509,28 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
+        }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
         }
       ],
       "shared-auth": [
@@ -1656,28 +1678,6 @@
           "deps": [
             "npm:@angular/core"
           ]
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
         }
       ],
       "api": [
@@ -3705,6 +3705,14 @@
       {
         "file": "database/migrations-newdb/20260527180000_auto_populate_tenant_id_trigger.js",
         "hash": "17339891068844596596"
+      },
+      {
+        "file": "database/migrations-newdb/20260527200000_legacy_compat_daily_captures_zona_captura.js",
+        "hash": "13035342505582483990"
+      },
+      {
+        "file": "database/migrations-newdb/20260527210000_fix_catalogs_parent_fk_to_zones.js",
+        "hash": "12509102323465393162"
       },
       {
         "file": "database/migrations-products/20260429140000_load_products_from_json_updated.js",
