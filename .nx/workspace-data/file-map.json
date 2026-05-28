@@ -45,1641 +45,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "view": [
-        {
-          "file": "apps/view/.browserslistrc",
-          "hash": "5145066096085527059"
-        },
-        {
-          "file": "apps/view/.editorconfig",
-          "hash": "8037249353422744134"
-        },
-        {
-          "file": "apps/view/.gitignore",
-          "hash": "10175894702052279752"
-        },
-        {
-          "file": "apps/view/README.md",
-          "hash": "9957948032996686319"
-        },
-        {
-          "file": "apps/view/components.json",
-          "hash": "2051255686788595788"
-        },
-        {
-          "file": "apps/view/postcss.config.js",
-          "hash": "4080954692028639031"
-        },
-        {
-          "file": "apps/view/project.json",
-          "hash": "13877384930397478215"
-        },
-        {
-          "file": "apps/view/proxy.conf.json",
-          "hash": "3219014540752259563"
-        },
-        {
-          "file": "apps/view/public/MDDL Logo 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/public/favicon.ico",
-          "hash": "3988961587069885523"
-        },
-        {
-          "file": "apps/view/src/LOGO MEGA DULCES 3D.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/app.component.html",
-          "hash": "10015465879027569075"
-        },
-        {
-          "file": "apps/view/src/app/app.component.ts",
-          "hash": "7088129857668011868",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/app.config.ts",
-          "hash": "1057570213910397879",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/platform-browser",
-            "npm:primeng",
-            "npm:@primeng/themes"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/app.routes.ts",
-          "hash": "3238583384336462012",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/constants/permissions.ts",
-          "hash": "10306558875933143162"
-        },
-        {
-          "file": "apps/view/src/app/core/guards/auth.guard.ts",
-          "hash": "11575897814990018939",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/guards/permission.guard.ts",
-          "hash": "16783114173625295703",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
-          "hash": "6036994789548741415",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/http/visit-form-data.ts",
-          "hash": "269089408727205245"
-        },
-        {
-          "file": "apps/view/src/app/core/services/auth.service.ts",
-          "hash": "4270262961826392362",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/data-update.service.ts",
-          "hash": "4773825376667131093",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/geo-validation.service.ts",
-          "hash": "9663346340696226333",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
-          "hash": "8398199584058515102",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-database.service.ts",
-          "hash": "8779212322796763954",
-          "deps": [
-            "npm:dexie",
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/offline-sync.service.ts",
-          "hash": "9948658267677959987",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/permissions.service.ts",
-          "hash": "2896050455883659135",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@casl/ability"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/pwa-install.service.ts",
-          "hash": "14578582373289519011",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/realtime-data.service.ts",
-          "hash": "6914217143826077157",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
-          "hash": "1823168971398797704",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/theme.service.ts",
-          "hash": "15520989589954126627",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/services/websocket.service.ts",
-          "hash": "11816674968680415727",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:socket.io-client"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/core/utils/geo.ts",
-          "hash": "15065292719410586902"
-        },
-        {
-          "file": "apps/view/src/app/core/utils/mx-date.ts",
-          "hash": "2334920784634293950"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.css",
-          "hash": "2219227635867161860"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.html",
-          "hash": "6591532187693570553"
-        },
-        {
-          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
-          "hash": "5656186324614390117",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/comercial.service.ts",
-          "hash": "1129718330806027161",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-customers.component.ts",
-          "hash": "15366334552896904407",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-inventory.component.ts",
-          "hash": "17829925090634720202",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-order-detail.component.ts",
-          "hash": "1883243643702481990",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-orders.component.ts",
-          "hash": "15714653366854895631",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-pricing.component.ts",
-          "hash": "4131050890799307822",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-promotions.component.ts",
-          "hash": "10559230237065458148",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/pages/comercial-warehouses.component.ts",
-          "hash": "2173654278222996740",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/comercial/promotions-meta.ts",
-          "hash": "92307568264894882"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
-          "hash": "4152807250534062465"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
-          "hash": "14282533872644986526",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
-          "hash": "5676019271461293687",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
-          "hash": "4095932335853061285"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
-          "hash": "3369302685947029811",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
-          "hash": "8979006059915436531",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
-          "hash": "18143983891594189470",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
-          "hash": "12870012377877557163"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
-          "hash": "17974211723563334439",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
-          "hash": "2927472231450193134",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
-          "hash": "3514150947282005395"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
-          "hash": "15213141752723256609",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
-          "hash": "11342650754885338645",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-matcher.service.ts",
-          "hash": "15273103526657583177",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.html",
-          "hash": "6127177295749124731"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.ts",
-          "hash": "664594516566958544",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "18183420556422517909"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "9137249340867989990",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
-          "hash": "3591219667457791222"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
-          "hash": "17829908768460998960",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "shared-scoring"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/command-center/alerts-socket.service.ts",
-          "hash": "14519736033390242988",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs",
-            "npm:socket.io-client"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.css",
-          "hash": "8846717707374277815"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.html",
-          "hash": "9067109298111595931"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.ts",
-          "hash": "13653948924367177841",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.service.ts",
-          "hash": "17273064888066789163",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
-          "hash": "10742704315394993214"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
-          "hash": "17346115234261292715"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
-          "hash": "10291870686510478908",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
-          "hash": "9469788407540361740"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
-          "hash": "5999407097046041452",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
-          "hash": "11723917587230771871",
-          "deps": [
-            "npm:@angular/core",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
-          "hash": "393024847451307085"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "10900216139721917102"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
-          "hash": "6948807443865978586",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
-          "hash": "2872010902058984535"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
-          "hash": "10764528985835280997"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "9277654879694325197",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
-          "hash": "3324761938104429447",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
-          "hash": "10207456637957584862",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
-          "hash": "3351606905809692339",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
-          "hash": "1700368972058103319",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
-          "hash": "9576729824381709409",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
-          "hash": "13997960874940237488",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:jspdf",
-            "npm:jspdf-autotable",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
-          "hash": "7138635939815310069"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
-          "hash": "868835651552185556"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
-          "hash": "5288696651206119475",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:rxjs",
-            "npm:primeng",
-            "npm:jspdf",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
-          "hash": "11963120402101274842",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.css",
-          "hash": "15997858625478599847"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.html",
-          "hash": "196228723925554000"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.ts",
-          "hash": "10590091806329501258",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
-          "hash": "9925924655196420289"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
-          "hash": "13132149592045096704"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
-          "hash": "1657753554254573075",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.html",
-          "hash": "3603794052778064057"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
-          "hash": "11611253307102283339",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs",
-            "npm:chart.js",
-            "npm:chartjs-plugin-annotation"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
-          "hash": "11390901687107632508",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
-          "hash": "5861827128165989507"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
-          "hash": "2469599728540946784"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
-          "hash": "14975186452808975761",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
-          "hash": "16039862749298474739"
-        },
-        {
-          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
-          "hash": "9362716443871042946",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/components/delivery-wizard.component.ts",
-          "hash": "5316930911290521011",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            [
-              "npm:@capacitor/camera",
-              "dynamic"
-            ],
-            [
-              "npm:@capacitor/geolocation",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/components/shipment-form-dialog.component.ts",
-          "hash": "12259048300812814539",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/logistica.service.ts",
-          "hash": "9729884687309124660",
-          "deps": [
-            "npm:@angular/common",
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-checklist.component.ts",
-          "hash": "9243351461956962602",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-config.component.ts",
-          "hash": "2691638899878428204",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-costs.component.ts",
-          "hash": "8875017505271589583",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-dashboard.component.ts",
-          "hash": "10300342473124892855",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-driver-assignments.component.ts",
-          "hash": "10535741971375262974",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-fleet.component.ts",
-          "hash": "9505225387996927579",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-guides.component.ts",
-          "hash": "12453086799506662993",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-payroll.component.ts",
-          "hash": "7206038179145889604",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-photos.component.ts",
-          "hash": "10175563492185481728",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng",
-            [
-              "npm:@capacitor/camera",
-              "dynamic"
-            ],
-            [
-              "npm:@capacitor/geolocation",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-reports.component.ts",
-          "hash": "2867706259095368323",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs",
-            [
-              "npm:jspdf",
-              "dynamic"
-            ],
-            [
-              "npm:jspdf-autotable",
-              "dynamic"
-            ]
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-shipment-detail.component.ts",
-          "hash": "15214733878385314048",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-shipments.component.ts",
-          "hash": "11231878404188388066",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/logistica/pages/logistica-staff.component.ts",
-          "hash": "3479845799605455188",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/pages/portal-cart.component.ts",
-          "hash": "8845317926910415974",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/pages/portal-catalog.component.ts",
-          "hash": "7529668711269086060",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/pages/portal-login.component.ts",
-          "hash": "9037448539806841300",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/pages/portal-order-detail.component.ts",
-          "hash": "7389315506744805170",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/pages/portal-orders.component.ts",
-          "hash": "15468051033160841611",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/pages/portal-recommendations.component.ts",
-          "hash": "11960694126965845634",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/portal-shell.component.ts",
-          "hash": "15987729726424613955",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/portal.guard.ts",
-          "hash": "7586925731863942837",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/portal/portal.service.ts",
-          "hash": "6454636570899239879",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
-          "hash": "10832773185915329566"
-        },
-        {
-          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
-          "hash": "7857373298305395023",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/pages/televenta-dashboard.component.ts",
-          "hash": "14089117264957027975",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/pages/televenta-lead.component.ts",
-          "hash": "11448273042159181661",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:@angular/forms",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/pages/televenta-queue.component.ts",
-          "hash": "11714350348470651731",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/pages/televenta-take-order.component.ts",
-          "hash": "6012557478177726547",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:rxjs",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/televenta-shell.component.ts",
-          "hash": "5589553738335377071",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/televenta.guard.ts",
-          "hash": "16477754211193332381",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/televenta/televenta.service.ts",
-          "hash": "6102753081712522368",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/vendor/pages/vendor-customers.component.ts",
-          "hash": "11136540563051241625",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/vendor/pages/vendor-take-order.component.ts",
-          "hash": "9624039276616857793",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router",
-            "npm:primeng",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/vendor/pages/vendor-today.component.ts",
-          "hash": "15031104340524735785",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/vendor/vendor-shell.component.ts",
-          "hash": "760064539588760252",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/router",
-            "npm:primeng"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/vendor/vendor.guard.ts",
-          "hash": "12054494819244998636",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/modules/vendor/vendor.service.ts",
-          "hash": "6891353160200042616",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
-          "hash": "2924607220509189078"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
-          "hash": "8946059392925077262"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
-          "hash": "10127604642501863729"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
-          "hash": "9618449003398179726",
-          "deps": [
-            "npm:@angular/core",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
-          "hash": "6773240714181538285",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
-          "hash": "3313418863466736896"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
-          "hash": "13336365327369514792",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
-          "hash": "4705641641850255821"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
-          "hash": "6768129751417257928",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
-          "hash": "2014762616443210075"
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
-          "hash": "18020695140414742747",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@spartan-ng/ui-core",
-            "npm:class-variance-authority",
-            "npm:clsx"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
-          "hash": "10216001031385572683"
-        },
-        {
-          "file": "apps/view/src/app/shared/directives/can-do.directive.ts",
-          "hash": "12787788147227738092",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "apps/view/src/app/shared/theme/chart-theme.ts",
-          "hash": "12268273778199693349"
-        },
-        {
-          "file": "apps/view/src/assets/icons/favicon.svg",
-          "hash": "6475210795918509466"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-120x120.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-128x128.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-144x144.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-152x152.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-192x192.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-384x384.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-512x512.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-72x72.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-76x76.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon-96x96.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/icons/icon.svg",
-          "hash": "17293406308354275645"
-        },
-        {
-          "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
-          "hash": "2890881875717804828"
-        },
-        {
-          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
-          "hash": "11568024712014430667"
-        },
-        {
-          "file": "apps/view/src/assets/manifest.webmanifest",
-          "hash": "6834005658414736909"
-        },
-        {
-          "file": "apps/view/src/assets/sw-offline.js",
-          "hash": "12737611887829979765"
-        },
-        {
-          "file": "apps/view/src/environments/environment.ts",
-          "hash": "26503312842440983"
-        },
-        {
-          "file": "apps/view/src/index.html",
-          "hash": "1204031587686648004"
-        },
-        {
-          "file": "apps/view/src/main.ts",
-          "hash": "9430614692094070715",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/view/src/polyfills.ts",
-          "hash": "11803705300934933554",
-          "deps": [
-            "npm:zone.js"
-          ]
-        },
-        {
-          "file": "apps/view/src/styles.css",
-          "hash": "7816348840809295923"
-        },
-        {
-          "file": "apps/view/src/styles/tokens.css",
-          "hash": "5351257847940058216"
-        },
-        {
-          "file": "apps/view/tailwind.config.js",
-          "hash": "9212084698202820945",
-          "deps": [
-            "npm:@spartan-ng/ui-core",
-            "npm:tailwindcss-animate"
-          ]
-        },
-        {
-          "file": "apps/view/tsconfig.app.json",
-          "hash": "12120654287211779749"
-        },
-        {
-          "file": "apps/view/tsconfig.json",
-          "hash": "12162852996555272448"
-        },
-        {
-          "file": "apps/view/tsconfig.spec.json",
-          "hash": "11023685540591620072"
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
-        }
-      ],
-      "shared-auth": [
-        {
-          "file": "libs/shared-auth/core/constants/permissions.ts",
-          "hash": "15427708784168595588"
-        },
-        {
-          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
-          "hash": "6942134849481315017",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
-          "hash": "4749816109954716157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
-          "hash": "12609748048211883157",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
-          "hash": "4902701322189388699",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:express"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
-          "hash": "3496432654166559978",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/guards/roles.guard.ts",
-          "hash": "12041705508376265700",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/core/index.ts",
-          "hash": "4258601884317448187"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/index.ts",
-          "hash": "317859519873821243"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
-          "hash": "11610506879056166175"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
-          "hash": "16512962744461978696"
-        },
-        {
-          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
-          "hash": "17324561029674889550"
-        },
-        {
-          "file": "libs/shared-auth/core/services/theme.service.ts",
-          "hash": "12531023263740714287",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/index.ts",
-          "hash": "12051972286901611420"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.css",
-          "hash": "7245338981422921800"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.html",
-          "hash": "4076580560835251223"
-        },
-        {
-          "file": "libs/shared-auth/modules/auth/login/login.component.ts",
-          "hash": "651774939713101902",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:@angular/forms",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/project.json",
-          "hash": "7147459219175445793"
-        },
-        {
-          "file": "libs/shared-auth/tsconfig.lib.json",
-          "hash": "5682690067453246295"
-        },
-        {
-          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
-          "hash": "8850998944698392266",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/index.ts",
-          "hash": "6943657025407186704"
-        },
-        {
-          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
-          "hash": "17952824023507230128",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/services/auth.service.ts",
-          "hash": "4279177008591840143",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "libs/shared-auth/ui/services/token.service.ts",
-          "hash": "994567566458859229",
-          "deps": [
-            "npm:@angular/core"
-          ]
-        }
-      ],
       "api": [
         {
           "file": "apps/api/nest-cli.json",
@@ -3008,7 +1373,7 @@
         },
         {
           "file": "apps/api/src/shared/tenant/tenant-context.interceptor.ts",
-          "hash": "1143299535314330131",
+          "hash": "5920523465006345734",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/jwt",
@@ -3062,6 +1427,1641 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "shared-auth": [
+        {
+          "file": "libs/shared-auth/core/constants/permissions.ts",
+          "hash": "15427708784168595588"
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/permissions.decorator.ts",
+          "hash": "6942134849481315017",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/req-user.decorator.ts",
+          "hash": "4749816109954716157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/decorators/roles.decorator.ts",
+          "hash": "12609748048211883157",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/jwt-auth.guard.ts",
+          "hash": "4902701322189388699",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:express"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/permissions.guard.ts",
+          "hash": "3496432654166559978",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/guards/roles.guard.ts",
+          "hash": "12041705508376265700",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/core/index.ts",
+          "hash": "4258601884317448187"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/index.ts",
+          "hash": "317859519873821243"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/jwt-payload.interface.ts",
+          "hash": "11610506879056166175"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/login-response.interface.ts",
+          "hash": "16512962744461978696"
+        },
+        {
+          "file": "libs/shared-auth/core/interfaces/user.interface.ts",
+          "hash": "17324561029674889550"
+        },
+        {
+          "file": "libs/shared-auth/core/services/theme.service.ts",
+          "hash": "12531023263740714287",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/index.ts",
+          "hash": "12051972286901611420"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.css",
+          "hash": "7245338981422921800"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.html",
+          "hash": "4076580560835251223"
+        },
+        {
+          "file": "libs/shared-auth/modules/auth/login/login.component.ts",
+          "hash": "651774939713101902",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/project.json",
+          "hash": "7147459219175445793"
+        },
+        {
+          "file": "libs/shared-auth/tsconfig.lib.json",
+          "hash": "5682690067453246295"
+        },
+        {
+          "file": "libs/shared-auth/ui/guards/auth.guard.ts",
+          "hash": "8850998944698392266",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/index.ts",
+          "hash": "6943657025407186704"
+        },
+        {
+          "file": "libs/shared-auth/ui/interceptors/auth.interceptor.ts",
+          "hash": "17952824023507230128",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/auth.service.ts",
+          "hash": "4279177008591840143",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "libs/shared-auth/ui/services/token.service.ts",
+          "hash": "994567566458859229",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        }
+      ],
+      "view": [
+        {
+          "file": "apps/view/.browserslistrc",
+          "hash": "5145066096085527059"
+        },
+        {
+          "file": "apps/view/.editorconfig",
+          "hash": "8037249353422744134"
+        },
+        {
+          "file": "apps/view/.gitignore",
+          "hash": "10175894702052279752"
+        },
+        {
+          "file": "apps/view/README.md",
+          "hash": "9957948032996686319"
+        },
+        {
+          "file": "apps/view/components.json",
+          "hash": "2051255686788595788"
+        },
+        {
+          "file": "apps/view/postcss.config.js",
+          "hash": "4080954692028639031"
+        },
+        {
+          "file": "apps/view/project.json",
+          "hash": "13877384930397478215"
+        },
+        {
+          "file": "apps/view/proxy.conf.json",
+          "hash": "3219014540752259563"
+        },
+        {
+          "file": "apps/view/public/MDDL Logo 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/public/favicon.ico",
+          "hash": "3988961587069885523"
+        },
+        {
+          "file": "apps/view/src/LOGO MEGA DULCES 3D.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/app/app.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/app.component.html",
+          "hash": "10015465879027569075"
+        },
+        {
+          "file": "apps/view/src/app/app.component.ts",
+          "hash": "7088129857668011868",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.config.ts",
+          "hash": "1057570213910397879",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/platform-browser",
+            "npm:primeng",
+            "npm:@primeng/themes"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/app.routes.ts",
+          "hash": "3238583384336462012",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/constants/permissions.ts",
+          "hash": "10306558875933143162"
+        },
+        {
+          "file": "apps/view/src/app/core/guards/auth.guard.ts",
+          "hash": "11575897814990018939",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/guards/permission.guard.ts",
+          "hash": "16783114173625295703",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/http/auth.interceptor.ts",
+          "hash": "6036994789548741415",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/http/visit-form-data.ts",
+          "hash": "269089408727205245"
+        },
+        {
+          "file": "apps/view/src/app/core/services/auth.service.ts",
+          "hash": "4270262961826392362",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/data-update.service.ts",
+          "hash": "4773825376667131093",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/geo-validation.service.ts",
+          "hash": "9663346340696226333",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-daily-capture.service.ts",
+          "hash": "8398199584058515102",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-database.service.ts",
+          "hash": "8779212322796763954",
+          "deps": [
+            "npm:dexie",
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/offline-sync.service.ts",
+          "hash": "9948658267677959987",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/permissions.service.ts",
+          "hash": "2896050455883659135",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@casl/ability"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/pwa-install.service.ts",
+          "hash": "14578582373289519011",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/realtime-data.service.ts",
+          "hash": "6914217143826077157",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/retry-strategy.service.ts",
+          "hash": "1823168971398797704",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/theme.service.ts",
+          "hash": "15520989589954126627",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/services/websocket.service.ts",
+          "hash": "11816674968680415727",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:socket.io-client"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/core/utils/geo.ts",
+          "hash": "15065292719410586902"
+        },
+        {
+          "file": "apps/view/src/app/core/utils/mx-date.ts",
+          "hash": "2334920784634293950"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.css",
+          "hash": "2219227635867161860"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.html",
+          "hash": "6591532187693570553"
+        },
+        {
+          "file": "apps/view/src/app/modules/auth/login/login.component.ts",
+          "hash": "5656186324614390117",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/comercial.service.ts",
+          "hash": "1129718330806027161",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-customers.component.ts",
+          "hash": "15366334552896904407",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-inventory.component.ts",
+          "hash": "17829925090634720202",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-order-detail.component.ts",
+          "hash": "1883243643702481990",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-orders.component.ts",
+          "hash": "15714653366854895631",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-pricing.component.ts",
+          "hash": "4131050890799307822",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-promotions.component.ts",
+          "hash": "10559230237065458148",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-warehouses.component.ts",
+          "hash": "2173654278222996740",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/promotions-meta.ts",
+          "hash": "92307568264894882"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.html",
+          "hash": "4152807250534062465"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.ts",
+          "hash": "14282533872644986526",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.service.ts",
+          "hash": "5676019271461293687",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.html",
+          "hash": "4095932335853061285"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.component.ts",
+          "hash": "3369302685947029811",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-planograma/admin-planograma.service.ts",
+          "hash": "8979006059915436531",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-roles/admin-roles-permissions.component.ts",
+          "hash": "18143983891594189470",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.html",
+          "hash": "12870012377877557163"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.component.ts",
+          "hash": "17974211723563334439",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-scoring/admin-scoring.service.ts",
+          "hash": "2927472231450193134",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.html",
+          "hash": "3514150947282005395"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/admin-users.component.ts",
+          "hash": "15213141752723256609",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/admin-users/users.service.ts",
+          "hash": "11342650754885338645",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-matcher.service.ts",
+          "hash": "15273103526657583177",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.html",
+          "hash": "6127177295749124731"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/ai-product-picker.component.ts",
+          "hash": "664594516566958544",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
+          "hash": "18183420556422517909"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
+          "hash": "9137249340867989990",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.models.ts",
+          "hash": "3591219667457791222"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/captures/daily-capture.service.ts",
+          "hash": "17829908768460998960",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs",
+            "shared-scoring"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/alerts-socket.service.ts",
+          "hash": "14519736033390242988",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs",
+            "npm:socket.io-client"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.css",
+          "hash": "8846717707374277815"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.html",
+          "hash": "9067109298111595931"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.ts",
+          "hash": "13653948924367177841",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/command-center/command-center.service.ts",
+          "hash": "17273064888066789163",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.css",
+          "hash": "10742704315394993214"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.html",
+          "hash": "5764175273532055857"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/daily-assignments/daily-assignments.component.ts",
+          "hash": "10291870686510478908",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.html",
+          "hash": "9469788407540361740"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/exhibitions/exhibitions.component.ts",
+          "hash": "5999407097046041452",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home-charts.component.ts",
+          "hash": "11723917587230771871",
+          "deps": [
+            "npm:@angular/core",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
+          "hash": "393024847451307085"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
+          "hash": "10900216139721917102"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
+          "hash": "6948807443865978586",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.css",
+          "hash": "2872010902058984535"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.html",
+          "hash": "10764528985835280997"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
+          "hash": "9277654879694325197",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.component.ts",
+          "hash": "3324761938104429447",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/dashboard.service.ts",
+          "hash": "10207456637957584862",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/filters-state.service.ts",
+          "hash": "3351606905809692339",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/global-filters.component.ts",
+          "hash": "1700368972058103319",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
+          "hash": "9576729824381709409",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/graphics/reports.component.ts",
+          "hash": "13997960874940237488",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:jspdf",
+            "npm:jspdf-autotable",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.css",
+          "hash": "7138635939815310069"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.html",
+          "hash": "868835651552185556"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.component.ts",
+          "hash": "5288696651206119475",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:rxjs",
+            "npm:primeng",
+            "npm:jspdf",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/reports.service.ts",
+          "hash": "11963120402101274842",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.css",
+          "hash": "15997858625478599847"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.html",
+          "hash": "196228723925554000"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/routes-tab/routes-tab.component.ts",
+          "hash": "10590091806329501258",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.css",
+          "hash": "9925924655196420289"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.html",
+          "hash": "13132149592045096704"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/reports/stores-tab/stores-tab.component.ts",
+          "hash": "1657753554254573075",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.html",
+          "hash": "3603794052778064057"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.component.ts",
+          "hash": "11611253307102283339",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs",
+            "npm:chart.js",
+            "npm:chartjs-plugin-annotation"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/seguimiento/seguimiento.service.ts",
+          "hash": "11390901687107632508",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.css",
+          "hash": "5861827128165989507"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
+          "hash": "14893913662123944740"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
+          "hash": "14975186452808975761",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.html",
+          "hash": "16039862749298474739"
+        },
+        {
+          "file": "apps/view/src/app/modules/dashboard/visits/visits.component.ts",
+          "hash": "9362716443871042946",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/components/delivery-wizard.component.ts",
+          "hash": "5316930911290521011",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            [
+              "npm:@capacitor/camera",
+              "dynamic"
+            ],
+            [
+              "npm:@capacitor/geolocation",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/components/shipment-form-dialog.component.ts",
+          "hash": "12259048300812814539",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/logistica.service.ts",
+          "hash": "9729884687309124660",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-checklist.component.ts",
+          "hash": "9243351461956962602",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-config.component.ts",
+          "hash": "2691638899878428204",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-costs.component.ts",
+          "hash": "8875017505271589583",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-dashboard.component.ts",
+          "hash": "10300342473124892855",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-driver-assignments.component.ts",
+          "hash": "10535741971375262974",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-fleet.component.ts",
+          "hash": "9505225387996927579",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-guides.component.ts",
+          "hash": "12453086799506662993",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-payroll.component.ts",
+          "hash": "7206038179145889604",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-photos.component.ts",
+          "hash": "10175563492185481728",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng",
+            [
+              "npm:@capacitor/camera",
+              "dynamic"
+            ],
+            [
+              "npm:@capacitor/geolocation",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-reports.component.ts",
+          "hash": "2867706259095368323",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs",
+            [
+              "npm:jspdf",
+              "dynamic"
+            ],
+            [
+              "npm:jspdf-autotable",
+              "dynamic"
+            ]
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-shipment-detail.component.ts",
+          "hash": "15214733878385314048",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-shipments.component.ts",
+          "hash": "11231878404188388066",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/logistica/pages/logistica-staff.component.ts",
+          "hash": "3479845799605455188",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-cart.component.ts",
+          "hash": "8845317926910415974",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-catalog.component.ts",
+          "hash": "7529668711269086060",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-login.component.ts",
+          "hash": "9037448539806841300",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-order-detail.component.ts",
+          "hash": "7389315506744805170",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-orders.component.ts",
+          "hash": "15468051033160841611",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/pages/portal-recommendations.component.ts",
+          "hash": "11960694126965845634",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/portal-shell.component.ts",
+          "hash": "15987729726424613955",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/portal.guard.ts",
+          "hash": "7586925731863942837",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/portal/portal.service.ts",
+          "hash": "6454636570899239879",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.html",
+          "hash": "10832773185915329566"
+        },
+        {
+          "file": "apps/view/src/app/modules/projects/projects/projects.component.ts",
+          "hash": "7857373298305395023",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-dashboard.component.ts",
+          "hash": "14089117264957027975",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-lead.component.ts",
+          "hash": "11448273042159181661",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-queue.component.ts",
+          "hash": "11714350348470651731",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/pages/televenta-take-order.component.ts",
+          "hash": "6012557478177726547",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:rxjs",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/televenta-shell.component.ts",
+          "hash": "5589553738335377071",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/televenta.guard.ts",
+          "hash": "16477754211193332381",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/televenta/televenta.service.ts",
+          "hash": "6102753081712522368",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/pages/vendor-customers.component.ts",
+          "hash": "11136540563051241625",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/pages/vendor-take-order.component.ts",
+          "hash": "9624039276616857793",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:@angular/router",
+            "npm:primeng",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/pages/vendor-today.component.ts",
+          "hash": "15031104340524735785",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/vendor-shell.component.ts",
+          "hash": "760064539588760252",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/router",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/vendor.guard.ts",
+          "hash": "12054494819244998636",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/vendor/vendor.service.ts",
+          "hash": "6891353160200042616",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.html",
+          "hash": "2924607220509189078"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.scss",
+          "hash": "8946059392925077262"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.spec.ts",
+          "hash": "10127604642501863729"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/offline-status/offline-status.component.ts",
+          "hash": "9618449003398179726",
+          "deps": [
+            "npm:@angular/core",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/hlm-badge.directive.ts",
+          "hash": "6773240714181538285",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/badge/index.ts",
+          "hash": "3313418863466736896"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/hlm-button.directive.ts",
+          "hash": "13336365327369514792",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/button/index.ts",
+          "hash": "4705641641850255821"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/hlm-input.directive.ts",
+          "hash": "6768129751417257928",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/input/index.ts",
+          "hash": "2014762616443210075"
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/hlm-label.directive.ts",
+          "hash": "18020695140414742747",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@spartan-ng/ui-core",
+            "npm:class-variance-authority",
+            "npm:clsx"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/components/ui/label/index.ts",
+          "hash": "10216001031385572683"
+        },
+        {
+          "file": "apps/view/src/app/shared/directives/can-do.directive.ts",
+          "hash": "12787788147227738092",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/shared/theme/chart-theme.ts",
+          "hash": "12268273778199693349"
+        },
+        {
+          "file": "apps/view/src/assets/icons/favicon.svg",
+          "hash": "6475210795918509466"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-120x120.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-128x128.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-144x144.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-152x152.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-192x192.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-384x384.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-512x512.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-72x72.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-76x76.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon-96x96.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/icons/icon.svg",
+          "hash": "17293406308354275645"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.png",
+          "hash": "2890881875717804828"
+        },
+        {
+          "file": "apps/view/src/assets/logos/mega-dulces-logo.webp",
+          "hash": "11568024712014430667"
+        },
+        {
+          "file": "apps/view/src/assets/manifest.webmanifest",
+          "hash": "6834005658414736909"
+        },
+        {
+          "file": "apps/view/src/assets/sw-offline.js",
+          "hash": "12737611887829979765"
+        },
+        {
+          "file": "apps/view/src/environments/environment.ts",
+          "hash": "26503312842440983"
+        },
+        {
+          "file": "apps/view/src/index.html",
+          "hash": "1204031587686648004"
+        },
+        {
+          "file": "apps/view/src/main.ts",
+          "hash": "9430614692094070715",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "apps/view/src/polyfills.ts",
+          "hash": "11803705300934933554",
+          "deps": [
+            "npm:zone.js"
+          ]
+        },
+        {
+          "file": "apps/view/src/styles.css",
+          "hash": "7816348840809295923"
+        },
+        {
+          "file": "apps/view/src/styles/tokens.css",
+          "hash": "5351257847940058216"
+        },
+        {
+          "file": "apps/view/tailwind.config.js",
+          "hash": "9212084698202820945",
+          "deps": [
+            "npm:@spartan-ng/ui-core",
+            "npm:tailwindcss-animate"
+          ]
+        },
+        {
+          "file": "apps/view/tsconfig.app.json",
+          "hash": "12120654287211779749"
+        },
+        {
+          "file": "apps/view/tsconfig.json",
+          "hash": "12162852996555272448"
+        },
+        {
+          "file": "apps/view/tsconfig.spec.json",
+          "hash": "11023685540591620072"
+        }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
         }
       ]
     },
