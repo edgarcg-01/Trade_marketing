@@ -45,28 +45,6 @@
   ],
   "fileMap": {
     "projectFileMap": {
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
-        }
-      ],
       "shared-auth": [
         {
           "file": "libs/shared-auth/core/constants/permissions.ts",
@@ -388,7 +366,7 @@
         },
         {
           "file": "apps/view/src/app/core/services/offline-sync.service.ts",
-          "hash": "11867938874560188032",
+          "hash": "13033381093409904144",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -716,7 +694,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "5889243692279287499",
+          "hash": "1284218703637651209",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2336,7 +2314,7 @@
         },
         {
           "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "4957406728236879633",
+          "hash": "17323558271035500265",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -3185,6 +3163,28 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
         }
       ]
     },
