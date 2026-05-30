@@ -6,7 +6,8 @@
       "Bash(*\\psql.exe*)",
       "Bash(\"/c/Program Files/PostgreSQL/16/bin/psql.exe\":*)",
       "Bash(\"C:\\Program Files\\PostgreSQL\\16\\bin\\psql.exe\":*)",
-      "Bash(DATABASE_URL='postgresql://postgres:GlUiaSQzybfoPyTtvouBBoqbfxgUUTPZ@switchback.proxy.rlwy.net:16885/railway' node database/recalc-today-scores.js)"
+      "Bash(DATABASE_URL='postgresql://postgres:GlUiaSQzybfoPyTtvouBBoqbfxgUUTPZ@switchback.proxy.rlwy.net:16885/railway' node database/recalc-today-scores.js)",
+      "Bash(npx knex *)"
     ]
   }
 }
