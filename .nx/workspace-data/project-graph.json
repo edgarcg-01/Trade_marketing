@@ -20985,11 +20985,6 @@
       },
       {
         "source": "api",
-        "target": "npm:@nestjs/serve-static",
-        "type": "static"
-      },
-      {
-        "source": "api",
         "target": "npm:@nestjs/schedule",
         "type": "static"
       },
@@ -52012,5 +52007,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1780328156117
+  "computedAt": 1780329871996
 }
