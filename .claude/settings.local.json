@@ -7,7 +7,12 @@
       "Bash(\"/c/Program Files/PostgreSQL/16/bin/psql.exe\":*)",
       "Bash(\"C:\\Program Files\\PostgreSQL\\16\\bin\\psql.exe\":*)",
       "Bash(DATABASE_URL='postgresql://postgres:GlUiaSQzybfoPyTtvouBBoqbfxgUUTPZ@switchback.proxy.rlwy.net:16885/railway' node database/recalc-today-scores.js)",
-      "Bash(npx knex *)"
+      "Bash(npx knex *)",
+      "Bash(powershell -NoProfile -Command \"Get-Date -Format 'HH:mm:ss'\")",
+      "Bash(powershell -NoProfile -Command \"\\(Get-Item 'c:\\\\Users\\\\Sistemas\\\\CascadeProjects\\\\Trade_marketing\\\\dist\\\\apps\\\\api\\\\main.js'\\).LastWriteTime\")",
+      "Bash(taskkill /F /PID 29784)",
+      "PowerShell(Stop-Process -Id 29784 -Force)",
+      "PowerShell(if \\($?\\) { \"killed 29784\" })"
     ]
   }
 }
