@@ -12,7 +12,8 @@
       "Bash(powershell -NoProfile -Command \"\\(Get-Item 'c:\\\\Users\\\\Sistemas\\\\CascadeProjects\\\\Trade_marketing\\\\dist\\\\apps\\\\api\\\\main.js'\\).LastWriteTime\")",
       "Bash(taskkill /F /PID 29784)",
       "PowerShell(Stop-Process -Id 29784 -Force)",
-      "PowerShell(if \\($?\\) { \"killed 29784\" })"
+      "PowerShell(if \\($?\\) { \"killed 29784\" })",
+      "Bash(git fetch *)"
     ]
   }
 }
