@@ -45,6 +45,28 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
+        }
+      ],
       "api": [
         {
           "file": "apps/api/nest-cli.json",
@@ -631,7 +653,7 @@
         },
         {
           "file": "apps/api/src/modules/daily-captures/daily-captures.controller.ts",
-          "hash": "9334579455472781539",
+          "hash": "5493009379747688340",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/platform-express",
@@ -1038,7 +1060,7 @@
         },
         {
           "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "1741616962931387749",
+          "hash": "12906766109022692586",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1101,7 +1123,7 @@
         },
         {
           "file": "apps/api/src/modules/stores/stores.controller.ts",
-          "hash": "7381813019657324802",
+          "hash": "5401009091754936472",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger"
@@ -1211,14 +1233,15 @@
         },
         {
           "file": "apps/api/src/modules/visitas/visitas-sync.controller.ts",
-          "hash": "3050241759644862925",
+          "hash": "2565319229750621166",
           "deps": [
-            "npm:@nestjs/common"
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
           ]
         },
         {
           "file": "apps/api/src/modules/visitas/visitas-sync.module.ts",
-          "hash": "18259525455287852212",
+          "hash": "16676385714565736041",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -2207,7 +2230,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/reports/graphics/metas-config.service.ts",
-          "hash": "9576729824381709409",
+          "hash": "7127183545989815135",
           "deps": [
             "npm:@angular/core"
           ]
@@ -2337,11 +2360,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/stores/stores.component.html",
-          "hash": "4088191501581508070"
+          "hash": "8811214982180489839"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/stores/stores.component.ts",
-          "hash": "14975186452808975761",
+          "hash": "6990610788625417345",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3180,28 +3203,6 @@
             "npm:@angular/core"
           ]
         }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
-        }
       ]
     },
     "nonProjectFiles": [
@@ -3255,7 +3256,7 @@
       },
       {
         "file": "CLAUDE.md",
-        "hash": "16853107815933523357"
+        "hash": "1906941078762810326"
       },
       {
         "file": "DEPLOY_CHECKLIST.md",
