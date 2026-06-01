@@ -13,7 +13,10 @@
       "Bash(taskkill /F /PID 29784)",
       "PowerShell(Stop-Process -Id 29784 -Force)",
       "PowerShell(if \\($?\\) { \"killed 29784\" })",
-      "Bash(git fetch *)"
+      "Bash(git fetch *)",
+      "Bash(node -e \"try{require\\('sharp'\\);console.log\\('sharp:OK'\\)}catch{console.log\\('sharp:NO'\\)}\")",
+      "Bash(node -e ' *)",
+      "Bash(npx nx *)"
     ]
   }
 }
