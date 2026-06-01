@@ -20868,6 +20868,16 @@
       },
       {
         "source": "view",
+        "target": "npm:@capacitor/core",
+        "type": "dynamic"
+      },
+      {
+        "source": "view",
+        "target": "npm:@capacitor/app",
+        "type": "dynamic"
+      },
+      {
+        "source": "view",
         "target": "npm:@casl/ability",
         "type": "static"
       },
@@ -52007,5 +52017,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1780332493129
+  "computedAt": 1780338183856
 }
