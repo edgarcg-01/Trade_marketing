@@ -45,6 +45,28 @@
   ],
   "fileMap": {
     "projectFileMap": {
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
+        }
+      ],
       "shared-auth": [
         {
           "file": "libs/shared-auth/core/constants/permissions.ts",
@@ -690,11 +712,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.html",
-          "hash": "9684118879752335812"
+          "hash": "7008125336672898922"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/captures/captures.component.ts",
-          "hash": "1284218703637651209",
+          "hash": "4691556507125306467",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -799,11 +821,11 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.css",
-          "hash": "393024847451307085"
+          "hash": "1081127817013852051"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.html",
-          "hash": "10900216139721917102"
+          "hash": "3122131471181520316"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/home/home.component.ts",
@@ -1685,7 +1707,7 @@
         },
         {
           "file": "apps/view/src/styles.css",
-          "hash": "14473247100815020153"
+          "hash": "18412220105737449343"
         },
         {
           "file": "apps/view/src/styles/tokens.css",
@@ -1710,28 +1732,6 @@
         {
           "file": "apps/view/tsconfig.spec.json",
           "hash": "11023685540591620072"
-        }
-      ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
         }
       ],
       "api": [
@@ -2336,7 +2336,7 @@
         },
         {
           "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "15795057134582897829",
+          "hash": "13991765480667371827",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -3247,7 +3247,7 @@
       },
       {
         "file": "Dockerfile",
-        "hash": "1757476288784664849"
+        "hash": "12901943125619355202"
       },
       {
         "file": "README.md",
