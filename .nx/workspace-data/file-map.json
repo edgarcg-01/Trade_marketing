@@ -70,7 +70,7 @@
         },
         {
           "file": "apps/api/src/app.module.ts",
-          "hash": "15906517945375622639",
+          "hash": "13338827871313205017",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/config",
@@ -88,7 +88,7 @@
         },
         {
           "file": "apps/api/src/main.ts",
-          "hash": "12134148532113844114",
+          "hash": "13312159622131945589",
           "deps": [
             "npm:dotenv",
             "npm:@nestjs/common",
@@ -99,7 +99,9 @@
             "npm:express",
             "npm:helmet",
             "npm:@nestjs/schedule",
-            "npm:socket.io"
+            "npm:socket.io",
+            "npm:@socket.io/redis-adapter",
+            "npm:redis"
           ]
         },
         {
@@ -316,7 +318,7 @@
         },
         {
           "file": "apps/api/src/modules/commercial-analytics/commercial-analytics.controller.ts",
-          "hash": "7045070790340806265",
+          "hash": "9795741874511015603",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/swagger",
@@ -332,7 +334,7 @@
         },
         {
           "file": "apps/api/src/modules/commercial-analytics/commercial-analytics.service.ts",
-          "hash": "6231871602399782868",
+          "hash": "9217281059306350575",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -400,7 +402,7 @@
         },
         {
           "file": "apps/api/src/modules/commercial-inventory/commercial-inventory.service.ts",
-          "hash": "7364834096006404245",
+          "hash": "7724641789715293825",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -422,7 +424,7 @@
         },
         {
           "file": "apps/api/src/modules/commercial-orders/commercial-orders.service.ts",
-          "hash": "5393617889934635279",
+          "hash": "7509204566000729978",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -444,7 +446,29 @@
         },
         {
           "file": "apps/api/src/modules/commercial-pricing/commercial-pricing.service.ts",
-          "hash": "9775459829147292771",
+          "hash": "18395809877749129970",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-products/commercial-products.controller.ts",
+          "hash": "4109969529662513101",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/swagger"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-products/commercial-products.module.ts",
+          "hash": "15779847986072200399",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/modules/commercial-products/commercial-products.service.ts",
+          "hash": "2825770807291736305",
           "deps": [
             "npm:@nestjs/common"
           ]
@@ -648,7 +672,7 @@
         },
         {
           "file": "apps/api/src/modules/daily-captures/daily-captures.service.ts",
-          "hash": "9305448802816555089",
+          "hash": "5747382844869189004",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -683,31 +707,6 @@
           "hash": "926685939814310563",
           "deps": [
             "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.controller.ts",
-          "hash": "4247966806922233649",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/platform-express",
-            "npm:multer",
-            "npm:@nestjs/swagger"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.module.ts",
-          "hash": "1236777701416950372",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/modules/exhibitions/exhibitions.service.ts",
-          "hash": "2267310542126867861",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:knex"
           ]
         },
         {
@@ -1064,7 +1063,7 @@
         },
         {
           "file": "apps/api/src/modules/reports/reports.service.ts",
-          "hash": "17696500775026386433",
+          "hash": "8999061060097643975",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex"
@@ -1079,7 +1078,7 @@
         },
         {
           "file": "apps/api/src/modules/scoring/scoring-v2.service.ts",
-          "hash": "14001906597221870424",
+          "hash": "14726007836727314048",
           "deps": [
             "npm:@nestjs/common",
             "npm:knex",
@@ -1353,10 +1352,11 @@
         },
         {
           "file": "apps/api/src/shared/cloudinary/cloudinary.service.ts",
-          "hash": "4304103306127135813",
+          "hash": "13853684056106782170",
           "deps": [
             "npm:@nestjs/common",
             "npm:cloudinary",
+            "npm:multer",
             [
               "npm:sharp",
               "dynamic"
@@ -1593,7 +1593,7 @@
         },
         {
           "file": "apps/view/src/app/app.routes.ts",
-          "hash": "7839716351465599991",
+          "hash": "2933788214009741417",
           "deps": [
             "npm:@angular/router"
           ]
@@ -1777,7 +1777,7 @@
         },
         {
           "file": "apps/view/src/app/modules/comercial/comercial.service.ts",
-          "hash": "12112136753488899076",
+          "hash": "15413935452400970080",
           "deps": [
             "npm:@angular/common",
             "npm:@angular/core",
@@ -1797,7 +1797,7 @@
         },
         {
           "file": "apps/view/src/app/modules/comercial/pages/comercial-inventory.component.ts",
-          "hash": "8335568426324274516",
+          "hash": "5133183265300492571",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -1830,7 +1830,17 @@
         },
         {
           "file": "apps/view/src/app/modules/comercial/pages/comercial-pricing.component.ts",
-          "hash": "12151785642597404183",
+          "hash": "9334608050923091316",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:@angular/forms",
+            "npm:primeng"
+          ]
+        },
+        {
+          "file": "apps/view/src/app/modules/comercial/pages/comercial-products.component.ts",
+          "hash": "12776998971431995100",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -1860,7 +1870,7 @@
         },
         {
           "file": "apps/view/src/app/modules/comercial/promotions-meta.ts",
-          "hash": "92307568264894882"
+          "hash": "6924465063051197780"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/admin-catalogs/admin-catalogs.component.css",
@@ -2054,15 +2064,15 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.css",
-          "hash": "8490396734916097490"
+          "hash": "4347771659331748192"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.html",
-          "hash": "9475871285611739816"
+          "hash": "12761942685863946957"
         },
         {
           "file": "apps/view/src/app/modules/dashboard/command-center/command-center.component.ts",
-          "hash": "9455194301538456188",
+          "hash": "1414654483826065964",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2072,7 +2082,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/command-center/command-center.service.ts",
-          "hash": "10902737877315774301",
+          "hash": "10522086912962436862",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2117,7 +2127,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/historical-analytics/historical-analytics.component.ts",
-          "hash": "12768728701774794223",
+          "hash": "17181759389040755828",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2164,7 +2174,7 @@
         },
         {
           "file": "apps/view/src/app/modules/dashboard/layout/layout.component.ts",
-          "hash": "2497694564796356165",
+          "hash": "10913779058328186120",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2585,7 +2595,7 @@
         },
         {
           "file": "apps/view/src/app/modules/portal/pages/portal-cart.component.ts",
-          "hash": "1469026939564913002",
+          "hash": "5407718793194513954",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -2693,7 +2703,7 @@
         },
         {
           "file": "apps/view/src/app/modules/portal/portal.service.ts",
-          "hash": "4820745519773637304",
+          "hash": "14107109123494461908",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/common",
@@ -3061,28 +3071,6 @@
           "hash": "11023685540591620072"
         }
       ],
-      "shared-scoring": [
-        {
-          "file": "libs/shared-scoring/core/calculator.ts",
-          "hash": "569476862215811665"
-        },
-        {
-          "file": "libs/shared-scoring/core/index.ts",
-          "hash": "2619087355175163183"
-        },
-        {
-          "file": "libs/shared-scoring/index.ts",
-          "hash": "4751235334311988895"
-        },
-        {
-          "file": "libs/shared-scoring/project.json",
-          "hash": "2872359191590292591"
-        },
-        {
-          "file": "libs/shared-scoring/tsconfig.lib.json",
-          "hash": "17615107294351490117"
-        }
-      ],
       "shared-auth": [
         {
           "file": "libs/shared-auth/core/constants/permissions.ts",
@@ -3229,6 +3217,28 @@
             "npm:@angular/core"
           ]
         }
+      ],
+      "shared-scoring": [
+        {
+          "file": "libs/shared-scoring/core/calculator.ts",
+          "hash": "569476862215811665"
+        },
+        {
+          "file": "libs/shared-scoring/core/index.ts",
+          "hash": "2619087355175163183"
+        },
+        {
+          "file": "libs/shared-scoring/index.ts",
+          "hash": "4751235334311988895"
+        },
+        {
+          "file": "libs/shared-scoring/project.json",
+          "hash": "2872359191590292591"
+        },
+        {
+          "file": "libs/shared-scoring/tsconfig.lib.json",
+          "hash": "17615107294351490117"
+        }
       ]
     },
     "nonProjectFiles": [
@@ -3246,7 +3256,7 @@
       },
       {
         "file": ".env.example",
-        "hash": "4751983046240545823"
+        "hash": "4044401418055640510"
       },
       {
         "file": ".github/workflows/deploy.yml",
@@ -3258,7 +3268,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "4480174401086661895"
+        "hash": "17039231450174640769"
       },
       {
         "file": ".node-version",
@@ -3754,7 +3764,7 @@
       },
       {
         "file": "database/importers/mega_dulces_sync.js",
-        "hash": "15261636540837473240"
+        "hash": "1578158087270664598"
       },
       {
         "file": "database/importers/testdata/01_brands.json",
@@ -3963,6 +3973,22 @@
       {
         "file": "database/migrations-newdb/20260601220000_fdw_mega_dulces_ventas.js",
         "hash": "17692034831506379702"
+      },
+      {
+        "file": "database/migrations-newdb/20260602100000_mega_dulces_full_enrichment.js",
+        "hash": "14554066978590858716"
+      },
+      {
+        "file": "database/migrations-newdb/20260602100001_fdw_mega_dulces_ranking.js",
+        "hash": "9023986482861824809"
+      },
+      {
+        "file": "database/migrations-newdb/20260602110000_cleanup_p1_backups_and_vendedores_naming.js",
+        "hash": "12354254890057310105"
+      },
+      {
+        "file": "database/migrations-newdb/20260602120000_promo_engine_applied_fields.js",
+        "hash": "10156302197277619590"
       },
       {
         "file": "database/migrations-products/20260429140000_load_products_from_json_updated.js",
@@ -4610,7 +4636,7 @@
       },
       {
         "file": "docs/IMPLEMENTACION/FASES/FASE_I_ML_ESCALADO.md",
-        "hash": "6965544840173027850"
+        "hash": "11840220914572388067"
       },
       {
         "file": "docs/IMPLEMENTACION/FASES/FASE_J8_REPO_MIGRATION.md",
@@ -4639,6 +4665,10 @@
       {
         "file": "docs/IMPLEMENTACION/RUNBOOKS/CUTOVER_NEW_DB.md",
         "hash": "3503039337975022024"
+      },
+      {
+        "file": "docs/IMPLEMENTACION/RUNBOOKS/REDIS_RAILWAY.md",
+        "hash": "18062320933430411092"
       },
       {
         "file": "docs/IMPLEMENTACION/RUNBOOKS/VALIDACION_VISUAL_PORTAL_VENDOR.md",
@@ -5454,11 +5484,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "16473438173816950987"
+        "hash": "9964789788236711932"
       },
       {
         "file": "package.json",
-        "hash": "5503007077719358174"
+        "hash": "7995846265869497222"
       },
       {
         "file": "prod-dryrun-v2.txt",
