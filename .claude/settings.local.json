@@ -16,7 +16,11 @@
       "Bash(git fetch *)",
       "Bash(node -e \"try{require\\('sharp'\\);console.log\\('sharp:OK'\\)}catch{console.log\\('sharp:NO'\\)}\")",
       "Bash(node -e ' *)",
-      "Bash(npx nx *)"
+      "Bash(npx nx *)",
+      "Bash(PGPASSWORD=superoot psql -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\dt\")",
+      "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\dt\" 2>&1 | Select-Object -First 30)",
+      "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\d productos_activos\" 2>&1)",
+      "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\d catalogo_completo\" 2>&1)"
     ]
   }
 }
