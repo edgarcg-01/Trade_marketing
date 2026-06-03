@@ -62,7 +62,41 @@
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "libs/shared-scoring",
         "projectType": "library",
-        "tags": [],
+        "tags": [
+          "scope:shared",
+          "type:util"
+        ],
+        "implicitDependencies": []
+      }
+    },
+    "platform-core": {
+      "name": "platform-core",
+      "type": "lib",
+      "data": {
+        "root": "libs/platform-core",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/platform-core/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "platform-core",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/platform-core/src",
+        "projectType": "library",
+        "tags": [
+          "scope:platform",
+          "type:data"
+        ],
         "implicitDependencies": []
       }
     },
@@ -128,7 +162,134 @@
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "libs/shared-auth",
         "projectType": "library",
-        "tags": [],
+        "tags": [
+          "scope:shared",
+          "type:util"
+        ],
+        "implicitDependencies": []
+      }
+    },
+    "commercial": {
+      "name": "commercial",
+      "type": "lib",
+      "data": {
+        "root": "libs/commercial",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/commercial/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "commercial",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/commercial/src",
+        "projectType": "library",
+        "tags": [
+          "scope:commercial",
+          "type:feature"
+        ],
+        "implicitDependencies": []
+      }
+    },
+    "contracts": {
+      "name": "contracts",
+      "type": "lib",
+      "data": {
+        "root": "libs/contracts",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/contracts/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "contracts",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/contracts/src",
+        "projectType": "library",
+        "tags": [
+          "scope:shared",
+          "type:util"
+        ],
+        "implicitDependencies": []
+      }
+    },
+    "logistics": {
+      "name": "logistics",
+      "type": "lib",
+      "data": {
+        "root": "libs/logistics",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/logistics/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "logistics",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/logistics/src",
+        "projectType": "library",
+        "tags": [
+          "scope:logistics",
+          "type:feature"
+        ],
+        "implicitDependencies": []
+      }
+    },
+    "trade": {
+      "name": "trade",
+      "type": "lib",
+      "data": {
+        "root": "libs/trade",
+        "targets": {
+          "lint": {
+            "executor": "@nx/eslint:lint",
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "options": {
+              "lintFilePatterns": [
+                "libs/trade/**/*.ts"
+              ]
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "trade",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/trade/src",
+        "projectType": "library",
+        "tags": [
+          "scope:trade",
+          "type:feature"
+        ],
         "implicitDependencies": []
       }
     },
@@ -281,8 +442,11 @@
         "projectType": "application",
         "sourceRoot": "apps/view/src",
         "prefix": "app",
-        "implicitDependencies": [],
-        "tags": []
+        "tags": [
+          "scope:view",
+          "type:app"
+        ],
+        "implicitDependencies": []
       }
     },
     "api": {
@@ -491,7 +655,10 @@
         "name": "api",
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "apps/api/src",
-        "tags": [],
+        "tags": [
+          "scope:api",
+          "type:app"
+        ],
         "implicitDependencies": []
       }
     }
@@ -7371,6 +7538,15 @@
         "version": "11.1.21",
         "packageName": "@nestjs/core",
         "hash": "sha512-fqo0BHgny3MOuAL8GSfG3ZUKFVVBaBQD/0iyibnwTONT5vPexjQxJzu+945iloVvBDmrnAaRWxC1gqCDEs/AXQ=="
+      }
+    },
+    "npm:@nestjs/event-emitter": {
+      "type": "npm",
+      "name": "npm:@nestjs/event-emitter",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "@nestjs/event-emitter",
+        "hash": "sha512-DOY/4XBGyIjYyOJKkO6jl1kzFE0ZfX0wV+M2HR5NWymPT9Z0zdCEcZGxTXXkoMRwPtglnvCGJALSjOpXPIcM3g=="
       }
     },
     "npm:@nestjs/jwt": {
@@ -14663,6 +14839,15 @@
         "hash": "sha512-qACXdu/9VHPBzcyhdOWR5/IahhGMf0roTeZJfzz077GwylcDd90yOHLouhmv7GJ5XzPi6ekaQWd8AvPP2nOvpA=="
       }
     },
+    "npm:eventemitter2": {
+      "type": "npm",
+      "name": "npm:eventemitter2",
+      "data": {
+        "version": "6.4.9",
+        "packageName": "eventemitter2",
+        "hash": "sha512-JEPTiaOt9f04oa6NOkc4aH+nVp5I3wEjpHbIPqfgCdD5v5bUzy7xQqwcVO2aDQgOWhI28da57HksMrzK9HlRxg=="
+      }
+    },
     "npm:eventemitter3": {
       "type": "npm",
       "name": "npm:eventemitter3",
@@ -21623,6 +21808,88 @@
   },
   "dependencies": {
     "shared-scoring": [],
+    "platform-core": [
+      {
+        "source": "platform-core",
+        "target": "npm:@casl/ability",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:knex",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/throttler",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/schedule",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/jwt",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:cloudinary",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:@nestjs/config",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:multer",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:sharp",
+        "type": "dynamic"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:zod",
+        "type": "static"
+      },
+      {
+        "source": "platform-core",
+        "target": "npm:rxjs",
+        "type": "static"
+      }
+    ],
     "shared-auth": [
       {
         "source": "shared-auth",
@@ -21667,6 +21934,183 @@
       {
         "source": "shared-auth",
         "target": "npm:rxjs",
+        "type": "static"
+      }
+    ],
+    "commercial": [
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/schedule",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:knex",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "platform-core",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/websockets",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:socket.io",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/jwt",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/throttler",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:bcryptjs",
+        "type": "static"
+      },
+      {
+        "source": "commercial",
+        "target": "npm:@nestjs/platform-express",
+        "type": "static"
+      }
+    ],
+    "contracts": [],
+    "logistics": [
+      {
+        "source": "logistics",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "logistics",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "logistics",
+        "target": "platform-core",
+        "type": "static"
+      },
+      {
+        "source": "logistics",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "logistics",
+        "target": "npm:jspdf",
+        "type": "static"
+      },
+      {
+        "source": "logistics",
+        "target": "npm:jspdf-autotable",
+        "type": "static"
+      },
+      {
+        "source": "logistics",
+        "target": "contracts",
+        "type": "static"
+      }
+    ],
+    "trade": [
+      {
+        "source": "trade",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "platform-core",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:@nestjs/swagger",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:@casl/ability",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:knex",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:class-transformer",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:class-validator",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:@nestjs/platform-express",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:puppeteer",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:handlebars",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "shared-scoring",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:bcryptjs",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:@nestjs/websockets",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:socket.io",
+        "type": "static"
+      },
+      {
+        "source": "trade",
+        "target": "npm:@nestjs/jwt",
         "type": "static"
       }
     ],
@@ -21835,6 +22279,11 @@
       },
       {
         "source": "api",
+        "target": "platform-core",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:@nestjs/config",
         "type": "static"
       },
@@ -21850,7 +22299,32 @@
       },
       {
         "source": "api",
+        "target": "trade",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "commercial",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:@nestjs/schedule",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "npm:@nestjs/event-emitter",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "logistics",
+        "type": "static"
+      },
+      {
+        "source": "api",
+        "target": "contracts",
         "type": "static"
       },
       {
@@ -21900,87 +22374,17 @@
       },
       {
         "source": "api",
-        "target": "npm:knex",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:class-validator",
-        "type": "static"
-      },
-      {
-        "source": "api",
         "target": "npm:@nestjs/jwt",
         "type": "static"
       },
       {
         "source": "api",
+        "target": "npm:knex",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "npm:bcryptjs",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:@casl/ability",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:class-transformer",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:@nestjs/websockets",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:jspdf",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:jspdf-autotable",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:puppeteer",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:handlebars",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "shared-scoring",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:cloudinary",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:multer",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:sharp",
-        "type": "dynamic"
-      },
-      {
-        "source": "api",
-        "target": "npm:zod",
-        "type": "static"
-      },
-      {
-        "source": "api",
-        "target": "npm:rxjs",
         "type": "static"
       },
       {
@@ -32433,6 +32837,23 @@
       {
         "source": "npm:@nestjs/core",
         "target": "npm:uid",
+        "type": "static"
+      }
+    ],
+    "npm:@nestjs/event-emitter": [
+      {
+        "source": "npm:@nestjs/event-emitter",
+        "target": "npm:@nestjs/common",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/event-emitter",
+        "target": "npm:@nestjs/core",
+        "type": "static"
+      },
+      {
+        "source": "npm:@nestjs/event-emitter",
+        "target": "npm:eventemitter2",
         "type": "static"
       }
     ],
@@ -54364,5 +54785,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1780508040208
+  "computedAt": 1780524799468
 }

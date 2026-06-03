@@ -6876,6 +6876,15 @@
         "hash": "sha512-fqo0BHgny3MOuAL8GSfG3ZUKFVVBaBQD/0iyibnwTONT5vPexjQxJzu+945iloVvBDmrnAaRWxC1gqCDEs/AXQ=="
       }
     },
+    "npm:@nestjs/event-emitter": {
+      "type": "npm",
+      "name": "npm:@nestjs/event-emitter",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "@nestjs/event-emitter",
+        "hash": "sha512-DOY/4XBGyIjYyOJKkO6jl1kzFE0ZfX0wV+M2HR5NWymPT9Z0zdCEcZGxTXXkoMRwPtglnvCGJALSjOpXPIcM3g=="
+      }
+    },
     "npm:@nestjs/jwt": {
       "type": "npm",
       "name": "npm:@nestjs/jwt",
@@ -14164,6 +14173,15 @@
         "version": "4.0.1",
         "packageName": "event-stream",
         "hash": "sha512-qACXdu/9VHPBzcyhdOWR5/IahhGMf0roTeZJfzz077GwylcDd90yOHLouhmv7GJ5XzPi6ekaQWd8AvPP2nOvpA=="
+      }
+    },
+    "npm:eventemitter2": {
+      "type": "npm",
+      "name": "npm:eventemitter2",
+      "data": {
+        "version": "6.4.9",
+        "packageName": "eventemitter2",
+        "hash": "sha512-JEPTiaOt9f04oa6NOkc4aH+nVp5I3wEjpHbIPqfgCdD5v5bUzy7xQqwcVO2aDQgOWhI28da57HksMrzK9HlRxg=="
       }
     },
     "npm:eventemitter3": {
@@ -31453,6 +31471,21 @@
     {
       "source": "npm:@nestjs/core",
       "target": "npm:uid",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/event-emitter",
+      "target": "npm:@nestjs/common",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/event-emitter",
+      "target": "npm:@nestjs/core",
+      "type": "static"
+    },
+    {
+      "source": "npm:@nestjs/event-emitter",
+      "target": "npm:eventemitter2",
       "type": "static"
     },
     {

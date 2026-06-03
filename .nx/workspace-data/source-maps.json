@@ -224,6 +224,14 @@
       "apps/api/project.json",
       "nx/core/project-json"
     ],
+    "tags.scope:api": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:app": [
+      "apps/api/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build": [
       "apps/api/project.json",
       "nx/core/project-json"
@@ -458,6 +466,18 @@
       "apps/view/project.json",
       "nx/core/project-json"
     ],
+    "tags": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:view": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:app": [
+      "apps/view/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build": [
       "apps/view/project.json",
       "nx/core/project-json"
@@ -659,6 +679,238 @@
       "nx/target-defaults"
     ]
   },
+  "libs/commercial": {
+    "root": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:commercial": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/commercial/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/contracts": {
+    "root": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shared": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:util": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/contracts/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/logistics": {
+    "root": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:logistics": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/logistics/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "libs/platform-core": {
+    "root": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:platform": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:data": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/platform-core/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "libs/shared-auth": {
     "root": [
       "libs/shared-auth/project.json",
@@ -685,6 +937,14 @@
       "nx/core/project-json"
     ],
     "tags": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:shared": [
+      "libs/shared-auth/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:util": [
       "libs/shared-auth/project.json",
       "nx/core/project-json"
     ],
@@ -814,6 +1074,14 @@
       "libs/shared-scoring/project.json",
       "nx/core/project-json"
     ],
+    "tags.scope:shared": [
+      "libs/shared-scoring/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:util": [
+      "libs/shared-scoring/project.json",
+      "nx/core/project-json"
+    ],
     "targets.build": [
       "libs/shared-scoring/project.json",
       "nx/core/project-json"
@@ -909,6 +1177,64 @@
     "targets.test.parallelism": [
       "nx.json",
       "nx/target-defaults"
+    ]
+  },
+  "libs/trade": {
+    "root": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "eslint.config.js",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.scope:trade": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "tags.type:feature": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.outputs": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.options.lintFilePatterns": [
+      "libs/trade/project.json",
+      "nx/core/project-json"
     ]
   }
 }
