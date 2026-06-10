@@ -8,29 +8,38 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { Router } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { CardModule } from 'primeng/card';
 import { SkeletonModule } from 'primeng/skeleton';
 import { InputTextModule } from 'primeng/inputtext';
 import { ButtonModule } from 'primeng/button';
+import { TagModule } from 'primeng/tag';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { Subject, debounceTime, switchMap } from 'rxjs';
 import { VendorService, VendorCustomer } from '../vendor.service';
 
+/**
+ * Apartado "Pedido nuevo": la cartera del vendedor (clientes de sus rutas de
+ * venta asignadas) en orden de visita (visit_sequence). Tocar un cliente abre
+ * el flujo de toma de pedido. La cartera y el orden los define el supervisor en
+ * /comercial/cartera.
+ */
 @Component({
-  selector: 'app-vendor-customers',
+  selector: 'app-vendor-new-order',
   standalone: true,
   imports: [
     CommonModule,
     FormsModule,
+    RouterLink,
     CardModule,
     SkeletonModule,
     InputTextModule,
     ButtonModule,
+    TagModule,
   ],
   template: `
-    <h1 class="page-title">Buscar cliente</h1>
-    <p class="subtitle">Cualquier cliente del catálogo, esté o no en tu cartera</p>
+    <h1 class="page-title">Pedido nuevo</h1>
+    <p class="subtitle">Tu cartera, en orden de visita</p>
 
     <div class="search-bar">
       <span class="p-input-icon-left search-wrap">
@@ -38,7 +47,7 @@ import { VendorService, VendorCustomer } from '../vendor.service';
         <input
           pInputText
           type="search"
-          placeholder="Buscar por nombre, código o RFC"
+          placeholder="Filtrar tu cartera"
           [(ngModel)]="search"
           (ngModelChange)="onSearch($event)"
           inputmode="search"
@@ -54,9 +63,20 @@ import { VendorService, VendorCustomer } from '../vendor.service';
 
     <p-card *ngIf="!loading() && customers().length === 0">
       <div class="empty">
-        <i class="pi pi-info-circle"></i>
-        <p *ngIf="search">Sin resultados para "{{ search }}".</p>
-        <p *ngIf="!search">Escribí para buscar un cliente.</p>
+        <i class="pi pi-sitemap"></i>
+        <p *ngIf="search">Sin resultados para "{{ search }}" en tu cartera.</p>
+        <ng-container *ngIf="!search">
+          <p>No tenés rutas asignadas todavía.</p>
+          <p class="hint">Pedile a tu supervisor que te asigne tu cartera de ventas.</p>
+          <a
+            pButton
+            label="Buscar un cliente"
+            icon="pi pi-search"
+            severity="secondary"
+            [text]="true"
+            routerLink="/vendor/search"
+          ></a>
+        </ng-container>
       </div>
     </p-card>
 
@@ -64,19 +84,22 @@ import { VendorService, VendorCustomer } from '../vendor.service';
       <p-card
         *ngFor="let c of customers()"
         styleClass="customer-card"
-        (click)="navigateToTakeOrder(c)"
+        (click)="takeOrder(c)"
       >
         <div class="customer-row">
+          <div class="seq" [class.unset]="c.visit_sequence == null">
+            {{ c.visit_sequence ?? '·' }}
+          </div>
           <div class="info">
             <div class="name">{{ c.name }}</div>
             <div class="meta">
               <span class="code">{{ c.code }}</span>
-              <span *ngIf="c.phone" class="phone">
-                <i class="pi pi-phone"></i> {{ c.phone }}
-              </span>
-            </div>
-            <div class="credit" *ngIf="c.credit_limit > 0">
-              Crédito: {{ fmtMoney(c.credit_limit) }}
+              <p-tag
+                *ngIf="c.sales_route"
+                [value]="c.sales_route"
+                severity="secondary"
+                styleClass="route-tag"
+              ></p-tag>
             </div>
           </div>
           <i class="pi pi-arrow-right action"></i>
@@ -89,14 +112,8 @@ import { VendorService, VendorCustomer } from '../vendor.service';
       .page-title { margin: 0 0 0.25rem; font-size: 1.5rem; color: var(--text-main); }
       .subtitle { margin: 0 0 1rem; color: var(--text-muted); font-size: 0.875rem; }
       .search-bar { margin-bottom: 1rem; }
-      .search-wrap {
-        display: block;
-        position: relative;
-      }
-      .search-wrap input {
-        width: 100%;
-        padding-left: 2.25rem;
-      }
+      .search-wrap { display: block; position: relative; }
+      .search-wrap input { width: 100%; padding-left: 2.25rem; }
       .search-wrap i {
         position: absolute;
         left: 0.75rem;
@@ -105,19 +122,11 @@ import { VendorService, VendorCustomer } from '../vendor.service';
         color: var(--text-muted);
         z-index: 1;
       }
-      .empty {
-        text-align: center;
-        padding: 2rem;
-        color: var(--text-muted);
-      }
-      .empty i { font-size: 2rem; display: block; margin-bottom: 0.5rem; }
-      .customer-list {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-      /* styleClass aplica la clase AL .p-card, no a un descendiente.
-         Por eso combinamos las clases sin espacio. */
+      .empty { text-align: center; padding: 2rem 1rem; color: var(--text-muted); }
+      .empty i { font-size: 2.5rem; display: block; margin-bottom: 0.5rem; }
+      .empty p { margin: 0 0 0.5rem; }
+      .empty .hint { font-size: 0.8rem; margin-bottom: 1rem; }
+      .customer-list { display: flex; flex-direction: column; gap: 0.5rem; }
       :host ::ng-deep .p-card.customer-card {
         cursor: pointer;
         transition: box-shadow 0.15s, transform 0.05s;
@@ -126,45 +135,35 @@ import { VendorService, VendorCustomer } from '../vendor.service';
       }
       :host ::ng-deep .p-card.customer-card:hover { box-shadow: 0 4px 8px rgba(0,0,0,0.08); }
       :host ::ng-deep .p-card.customer-card:active { transform: scale(0.99); }
-      :host ::ng-deep .p-card.customer-card .p-card-body { padding: 0.875rem 1rem; }
+      :host ::ng-deep .p-card.customer-card .p-card-body { padding: 0.75rem 1rem; }
       :host ::ng-deep .p-card.customer-card .p-card-content { padding: 0; }
-      .customer-row {
+      :host ::ng-deep .route-tag .p-tag { font-size: 0.65rem; }
+      .customer-row { display: flex; align-items: center; gap: 0.875rem; }
+      .seq {
+        flex-shrink: 0;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 999px;
+        background: var(--brand-50, var(--surface-100));
+        color: var(--brand-700);
+        font-weight: 700;
+        font-size: 0.9rem;
         display: flex;
         align-items: center;
-        gap: 1rem;
+        justify-content: center;
+        font-variant-numeric: tabular-nums;
       }
+      .seq.unset { background: var(--surface-100); color: var(--text-muted); }
       .info { flex: 1; min-width: 0; }
-      .name {
-        font-weight: 600;
-        font-size: 1rem;
-        line-height: 1.2;
-        color: var(--text-main);
-      }
-      .meta {
-        display: flex;
-        gap: 0.75rem;
-        flex-wrap: wrap;
-        font-size: 0.8rem;
-        color: var(--text-muted);
-        margin-top: 0.25rem;
-      }
-      .code { font-weight: 600; }
-      .phone i { font-size: 0.7rem; }
-      .credit {
-        font-size: 0.75rem;
-        color: var(--ok-fg);
-        margin-top: 0.25rem;
-      }
-      .action {
-        color: var(--brand-700);
-        font-size: 1.25rem;
-        flex-shrink: 0;
-      }
+      .name { font-weight: 600; font-size: 1rem; line-height: 1.2; color: var(--text-main); }
+      .meta { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-top: 0.25rem; }
+      .code { font-size: 0.8rem; font-weight: 600; color: var(--text-muted); }
+      .action { color: var(--brand-700); font-size: 1.25rem; flex-shrink: 0; }
     `,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class VendorCustomersComponent implements OnInit {
+export class VendorNewOrderComponent implements OnInit {
   private readonly api = inject(VendorService);
   private readonly destroyRef = inject(DestroyRef);
   private readonly router = inject(Router);
@@ -179,7 +178,7 @@ export class VendorCustomersComponent implements OnInit {
     this.search$
       .pipe(
         debounceTime(250),
-        switchMap((s) => this.api.listCustomers({ search: s.trim() || undefined, pageSize: 100 })),
+        switchMap((s) => this.api.myCartera({ search: s.trim() || undefined, pageSize: 200 })),
         takeUntilDestroyed(this.destroyRef),
       )
       .subscribe({
@@ -190,7 +189,6 @@ export class VendorCustomersComponent implements OnInit {
         error: () => this.loading.set(false),
       });
 
-    // Carga inicial
     this.search$.next('');
   }
 
@@ -199,11 +197,7 @@ export class VendorCustomersComponent implements OnInit {
     this.search$.next(v);
   }
 
-  navigateToTakeOrder(c: VendorCustomer): void {
+  takeOrder(c: VendorCustomer): void {
     this.router.navigate(['/vendor/take-order', c.id]);
-  }
-
-  fmtMoney(n: number): string {
-    return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(n);
   }
 }
