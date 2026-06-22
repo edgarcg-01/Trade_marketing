@@ -20,7 +20,13 @@
       "Bash(PGPASSWORD=superoot psql -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\dt\")",
       "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\dt\" 2>&1 | Select-Object -First 30)",
       "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\d productos_activos\" 2>&1)",
-      "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\d catalogo_completo\" 2>&1)"
+      "PowerShell($env:PGPASSWORD='superoot'; & 'C:\\\\Program Files\\\\PostgreSQL\\\\18\\\\bin\\\\psql.exe' -h 192.168.0.245 -p 5432 -U postgres -d Mega_Dulces -c \"\\\\d catalogo_completo\" 2>&1)",
+      "PowerShell($env:PROD_DATABASE_URL='postgresql://postgres:whhQQTskVhAeQbbStUUkalNyWmikxBHJ@trolley.proxy.rlwy.net:39023/railway'; node database/scripts/diag-angel-prod.js 2>&1 | Select-Object -Skip 8 | Select-Object -First 30)",
+      "Bash(xargs grep -l \"POST\\\\|GET\")",
+      "Bash(grep -r \"\\\\/commercial\" apps/vendor/src/app/modules/vendor/vendor.service.ts)",
+      "Bash(PROD_DATABASE_URL=\"postgresql://postgres:whhQQTskVhAeQbbStUUkalNyWmikxBHJ@trolley.proxy.rlwy.net:39023/railway\" node \"C:/Users/Sistemas/AppData/Local/Temp/claude/c--Users-Sistemas-CascadeProjects-Trade-marketing/ff5cd8f0-b5e1-4283-b4c5-25dcb2f0915f/scratchpad/diag-customers-cleanup.js\")",
+      "Bash(PROD_DATABASE_URL=\"postgresql://postgres:whhQQTskVhAeQbbStUUkalNyWmikxBHJ@trolley.proxy.rlwy.net:39023/railway\" node database/scripts/diag-customers-cleanup.js)",
+      "Bash(PROD_DATABASE_URL=\"postgresql://postgres:whhQQTskVhAeQbbStUUkalNyWmikxBHJ@trolley.proxy.rlwy.net:39023/railway\" node database/scripts/cleanup-customers-soft-delete.js)"
     ]
   }
 }
